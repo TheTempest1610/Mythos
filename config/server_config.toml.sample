@@ -34,9 +34,9 @@ enabled = true
 [game]
 hostname = "MyServer"
 defaultpreset = "Greenshift"
-map = "Testspawn"
+map = "FlatPlain"
 # Override development.toml preset: keep the lobby + character creator on for local dev
-lobbyenabled = true
+lobbyenabled = false
 round_restart_time = 10
 
 [ic]
@@ -98,7 +98,7 @@ hub_urls = "https://hub.spacestation14.com/"
 
 [whitelist]
 # Deny connections from any user not on the whitelist.
-enabled = true
+enabled = false
 # Comma-separated list of playerConnectionWhitelist prototype IDs (tried in order).
 # basicWhitelist = allow if in the manual DB whitelist, otherwise deny.
 prototype_list = "basicWhitelist"

@@ -42,3 +42,21 @@
         - type: StationJobs
           availableJobs:
             ChiefEngineer: [ -1, -1 ]
+
+- type: gameMap
+  id: FlatPlain
+  mapName: Flat Plain
+  mapPath: /Maps/Test/flatplain.yml
+  minPlayers: 0
+  stations:
+    FlatPlain:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Flat Plain"
+        - type: StationJobs
+          availableJobs:
+            Passenger: [ -1, -1 ]
+        - type: StationBiome
+          biome: FlatPlain
+          mapLightColor: "#FFFFFFFF"

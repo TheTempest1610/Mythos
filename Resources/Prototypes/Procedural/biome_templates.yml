@@ -594,3 +594,11 @@
     - !type:BiomeTileLayer
       threshold: -1.0
       tile: FloorAsteroidSand
+
+# FlatPlain - tile-only biome for testing.
+- type: biomeTemplate
+  id: FlatPlain
+  layers:
+    - !type:BiomeTileLayer
+      threshold: -1.0
+      tile: FloorPlanetGrass
