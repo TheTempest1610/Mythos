@@ -135,11 +135,6 @@
   - type: Item
     shape:
     - 0,0,1,1
-  - type: EntityTableContainerFill
-    containers:
-      storagebase:
-        id: ForensicPad
-        amount: 9
   - type: Sprite
     layers:
     - state: box_security

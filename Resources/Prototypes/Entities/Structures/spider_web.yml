@@ -23,18 +23,12 @@
   - type: Physics
   - type: Damageable
     damageModifierSet: Wood
-  - type: Temperature
   - type: TemperatureDamage
     heatDamage:
       types:
         Heat: 5
     coldDamage: {}
     coldDamageThreshold: 0
-  - type: Flammable
-    fireSpread: true
-    damage:
-      types:
-        Heat: 5
   - type: Reactive
     groups:
       Flammable: [Touch]

@@ -221,8 +221,6 @@
             weight: 0.20
           - id: SyndicateSponge
             weight: 0.20
-        - id: MindShieldImplanter
-          prob: 0.20
         - id: ClothingHandsGlovesConducting # funny
           prob: 0.30
         - id: CigPackSyndicate
@@ -237,8 +235,6 @@
           prob: 0.01
         - id: SoapSyndie
           prob: 0.15
-        - id: DnaScramblerImplanter
-          prob: 0.005
 
 - type: entity
   parent: CrateGenericSteel

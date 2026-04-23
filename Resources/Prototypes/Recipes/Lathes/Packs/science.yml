@@ -8,7 +8,6 @@
   - CircuitImprinterMachineCircuitboard
   - ExosuitFabricatorMachineCircuitboard
   - CutterMachineCircuitboard
-  - BorgChargerCircuitboard
 
 ## Dynamic
 
@@ -49,9 +48,6 @@
   - WeaponPistolCHIMP
   - WeaponForceGun
   - WeaponProtoKineticAccelerator
-  - PKAUpgradeDamage
-  - PKAUpgradeRange
-  - PKAUpgradeFireRate
   - WeaponTetherGun
   - WeaponGauntletGorilla
 

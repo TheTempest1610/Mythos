@@ -25,9 +25,6 @@
   - Cryogenics
   - GenpopEnter
   - GenpopLeave
-  special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: WardenGear

@@ -7,6 +7,7 @@ using Content.Server.Afk;
 using Content.Server.Chat.Managers;
 using Content.Server.Connection;
 using Content.Server.Database;
+using Content.Server.DebugMon;
 using Content.Server.Discord.DiscordLink;
 using Content.Server.EUI;
 using Content.Server.FeedbackSystem;
@@ -81,6 +82,7 @@ namespace Content.Server.Entry
         [Dependency] private readonly ServerInfoManager _serverInfo = default!;
         [Dependency] private readonly ServerUpdateManager _updateManager = default!;
         [Dependency] private readonly ServerFeedbackManager _feedbackManager = null!;
+        [Dependency] private readonly ServerTickTimeManager _serverTickTimeManager = default!;
 
         public override void PreInit()
         {
@@ -137,6 +139,7 @@ namespace Content.Server.Entry
             _watchlistWebhookManager.Initialize();
             _job.Initialize();
             _rateLimit.Initialize();
+            _serverTickTimeManager.Initialize();
         }
 
         public override void PostInit()
@@ -193,6 +196,7 @@ namespace Content.Server.Entry
                     _playTimeTracking.Update();
                     _watchlistWebhookManager.Update();
                     _connection.Update();
+                    _serverTickTimeManager.Update();
                     break;
             }
         }

@@ -428,9 +428,6 @@
     children:
     - id: SpaceCash100
       weight: 3
-    - id: LightImplanter
-    - id: BikeHornImplanter
-    - id: SadTromboneImplanter
 
 - type: entityTable #1x small
   id: RandomSatchelCellsTable
@@ -510,7 +507,6 @@
     - id: SpaceCash100
       weight: 15
     - id: SeashellInstrument
-    - id: MusicalLungInstrument
     - id: HelicopterInstrument
     - id: GunpetInstrument
     - id: RockGuitarInstrument
@@ -612,7 +608,6 @@
     - id: HandheldGPSBasic
     - id: WelderIndustrialAdvanced
     - id: HandheldStationMap
-    - id: PinpointerStation
 
 - type: entityTable #2x small
   id: RandomSatchelGadgetsTable

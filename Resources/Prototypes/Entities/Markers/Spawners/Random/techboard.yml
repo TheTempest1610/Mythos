@@ -15,10 +15,7 @@
         weight: 95
         prob: 0.95
         children:
-        - id: AirAlarmElectronics
-        - id: FireAlarmElectronics
         - id: DoorElectronics
-        - id: FirelockElectronics
         - id: IntercomElectronics
         - id: APCElectronics
         - id: SignalTimerElectronics
@@ -32,6 +29,4 @@
         - id: CommsComputerCircuitboard
         - id: ShuttleConsoleCircuitboard
         - id: ComputerMassMediaCircuitboard
-        - id: AutolatheMachineCircuitboard
         - id: ProtolatheMachineCircuitboard
-        - id: SalvageMagnetMachineCircuitboard

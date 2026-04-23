@@ -251,11 +251,6 @@
   id: DawInstrumentMachineCircuitboard
   result: DawInstrumentMachineCircuitboard
 
-- type: latheRecipe
-  parent: [BaseCircuitboardRecipe]
-  id: SmartFridgeCircuitboard
-  result: SmartFridgeCircuitboard
-  
 # Bar
 - type: latheRecipe
   parent: [ BaseCircuitboardRecipe, BaseServiceMachineRecipeCategory ]
@@ -427,11 +422,6 @@
   result: CutterMachineCircuitboard
 
 # Cell chargers
-- type: latheRecipe
-  parent: [ BaseCheapElectronicsRecipe, BaseGeneralMachineRecipeCategory ]
-  id: BorgChargerCircuitboard
-  result: BorgChargerCircuitboard
-
 - type: latheRecipe
   parent: [ BaseGoldCircuitboardRecipe, BaseGeneralMachineRecipeCategory ]
   id: TurboItemRechargerCircuitboard

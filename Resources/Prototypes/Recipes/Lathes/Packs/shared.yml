@@ -12,7 +12,6 @@
   - Igniter
   - ModularReceiver
   - MicroManipulatorStockPart
-  - ConveyorBeltAssembly
 
 - type: latheRecipePack
   id: LightsStatic
@@ -69,6 +68,3 @@
   id: SalvageSecurityWeapons
   recipes:
   - WeaponProtoKineticAccelerator
-  - PKAUpgradeDamage
-  - PKAUpgradeRange
-  - PKAUpgradeFireRate

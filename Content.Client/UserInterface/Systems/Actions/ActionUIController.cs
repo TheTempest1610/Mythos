@@ -6,6 +6,7 @@ using Content.Client.Gameplay;
 using Content.Client.Hands;
 using Content.Client.Interaction;
 using Content.Client.Outline;
+using Content.Client.UserInterface.Controllers;
 using Content.Client.UserInterface.Controls;
 using Content.Client.UserInterface.Systems.Actions.Controls;
 using Content.Client.UserInterface.Systems.Actions.Widgets;
@@ -291,13 +292,28 @@ public sealed class ActionUIController : UIController, IOnStateChanged<GameplayS
         if (_window == null)
             return;
 
-        if (_window.IsOpen)
+        var window = EnsureWindow();
+
+        if (window.IsOpen)
         {
-            _window.Close();
+            window.Close();
             return;
         }
 
-        _window.Open();
+        window.Open();
+    }
+
+    private ActionsWindow EnsureWindow()
+    {
+        return UIManager.EnsureWindow(ref _window, w =>
+        {
+            LayoutContainer.SetAnchorPreset(w, LayoutContainer.LayoutPreset.CenterTop);
+            w.OnOpen += OnWindowOpened;
+            w.OnClose += OnWindowClosed;
+            w.ClearButton.OnPressed += OnClearPressed;
+            w.SearchBar.OnTextChanged += OnSearchChanged;
+            w.FilterButton.OnItemSelected += OnFilterSelected;
+        });
     }
 
     private void UpdateFilterLabel()
@@ -660,14 +676,7 @@ public sealed class ActionUIController : UIController, IOnStateChanged<GameplayS
     private void LoadGui()
     {
         UnloadGui();
-        _window = UIManager.CreateWindow<ActionsWindow>();
-        LayoutContainer.SetAnchorPreset(_window, LayoutContainer.LayoutPreset.CenterTop);
-
-        _window.OnOpen += OnWindowOpened;
-        _window.OnClose += OnWindowClosed;
-        _window.ClearButton.OnPressed += OnClearPressed;
-        _window.SearchBar.OnTextChanged += OnSearchChanged;
-        _window.FilterButton.OnItemSelected += OnFilterSelected;
+        EnsureWindow();
 
         if (ActionsBar == null)
         {

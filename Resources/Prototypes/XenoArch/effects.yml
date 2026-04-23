@@ -85,12 +85,6 @@
       weight: 2.0
     - id: XenoArtifactEmp
       weight: 2.0
-    - id: XenoArtifactPolyMonkey
-      weight: 2.0
-    - id: XenoArtifactPolyLuminous
-      weight: 2.0
-    - id: XenoArtifactPolyLizard
-      weight: 2.0
     - id: XenoArtifactRadioactiveStrong
       weight: 3.0
     - id: XenoArtifactMaterialSpawnGlass
@@ -1124,29 +1118,6 @@
       min: 0
       max: 3
   - type: XAEEmpInArea
-
-- type: entity
-  id: XenoArtifactPolyMonkey
-  parent: BaseXenoArtifactEffect
-  description: Temporarily reshape flesh to fur
-  components:
-  - type: XAEPolymorph
-
-- type: entity
-  id: XenoArtifactPolyLizard
-  parent: BaseXenoArtifactEffect
-  description: Temporarily reshape flesh to scale
-  components:
-  - type: XAEPolymorph
-    polymorphPrototypeName: ArtifactLizard
-
-- type: entity
-  id: XenoArtifactPolyLuminous
-  parent: BaseXenoArtifactEffect
-  description: Temporarily reshape flesh to light
-  components:
-  - type: XAEPolymorph
-    polymorphPrototypeName: ArtifactLuminous
 
 - type: entity
   id: XenoArtifactRadioactiveStrong

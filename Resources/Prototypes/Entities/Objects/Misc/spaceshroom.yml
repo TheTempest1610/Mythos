@@ -87,8 +87,6 @@
     node: start
     defaultTarget: cooked spaceshroom
   - type: AtmosExposed
-  - type: Temperature
-    currentTemperature: 290
   - type: TemperatureDamage
   - type: InternalTemperature
     thickness: 0.02

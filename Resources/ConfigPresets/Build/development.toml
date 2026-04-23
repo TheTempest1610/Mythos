@@ -10,6 +10,9 @@ role_loadout_timers = false
 [events]
 enabled = false
 
+[holidays]
+enabled = false
+
 [ghost]
 role_time = 0.5
 quick_lottery = true

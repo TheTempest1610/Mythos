@@ -309,3 +309,8 @@ Resources/MapImages
 
 # Direnv stuff
 .direnv/
+
+# Local server config (kept out of source so rebuilds don't clobber it)
+/config/server_config.toml
+
+.claude/

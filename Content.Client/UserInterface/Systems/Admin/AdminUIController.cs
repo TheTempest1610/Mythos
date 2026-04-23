@@ -6,6 +6,7 @@ using Content.Client.Administration.UI.Tabs.PanicBunkerTab;
 using Content.Client.Administration.UI.Tabs.PlayerTab;
 using Content.Client.Gameplay;
 using Content.Client.Lobby;
+using Content.Client.UserInterface.Controllers;
 using Content.Client.UserInterface.Controls;
 using Content.Client.Verbs.UI;
 using Content.Shared.Administration.Events;
@@ -87,25 +88,24 @@ public sealed class AdminUIController : UIController,
         CommandBinds.Unregister<AdminUIController>();
     }
 
-    private void EnsureWindow()
+    private AdminMenuWindow EnsureWindow()
     {
-        if (_window is { Disposed: false })
-            return;
-
         if (_window?.Disposed ?? false)
             OnWindowDisposed();
 
-        _window = UIManager.CreateWindow<AdminMenuWindow>();
-        LayoutContainer.SetAnchorPreset(_window, LayoutContainer.LayoutPreset.Center);
+        return UIManager.EnsureWindow(ref _window, w =>
+        {
+            LayoutContainer.SetAnchorPreset(w, LayoutContainer.LayoutPreset.Center);
 
-        if (_panicBunker != null)
-            _window.PanicBunkerControl.UpdateStatus(_panicBunker);
+            if (_panicBunker != null)
+                w.PanicBunkerControl.UpdateStatus(_panicBunker);
 
-        _window.PlayerTabControl.OnEntryKeyBindDown += PlayerTabEntryKeyBindDown;
-        _window.ObjectsTabControl.OnEntryKeyBindDown += ObjectsTabEntryKeyBindDown;
-        _window.OnOpen += OnWindowOpen;
-        _window.OnClose += OnWindowClosed;
-        _window.OnDisposed += OnWindowDisposed;
+            w.PlayerTabControl.OnEntryKeyBindDown += PlayerTabEntryKeyBindDown;
+            w.ObjectsTabControl.OnEntryKeyBindDown += ObjectsTabEntryKeyBindDown;
+            w.OnOpen += OnWindowOpen;
+            w.OnClose += OnWindowClosed;
+            w.OnDisposed += OnWindowDisposed;
+        });
     }
 
     public void UnloadButton()
@@ -173,7 +173,7 @@ public sealed class AdminUIController : UIController,
         }
         else if (_conGroups.CanAdminMenu())
         {
-            _window?.Open();
+            EnsureWindow().Open();
         }
     }
 

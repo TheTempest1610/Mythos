@@ -19,7 +19,6 @@
         - id: RemoteSignaller
         - id: GeigerCounter
         - id: trayScanner
-        - id: FlashlightLantern
         - id: ClothingHandsGlovesColorBlack
         - id: Lighter
         - id: ClothingMaskGas
@@ -64,10 +63,8 @@
         - id: Welder
         - id: RemoteSignaller
         - id: GeigerCounter
-        - id: GasAnalyzer
         - id: Multitool
         - id: trayScanner
-        - id: FlashlightLantern
         - id: ClothingHandsGlovesColorBlack
         - id: ClothingMaskGas
         - id: HandheldGPSBasic

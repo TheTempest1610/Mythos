@@ -52,7 +52,7 @@
     price: 100
 
 - type: entity
-  parent: ShuttleWindow
+  parent: MiningWindow
   id: MiningWindowDiagonal
   suffix: diagonal
   placement:

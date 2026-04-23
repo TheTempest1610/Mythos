@@ -13,10 +13,6 @@
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
-        - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/Shuttles/emergency_exo.yml
-        - type: StationCargoShuttle
-          path: /Maps/Shuttles/cargo_exo.yml
         - type: StationJobs
           availableJobs:
             #service

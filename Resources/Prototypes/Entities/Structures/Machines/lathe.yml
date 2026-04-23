@@ -130,7 +130,6 @@
     - CablesStatic
     - PaperworkStatic
     - TowelsStatic
-    - CargoStatic
     - MaterialsStatic
     - BasicChemistryStatic
     - RollerBedsStatic
@@ -205,7 +204,6 @@
     - ScienceClothing
     - PowerCells
     - ScienceWeapons
-    - Mining
     - AtmosTools
     - EngineeringWeapons
     - Chemistry
@@ -256,18 +254,14 @@
     staticPacks:
     - ScienceBoardsStatic
     - ServiceBoardsStatic
-    - CargoBoardsStatic
     - MedicalBoardsStatic
     - EngineeringBoardsStatic
     dynamicPacks:
     - EngineeringBoards
-    - CargoBoards
     - MedicalBoards
     - ServiceBoards
     - ScienceBoards
     - CameraBoards
-    - MechBoards
-    - ShuttleBoards
   - type: EmagLatheRecipes
     emagDynamicPacks:
     - SecurityBoards
@@ -314,8 +308,6 @@
     dynamicPacks:
     - Robotics
     - BorgModules
-    - MechParts
-    - MechEquipment
   - type: MaterialStorage
     whitelist: *StandardMaterialWhitelist
   - type: OreSiloClient

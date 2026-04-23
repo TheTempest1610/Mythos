@@ -8,9 +8,6 @@
     - state: green
     - sprite: Mobs/Silicon/Bots/medibot.rsi
       state: medibot
-  - type: ConditionalSpawner
-    prototypes:
-    - MobMedibot
 
 - type: entity
   parent: MarkerBase
@@ -22,9 +19,6 @@
     - state: green
     - sprite: Mobs/Silicon/Bots/cleanbot.rsi
       state: cleanbot
-  - type: ConditionalSpawner
-    prototypes:
-    - MobCleanBot
 
 - type: entity
   parent: MarkerBase
@@ -36,9 +30,6 @@
     - state: green
     - sprite: Mobs/Silicon/Bots/firebot.rsi
       state: firebot
-  - type: ConditionalSpawner
-    prototypes:
-    - MobFireBot
 
 - type: entity
   parent: MarkerBase
@@ -50,9 +41,6 @@
     - state: green
     - sprite: Mobs/Silicon/Bots/supplybot.rsi
       state: supplybot
-  - type: ConditionalSpawner
-    prototypes:
-    - MobSupplyBot
 
 - type: entity
   parent: MarkerBase
@@ -64,6 +52,3 @@
     - state: green
     - sprite: Mobs/Silicon/Bots/honkbot.rsi
       state: honkbot
-  - type: ConditionalSpawner
-    prototypes:
-    - MobHonkBot

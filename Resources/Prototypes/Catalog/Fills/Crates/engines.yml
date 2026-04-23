@@ -95,7 +95,6 @@
     containers:
       entity_storage: !type:AllSelector
         children:
-        - id: MachineParticleAcceleratorEndCapCircuitboard
         - id: MachineParticleAcceleratorEmitterStarboardCircuitboard
         - id: MachineParticleAcceleratorEmitterForeCircuitboard
         - id: MachineParticleAcceleratorEmitterPortCircuitboard

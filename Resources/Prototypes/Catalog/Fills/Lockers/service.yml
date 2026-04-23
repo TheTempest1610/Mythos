@@ -100,7 +100,6 @@
       - id: BoxMousetrap
       - id: TrashBag
       - id: SoapNT
-      - id: FlashlightLantern
       - id: Plunger
     - id: PlushieLizardJobJanitor
       prob: 0.02

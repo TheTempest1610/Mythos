@@ -244,15 +244,11 @@
   id: RandomTechBoardTable
   table: !type:GroupSelector
     children:
-    - id: AirAlarmElectronics
-    - id: FireAlarmElectronics
     - id: DoorElectronics
-    - id: FirelockElectronics
     - id: APCElectronics
     - id: SignalTimerElectronics
     - id: SMESMachineCircuitboard
     - id: SubstationMachineCircuitboard
-    - id: BorgChargerCircuitboard
     - id: CellRechargerCircuitboard
     - id: SpaceVillainArcadeComputerCircuitboard
     - id: BlockGameArcadeComputerCircuitboard

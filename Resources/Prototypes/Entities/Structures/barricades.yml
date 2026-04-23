@@ -61,11 +61,6 @@
   - type: Tag
     tags:
     - Wooden
-  - type: Flammable
-    fireSpread: true
-    damage:
-      types:
-        Heat: 3 #per second, scales with number of fire 'stacks'
   - type: Appearance
   - type: FireVisuals
     sprite: Effects/fire.rsi
@@ -112,11 +107,6 @@
   - type: Tag
     tags:
     - Wooden
-  - type: Flammable
-    fireSpread: true
-    damage:
-      types:
-        Heat: 3 #per second, scales with number of fire 'stacks'
   - type: Appearance
   - type: FireVisuals
     sprite: Effects/fire.rsi

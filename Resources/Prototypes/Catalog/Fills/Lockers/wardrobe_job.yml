@@ -49,8 +49,6 @@
     - !type:GroupSelector
       prob: 0.15
       children:
-      - id: Flare
-      - id: BarberScissors
       - id: FlippoLighter
       - id: trayScanner
       - id: Wristwatch
@@ -314,7 +312,6 @@
     - id: ClothingShoesColorBlack
     - id: ClothingUniformJumpskirtCargo
     - id: ClothingHandsGlovesFingerless
-    - id: AppraisalTool
     - id: PlushieLizardJobCargotechnician
       prob: 0.02
 

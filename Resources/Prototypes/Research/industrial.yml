@@ -110,14 +110,8 @@
   tier: 1
   cost: 7500
   recipeUnlocks:
-  - RipleyHarness
-  - RipleyLArm
-  - RipleyRArm
-  - RipleyLLeg
-  - RipleyRLeg
   - RipleyCentralElectronics
   - RipleyPeripheralsElectronics
-  - MechEquipmentGrabber
 
 # Tier 2
 
@@ -166,8 +160,6 @@
     - PowerDrill
     - JawsOfLife
     - BorgModuleAdvancedTool
-    - Fulton
-    - FultonBeacon
 
 - type: technology
   id: MassExcavation

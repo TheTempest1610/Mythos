@@ -81,7 +81,6 @@
     - Adrenaline
   - type: Identity
   - type: IdExaminable
-  - type: Internals
   - type: FloatingVisuals
   - type: Climbing
   - type: Cuffable
@@ -172,11 +171,6 @@
   components:
   - type: Hunger
   - type: Thirst
-  - type: Barotrauma
-    damage:
-      types:
-        Blunt: 0.50
-        Heat: 0.1
   - type: PassiveDamage
     allowedStates:
     - Alive
@@ -188,9 +182,6 @@
         Slash: -0.05
   - type: Fingerprint
   - type: Blindable
-  - type: Temperature
-    currentTemperature: 310.15
-    specificHeat: 42
   - type: TemperatureDamage
     heatDamageThreshold: 325
     coldDamageThreshold: 260
@@ -219,13 +210,6 @@
     spawned:
     - id: FoodMeat
       amount: 5
-  - type: Respirator
-    damage:
-      types:
-        Asphyxiation: 1.0
-    damageRecovery:
-      types:
-        Asphyxiation: -1.0
   - type: FireVisuals
     alternateState: Standing
   - type: StunVisuals

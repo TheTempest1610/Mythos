@@ -29,7 +29,7 @@ ForensicGloves: ClothingHandsGlovesForensic
 ClothingEyesGlassesBeer: ClothingEyesHudBeer
 
 # 2023-08-01
-lantern: Lantern
+lantern: null
 lanternextrabright: LanternFlash
 
 # 2023-08-04
@@ -99,7 +99,7 @@ SpawnPointSeniorPhysician: null
 ClothingOuterHardsuitMedic: ClothingOuterHardsuitSyndieMedic
 
 # 2023-12-13
-VendingMachineSmartFridge: SmartFridge
+VendingMachineSmartFridge: null
 
 # 2023-12-18
 ReagentContainerMilk: DrinkMilkCarton
@@ -107,7 +107,7 @@ ReagentContainerMilkSoy: DrinkSoyMilkCarton
 ReagentContainerMilkOat: DrinkOatMilkCarton
 
 # 2023-12-20
-MiasmaCanister: AmmoniaCanister
+MiasmaCanister: null
 
 # 2023-12-28
 WarpPointBeaconBar: null
@@ -132,18 +132,18 @@ DrinkGoldschlagerGlass: DrinkGildlagerGlass
 ClosetBase: ClosetSteelBase
 
 # 2024-01-08
-SalvagePartsT4Spawner: SalvageLootSpawner
-SalvagePartsT3Spawner: SalvageLootSpawner
-SalvagePartsT3T4Spawner: SalvageLootSpawner
-SalvagePartsT2Spawner: SalvageLootSpawner
-#SuperCapacitorStockPart: CapacitorStockPart
-#QuadraticCapacitorStockPart: CapacitorStockPart
+SalvagePartsT4Spawner: null
+SalvagePartsT3Spawner: null
+SalvagePartsT3T4Spawner: null
+SalvagePartsT2Spawner: null
+#SuperCapacitorStockPart: null
+#QuadraticCapacitorStockPart: null
 #NanoManipulatorStockPart: MicroManipulatorStockPart
 PicoManipulatorStockPart: MicroManipulatorStockPart
 FemtoManipulatorStockPart: MicroManipulatorStockPart
-#AdvancedMatterBinStockPart: MatterBinStockPart
-#SuperMatterBinStockPart: MatterBinStockPart
-#BluespaceMatterBinStockPart: MatterBinStockPart
+#AdvancedMatterBinStockPart: null
+#SuperMatterBinStockPart: null
+#BluespaceMatterBinStockPart: null
 AnsibleSubspaceStockPart: null
 FilterSubspaceStockPart: null
 AmplifierSubspaceStockPart: null
@@ -165,9 +165,9 @@ ClothingHeadHelmetVoidParamed: null
 DefaultStationBeaconTeslaEngine: null
 
 # 2024-01-27 (Reverted on 2024-03-10)
-# ClothingBackpackSecurityFilledDetective: ClothingBackpackFilledDetective
-# ClothingBackpackDuffelSecurityFilledDetective: ClothingBackpackDuffelFilledDetective
-# ClothingBackpackSatchelSecurityFilledDetective: ClothingBackpackSatchelFilledDetective
+# ClothingBackpackSecurityFilledDetective: null
+# ClothingBackpackDuffelSecurityFilledDetective: null
+# ClothingBackpackSatchelSecurityFilledDetective: null
 
 # 2024-01-28
 FoodBoxDonkpocketGondola: FoodBoxDonkpocketPizza
@@ -218,12 +218,12 @@ FoodDonutJellyBlumpkin: FoodDonutJellyBluePumpkin
 # 2024-02-19
 Drone: null
 SpawnMobDrone: null
-Onestar: null # I dont think this is even mapped, but just in case
+Onestar: null
 
 # 2024-02-22
 SolarAssemblyPart: SolarAssemblyFlatpack
 AmePart: AmePartFlatpack
-AmePartStealObjective: AmePartFlatpackStealObjective
+AmePartStealObjective: null
 Observationskit: null
 
 # 2024-02-26
@@ -245,19 +245,19 @@ BookDetective: BookRandomStory
 # 2024-03-07
 AirlockExternalEasyPry: AirlockExternal
 AirlockExternalGlassEasyPry: AirlockExternalGlass
-AirlockGlassShuttleEasyPry: AirlockGlassShuttle
-AirlockShuttleEasyPry: AirlockShuttle
+AirlockGlassShuttleEasyPry: null
+AirlockShuttleEasyPry: null
 AirlockExternalEasyPryLocked: AirlockExternalLocked
 AirlockExternalGlassEasyPryLocked: AirlockExternalGlassLocked
-AirlockGlassShuttleEasyPryLocked: AirlockExternalGlassShuttleLocked
-AirlockShuttleEasyPryLocked: AirlockExternalShuttleLocked
+AirlockGlassShuttleEasyPryLocked: null
+AirlockShuttleEasyPryLocked: null
 
 # 2024-03-10
 FoodChili: FoodChiliPepper
 FoodChilly: FoodChillyPepper
-# ClothingBackpackFilledDetective: ClothingBackpackSecurityFilledDetective
-# ClothingBackpackDuffelFilledDetective: ClothingBackpackDuffelSecurityFilledDetective
-# ClothingBackpackSatchelFilledDetective: ClothingBackpackSatchelSecurityFilledDetective
+# ClothingBackpackFilledDetective: null
+# ClothingBackpackDuffelFilledDetective: null
+# ClothingBackpackSatchelFilledDetective: null
 
 # 2024-03-11
 ImprovisedExplosive: FireBomb
@@ -331,7 +331,7 @@ WeaponRifleLecterRubber: WeaponRifleLecter
 # 2024-04-26
 GlassBoxLaserBroken: GlassBoxBroken
 ReinforcementRadioSyndicateMonkey: ReinforcementRadioSyndicateAncestor
-ReinforcementRadioSyndicateMonkeyNukeops: ReinforcementRadioSyndicateAncestorNukeops
+ReinforcementRadioSyndicateMonkeyNukeops: null
 
 # 2024-05-01
 DrinkBottleGoldschlager: DrinkBottleGildlager
@@ -350,11 +350,11 @@ DoorRemoteFirefight: null
 AirlockServiceCaptainLocked: AirlockCaptainLocked
 
 #2024-06-05
-DisasterVictimSpawner: CommandVisitorSpawner
-LostCargoTechnicianSpawner: VisitorCargoTechnicianSpawner
-ClownTroupeSpawner: VisitorClownSpawner
-TravelingChefSpawner: VisitorChefSpawner
-SyndieDisasterVictimSpawner: SyndieVisitorSpawner
+DisasterVictimSpawner: null
+LostCargoTechnicianSpawner: null
+ClownTroupeSpawner: null
+TravelingChefSpawner: null
+SyndieDisasterVictimSpawner: null
 
 # 2024-06-15
 ClothingOuterCoatInspector: ClothingOuterCoatJensen
@@ -380,7 +380,7 @@ SignChemistry2: SignChem
 SignCourt: SignLawyer
 SignAtmosMinsky: SignAtmos
 SignDrones: SignMaterials
-SignShield: null # what was this even for?
+SignShield: null
 SignHydro2: SignHydro1
 SignHydro3: SignHydro1
 
@@ -541,7 +541,7 @@ DrinkIrishCarBomb: DrinkIrishSlammer
 # 2025-01-06
 BorgModuleRadiationDetection: null
 BorgModuleGPS: null
-BorgModuleLightReplacer: BorgModuleCustodial
+BorgModuleLightReplacer: null
 BorgModuleAdvancedTreatment: null
 ClothingMaskSexyClown: ClothingMaskBlushingClown
 ClothingMaskSexyMime: ClothingMaskBlushingMime
@@ -768,7 +768,7 @@ HandheldHealthAnalyzerUnpowered: HandheldHealthAnalyzer
 HandheldHealthAnalyzerEmpty: HandheldHealthAnalyzer
 
 #2026-01-09
-BorgModuleAdvancedChemical: BorgModuleAdvancedTopical
+BorgModuleAdvancedChemical: null
 
 # 2026-01-14
 HeadHuman: OrganHumanHead
@@ -807,23 +807,259 @@ TowelColorMime: null
 
 # 2026-02-18
 # Replace cargo order crates which contain exactly one item with the item, parcel wrapped.
-CrateVendingMachineRestockBoozeFilled: VendingMachineRestockBooze
-CrateVendingMachineRestockChefvendFilled: VendingMachineRestockChefvend
-CrateVendingMachineRestockClothesFilled: VendingMachineRestockClothes
-CrateVendingMachineRestockAutoDrobeFilled: VendingMachineRestockCostumes
-CrateVendingMachineRestockCondimentStationFilled: VendingMachineRestockCondimentStation
-CrateVendingMachineRestockDinnerwareFilled: VendingMachineRestockDinnerware
-CrateVendingMachineRestockGamesFilled: VendingMachineRestockGames
-CrateVendingMachineRestockPTechFilled: VendingMachineRestockPTech
-CrateVendingMachineRestockSalvageEquipmentFilled: VendingMachineRestockSalvageEquipment
-CrateVendingMachineRestockVendomatFilled: VendingMachineRestockVendomat
-CrateVendingMachineRestockTankDispenserFilled: VendingMachineRestockTankDispenser
+CrateVendingMachineRestockBoozeFilled: null
+CrateVendingMachineRestockChefvendFilled: null
+CrateVendingMachineRestockClothesFilled: null
+CrateVendingMachineRestockAutoDrobeFilled: null
+CrateVendingMachineRestockCondimentStationFilled: null
+CrateVendingMachineRestockDinnerwareFilled: null
+CrateVendingMachineRestockGamesFilled: null
+CrateVendingMachineRestockPTechFilled: null
+CrateVendingMachineRestockSalvageEquipmentFilled: null
+CrateVendingMachineRestockVendomatFilled: null
+CrateVendingMachineRestockTankDispenserFilled: null
 # The crates below contained _two_ of the restock items, so these are technically not direct migrations. But eh.
-CrateVendingMachineRestockHotDrinksFilled: VendingMachineRestockHotDrinks
-CrateVendingMachineRestockRobustSoftdrinksFilled: VendingMachineRestockRobustSoftdrinks
-CrateVendingMachineRestockSmokesFilled: VendingMachineRestockSmokes
-CrateVendingMachineRestockHappyHonkFilled: VendingMachineRestockHappyHonk
-CrateVendingMachineRestockGetmoreChocolateCorpFilled: VendingMachineRestockGetmoreChocolateCorp
-CrateVendingMachineRestockChangFilled: VendingMachineRestockChang
-CrateVendingMachineRestockDiscountDansFilled: VendingMachineRestockDiscountDans
-CrateVendingMachineRestockDonutFilled: VendingMachineRestockDonut
+CrateVendingMachineRestockHotDrinksFilled: null
+CrateVendingMachineRestockRobustSoftdrinksFilled: null
+CrateVendingMachineRestockSmokesFilled: null
+CrateVendingMachineRestockHappyHonkFilled: null
+CrateVendingMachineRestockGetmoreChocolateCorpFilled: null
+CrateVendingMachineRestockChangFilled: null
+CrateVendingMachineRestockDiscountDansFilled: null
+CrateVendingMachineRestockDonutFilled: null
+
+# Strip cleanup - auto-generated
+AirlockGlassShuttle: null
+CloningPod: null
+Gyroscope: null
+HolopadCargoBayLongRange: null
+HolopadCargoShuttle: null
+HolopadEngineeringMain: null
+HolopadGeneralArrivals: null
+HolopadMedicalMedbay: null
+HolopadServiceBotany: null
+PlayerStationAi: null
+SalvageMagnet: null
+ShuttleGunDuster: null
+ShuttleGunFriendship: null
+ShuttleGunPerforator: null
+ShuttleGunSvalinnMachineGun: null
+ShuttleWindow: null
+ShuttleWindowDiagonal: null
+StationAnchorOff: null
+Thruster: null
+VendingBarDrobe: null
+VendingMachineBooze: null
+VendingMachineBoozeSyndicate: null
+VendingMachineChefDrobe: null
+VendingMachineChefvend: null
+VendingMachineChemDrobe: null
+VendingMachineChemicals: null
+VendingMachineCondiments: null
+VendingMachineDinnerware: null
+VendingMachineEngiDrobe: null
+VendingMachineEngivend: null
+VendingMachineHydrobe: null
+VendingMachineMediDrobe: null
+VendingMachineMedical: null
+VendingMachineRoboDrobe: null
+VendingMachineRobotics: null
+VendingMachineSalvage: null
+VendingMachineSciDrobe: null
+VendingMachineSeeds: null
+VendingMachineTankDispenserEVA: null
+VendingMachineVendomat: null
+VendingMachineWallMedical: null
+VendingMachineYouTool: null
+BorgCharger: null
+
+# Phase 3g atmos piping strip
+AirSensor: null
+AtmosDeviceFanDirectional: null
+AtmosDeviceFanTiny: null
+GasFilter: null
+GasMinerAmmonia: null
+GasMinerCarbonDioxide: null
+GasMinerFrezon: null
+GasMinerNitrogenStationLarge: null
+GasMinerNitrousOxide: null
+GasMinerOxygenStationLarge: null
+GasMinerPlasma: null
+GasMinerTritium: null
+GasMinerWaterVapor: null
+GasMixer: null
+GasPassiveVent: null
+GasPipeBend: null
+GasPipeStraight: null
+GasPipeTJunction: null
+GasPort: null
+GasPressurePump: null
+GasThermoMachineFreezer: null
+GasValve: null
+GasVentPump: null
+GasVentScrubber: null
+PortableScrubber: null
+AirAlarm: null
+AirCanister: null
+AmmoniaCanister: null
+CarbonDioxideCanister: null
+ComputerAtmosMonitoring: null
+FrezonCanister: null
+NitrogenCanister: null
+NitrousOxideCanister: null
+OxygenCanister: null
+PlasmaCanister: null
+TritiumCanister: null
+WaterVaporCanister: null
+
+# 2026-04-22: auto-added after Phase 1-3 purge — missing prototypes referenced by station maps
+AirAlarmElectronics: null
+AirlockExternalGlassShuttleArrivals: null
+AirlockExternalGlassShuttleEmergencyLocked: null
+AirlockExternalGlassShuttleEscape: null
+AirlockExternalGlassShuttleLocked: null
+AirlockExternalGlassShuttleSyndicateLocked: null
+AirlockExternalShuttleSyndicateLocked: null
+AirlockShuttle: null
+BaseGasCondenser: null
+ChessBoard: null
+ContainmentFieldGenerator: null
+DisposalBend: null
+DisposalJunction: null
+DisposalJunctionFlipped: null
+DisposalPipe: null
+DisposalTrunk: null
+DisposalUnit: null
+DisposalXJunction: null
+DisposalYJunction: null
+Emitter: null
+FireAlarm: null
+GasCanisterBrokenBase: null
+GasFilterFlipped: null
+GasMixerFlipped: null
+GasOutletInjector: null
+GasPassiveGate: null
+GasPipeBendAlt1: null
+GasPipeBendAlt2: null
+GasPipeFourway: null
+GasPipeManifold: null
+GasPipeSensor: null
+GasPipeSensorDistribution: null
+GasPipeSensorTEGCold: null
+GasPipeSensorTEGHot: null
+GasPipeSensorWaste: null
+GasPipeStraightAlt1: null
+GasPipeStraightAlt2: null
+GasPressureRegulator: null
+GasThermoMachineHeater: null
+GasVolumePump: null
+HeatExchanger: null
+HolopadAiChute: null
+HolopadAiCore: null
+HolopadAiEntrance: null
+HolopadAiMain: null
+HolopadAiUpload: null
+HolopadCargoFront: null
+HolopadCommandBridge: null
+HolopadCommandBridgeHallway: null
+HolopadCommandBridgeLongRange: null
+HolopadCommandCaptain: null
+HolopadCommandCe: null
+HolopadCommandCmo: null
+HolopadCommandHop: null
+HolopadCommandHos: null
+HolopadCommandQm: null
+HolopadCommandRd: null
+HolopadEngineeringAME: null
+HolopadEngineeringAtmosFront: null
+HolopadEngineeringAtmosMain: null
+HolopadEngineeringAtmosTeg: null
+HolopadEngineeringBreakroom: null
+HolopadEngineeringFront: null
+HolopadEngineeringPower: null
+HolopadEngineeringStorage: null
+HolopadEngineeringTechVault: null
+HolopadEngineeringTelecoms: null
+HolopadGeneralCryosleep: null
+HolopadGeneralDisposals: null
+HolopadGeneralEVAStorage: null
+HolopadGeneralLounge: null
+HolopadGeneralTools: null
+HolopadMedicalChemistry: null
+HolopadMedicalCryopods: null
+HolopadMedicalFront: null
+HolopadMedicalMorgue: null
+HolopadMedicalParamed: null
+HolopadMedicalSurgery: null
+HolopadMedicalVirology: null
+HolopadScienceAnomaly: null
+HolopadScienceArtifact: null
+HolopadScienceFront: null
+HolopadScienceRobotics: null
+HolopadSecurityArmory: null
+HolopadSecurityBreakroom: null
+HolopadSecurityBrig: null
+HolopadSecurityCourtroom: null
+HolopadSecurityDetective: null
+HolopadSecurityFront: null
+HolopadSecurityInterrogation: null
+HolopadSecurityLawyer: null
+HolopadSecurityLockerRoom: null
+HolopadSecurityPerma: null
+HolopadSecurityWarden: null
+HolopadServiceBar: null
+HolopadServiceChapel: null
+HolopadServiceClownMime: null
+HolopadServiceJanitor: null
+HolopadServiceKitchen: null
+HolopadServiceLibrary: null
+HolopadServiceNewsroom: null
+LockerSalvageSpecialistFilledHardsuit: null
+MechEquipmentGrabberSmall: null
+OreBag: null
+ParchisBoard: null
+RadiationCollectorFullTank: null
+RandomVending: null
+RandomVendingClothing: null
+RandomVendingDrinks: null
+RandomVendingSnacks: null
+SingularityGenerator: null
+SmartFridge: null
+SpaceHeater: null
+SpawnMechRipley: null
+SpawnVendingMachineRestockFoodDrink: null
+StationAnchor: null
+StorageCanister: null
+TeslaCoil: null
+TeslaGenerator: null
+TeslaGroundingRod: null
+VendingMachineAtmosDrobe: null
+VendingMachineCargoDrobe: null
+VendingMachineCart: null
+VendingMachineChang: null
+VendingMachineChapel: null
+VendingMachineCigs: null
+VendingMachineClothing: null
+VendingMachineCoffee: null
+VendingMachineCuraDrobe: null
+VendingMachineDetDrobe: null
+VendingMachineDiscount: null
+VendingMachineDonut: null
+VendingMachineGames: null
+VendingMachineGeneDrobe: null
+VendingMachineHappyHonk: null
+VendingMachineJaniDrobe: null
+VendingMachineLawDrobe: null
+VendingMachineNutri: null
+VendingMachineSec: null
+VendingMachineSecDrobe: null
+VendingMachineSeedsUnlocked: null
+VendingMachineSnack: null
+VendingMachineSovietSoda: null
+VendingMachineTankDispenserEngineering: null
+VendingMachineTheater: null
+VendingMachineViroDrobe: null
+DisposalMachineFrame: null
+HolopadGeneralTheater: null
+CargoMailTeleporter: null
+CrateSecurityTrackingMindshieldImplants: null

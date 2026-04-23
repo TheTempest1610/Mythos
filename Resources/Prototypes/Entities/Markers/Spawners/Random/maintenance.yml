@@ -193,7 +193,6 @@
     - !type:GroupSelector
       weight: 75
       children:
-      - id: FlashlightLantern
       - id: ToolboxEmergencyFilled
       - !type:GroupSelector
         children:
@@ -230,9 +229,7 @@
       - id: Multitool
       - id: Shovel
       - id: Welder
-      - id: GasAnalyzer
       - id: SprayPainter
-      - id: Flare
       - id: Beaker
       - id: ClothingMaskGas
       - id: ClothingMaskBreath
@@ -271,10 +268,8 @@
       - id: GlowstickGreen
       - id: Bucket
       - id: RadioHandheld
-      - id: AppraisalTool
       - id: ModularReceiver
       - id: WeaponFlareGun
-      - id: BarberScissors
       - !type:GroupSelector
         children:
         - id: DrinkSpaceGlue

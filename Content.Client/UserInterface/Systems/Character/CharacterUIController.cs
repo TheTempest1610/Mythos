@@ -2,6 +2,7 @@ using System.Linq;
 using Content.Client.CharacterInfo;
 using Content.Client.Gameplay;
 using Content.Client.Stylesheets;
+using Content.Client.UserInterface.Controllers;
 using Content.Client.UserInterface.Controls;
 using Content.Client.UserInterface.Systems.Character.Controls;
 using Content.Client.UserInterface.Systems.Character.Windows;
@@ -48,16 +49,22 @@ public sealed class CharacterUIController : UIController, IOnStateEntered<Gamepl
     {
         DebugTools.Assert(_window == null);
 
-        _window = UIManager.CreateWindow<CharacterWindow>();
-        LayoutContainer.SetAnchorPreset(_window, LayoutContainer.LayoutPreset.CenterTop);
-
-        _window.OnClose += DeactivateButton;
-        _window.OnOpen += ActivateButton;
+        EnsureWindow();
 
         CommandBinds.Builder
             .Bind(ContentKeyFunctions.OpenCharacterMenu,
                 InputCmdHandler.FromDelegate(_ => ToggleWindow()))
             .Register<CharacterUIController>();
+    }
+
+    private CharacterWindow EnsureWindow()
+    {
+        return UIManager.EnsureWindow(ref _window, w =>
+        {
+            LayoutContainer.SetAnchorPreset(w, LayoutContainer.LayoutPreset.CenterTop);
+            w.OnClose += DeactivateButton;
+            w.OnOpen += ActivateButton;
+        });
     }
 
     public void OnStateExited(GameplayState state)
@@ -240,19 +247,18 @@ public sealed class CharacterUIController : UIController, IOnStateEntered<Gamepl
 
     private void ToggleWindow()
     {
-        if (_window == null)
-            return;
+        var window = EnsureWindow();
 
-        CharacterButton?.SetClickPressed(!_window.IsOpen);
+        CharacterButton?.SetClickPressed(!window.IsOpen);
 
-        if (_window.IsOpen)
+        if (window.IsOpen)
         {
             CloseWindow();
         }
         else
         {
             _characterInfo.RequestCharacterInfo();
-            _window.Open();
+            window.Open();
         }
     }
 }

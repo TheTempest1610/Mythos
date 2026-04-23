@@ -1,0 +1,14 @@
+- type: gameMap
+  id: Testspawn
+  mapName: 'Testspawn'
+  mapPath: /Maps/testspawn.yml
+  minPlayers: 0
+  stations:
+    Testspawn:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Testspawn"
+        - type: StationJobs
+          availableJobs:
+            Passenger: [ -1, -1 ]

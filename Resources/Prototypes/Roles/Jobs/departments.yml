@@ -1,14 +1,4 @@
 - type: department
-  id: Cargo
-  name: department-Cargo
-  description: department-Cargo-description
-  color: "#A46106"
-  roles:
-  - CargoTechnician
-  - Quartermaster
-  - SalvageSpecialist
-
-- type: department
   id: Civilian
   name: department-Civilian
   description: department-Civilian-description
@@ -61,7 +51,6 @@
   - HeadOfPersonnel
   - HeadOfSecurity
   - ResearchDirector
-  - Quartermaster
   - CentralCommandOfficial
   - CBURN
   - ERTLeader
@@ -120,15 +109,6 @@
   - ResearchDirector
   - Scientist
   - ResearchAssistant
-
-- type: department
-  id: Silicon
-  name: department-Silicon
-  description: department-Silicon-description
-  color: "#D381C9"
-  roles:
-  - Borg
-  - StationAi
 
 - type: department
   id: Specific

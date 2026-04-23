@@ -2,6 +2,7 @@ using System.Numerics;
 using Content.Client.Administration.Managers;
 using Content.Client.Gameplay;
 using Content.Client.Sandbox;
+using Content.Client.UserInterface.Controllers;
 using Content.Client.UserInterface.Controls;
 using Content.Client.UserInterface.Systems.DecalPlacer;
 using Content.Client.UserInterface.Systems.Sandbox.Windows;
@@ -97,47 +98,47 @@ public sealed class SandboxUIController : UIController, IOnStateChanged<Gameplay
         SandboxButton.OnPressed += SandboxButtonPressed;
     }
 
-    private void EnsureWindow()
+    private SandboxWindow EnsureWindow()
     {
-        if (_window is { Disposed: false })
-            return;
-        _window = UIManager.CreateWindow<SandboxWindow>();
-        // Pre-center the window without forcing it to the center every time.
-        _window.OpenCentered();
-        _window.Close();
-
-        _window.OnOpen += () => { SandboxButton!.Pressed = true; };
-        _window.OnClose += () => { SandboxButton!.Pressed = false; };
-
-        _window.AiOverlayButton.OnPressed += args =>
+        return UIManager.EnsureWindow(ref _window, w =>
         {
-            var player = _player.LocalEntity;
+            // Pre-center the window without forcing it to the center every time.
+            w.OpenCentered();
+            w.Close();
 
-            if (player == null)
-                return;
+            w.OnOpen += () => { SandboxButton!.Pressed = true; };
+            w.OnClose += () => { SandboxButton!.Pressed = false; };
 
-            var pnent = EntityManager.GetNetEntity(player.Value);
+            w.AiOverlayButton.OnPressed += args =>
+            {
+                var player = _player.LocalEntity;
 
-            // Need NetworkedAddComponent but engine PR.
-            if (args.Button.Pressed)
-                _console.ExecuteCommand($"addcomp {pnent.Id} StationAiOverlay");
-            else
-                _console.ExecuteCommand($"rmcomp {pnent.Id} StationAiOverlay");
-        };
-        _window.RespawnButton.OnPressed += _ => _sandbox.Respawn();
-        _window.SpawnTilesButton.OnPressed += _ => TileSpawningController.ToggleWindow();
-        _window.SpawnEntitiesButton.OnPressed += _ => EntitySpawningController.ToggleWindow();
-        _window.SpawnDecalsButton.OnPressed += _ => DecalPlacerController.ToggleWindow();
-        _window.GiveFullAccessButton.OnPressed += _ => _sandbox.GiveAdminAccess();
-        _window.GiveAghostButton.OnPressed += _ => _sandbox.GiveAGhost();
-        _window.ToggleLightButton.OnToggled += _ => _sandbox.ToggleLight();
-        _window.ToggleFovButton.OnToggled += _ => _sandbox.ToggleFov();
-        _window.ToggleShadowsButton.OnToggled += _ => _sandbox.ToggleShadows();
-        _window.SuicideButton.OnPressed += _ => _sandbox.Suicide();
-        _window.ToggleSubfloorButton.OnPressed += _ => _sandbox.ToggleSubFloor();
-        _window.ShowMarkersButton.OnPressed += _ => _sandbox.ShowMarkers();
-        _window.ShowBbButton.OnPressed += _ => _sandbox.ShowBb();
-        _window.ToggleThermalVisionButton.OnToggled += _ => _sandbox.ToggleThermalVision();
+                if (player == null)
+                    return;
+
+                var pnent = EntityManager.GetNetEntity(player.Value);
+
+                // Need NetworkedAddComponent but engine PR.
+                if (args.Button.Pressed)
+                    _console.ExecuteCommand($"addcomp {pnent.Id} StationAiOverlay");
+                else
+                    _console.ExecuteCommand($"rmcomp {pnent.Id} StationAiOverlay");
+            };
+            w.RespawnButton.OnPressed += _ => _sandbox.Respawn();
+            w.SpawnTilesButton.OnPressed += _ => TileSpawningController.ToggleWindow();
+            w.SpawnEntitiesButton.OnPressed += _ => EntitySpawningController.ToggleWindow();
+            w.SpawnDecalsButton.OnPressed += _ => DecalPlacerController.ToggleWindow();
+            w.GiveFullAccessButton.OnPressed += _ => _sandbox.GiveAdminAccess();
+            w.GiveAghostButton.OnPressed += _ => _sandbox.GiveAGhost();
+            w.ToggleLightButton.OnToggled += _ => _sandbox.ToggleLight();
+            w.ToggleFovButton.OnToggled += _ => _sandbox.ToggleFov();
+            w.ToggleShadowsButton.OnToggled += _ => _sandbox.ToggleShadows();
+            w.SuicideButton.OnPressed += _ => _sandbox.Suicide();
+            w.ToggleSubfloorButton.OnPressed += _ => _sandbox.ToggleSubFloor();
+            w.ShowMarkersButton.OnPressed += _ => _sandbox.ShowMarkers();
+            w.ShowBbButton.OnPressed += _ => _sandbox.ShowBb();
+            w.ToggleThermalVisionButton.OnToggled += _ => _sandbox.ToggleThermalVision();
+        });
     }
 
     private void CheckSandboxVisibility()
@@ -192,17 +193,16 @@ public sealed class SandboxUIController : UIController, IOnStateChanged<Gameplay
 
     private void ToggleWindow()
     {
-        if (_window == null)
-            return;
-        if (_sandbox.SandboxAllowed && _window.IsOpen != true)
+        var window = EnsureWindow();
+        if (_sandbox.SandboxAllowed && !window.IsOpen)
         {
             UIManager.ClickSound();
-            _window.Open();
+            window.Open();
         }
         else
         {
             UIManager.ClickSound();
-            _window.Close();
+            window.Close();
         }
     }
 

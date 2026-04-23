@@ -44,18 +44,14 @@
   - Engineering
   - Research
   - Detective
-  - Salvage
   - Security
   - Brig
   - Lawyer
-  - Cargo
   - Atmospherics
   - Medical
   - GenpopEnter
   - GenpopLeave
   special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff

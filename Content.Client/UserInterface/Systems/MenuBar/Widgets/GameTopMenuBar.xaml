@@ -54,6 +54,15 @@
         AppendStyleClass="{x:Static style:StyleClass.ButtonSquare}"
         />
     <ui:MenuButton
+        Name="CloseWindowsButton"
+        Access="Internal"
+        Icon="{xe:Tex '/Textures/Interface/VerbIcons/close.svg.192dpi.png'}"
+        ToolTip="{Loc 'game-hud-close-windows-button-tooltip'}"
+        MinSize="42 64"
+        HorizontalExpand="True"
+        AppendStyleClass="{x:Static style:StyleClass.ButtonSquare}"
+        />
+    <ui:MenuButton
         Name="CraftingButton"
         Access="Internal"
         Icon="{xe:Tex '/Textures/Interface/hammer.svg.192dpi.png'}"

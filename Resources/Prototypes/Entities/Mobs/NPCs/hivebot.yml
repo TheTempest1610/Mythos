@@ -1,6 +1,6 @@
 # Base hivebot
 - type: entity
-  parent: [ BaseSimpleMob, MobCombat, MobRobotic ]
+  parent: [ BaseSimpleMob, MobCombat ]
   id: MobHivebot
   name: hivebot
   description: Agitating, mechanized pests.

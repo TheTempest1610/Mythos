@@ -1,6 +1,6 @@
 ## AdminMenuWindow.xaml.cs
 
-admin-menu-title = Admin Menu
+admin-menu-title = Admin Menu Test
 admin-menu-admin-tab = Admin
 admin-menu-adminbus-tab = Adminbus
 admin-menu-atmos-tab = Atmos

@@ -40,7 +40,6 @@
       weight: 90
       children:
       - id: AnomalyScanner
-      - id: NodeScanner
       - id: NetworkConfigurator
       - id: Wirecutter
       - id: Screwdriver
@@ -49,7 +48,6 @@
       - id: Multitool
       - id: RemoteSignaller
       - id: Welder
-      - id: GasAnalyzer
       - id: GeigerCounter
       - id: Beaker
       - id: Igniter

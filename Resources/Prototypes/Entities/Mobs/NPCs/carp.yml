@@ -181,10 +181,6 @@
     - type: HTN
       rootTask:
         task: DragonCarpCompound
-    - type: Flammable
-      damage:
-       types: {}
-    - type: Temperature
     - type: TemperatureDamage
       heatDamageThreshold: 1200
 - type: entity

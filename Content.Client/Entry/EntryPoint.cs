@@ -75,10 +75,12 @@ namespace Content.Client.Entry
         [Dependency] private readonly IReplayLoadManager _replayLoad = default!;
         [Dependency] private readonly ILogManager _logManager = default!;
         [Dependency] private readonly DebugMonitorManager _debugMonitorManager = default!;
+        [Dependency] private readonly ServerTickTimeManager _serverTickTimeManager = default!;
         [Dependency] private readonly TitleWindowManager _titleWindowManager = default!;
         [Dependency] private readonly IEntitySystemManager _entitySystemManager = default!;
         [Dependency] private readonly ClientsidePlaytimeTrackingManager _clientsidePlaytimeManager = default!;
         [Dependency] private readonly ClientFeedbackManager _feedbackManager = null!;
+        [Dependency] private readonly IGameTiming _gameTiming = default!;
 
         public override void PreInit()
         {
@@ -142,6 +144,7 @@ namespace Content.Client.Entry
             _jobRequirements.Initialize();
             _playbackMan.Initialize();
             _clientsidePlaytimeManager.Initialize();
+            _serverTickTimeManager.Initialize();
 
             //AUTOSCALING default Setup!
             _configManager.SetCVar("interface.resolutionAutoScaleUpperCutoffX", 1080);
@@ -173,6 +176,11 @@ namespace Content.Client.Entry
             _documentParsingManager.Initialize();
             _titleWindowManager.Initialize();
             _feedbackManager.Initialize();
+
+            // Attach the server MSPT panel to the F3 debug monitors container so it
+            // shows/hides in lockstep with the rest of the overlay.
+            if (_userInterfaceManager.DebugMonitors is Control debugMonitorsControl)
+                debugMonitorsControl.AddChild(new ServerTickTimePanel(_serverTickTimeManager, _gameTiming));
 
             _baseClient.RunLevelChanged += (_, args) =>
             {

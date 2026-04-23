@@ -14,8 +14,6 @@
     children:
     - id: ClothingOuterVestHazard
       prob: 0.4
-    - id: FlashlightLantern
-      prob: 0.7
     - id: Screwdriver
       prob: 0.7
     - id: Wrench
@@ -29,8 +27,6 @@
     - id: Multitool
       prob: 0.2
     - id: trayScanner
-      prob: 0.7
-    - id: GasAnalyzer
       prob: 0.7
     - id: ClothingBeltUtility
       prob: 0.2
@@ -68,8 +64,6 @@
     children:
     - id: ToolboxElectricalFilled
       prob: 0.7
-    - id: FirelockElectronics
-      prob: 0.05
     - id: APCElectronics
       prob: 0.1
     - !type:GroupSelector
@@ -151,7 +145,6 @@
     - id: ClothingMaskGasAtmos
     - id: ClothingOuterSuitAtmosFire
     - id: ClothingHeadHelmetAtmosFire
-    - id: GasAnalyzer
     - id: MedkitOxygenFilled
     - id: HolofanProjector
     - id: RCD

@@ -146,7 +146,7 @@ public sealed partial class BiomeSystem : SharedBiomeSystem
                 _shuttles.Disable(grid.Owner);
                 var pTransform = _physics.GetPhysicsTransform(grid.Owner);
 
-                foreach (var fixture in fixtures.Fixtures.Values)
+                foreach (var fixture in fixtures.Fixtures.Values.ToList())
                 {
                     for (var i = 0; i < fixture.Shape.ChildCount; i++)
                     {

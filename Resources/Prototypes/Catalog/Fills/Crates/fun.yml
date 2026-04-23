@@ -205,7 +205,6 @@
         - id: MicrophoneInstrument
         - id: HelicopterInstrument
         - id: BirdToyInstrument
-        - id: MusicalLungInstrument
         - id: ReverseCymbalsInstrument
 
 - type: entity
@@ -253,18 +252,7 @@
     containers:
       entity_storage: !type:AllSelector
         children:
-        - id: ChessBoard
-        - id: BackgammonBoard
-        - id: ParchisBoard
-        - id: CheckerBoard
-        - id: ShipBattlemap
-        - id: SnowBattlemap
-        - id: SandBattlemap
-        - id: MoonBattlemap
-        - id: GrassBattlemap
         - id: DiceBag
-          amount: 6
-        - id: PaperCNCSheet
           amount: 6
 
 - type: entity
