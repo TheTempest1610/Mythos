@@ -241,7 +241,7 @@ public sealed class StorageTest : GameTest
         var pair = Pair;
         var compFact = pair.Server.ResolveDependency<IComponentFactory>();
 
-        Assert.Multiple(() =>
+        using (Assert.EnterMultipleScope())
         {
             foreach (var (proto, fill) in pair.GetPrototypesWithComponent<EntityTableContainerFillComponent>())
             {
@@ -251,8 +251,8 @@ public sealed class StorageTest : GameTest
 
             foreach (var (proto, fill) in pair.GetPrototypesWithComponent<ContainerFillComponent>())
             {
-                Assert.That(!proto.HasComponent<StorageFillComponent>(compFact), $"Prototype {proto.ID} has both {nameof(ContainerFillComponent)} and {nameof(StorageFillComponent)}.");
+                Assert.That(!proto.HasComponent<EntityTableContainerFillComponent>(compFact), $"Prototype {proto.ID} has both {nameof(ContainerFillComponent)} and {nameof(EntityTableContainerFillComponent)}.");
             }
-        });
+        }
     }
 }

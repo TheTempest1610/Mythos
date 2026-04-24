@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 266.0.0
+  engineVersion: 275.2.0
   forkId: ""
   forkVersion: ""
-  time: 08/31/2025 14:22:33
-  entityCount: 4
+  time: 04/24/2026 08:18:46
+  entityCount: 7
 maps:
 - 3
 grids:
@@ -53,10 +53,12 @@ entities:
         nodes: []
     - type: SpreaderGrid
     - type: ImplicitRoof
+    - type: TileHistory
+      chunkHistory: {}
   - uid: 3
     components:
     - type: MetaData
-      name: "Flat Plain"
+      name: Flat Plain
     - type: Transform
     - type: Map
       mapPaused: True
@@ -64,9 +66,9 @@ entities:
     - type: Broadphase
     - type: OccluderTree
     - type: MapLight
-      ambientLightColor: "#FFFFFFFF"
+      ambientLightColor: '#FFFFFFFF'
     - type: LightCycle
-      enabled: false
+      enabled: False
 - proto: SpawnPointAnyJob
   entities:
   - uid: 4
@@ -81,4 +83,21 @@ entities:
     - type: Transform
       pos: -0.5,-0.5
       parent: 2
+- proto: TargetHuman
+  entities:
+  - uid: 5
+    components:
+    - type: Transform
+      pos: 4.5,2.5
+      parent: 3
+  - uid: 6
+    components:
+    - type: Transform
+      pos: 4.5,-2.5
+      parent: 3
+  - uid: 7
+    components:
+    - type: Transform
+      pos: 6.5,0.5
+      parent: 3
 ...
