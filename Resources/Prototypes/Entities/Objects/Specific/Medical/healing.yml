@@ -690,7 +690,7 @@
   - type: Sprite
     state: pill3
   - type: Label
-    currentLabel: tricordrazine 10u
+    currentLabel: reagent-name-tricordrazine
   - type: SolutionContainerManager
     solutions:
       food:
@@ -706,7 +706,7 @@
   suffix: Tricordrazine 10u, 5
   components:
   - type: Label
-    currentLabel: tricordrazine 10u
+    currentLabel: reagent-name-tricordrazine
   - type: EntityTableContainerFill
     containers:
       storagebase:

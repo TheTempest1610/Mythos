@@ -1,0 +1,43 @@
+# Mythos fork - spell action prototypes.
+#
+# Activating either action enqueues the corresponding kind into the
+# player's CombatQueueComponent. Dequeueing, mana gating, DoAfter cast
+# time, and damage application are owned by the queue + mana + spell
+# systems (not the Action system itself); the action is only an entry
+# point into the queue.
+#
+# Action icons currently use the existing base "wizard" look via an
+# inherited placeholder until dedicated sprites are added.
+
+- type: entity
+  parent: BaseAction
+  id: ActionMythosMagicMissile
+  name: "[color=purple]Magic Missile[/color]"
+  description: Launches an arcane bolt at your current combat target. Instant cast, costs 10 mana.
+  components:
+  - type: Action
+    # useDelay is 0: players can enqueue as fast as they can click. The
+    # shared 2-second global cooldown on CombatQueueComponent rate-limits
+    # actual fires, and the client executor's slot tracker prevents
+    # replication-lag double-fires.
+    icon:
+      sprite: Objects/Magic/magicactions.rsi
+      state: magicmissile
+  - type: InstantAction
+    event: !type:QueueMagicMissileActionEvent
+
+- type: entity
+  parent: BaseAction
+  id: ActionMythosFireball
+  name: "[color=orange]Fireball[/color]"
+  description: Channels a gout of flame at your current combat target. 1.5 second cast, costs 20 mana, breaks on damage.
+  components:
+  - type: Action
+    # useDelay is 0: Fireball's 1.5 s DoAfter cast time + CastingSlot gate
+    # + the shared 2-second global cooldown already throttle re-cast, so a
+    # per-action useDelay would just add a fourth overlapping rate-limiter.
+    icon:
+      sprite: Objects/Magic/magicactions.rsi
+      state: fireball
+  - type: InstantAction
+    event: !type:QueueFireballActionEvent
