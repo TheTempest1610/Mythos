@@ -31,6 +31,7 @@ namespace Content.Client.MainMenu
 
         private MainMenuControl _mainMenuControl = default!;
         private bool _isConnecting;
+        private bool _quitConfirmationOpen;
         private string? _connectingAddress;
 
         // ReSharper disable once InconsistentNaming
@@ -45,6 +46,8 @@ namespace Content.Client.MainMenu
             _userInterfaceManager.StateRoot.AddChild(_mainMenuControl);
 
             _mainMenuControl.QuitButton.OnPressed += QuitButtonPressed;
+            _mainMenuControl.QuitCancelButton.OnPressed += QuitCancelButtonPressed;
+            _mainMenuControl.QuitConfirmButton.OnPressed += QuitConfirmButtonPressed;
             _mainMenuControl.OptionsButton.OnPressed += OptionsButtonPressed;
             _mainMenuControl.DirectConnectButton.OnPressed += DirectConnectButtonPressed;
             _mainMenuControl.AddressBox.OnTextEntered += AddressBoxEntered;
@@ -74,6 +77,17 @@ namespace Content.Client.MainMenu
 
         private void QuitButtonPressed(BaseButton.ButtonEventArgs args)
         {
+            _setQuitConfirmationState(true);
+        }
+
+        private void QuitCancelButtonPressed(BaseButton.ButtonEventArgs args)
+        {
+            _setQuitConfirmationState(false);
+        }
+
+        private void QuitConfirmButtonPressed(BaseButton.ButtonEventArgs args)
+        {
+            _setQuitConfirmationState(false);
             _controllerProxy.Shutdown();
         }
 
@@ -192,16 +206,30 @@ namespace Content.Client.MainMenu
         {
             _isConnecting = state;
 
-            _mainMenuControl.DirectConnectButton.Disabled = state;
-            _mainMenuControl.OptionsButton.Disabled = state;
-            _mainMenuControl.QuitButton.Disabled = state;
-            _mainMenuControl.ChangelogButton.Disabled = state;
-            _mainMenuControl.UsernameBox.Editable = !state;
-            _mainMenuControl.AddressBox.Editable = !state;
             _mainMenuControl.SetConnectingState(state, state ? _connectingAddress : null);
+            UpdateMainMenuInteractivity();
 
             if (!state)
                 _connectingAddress = null;
+        }
+
+        private void _setQuitConfirmationState(bool state)
+        {
+            _quitConfirmationOpen = state;
+            _mainMenuControl.SetQuitConfirmationState(state);
+            UpdateMainMenuInteractivity();
+        }
+
+        private void UpdateMainMenuInteractivity()
+        {
+            var blocked = _isConnecting || _quitConfirmationOpen;
+
+            _mainMenuControl.DirectConnectButton.Disabled = blocked;
+            _mainMenuControl.OptionsButton.Disabled = blocked;
+            _mainMenuControl.QuitButton.Disabled = blocked;
+            _mainMenuControl.ChangelogButton.Disabled = blocked;
+            _mainMenuControl.UsernameBox.Editable = !blocked;
+            _mainMenuControl.AddressBox.Editable = !blocked;
         }
     }
 }
