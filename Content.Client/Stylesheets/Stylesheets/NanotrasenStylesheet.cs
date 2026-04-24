@@ -17,10 +17,11 @@ public partial class NanotrasenStylesheet : CommonStylesheet
 
 
     public static readonly ResPath TextureRoot = new("/Textures/Interface/Nano");
+    public static readonly ResPath UiTextureRoot = new("/Textures/UI");
 
     public override Dictionary<Type, ResPath[]> Roots => new()
     {
-        { typeof(TextureResource), [TextureRoot] },
+        { typeof(TextureResource), [TextureRoot, UiTextureRoot] },
     };
 
     private const int PrimaryFontSize = 12;

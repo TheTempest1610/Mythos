@@ -11,3 +11,6 @@ main-menu-join-public-server-button-tooltip = Cannot connect to public server wi
 main-menu-direct-connect-button = Direct Connect
 main-menu-options-button = Options
 main-menu-quit-button = Quit
+main-menu-connecting-title = Connecting...
+main-menu-connecting-status = Establishing connection to server
+main-menu-connecting-address = Address: {$address}
