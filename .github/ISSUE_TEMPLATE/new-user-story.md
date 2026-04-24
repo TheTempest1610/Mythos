@@ -1,5 +1,5 @@
 ---
-name: New User Story
+name: New user story
 about: Create a new user story
 title: ''
 labels: user story
