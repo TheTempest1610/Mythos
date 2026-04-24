@@ -32,7 +32,9 @@ public sealed partial class StationRecordSet
     /// <summary>
     /// Dictionary between a record's type and then each record indexed by id.
     /// </summary>
-    [DataField]
+    // Mythos: no [DataField]; System.Type cannot be serialized (RuntimeType has no data
+    // definition, and TypeSerializer is registered for Type by exact match). Records are
+    // runtime-only state created at round start, so map save/load does not need them.
     private Dictionary<Type, Dictionary<uint, object>> _tables = new();
 
     /// <summary>
