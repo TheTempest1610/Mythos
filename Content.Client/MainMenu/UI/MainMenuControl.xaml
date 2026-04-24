@@ -1,12 +1,21 @@
-﻿<Control xmlns="https://spacestation14.io"
+<Control xmlns="https://spacestation14.io"
          xmlns:pllax="clr-namespace:Content.Client.Parallax"
-         xmlns:clog="clr-namespace:Content.Client.Changelog">
+         xmlns:clog="clr-namespace:Content.Client.Changelog"
+         RectClipContent="True">
+    <TextureRect Name="Background"
+                 TexturePath="/Textures/MenuBG/MainMenu_Background.png"
+                 Stretch="Scale"
+                 Margin="-48 -32 -48 -32"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Stretch" />
+    <!--
     <pllax:ParallaxControl
         ParallaxPrototype="TrainStation"
         SpeedX="5"
         SpeedY="20"
         ScaleX="3"
         ScaleY="3"/>
+    -->
     <BoxContainer Name="VBox"
                   Orientation="Vertical"
                   HorizontalAlignment="Center"
