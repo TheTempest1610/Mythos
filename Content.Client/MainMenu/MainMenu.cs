@@ -31,6 +31,7 @@ namespace Content.Client.MainMenu
 
         private MainMenuControl _mainMenuControl = default!;
         private bool _isConnecting;
+        private string? _connectingAddress;
 
         // ReSharper disable once InconsistentNaming
         private static readonly Regex IPv6Regex = new(@"\[(.*:.*:.*)](?::(\d+))?");
@@ -111,19 +112,20 @@ namespace Content.Client.MainMenu
                 _configurationManager.SaveToFile();
             }
 
-            _setConnectingState(true);
-            _netManager.ConnectFailed += _onConnectFailed;
             try
             {
+                _connectingAddress = address.Trim();
+                _setConnectingState(true);
+                _netManager.ConnectFailed += _onConnectFailed;
                 ParseAddress(address, out var ip, out var port);
                 _client.ConnectToServer(ip, port);
             }
             catch (ArgumentException e)
             {
-                _userInterfaceManager.Popup($"Unable to connect: {e.Message}", "Connection error.");
-                _sawmill.Warning(e.ToString());
                 _netManager.ConnectFailed -= _onConnectFailed;
                 _setConnectingState(false);
+                _userInterfaceManager.Popup($"Unable to connect: {e.Message}", "Connection error.");
+                _sawmill.Warning(e.ToString());
             }
         }
 
@@ -181,15 +183,25 @@ namespace Content.Client.MainMenu
 
         private void _onConnectFailed(object? _, NetConnectFailArgs args)
         {
-            _userInterfaceManager.Popup(Loc.GetString("main-menu-failed-to-connect",("reason", args.Reason)));
             _netManager.ConnectFailed -= _onConnectFailed;
             _setConnectingState(false);
+            _userInterfaceManager.Popup(Loc.GetString("main-menu-failed-to-connect",("reason", args.Reason)));
         }
 
         private void _setConnectingState(bool state)
         {
             _isConnecting = state;
+
             _mainMenuControl.DirectConnectButton.Disabled = state;
+            _mainMenuControl.OptionsButton.Disabled = state;
+            _mainMenuControl.QuitButton.Disabled = state;
+            _mainMenuControl.ChangelogButton.Disabled = state;
+            _mainMenuControl.UsernameBox.Editable = !state;
+            _mainMenuControl.AddressBox.Editable = !state;
+            _mainMenuControl.SetConnectingState(state, state ? _connectingAddress : null);
+
+            if (!state)
+                _connectingAddress = null;
         }
     }
 }

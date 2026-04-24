@@ -15,6 +15,11 @@ namespace Content.Client.Options.UI
             RobustXamlLoader.Load(this);
             IoCManager.InjectDependencies(this);
 
+            WindowHeader.StyleIdentifier = "mythosOptionsHeader";
+            TitleLabel.StyleIdentifier = "mythosOptionsTitle";
+            CloseButton.StyleIdentifier = "mythosOptionsCloseButton";
+            Contents.StyleIdentifier = "mythosOptionsContents";
+
             Tabs.SetTabTitle(0, Loc.GetString("ui-options-tab-misc"));
             Tabs.SetTabTitle(1, Loc.GetString("ui-options-tab-graphics"));
             Tabs.SetTabTitle(2, Loc.GetString("ui-options-tab-controls"));

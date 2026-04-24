@@ -1,4 +1,5 @@
 <Control xmlns="https://spacestation14.io"
+         xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
          xmlns:pllax="clr-namespace:Content.Client.Parallax"
          xmlns:clog="clr-namespace:Content.Client.Changelog"
          RectClipContent="True">
@@ -23,10 +24,12 @@
                   HorizontalExpand="True"
                   VerticalExpand="True"
                   StyleIdentifier="mainMenuVBox"
-                  SeparationOverride="3">
+                  SeparationOverride="8">
         <TextureRect Name="Logo"
-                     Stretch="KeepCentered"/>
-        <GridContainer Columns="2">
+                     Stretch="KeepCentered"
+                     Margin="0 0 0 24"/>
+        <GridContainer Columns="2"
+                       Margin="0 4 0 24">
             <Label Text="{Loc 'main-menu-username-label'}" />
             <LineEdit Name="UsernameBox"
                       Access="Public"
@@ -39,23 +42,100 @@
                       PlaceHolder="server address:port"
                       HorizontalExpand="True" />
         </GridContainer>
-        <Button Name="DirectConnectButton"
+        <Control SetSize="420 72"
+                 HorizontalAlignment="Center">
+            <TextureRect Name="DirectConnectPanel"
+                         TexturePath="/Textures/UI/Panel_MM.png"
+                         Stretch="Scale"
+                         HorizontalAlignment="Stretch"
+                         VerticalAlignment="Stretch" />
+            <Button Name="DirectConnectButton"
+                    Access="Public"
+                    Text="{Loc 'main-menu-direct-connect-button'}"
+                    TextAlign="Center"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    StyleIdentifier="mainMenu"/>
+        </Control>
+        <Control SetSize="420 72"
+                 HorizontalAlignment="Center">
+            <TextureRect Name="OptionsPanel"
+                         TexturePath="/Textures/UI/Panel_MM.png"
+                         Stretch="Scale"
+                         HorizontalAlignment="Stretch"
+                         VerticalAlignment="Stretch" />
+            <Button Name="OptionsButton"
+                    Access="Public"
+                    Text="{Loc 'main-menu-options-button'}"
+                    TextAlign="Center"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    StyleIdentifier="mainMenu"/>
+        </Control>
+        <Control SetSize="420 72"
+                 HorizontalAlignment="Center">
+            <TextureRect Name="QuitPanel"
+                         TexturePath="/Textures/UI/Panel_MM.png"
+                         Stretch="Scale"
+                         HorizontalAlignment="Stretch"
+                         VerticalAlignment="Stretch" />
+            <Button Name="QuitButton"
+                    Access="Public"
+                    Text="{Loc 'main-menu-quit-button'}"
+                    TextAlign="Center"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    StyleIdentifier="mainMenu"/>
+        </Control>
+        <Control SetSize="420 72"
+                 HorizontalAlignment="Center">
+            <TextureRect Name="ChangelogPanel"
+                         TexturePath="/Textures/UI/Panel_MM.png"
+                         Stretch="Scale"
+                         HorizontalAlignment="Stretch"
+                         VerticalAlignment="Stretch" />
+            <clog:ChangelogButton
+                Name="ChangelogButton"
                 Access="Public"
-                Text="{Loc 'main-menu-direct-connect-button'}"
-                TextAlign="Center"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
                 StyleIdentifier="mainMenu"/>
-        <Button Name="OptionsButton"
-                Access="Public"
-                Text="{Loc 'main-menu-options-button'}"
-                TextAlign="Center"
-                StyleIdentifier="mainMenu"/>
-        <Button Name="QuitButton"
-                Access="Public"
-                Text="{Loc 'main-menu-quit-button'}"
-                TextAlign="Center"
-                StyleIdentifier="mainMenu"/>
-        <clog:ChangelogButton
-            Name="ChangelogButton"
-            Access="Public"/>
+        </Control>
     </BoxContainer>
+    <PanelContainer Name="ConnectingOverlay"
+                    Visible="False"
+                    MouseFilter="Stop"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch">
+        <PanelContainer.PanelOverride>
+            <gfx:StyleBoxFlat BackgroundColor="#C0000000" />
+        </PanelContainer.PanelOverride>
+        <Control SetSize="420 176"
+                 HorizontalAlignment="Center"
+                 VerticalAlignment="Center"
+                 MouseFilter="Stop">
+            <PanelContainer StyleIdentifier="mythosConnectingPanel">
+                <BoxContainer Orientation="Vertical"
+                              Margin="16 14 16 16"
+                              SeparationOverride="10">
+                    <Label Text="{Loc 'main-menu-connecting-title'}"
+                           StyleIdentifier="mythosConnectingTitle"
+                           StyleClasses="LabelHeading"
+                           Align="Center" />
+                    <Label Name="ConnectingStatus"
+                            Text="{Loc 'main-menu-connecting-status'}"
+                            Align="Center" />
+                    <Label Name="ConnectingAddress"
+                           StyleClasses="LabelSubText"
+                           Align="Center" />
+                    <ProgressBar Name="ConnectingProgressBar"
+                                 StyleIdentifier="mythosConnectingProgressBar"
+                                 MinValue="0"
+                                 MaxValue="1"
+                                 Value="0.2"
+                                 HorizontalExpand="True" />
+                </BoxContainer>
+            </PanelContainer>
+        </Control>
+    </PanelContainer>
 </Control>
