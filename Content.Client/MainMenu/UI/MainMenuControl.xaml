@@ -2,13 +2,12 @@
          xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
          xmlns:pllax="clr-namespace:Content.Client.Parallax"
          xmlns:clog="clr-namespace:Content.Client.Changelog"
+         xmlns:mm="clr-namespace:Content.Client.MainMenu.UI"
          RectClipContent="True">
-    <TextureRect Name="Background"
-                 TexturePath="/Textures/MenuBG/MainMenu_Background.png"
-                 Stretch="Scale"
-                 Margin="-48 -32 -48 -32"
-                 HorizontalAlignment="Stretch"
-                 VerticalAlignment="Stretch" />
+    <mm:AnimatedCoverBackgroundTextureRect Name="Background"
+                                           TexturePath="/Textures/MenuBG/MainMenu_Background.png"
+                                           HorizontalAlignment="Stretch"
+                                           VerticalAlignment="Stretch" />
     <!--
     <pllax:ParallaxControl
         ParallaxPrototype="TrainStation"
@@ -134,6 +133,44 @@
                                  MaxValue="1"
                                  Value="0.2"
                                  HorizontalExpand="True" />
+                </BoxContainer>
+            </PanelContainer>
+        </Control>
+    </PanelContainer>
+    <PanelContainer Name="QuitConfirmationOverlay"
+                    Visible="False"
+                    MouseFilter="Stop"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch">
+        <PanelContainer.PanelOverride>
+            <gfx:StyleBoxFlat BackgroundColor="#C0000000" />
+        </PanelContainer.PanelOverride>
+        <Control SetSize="420 178"
+                 HorizontalAlignment="Center"
+                 VerticalAlignment="Center"
+                 MouseFilter="Stop">
+            <PanelContainer StyleIdentifier="mythosConnectingPanel">
+                <BoxContainer Orientation="Vertical"
+                              Margin="16 14 16 16"
+                              SeparationOverride="12">
+                    <Label Text="{Loc 'main-menu-quit-confirm-title'}"
+                           StyleIdentifier="mythosConnectingTitle"
+                           StyleClasses="LabelHeading"
+                           Align="Center" />
+                    <Label Text="{Loc 'main-menu-quit-confirm-text'}"
+                           Align="Center" />
+                    <BoxContainer Orientation="Horizontal"
+                                  SeparationOverride="8"
+                                  HorizontalAlignment="Center">
+                        <Button Name="QuitCancelButton"
+                                Access="Public"
+                                Text="{Loc 'main-menu-quit-confirm-cancel'}"
+                                StyleIdentifier="mythosOptionsActionButton" />
+                        <Button Name="QuitConfirmButton"
+                                Access="Public"
+                                Text="{Loc 'main-menu-quit-confirm-confirm'}"
+                                StyleIdentifier="mythosOptionsDangerButton" />
+                    </BoxContainer>
                 </BoxContainer>
             </PanelContainer>
         </Control>

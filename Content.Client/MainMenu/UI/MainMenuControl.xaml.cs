@@ -7,7 +7,6 @@ using Robust.Shared;
 using Robust.Shared.Configuration;
 using Robust.Shared.Maths;
 using Robust.Shared.Timing;
-using System.Numerics;
 
 namespace Content.Client.MainMenu.UI;
 
@@ -26,7 +25,6 @@ public sealed partial class MainMenuControl : Control
     private readonly TextureResource _activePanelTexture;
     private readonly MenuPanelVisual[] _menuPanels;
     private float _animationTime;
-    private Vector2 _backgroundOffset;
     private bool _directConnectForcedActive;
 
     public MainMenuControl(IResourceCache resCache, IConfigurationManager configMan)
@@ -36,6 +34,7 @@ public sealed partial class MainMenuControl : Control
         LayoutContainer.SetAnchorPreset(this, LayoutContainer.LayoutPreset.Wide);
         LayoutContainer.SetAnchorPreset(Background, LayoutContainer.LayoutPreset.Wide);
         LayoutContainer.SetAnchorPreset(ConnectingOverlay, LayoutContainer.LayoutPreset.Wide);
+        LayoutContainer.SetAnchorPreset(QuitConfirmationOverlay, LayoutContainer.LayoutPreset.Wide);
 
         LayoutContainer.SetAnchorPreset(VBox, LayoutContainer.LayoutPreset.TopRight);
         LayoutContainer.SetMarginRight(VBox, -25);
@@ -65,19 +64,7 @@ public sealed partial class MainMenuControl : Control
         base.FrameUpdate(args);
 
         _animationTime += (float) args.DeltaSeconds;
-
-        var targetOffset = new Vector2(
-            MathF.Sin(_animationTime * 0.05f) * 10f,
-            MathF.Cos(_animationTime * 0.035f) * 6f);
-
-        var smoothing = 1f - MathF.Exp(-3.5f * (float) args.DeltaSeconds);
-        _backgroundOffset = Vector2.Lerp(_backgroundOffset, targetOffset, smoothing);
-
-        Background.Margin = new Thickness(
-            -48f + _backgroundOffset.X,
-            -32f + _backgroundOffset.Y,
-            -48f - _backgroundOffset.X,
-            -32f - _backgroundOffset.Y);
+        Background.AnimationTime = _animationTime;
 
         UpdateConnectingOverlay();
         UpdateMenuPanelEffects();
@@ -94,6 +81,11 @@ public sealed partial class MainMenuControl : Control
 
         if (!connecting)
             ConnectingProgressBar.Value = ConnectingProgressMinimum;
+    }
+
+    public void SetQuitConfirmationState(bool visible)
+    {
+        QuitConfirmationOverlay.Visible = visible;
     }
 
     private void UpdateConnectingOverlay()
