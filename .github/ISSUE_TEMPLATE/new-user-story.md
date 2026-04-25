@@ -7,5 +7,5 @@ assignees: ''
 
 ---
 
-**Describe the new epic**
+**Describe the new user story**
 A clear and concise description of the user story.
