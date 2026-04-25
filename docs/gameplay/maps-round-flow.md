@@ -4,6 +4,8 @@
 
 This page maps how maps are selected, loaded, converted into stations, and used by the round lifecycle. Use it when replacing space stations with fantasy maps, changing round start behavior, adding dungeon/settlement map pools, or replacing SS14 game modes.
 
+Official SS14 mapping reference: https://docs.spacestation14.com/en/space-station-14/mapping/guides/general-guide.html
+
 ## Source Anchors
 
 - `Resources/Maps/`
@@ -11,6 +13,8 @@ This page maps how maps are selected, loaded, converted into stations, and used 
 - `Resources/Prototypes/Maps/Pools/default.yml`
 - `Resources/Prototypes/game_presets.yml`
 - `Resources/Prototypes/GameRules/`
+- `Resources/Prototypes/_Mythos/Tiles/_OV/`
+- `Resources/Textures/Tiles/_Mythos/_OV/`
 - `Content.Shared/Maps/GameMapPrototype.cs`
 - `Content.Shared/Maps/GameMapPrototype.MapSelection.cs`
 - `Content.Server/Maps/GameMapManager.cs`
@@ -24,6 +28,7 @@ This page maps how maps are selected, loaded, converted into stations, and used 
 - `Content.Server/Station/Systems/StationSpawningSystem.cs`
 - `RobustToolbox/docs/Map Format.md`
 - `RobustToolbox/Schemas/mapfile.yml`
+- `Docs/gameplay/fantasy-mapping-assets.md`
 
 ## Runtime Flow
 
@@ -37,6 +42,8 @@ The actual map file in `Resources/Maps/` is a YAML serialized save. It contains 
 
 `GameTicker` owns the broad round lifecycle: lobby, preset selection, game rule startup, map loading, spawning, round start, round end, restart, and status shell integration. The class is split into partial files by behavior.
 
+Mapping workflow remains SS14's tool workflow: run client/server, use console commands such as `mapping`, edit with sandbox tools, save with `savemap`, move stable maps into `Resources/Maps/`, then add a `gameMap` prototype and test with `forcemap`.
+
 ## Customization Levers
 
 - Default local dev map: `config/server_config.toml`.
@@ -46,6 +53,8 @@ The actual map file in `Resources/Maps/` is a YAML serialized save. It contains 
 - Round rules and presets: `Resources/Prototypes/game_presets.yml` and `Resources/Prototypes/GameRules/`.
 - Player spawning and jobs: station spawning systems plus job prototypes.
 - Station identity: station prototypes under `Resources/Prototypes/Entities/Stations/`.
+- Fantasy tile sets: `Resources/Prototypes/_Mythos/Tiles/_OV/` and `Resources/Textures/Tiles/_Mythos/_OV/`.
+- Mapper-facing tile variant selection: `Content.Client/_Mythos/TileSpawn/` and `Content.Server/_Mythos/TileSpawn/`.
 
 ## Fantasy Conversion Notes
 
@@ -58,6 +67,29 @@ The map layer is where "space station" becomes "world". Keep the map prototype p
 
 Do not remove station infrastructure until replacement ownership is clear. Many systems ask for a station entity to find jobs, records, announcements, alerts, events, and spawning context. A fantasy "settlement" can keep station components internally while the player-facing names and systems are replaced.
 
+Ignore SS14-specific mapping details that do not apply to Mythos, such as pipe network color standards, cargo shuttle setup, and telecom requirements, unless an active system still depends on them. Keep the command workflow and map prototype structure.
+
+## Minimal Map Prototype Shape
+
+```yaml
+- type: gameMap
+  id: MythosDev
+  mapName: Mythos Dev
+  mapPath: /Maps/mythos_dev.yml
+  minPlayers: 0
+  stations:
+    MythosDev:
+      stationProto: StandardNanotrasenStation
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: "Mythos Dev"
+      - type: StationJobs
+        availableJobs:
+          Passenger: [ -1, -1 ]
+```
+
+The internal station ID can represent a settlement during transition. Replace `stationProto`, jobs, and components once a proper Mythos settlement/role model exists.
+
 ## Agent Search Terms
 
 ```powershell
@@ -66,5 +98,6 @@ rg -n "defaultpreset|map =|GameMap|GameMapPool|GameMapManager" config Content.Se
 rg -n "class GameTicker|RoundFlow|Spawning|GamePreset|GameRule" Content.Server\\GameTicking
 rg -n "BecomesStation|StationNameSetup|StationJobs|StationSpawning|StationConfig" Content.Server Content.Shared Resources\\Prototypes
 rg -n "meta:|tilemap:|entities:|grids:" Resources\\Maps\\testspawn.yml
+rg -n "MythosTile|MsgSetTileVariantOverride|TileVariantOverride|type: tile|sprite: /Textures/Tiles/_Mythos" Content.Client\\_Mythos Content.Server\\_Mythos Content.Shared\\_Mythos Resources\\Prototypes\\_Mythos
 ```
 

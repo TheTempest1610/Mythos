@@ -19,6 +19,7 @@ This page traces startup from executable entrypoints into content initialization
 - `Content.Client/IoC/ClientContentIoC.cs`
 - `Content.Server/IoC/ServerContentIoC.cs`
 - `Content.Shared/Module/SharedModuleTestingCallbacks.cs`
+- `Content.Shared/CCVar/CCVars.Mythos.cs`
 
 ## Runtime Flow
 
@@ -39,6 +40,8 @@ Client startup eventually chooses a state:
 
 Server startup loads config presets before most gameplay managers initialize. `Content.Server.Entry.EntryPoint.LoadConfigPresets` reads `/ConfigPresets/Build/debug.toml`, `/ConfigPresets/Build/development.toml`, and any configured presets from `/ConfigPresets/`.
 
+Mythos-specific systems are not manually registered in the entrypoints. They are found through normal assembly scanning like other content systems and components. This is why concrete client/server subclasses exist for shared abstract systems such as `CombatQueueSystem`, `ManaSystem`, `MagicMissileSystem`, and `FireballSystem`.
+
 ## Customization Levers
 
 - Default local server behavior: `config/server_config.toml` and `Resources/ConfigPresets/Build/*.toml`.
@@ -48,12 +51,15 @@ Server startup loads config presets before most gameplay managers initialize. `C
 - Server map and preset defaults: `config/server_config.toml`, `Resources/Prototypes/game_presets.yml`, `Resources/Prototypes/Maps/`.
 - Shared tile registration: `Content.Shared/Entry/EntryPoint.cs` and `Resources/Prototypes/Tiles/`.
 - Prototype directories ignored at runtime: `Resources/IgnoredPrototypes/` and explicit `RegisterIgnore` calls in entrypoints.
+- Mythos feature gates: add CVars in `Content.Shared/CCVar/CCVars.Mythos.cs`, then read them from affected systems.
 
 ## Fantasy Conversion Notes
 
 Boot code should remain boring. For Mythos, most changes should be data or content-system changes. Use startup only for global defaults: new UI theme, new default map/preset, fantasy config preset, new tile definitions, or registering new managers.
 
 Avoid hardcoding fantasy behavior in entrypoints unless the behavior truly applies to the whole fork. A "kingdom mode", "dungeon map pool", or "magic economy" should normally be expressed as prototypes, game presets, config vars, or systems.
+
+Current example: `mythos.atmos.enabled` lives in `CCVars.Mythos.cs` and is read from atmos/body/temperature systems to no-op SS14 atmos simulation without deleting upstream prototypes. This is preferable to ripping out atmos content before maps and survival rules have replacements.
 
 ## Agent Search Terms
 
@@ -62,5 +68,6 @@ rg -n "ContentStart|Start\\(args\\)|EntryPoint" Content.Client Content.Server Ro
 rg -n "PreInit\\(|Init\\(|PostInit\\(|LoadConfigPresets|SetDefaultTheme|SetupContexts" Content.Client Content.Server Content.Shared
 rg -n "RegisterIgnore|IgnoreMissingComponents|DoAutoRegistrations|GenerateNetIds" Content.Client Content.Server Content.Shared
 rg -n "ConfigPresets|defaultpreset|map =|lobbyenabled|round_restart_time" config Resources\\ConfigPresets
+rg -n "CVarDef.Create\\(\"mythos\\.|GetCVar\\(CCVars\\.Mythos" Content.Shared Content.Server Content.Client
 ```
 

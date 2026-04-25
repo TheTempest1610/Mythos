@@ -4,6 +4,11 @@
 
 This page groups the most important moment-to-moment gameplay systems: clicking, verbs, hands, inventory/storage, actions, combat, damage, health state, and NPC AI. Use it when adding fantasy abilities, melee/ranged systems, monsters, companions, rituals, harvesting, or new interaction verbs.
 
+Official SS14 references:
+
+- Prediction: https://docs.spacestation14.com/en/ss14-by-example/prediction-guide.html
+- NPCs: https://docs.spacestation14.com/en/space-station-14/core-tech/npcs.html
+
 ## Source Anchors
 
 - `Content.Client/Gameplay/GameplayStateBase.cs`
@@ -26,6 +31,12 @@ This page groups the most important moment-to-moment gameplay systems: clicking,
 - `Content.Shared/NPC/`
 - `Resources/Prototypes/NPCs/`
 - `Resources/Prototypes/Entities/Mobs/NPCs/`
+- `Content.Shared/_Mythos/Combat/`
+- `Content.Client/_Mythos/Combat/`
+- `Content.Server/_Mythos/Combat/`
+- `Content.Shared/_Mythos/Magic/`
+- `Content.Server/_Mythos/Magic/`
+- `Docs/gameplay/mythos-combat-magic.md`
 
 ## Runtime Flow
 
@@ -41,6 +52,15 @@ Combat and health are component-driven. Weapons and melee systems apply damage. 
 
 NPCs use server-side AI systems. NPC prototypes define HTN tasks, utility queries, factions, combat behavior, perception, steering, pathfinding, and mob entities. Shared NPC code exposes faction and path/debug contracts.
 
+Mythos currently adds a player-combat layer beside the stock systems:
+
+- Target click: `CombatTargetClickSystem` watches primary use input in combat mode and selects a valid target.
+- Reticle: `TargetReticleOverlay` draws the selected target.
+- Auto-attack: `CombatAutoAttackSystem` fires stock melee events predictively while the queue is empty.
+- Queue: `CombatQueueComponent` stores special attacks/spells and `CombatQueueExecutor` fires queue heads.
+- Mana: `ManaComponent` and `SharedManaSystem` gate spell execution.
+- Spells: Magic Missile is instant and predictive; Fireball is server-authoritative with `DoAfter`.
+
 ## Customization Levers
 
 - Add a contextual interaction: add or extend a verb/event in the appropriate system.
@@ -49,6 +69,9 @@ NPCs use server-side AI systems. NPC prototypes define HTN tasks, utility querie
 - Add monster AI: start with NPC entity prototypes, factions, HTN tasks, utility queries, and combat components.
 - Add containers or equipment: use existing inventory/storage components and UI before changing slot architecture.
 - Change health model: edit damage prototypes and mob thresholds carefully; many systems observe critical/dead states.
+- Add Mythos spell/class ability: extend the queue/action/mana pattern in `Docs/gameplay/mythos-combat-magic.md`.
+- Add click-to-target behavior: extend `SharedCombatTargetSystem.IsValidTarget` and client click handling.
+- Add movement-to-target: implement `Content.Server/_Mythos/Combat/Approach/CombatApproachSystem.cs`; it is currently a documented stub.
 
 ## Fantasy Conversion Notes
 
@@ -63,6 +86,8 @@ Fantasy gameplay can reuse most interaction infrastructure:
 
 Be cautious when replacing combat. Damage type names and groups are data-driven, but many medical, UI, and mob systems assume damage containers, thresholds, and mob states. Rename/reskin damage in data first; change system semantics only after the target health model is designed.
 
+Do not couple player approach directly to `NPCSteeringSystem` unless that dependency is intentionally kept. The local research note in `CombatApproachSystem` says to call pathfinding directly and drive `InputMoverComponent` instead, because NPC steering assumes `ActiveNPCComponent` and HTN blackboard state.
+
 ## Agent Search Terms
 
 ```powershell
@@ -71,5 +96,6 @@ rg -n "Verb|GetVerbs|EntityMenu|VerbMenu" Content.Client Content.Shared Content.
 rg -n "Action|InstantAction|TargetAction|WorldTargetAction|OpenActionsMenu|Hotbar" Content.Client Content.Shared Resources\\Prototypes
 rg -n "Damageable|DamageSpecifier|MobThresholds|MobState|Stamina|StatusEffects|PassiveDamage" Content.Shared Content.Server Resources\\Prototypes
 rg -n "HTN|NPC|NpcFaction|UtilityQuery|NPCMeleeCombat|NPCRangedCombat|NPCSteering" Content.Server Content.Shared Resources\\Prototypes
+rg -n "CombatTarget|CombatQueue|ManaComponent|MagicMissile|Fireball|DoAfter|StartCastRequest" Content.Client\\_Mythos Content.Server\\_Mythos Content.Shared\\_Mythos Resources\\Prototypes\\_Mythos
 ```
 

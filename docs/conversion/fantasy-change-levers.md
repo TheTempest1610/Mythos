@@ -30,6 +30,15 @@ Most conversion work follows this stack:
 4. Replace domain systems: remove sci-fi mechanics only when maps, prototypes, UI, and dependent systems have replacements.
 5. Touch engine code only for capabilities the content layer cannot express.
 
+Mythos-specific extension order:
+
+1. Add new fork code under `Content.Client/_Mythos`, `Content.Server/_Mythos`, or `Content.Shared/_Mythos`.
+2. Add new or override data under `Resources/Prototypes/_Mythos`.
+3. Add assets under `Resources/Textures/_Mythos` or `Resources/Textures/Tiles/_Mythos`.
+4. Add localized strings under `Resources/Locale/en-US/_Mythos` when practical.
+5. Add a tiny tagged upstream hook only if the existing system needs to call into the fork.
+6. Add tests under `Content.Tests/_Mythos` or `Content.IntegrationTests/_Mythos`.
+
 ## Customization Levers
 
 Use this decision table:
@@ -50,6 +59,9 @@ Use this decision table:
 | NPC mobs | monsters, summons, companions | NPC prototypes, factions, HTN tasks | AI goals need new planners |
 | Weapons | melee, bows, spells, relics | weapon/action/damage prototypes | timing, targeting, or resource mechanics change |
 | UI | parchment, runes, guild menus | themes, textures, stylesheets | layout/workflow no longer fits |
+| Atmos simulation | weather, poison, breath rules, disabled by default | `mythos.atmos.enabled` CVar and map/prototype cleanup | fantasy survival model replaces SS14 gas sim |
+| Spell actions | class abilities, prayers, rituals | action prototypes plus combat queue | per-spell tuning/resource model outgrows hardcoded constants |
+| Mapping tiles | fantasy terrain | OV tile import tools and `_Mythos` tile prototypes | tile metadata needs hand-authored gameplay semantics |
 
 ## Fantasy Conversion Notes
 
@@ -68,6 +80,17 @@ Likely early Mythos docs/tasks after this atlas:
 - Create a UI reskin checklist for theme prototypes, interface textures, and stylesheet palettes.
 - Create a first playable fantasy map pool with one development map and one small role set.
 
+Current Mythos gameplay levers already implemented:
+
+- `ManaComponent`: shared lazy-regenerating resource pool.
+- `CombatTargetComponent`: selected target replicated to client.
+- `CombatQueueComponent`: predicted FIFO action queue with monotonic slot IDs.
+- `ActionMythosMagicMissile` and `ActionMythosFireball`: stock action hotbar entries feeding the queue.
+- `mythos.atmos.enabled`: staged disable switch for SS14 atmos-related runtime systems.
+- Variant-aware tile spawn UI: mapper productivity tool for imported fantasy tiles.
+
+Use these as patterns for new systems.
+
 ## Agent Search Terms
 
 ```powershell
@@ -75,5 +98,6 @@ rg -n "NanoTrasen|Syndicate|station|captain|security|engineering|medical|science
 rg -n "PDA|IDCard|Access|Radio|Power|Atmos|Cargo|Research|Cloning|Security" Content.Client Content.Server Content.Shared Resources\\Prototypes
 rg -n "job-name-|department-|access-|reagent-name-|ent-|ui-|alert-" Resources\\Locale\\en-US -g "*.ftl"
 rg -n "sprite:|icon:|sound:|mapName:|name:|description:" Resources\\Prototypes -g "*.yml"
+rg -n "ManaComponent|CombatTargetComponent|CombatQueueComponent|ActionMythos|mythos\\.atmos|MsgSetTileVariantOverride" Content.Client Content.Server Content.Shared Resources\\Prototypes
 ```
 
