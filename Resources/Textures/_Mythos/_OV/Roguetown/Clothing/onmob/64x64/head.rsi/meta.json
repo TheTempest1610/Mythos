@@ -1,0 +1,294 @@
+{
+  "version": 1,
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "mm",
+      "directions": 4
+    },
+    {
+      "name": "prophet-red",
+      "directions": 4
+    },
+    {
+      "name": "prophet-blue",
+      "directions": 4
+    },
+    {
+      "name": "cage",
+      "directions": 4
+    },
+    {
+      "name": "shrine_wig",
+      "directions": 4
+    },
+    {
+      "name": "apple"
+    },
+    {
+      "name": "gapple"
+    },
+    {
+      "name": "pharaoh",
+      "directions": 4
+    },
+    {
+      "name": "wizardhatred",
+      "directions": 4
+    },
+    {
+      "name": "wizardhatgreen",
+      "directions": 4
+    },
+    {
+      "name": "wizardhatblack",
+      "directions": 4
+    },
+    {
+      "name": "wizardhatyellow",
+      "directions": 4
+    },
+    {
+      "name": "wizardhat",
+      "directions": 4
+    },
+    {
+      "name": "wizardhatgen",
+      "directions": 4
+    },
+    {
+      "name": "priest",
+      "directions": 4
+    },
+    {
+      "name": "wingedcap",
+      "directions": 4
+    },
+    {
+      "name": "eoramask",
+      "directions": 4
+    },
+    {
+      "name": "saigahead",
+      "directions": 4
+    },
+    {
+      "name": "matthioshelm",
+      "directions": 4
+    },
+    {
+      "name": "spellcasterhat",
+      "directions": 4
+    },
+    {
+      "name": "raneshen",
+      "directions": 4
+    },
+    {
+      "name": "absolutionisthelm",
+      "directions": 4
+    },
+    {
+      "name": "ordinatorhelm",
+      "directions": 4
+    },
+    {
+      "name": "ordinatorhelm_t",
+      "directions": 4
+    },
+    {
+      "name": "ordinatorhelmplume",
+      "directions": 4
+    },
+    {
+      "name": "ordinatorhelmplume_t",
+      "directions": 4
+    },
+    {
+      "name": "eorahood_t",
+      "directions": 4
+    },
+    {
+      "name": "eorahood",
+      "directions": 4
+    },
+    {
+      "name": "marauder_head",
+      "directions": 4
+    },
+    {
+      "name": "bronzehelmet",
+      "directions": 4
+    },
+    {
+      "name": "bronzehelmet_detail",
+      "directions": 4
+    },
+    {
+      "name": "iknight",
+      "directions": 4
+    },
+    {
+      "name": "iknight_t",
+      "directions": 4
+    },
+    {
+      "name": "iknight_detail",
+      "directions": 4
+    },
+    {
+      "name": "iknight_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "knight",
+      "directions": 4
+    },
+    {
+      "name": "knight_t",
+      "directions": 4
+    },
+    {
+      "name": "knight_detail",
+      "directions": 4
+    },
+    {
+      "name": "knight_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "goldknight",
+      "directions": 4
+    },
+    {
+      "name": "goldknight_detail",
+      "directions": 4
+    },
+    {
+      "name": "goldknight_t",
+      "directions": 4
+    },
+    {
+      "name": "goldknight_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "goldknight_crown",
+      "directions": 4
+    },
+    {
+      "name": "goldknight_crown_detail",
+      "directions": 4
+    },
+    {
+      "name": "goldknight_crown_t",
+      "directions": 4
+    },
+    {
+      "name": "goldknight_crown_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "frogmouthgreatplume",
+      "directions": 4
+    },
+    {
+      "name": "frogmouthgreatplume_detail",
+      "directions": 4
+    },
+    {
+      "name": "frogmouthgreatplume_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "barbute",
+      "directions": 4
+    },
+    {
+      "name": "barbute_detail",
+      "directions": 4
+    },
+    {
+      "name": "barbute_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "barbute_visor",
+      "directions": 4
+    },
+    {
+      "name": "barbute_visor_detail",
+      "directions": 4
+    },
+    {
+      "name": "barbute_visor_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "barbute_visor_t",
+      "directions": 4
+    },
+    {
+      "name": "barbute_visor_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "barbute_visor_t_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "barbutedunk",
+      "directions": 4
+    },
+    {
+      "name": "barbutedunk_detail",
+      "directions": 4
+    },
+    {
+      "name": "barbutedunk_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "astratahoodmasked",
+      "directions": 4
+    },
+    {
+      "name": "astratahoodmasked_t",
+      "directions": 4
+    },
+    {
+      "name": "ancientbarbute",
+      "directions": 4
+    },
+    {
+      "name": "ancientbarbute_detail",
+      "directions": 4
+    },
+    {
+      "name": "ancientknight",
+      "directions": 4
+    },
+    {
+      "name": "ancientknight_detail",
+      "directions": 4
+    },
+    {
+      "name": "ancientknight_t",
+      "directions": 4
+    },
+    {
+      "name": "ancientknight_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "crusader_bucket",
+      "directions": 4
+    }
+  ]
+}

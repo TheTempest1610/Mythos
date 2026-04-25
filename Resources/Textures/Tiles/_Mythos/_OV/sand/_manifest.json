@@ -1,0 +1,51 @@
+{
+  "source_dmi": "icons/turf/sand.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "tiles": [
+    {
+      "tile_id": "sand_dug",
+      "png": "sand_dug.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/sand.dmi",
+          "source_state": "sand_dug"
+        }
+      ]
+    },
+    {
+      "tile_id": "sand",
+      "png": "sand.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/sand.dmi",
+          "source_state": "sand"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/sand.dmi",
+          "source_state": "sand1"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/sand.dmi",
+          "source_state": "sand2"
+        },
+        {
+          "index": 3,
+          "source_dmi": "icons/turf/sand.dmi",
+          "source_state": "sand3"
+        },
+        {
+          "index": 4,
+          "source_dmi": "icons/turf/sand.dmi",
+          "source_state": "sand4"
+        }
+      ]
+    }
+  ]
+}

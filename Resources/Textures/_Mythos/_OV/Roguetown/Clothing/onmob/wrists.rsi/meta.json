@@ -1,0 +1,1827 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "WRISTS"
+    },
+    {
+      "name": "METAL"
+    },
+    {
+      "name": "bracers",
+      "directions": 4
+    },
+    {
+      "name": "r_bracers",
+      "directions": 4
+    },
+    {
+      "name": "l_bracers",
+      "directions": 4
+    },
+    {
+      "name": "bracers_f",
+      "directions": 4
+    },
+    {
+      "name": "r_bracers_f",
+      "directions": 4
+    },
+    {
+      "name": "l_bracers_f",
+      "directions": 4
+    },
+    {
+      "name": "bracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_bracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_bracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_bracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_bracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "copperarm",
+      "directions": 4
+    },
+    {
+      "name": "r_copperarm",
+      "directions": 4
+    },
+    {
+      "name": "l_copperarm",
+      "directions": 4
+    },
+    {
+      "name": "copperarm_f",
+      "directions": 4
+    },
+    {
+      "name": "r_copperarm_f",
+      "directions": 4
+    },
+    {
+      "name": "l_copperarm_f",
+      "directions": 4
+    },
+    {
+      "name": "copperarm_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_copperarm_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_copperarm_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "copperarm_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_copperarm_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_copperarm_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancientbracers",
+      "directions": 4
+    },
+    {
+      "name": "r_ancientbracers",
+      "directions": 4
+    },
+    {
+      "name": "l_ancientbracers",
+      "directions": 4
+    },
+    {
+      "name": "ancientbracers_f",
+      "directions": 4
+    },
+    {
+      "name": "r_ancientbracers_f",
+      "directions": 4
+    },
+    {
+      "name": "l_ancientbracers_f",
+      "directions": 4
+    },
+    {
+      "name": "ancientbracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_ancientbracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ancientbracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancientbracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_ancientbracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ancientbracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ibracers",
+      "directions": 4
+    },
+    {
+      "name": "r_ibracers",
+      "directions": 4
+    },
+    {
+      "name": "l_ibracers",
+      "directions": 4
+    },
+    {
+      "name": "ibracers_f",
+      "directions": 4
+    },
+    {
+      "name": "r_ibracers_f",
+      "directions": 4
+    },
+    {
+      "name": "l_ibracers_f",
+      "directions": 4
+    },
+    {
+      "name": "ibracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_ibracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ibracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ibracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_ibracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ibracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ibracers_child",
+      "directions": 4
+    },
+    {
+      "name": "r_ibracers_child",
+      "directions": 4
+    },
+    {
+      "name": "l_ibracers_child",
+      "directions": 4
+    },
+    {
+      "name": "jackchain",
+      "directions": 4
+    },
+    {
+      "name": "r_jackchain",
+      "directions": 4
+    },
+    {
+      "name": "l_jackchain",
+      "directions": 4
+    },
+    {
+      "name": "jackchain_f",
+      "directions": 4
+    },
+    {
+      "name": "r_jackchain_f",
+      "directions": 4
+    },
+    {
+      "name": "l_jackchain_f",
+      "directions": 4
+    },
+    {
+      "name": "jackchain_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_jackchain_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_jackchain_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "jackchain_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_jackchain_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_jackchain_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "jackchain_child",
+      "directions": 4
+    },
+    {
+      "name": "r_jackchain_child",
+      "directions": 4
+    },
+    {
+      "name": "l_jackchain_child",
+      "directions": 4
+    },
+    {
+      "name": "psybarbs",
+      "directions": 4
+    },
+    {
+      "name": "r_psybarbs",
+      "directions": 4
+    },
+    {
+      "name": "l_psybarbs",
+      "directions": 4
+    },
+    {
+      "name": "psybarbs_f",
+      "directions": 4
+    },
+    {
+      "name": "r_psybarbs_f",
+      "directions": 4
+    },
+    {
+      "name": "l_psybarbs_f",
+      "directions": 4
+    },
+    {
+      "name": "psybarbs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_psybarbs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_psybarbs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "psybarbs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_psybarbs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_psybarbs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ironsplintarms",
+      "directions": 4
+    },
+    {
+      "name": "r_ironsplintarms",
+      "directions": 4
+    },
+    {
+      "name": "l_ironsplintarms",
+      "directions": 4
+    },
+    {
+      "name": "ironsplintarms_f",
+      "directions": 4
+    },
+    {
+      "name": "r_ironsplintarms_f",
+      "directions": 4
+    },
+    {
+      "name": "l_ironsplintarms_f",
+      "directions": 4
+    },
+    {
+      "name": "ironsplintarms_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_ironsplintarms_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ironsplintarms_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ironsplintarms_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_ironsplintarms_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ironsplintarms_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "goldbracers",
+      "directions": 4
+    },
+    {
+      "name": "r_goldbracers",
+      "directions": 4
+    },
+    {
+      "name": "l_goldbracers",
+      "directions": 4
+    },
+    {
+      "name": "goldbracers_f",
+      "directions": 4
+    },
+    {
+      "name": "r_goldbracers_f",
+      "directions": 4
+    },
+    {
+      "name": "l_goldbracers_f",
+      "directions": 4
+    },
+    {
+      "name": "goldbracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_goldbracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_goldbracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "goldbracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_goldbracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_goldbracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bronzebracers",
+      "directions": 4
+    },
+    {
+      "name": "r_bronzebracers",
+      "directions": 4
+    },
+    {
+      "name": "l_bronzebracers",
+      "directions": 4
+    },
+    {
+      "name": "bronzebracers_f",
+      "directions": 4
+    },
+    {
+      "name": "r_bronzebracers_f",
+      "directions": 4
+    },
+    {
+      "name": "l_bronzebracers_f",
+      "directions": 4
+    },
+    {
+      "name": "bronzebracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_bronzebracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_bronzebracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bronzebracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_bronzebracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_bronzebracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "LEATHER"
+    },
+    {
+      "name": "lbracers",
+      "directions": 4
+    },
+    {
+      "name": "r_lbracers",
+      "directions": 4
+    },
+    {
+      "name": "l_lbracers",
+      "directions": 4
+    },
+    {
+      "name": "lbracers_f",
+      "directions": 4
+    },
+    {
+      "name": "r_lbracers_f",
+      "directions": 4
+    },
+    {
+      "name": "l_lbracers_f",
+      "directions": 4
+    },
+    {
+      "name": "lbracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_lbracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_lbracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "lbracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_lbracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_lbracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "albracers",
+      "directions": 4
+    },
+    {
+      "name": "r_albracers",
+      "directions": 4
+    },
+    {
+      "name": "l_albracers",
+      "directions": 4
+    },
+    {
+      "name": "albracers_f",
+      "directions": 4
+    },
+    {
+      "name": "r_albracers_f",
+      "directions": 4
+    },
+    {
+      "name": "l_albracers_f",
+      "directions": 4
+    },
+    {
+      "name": "albracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_albracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_albracers_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "albracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_albracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_albracers_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "splintarms",
+      "directions": 4
+    },
+    {
+      "name": "r_splintarms",
+      "directions": 4
+    },
+    {
+      "name": "l_splintarms",
+      "directions": 4
+    },
+    {
+      "name": "splintarms_f",
+      "directions": 4
+    },
+    {
+      "name": "r_splintarms_f",
+      "directions": 4
+    },
+    {
+      "name": "l_splintarms_f",
+      "directions": 4
+    },
+    {
+      "name": "splintarms_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_splintarms_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_splintarms_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "splintarms_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_splintarms_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_splintarms_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "CLOTH"
+    },
+    {
+      "name": "wrappings",
+      "directions": 4
+    },
+    {
+      "name": "r_wrappings",
+      "directions": 4
+    },
+    {
+      "name": "l_wrappings",
+      "directions": 4
+    },
+    {
+      "name": "wrappings_f",
+      "directions": 4
+    },
+    {
+      "name": "r_wrappings_f",
+      "directions": 4
+    },
+    {
+      "name": "l_wrappings_f",
+      "directions": 4
+    },
+    {
+      "name": "wrappings_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_wrappings_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_wrappings_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "nocwrappings",
+      "directions": 4
+    },
+    {
+      "name": "r_nocwrappings",
+      "directions": 4
+    },
+    {
+      "name": "l_nocwrappings",
+      "directions": 4
+    },
+    {
+      "name": "nocwrappings_f",
+      "directions": 4
+    },
+    {
+      "name": "r_nocwrappings_f",
+      "directions": 4
+    },
+    {
+      "name": "l_nocwrappings_f",
+      "directions": 4
+    },
+    {
+      "name": "nocwrappings_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_nocwrappings_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_nocwrappings_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "royalsleeves",
+      "directions": 4
+    },
+    {
+      "name": "r_royalsleeves",
+      "directions": 4
+    },
+    {
+      "name": "l_royalsleeves",
+      "directions": 4
+    },
+    {
+      "name": "royalsleeves_f",
+      "directions": 4
+    },
+    {
+      "name": "r_royalsleeves_f",
+      "directions": 4
+    },
+    {
+      "name": "l_royalsleeves_f",
+      "directions": 4
+    },
+    {
+      "name": "royalsleeves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_royalsleeves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_royalsleeves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "royalsleeves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_royalsleeves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_royalsleeves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "royalsleeves_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_royalsleeves_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_royalsleeves_detail",
+      "directions": 4
+    },
+    {
+      "name": "royalsleeves_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_royalsleeves_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_royalsleeves_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "royalsleeves_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_royalsleeves_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_royalsleeves_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "royalsleeves_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_royalsleeves_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_royalsleeves_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "goldpauldron",
+      "directions": 4
+    },
+    {
+      "name": "r_goldpauldron",
+      "directions": 4
+    },
+    {
+      "name": "l_goldpauldron",
+      "directions": 4
+    },
+    {
+      "name": "goldpauldron_f",
+      "directions": 4
+    },
+    {
+      "name": "r_goldpauldron_f",
+      "directions": 4
+    },
+    {
+      "name": "l_goldpauldron_f",
+      "directions": 4
+    },
+    {
+      "name": "goldpauldron_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_goldpauldron_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_goldpauldron_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "goldpauldron_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_goldpauldron_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_goldpauldron_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "SUPERBRACER"
+    },
+    {
+      "name": "r_superbracer",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracer",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracer_f",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracer_f",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracer_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracer_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracer_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracer_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "SUPERBRACER (VIALS + TOSSBLADES)"
+    },
+    {
+      "name": "r_superbracervt",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracervt",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracervt_f",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracervt_f",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracervt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracervt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracervt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracervt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "SUPERBRACER (KNIFE)"
+    },
+    {
+      "name": "r_superbracersh1",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracersh1",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracersh1_f",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracersh1_f",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracersh1_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracersh1_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracersh1_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracersh1_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "SUPERBRACER (NO KNIFE)"
+    },
+    {
+      "name": "r_superbracersh0",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracersh0",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracersh0_f",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracersh0_f",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracersh0_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracersh0_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracersh0_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracersh0_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "SUPERBRACER (CROSSBOW)"
+    },
+    {
+      "name": "r_superbracercb",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracercb",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracercb_f",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracercb_f",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracercb_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracerscb_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_superbracercb_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_superbracerscb_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "PSYCROSSES"
+    },
+    {
+      "name": "l_psycross",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_f",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_s",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_s_f",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_w",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_w_f",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_n",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_n_f",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_n_active",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "l_psycross_n_active_f",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "l_psycross_a",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_a_f",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_g",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_g_f",
+      "directions": 4
+    },
+    {
+      "name": "l_zcross_a",
+      "directions": 4
+    },
+    {
+      "name": "l_zcross_a_f",
+      "directions": 4
+    },
+    {
+      "name": "l_zcross_iron",
+      "directions": 4
+    },
+    {
+      "name": "l_zcross_iron_f",
+      "directions": 4
+    },
+    {
+      "name": "l_zcross_g",
+      "directions": 4
+    },
+    {
+      "name": "l_zcross_g_f",
+      "directions": 4
+    },
+    {
+      "name": "l_zcross_b",
+      "directions": 4
+    },
+    {
+      "name": "l_zcross_b_f",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_b",
+      "directions": 4
+    },
+    {
+      "name": "l_psycross_b_f",
+      "directions": 4
+    },
+    {
+      "name": "l_psicrossblood",
+      "directions": 4
+    },
+    {
+      "name": "l_psicrossblood_f",
+      "directions": 4
+    },
+    {
+      "name": "BACKUPS"
+    },
+    {
+      "name": "psycross",
+      "directions": 4
+    },
+    {
+      "name": "psycross_f",
+      "directions": 4
+    },
+    {
+      "name": "psycross_s",
+      "directions": 4
+    },
+    {
+      "name": "psycross_s_f",
+      "directions": 4
+    },
+    {
+      "name": "psycross_w",
+      "directions": 4
+    },
+    {
+      "name": "psycross_w_f",
+      "directions": 4
+    },
+    {
+      "name": "psycross_n",
+      "directions": 4
+    },
+    {
+      "name": "psycross_n_f",
+      "directions": 4
+    },
+    {
+      "name": "psycross_n_active",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "psycross_n_active_f",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "psycross_a",
+      "directions": 4
+    },
+    {
+      "name": "psycross_a_f",
+      "directions": 4
+    },
+    {
+      "name": "psycross_g",
+      "directions": 4
+    },
+    {
+      "name": "psycross_g_f",
+      "directions": 4
+    },
+    {
+      "name": "zcross_a",
+      "directions": 4
+    },
+    {
+      "name": "zcross_a_f",
+      "directions": 4
+    },
+    {
+      "name": "zcross_iron",
+      "directions": 4
+    },
+    {
+      "name": "zcross_iron_f",
+      "directions": 4
+    },
+    {
+      "name": "zcross_g",
+      "directions": 4
+    },
+    {
+      "name": "zcross_g_f",
+      "directions": 4
+    },
+    {
+      "name": "zcross_b",
+      "directions": 4
+    },
+    {
+      "name": "zcross_b_f",
+      "directions": 4
+    },
+    {
+      "name": "psycross_b",
+      "directions": 4
+    },
+    {
+      "name": "psycross_b_f",
+      "directions": 4
+    },
+    {
+      "name": "psicrossblood",
+      "directions": 4
+    },
+    {
+      "name": "psicrossblood_f",
+      "directions": 4
+    },
+    {
+      "name": "NONPSYCROSSES"
+    },
+    {
+      "name": "l_astrata",
+      "directions": 4
+    },
+    {
+      "name": "l_astrata_f",
+      "directions": 4
+    },
+    {
+      "name": "l_astrata_s",
+      "directions": 4
+    },
+    {
+      "name": "l_astrata_s_f",
+      "directions": 4
+    },
+    {
+      "name": "l_astrata_g",
+      "directions": 4
+    },
+    {
+      "name": "l_astrata_g_f",
+      "directions": 4
+    },
+    {
+      "name": "l_undivided_s",
+      "directions": 4
+    },
+    {
+      "name": "l_undivided_s_f",
+      "directions": 4
+    },
+    {
+      "name": "l_undivided",
+      "directions": 4
+    },
+    {
+      "name": "l_undivided_f",
+      "directions": 4
+    },
+    {
+      "name": "l_necra",
+      "directions": 4
+    },
+    {
+      "name": "l_necra_f",
+      "directions": 4
+    },
+    {
+      "name": "l_necra_s",
+      "directions": 4
+    },
+    {
+      "name": "l_necra_s_f",
+      "directions": 4
+    },
+    {
+      "name": "l_ravox",
+      "directions": 4
+    },
+    {
+      "name": "l_ravox_f",
+      "directions": 4
+    },
+    {
+      "name": "l_ravox_b",
+      "directions": 4
+    },
+    {
+      "name": "l_ravox_b_f",
+      "directions": 4
+    },
+    {
+      "name": "l_abyssor",
+      "directions": 4
+    },
+    {
+      "name": "l_abyssor_f",
+      "directions": 4
+    },
+    {
+      "name": "l_eora",
+      "directions": 4
+    },
+    {
+      "name": "l_eora_f",
+      "directions": 4
+    },
+    {
+      "name": "l_noc",
+      "directions": 4
+    },
+    {
+      "name": "l_noc_f",
+      "directions": 4
+    },
+    {
+      "name": "l_noc_a",
+      "directions": 4
+    },
+    {
+      "name": "l_noc_a_f",
+      "directions": 4
+    },
+    {
+      "name": "l_noc_b",
+      "directions": 4
+    },
+    {
+      "name": "l_noc_b_f",
+      "directions": 4
+    },
+    {
+      "name": "l_malum",
+      "directions": 4
+    },
+    {
+      "name": "l_malum_f",
+      "directions": 4
+    },
+    {
+      "name": "l_malum_b",
+      "directions": 4
+    },
+    {
+      "name": "l_malum_b_f",
+      "directions": 4
+    },
+    {
+      "name": "l_xylix",
+      "directions": 4
+    },
+    {
+      "name": "l_xylix_f",
+      "directions": 4
+    },
+    {
+      "name": "l_pestra",
+      "directions": 4
+    },
+    {
+      "name": "l_pestra_f",
+      "directions": 4
+    },
+    {
+      "name": "l_dendor",
+      "directions": 4
+    },
+    {
+      "name": "l_dendor_f",
+      "directions": 4
+    },
+    {
+      "name": "l_matthios",
+      "directions": 4
+    },
+    {
+      "name": "l_matthios_f",
+      "directions": 4
+    },
+    {
+      "name": "l_graggar",
+      "directions": 4
+    },
+    {
+      "name": "l_graggar_f",
+      "directions": 4
+    },
+    {
+      "name": "l_graggar_b",
+      "directions": 4
+    },
+    {
+      "name": "l_graggar_b_f",
+      "directions": 4
+    },
+    {
+      "name": "l_gronngraggar",
+      "directions": 4
+    },
+    {
+      "name": "l_gronngraggar_f",
+      "directions": 4
+    },
+    {
+      "name": "l_gronnmatthios",
+      "directions": 4
+    },
+    {
+      "name": "l_gronnmatthios_f",
+      "directions": 4
+    },
+    {
+      "name": "l_gronnzizo",
+      "directions": 4
+    },
+    {
+      "name": "l_gronnzizo_f",
+      "directions": 4
+    },
+    {
+      "name": "l_gronnbaotha",
+      "directions": 4
+    },
+    {
+      "name": "l_gronnbaotha_f",
+      "directions": 4
+    },
+    {
+      "name": "l_gronnabyssor",
+      "directions": 4
+    },
+    {
+      "name": "l_gronnabyssor_f",
+      "directions": 4
+    },
+    {
+      "name": "l_gronndendor",
+      "directions": 4
+    },
+    {
+      "name": "l_gronndendor_f",
+      "directions": 4
+    },
+    {
+      "name": "l_reformistcross",
+      "directions": 4
+    },
+    {
+      "name": "l_reformistcross_f",
+      "directions": 4
+    },
+    {
+      "name": "BACKUPS (II)"
+    },
+    {
+      "name": "astrata",
+      "directions": 4
+    },
+    {
+      "name": "astrata_f",
+      "directions": 4
+    },
+    {
+      "name": "astrata_s",
+      "directions": 4
+    },
+    {
+      "name": "astrata_s_f",
+      "directions": 4
+    },
+    {
+      "name": "astrata_g",
+      "directions": 4
+    },
+    {
+      "name": "astrata_g_f",
+      "directions": 4
+    },
+    {
+      "name": "undivided_s",
+      "directions": 4
+    },
+    {
+      "name": "undivided_s_f",
+      "directions": 4
+    },
+    {
+      "name": "undivided",
+      "directions": 4
+    },
+    {
+      "name": "undivided_f",
+      "directions": 4
+    },
+    {
+      "name": "necra",
+      "directions": 4
+    },
+    {
+      "name": "necra_f",
+      "directions": 4
+    },
+    {
+      "name": "necra_s",
+      "directions": 4
+    },
+    {
+      "name": "necra_s_f",
+      "directions": 4
+    },
+    {
+      "name": "ravox",
+      "directions": 4
+    },
+    {
+      "name": "ravox_f",
+      "directions": 4
+    },
+    {
+      "name": "ravox_b",
+      "directions": 4
+    },
+    {
+      "name": "ravox_b_f",
+      "directions": 4
+    },
+    {
+      "name": "abyssor",
+      "directions": 4
+    },
+    {
+      "name": "abyssor_f",
+      "directions": 4
+    },
+    {
+      "name": "eora",
+      "directions": 4
+    },
+    {
+      "name": "eora_f",
+      "directions": 4
+    },
+    {
+      "name": "noc",
+      "directions": 4
+    },
+    {
+      "name": "noc_f",
+      "directions": 4
+    },
+    {
+      "name": "noc_a",
+      "directions": 4
+    },
+    {
+      "name": "noc_a_f",
+      "directions": 4
+    },
+    {
+      "name": "noc_b",
+      "directions": 4
+    },
+    {
+      "name": "noc_b_f",
+      "directions": 4
+    },
+    {
+      "name": "malum",
+      "directions": 4
+    },
+    {
+      "name": "malum_f",
+      "directions": 4
+    },
+    {
+      "name": "malum_b",
+      "directions": 4
+    },
+    {
+      "name": "malum_b_f",
+      "directions": 4
+    },
+    {
+      "name": "xylix",
+      "directions": 4
+    },
+    {
+      "name": "xylix_f",
+      "directions": 4
+    },
+    {
+      "name": "pestra",
+      "directions": 4
+    },
+    {
+      "name": "pestra_f",
+      "directions": 4
+    },
+    {
+      "name": "dendor",
+      "directions": 4
+    },
+    {
+      "name": "dendor_f",
+      "directions": 4
+    },
+    {
+      "name": "matthios",
+      "directions": 4
+    },
+    {
+      "name": "matthios_f",
+      "directions": 4
+    },
+    {
+      "name": "graggar",
+      "directions": 4
+    },
+    {
+      "name": "graggar_f",
+      "directions": 4
+    },
+    {
+      "name": "graggar_b",
+      "directions": 4
+    },
+    {
+      "name": "graggar_b_f",
+      "directions": 4
+    },
+    {
+      "name": "gronngraggar",
+      "directions": 4
+    },
+    {
+      "name": "gronngraggar_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnmatthios",
+      "directions": 4
+    },
+    {
+      "name": "gronnmatthios_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnzizo",
+      "directions": 4
+    },
+    {
+      "name": "gronnzizo_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnbaotha",
+      "directions": 4
+    },
+    {
+      "name": "gronnbaotha_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnabyssor",
+      "directions": 4
+    },
+    {
+      "name": "gronnabyssor_f",
+      "directions": 4
+    },
+    {
+      "name": "gronndendor",
+      "directions": 4
+    },
+    {
+      "name": "gronndendor_f",
+      "directions": 4
+    },
+    {
+      "name": "reformistcross",
+      "directions": 4
+    },
+    {
+      "name": "reformistcross_f",
+      "directions": 4
+    },
+    {
+      "name": "baotha",
+      "directions": 4
+    },
+    {
+      "name": "baotha_f",
+      "directions": 4
+    }
+  ]
+}

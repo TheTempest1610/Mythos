@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "coif"
+    },
+    {
+      "name": "psicross"
+    },
+    {
+      "name": "psicrossg"
+    },
+    {
+      "name": "fchaincoif"
+    },
+    {
+      "name": "chaincoif"
+    },
+    {
+      "name": "talkstone",
+      "delays": [
+        [
+          1.0,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "ichaincoif"
+    },
+    {
+      "name": "horus"
+    },
+    {
+      "name": "bevor"
+    },
+    {
+      "name": "goldgorget"
+    },
+    {
+      "name": "sgorget"
+    },
+    {
+      "name": "gorget"
+    },
+    {
+      "name": "psicrossiron"
+    },
+    {
+      "name": "psicrossw"
+    },
+    {
+      "name": "psicrossc"
+    },
+    {
+      "name": "psicrosssteel"
+    },
+    {
+      "name": "noc"
+    },
+    {
+      "name": "dendor"
+    },
+    {
+      "name": "pestra"
+    },
+    {
+      "name": "necra"
+    },
+    {
+      "name": "astrata"
+    },
+    {
+      "name": "malum"
+    },
+    {
+      "name": "ravox"
+    },
+    {
+      "name": "eora"
+    },
+    {
+      "name": "0,0"
+    },
+    {
+      "name": "shalal"
+    },
+    {
+      "name": "bloodtooth"
+    },
+    {
+      "name": "listenstone"
+    },
+    {
+      "name": "listenstone_act",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "ornateamulet"
+    },
+    {
+      "name": "skullamulet"
+    },
+    {
+      "name": "psybracelet"
+    },
+    {
+      "name": "ichaincoif_t"
+    },
+    {
+      "name": "chaincoif_t"
+    },
+    {
+      "name": "coif_t"
+    },
+    {
+      "name": "iwolfcollaralt"
+    },
+    {
+      "name": "psycross"
+    },
+    {
+      "name": "psycross_s"
+    },
+    {
+      "name": "psycross_w"
+    },
+    {
+      "name": "psycross_g"
+    },
+    {
+      "name": "psycross_n"
+    },
+    {
+      "name": "psycross_n_active",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "psicrossblood"
+    },
+    {
+      "name": "bell_collar"
+    },
+    {
+      "name": "collar"
+    },
+    {
+      "name": "abyssor"
+    },
+    {
+      "name": "fencercollar"
+    },
+    {
+      "name": "lgorget"
+    },
+    {
+      "name": "feldcollar"
+    },
+    {
+      "name": "surgcollar"
+    },
+    {
+      "name": "cursed_collar"
+    },
+    {
+      "name": "reformistcross"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "source_dmi": "icons/turf/floors.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "tiles": [
+    {
+      "tile_id": "dirt",
+      "png": "dirt.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "dirt"
+        }
+      ]
+    },
+    {
+      "tile_id": "greenerdirt",
+      "png": "greenerdirt.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "greenerdirt"
+        }
+      ]
+    },
+    {
+      "tile_id": "reebemap",
+      "png": "reebemap.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "reebemap"
+        }
+      ]
+    },
+    {
+      "tile_id": "reebegame",
+      "png": "reebegame.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "reebegame"
+        }
+      ]
+    },
+    {
+      "tile_id": "transparent",
+      "png": "transparent.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "transparent"
+        }
+      ]
+    },
+    {
+      "tile_id": "openspace",
+      "png": "openspace.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "openspace"
+        }
+      ]
+    },
+    {
+      "tile_id": "black",
+      "png": "black.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "black"
+        }
+      ]
+    },
+    {
+      "tile_id": "pure_white",
+      "png": "pure_white.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "pure_white"
+        }
+      ]
+    },
+    {
+      "tile_id": "grey",
+      "png": "grey.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "grey"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-no",
+      "png": "staticedge-no.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "staticedge-no"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-so",
+      "png": "staticedge-so.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "staticedge-so"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-eo",
+      "png": "staticedge-eo.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "staticedge-eo"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-wo",
+      "png": "staticedge-wo.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "staticedge-wo"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-n",
+      "png": "staticedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "staticedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-s",
+      "png": "staticedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "staticedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-e",
+      "png": "staticedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "staticedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-w",
+      "png": "staticedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "staticedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-ne",
+      "png": "staticedge-ne.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "staticedge-ne"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-nw",
+      "png": "staticedge-nw.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "staticedge-nw"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-se",
+      "png": "staticedge-se.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "staticedge-se"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-sw",
+      "png": "staticedge-sw.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/floors.dmi",
+          "source_state": "staticedge-sw"
+        }
+      ]
+    }
+  ]
+}

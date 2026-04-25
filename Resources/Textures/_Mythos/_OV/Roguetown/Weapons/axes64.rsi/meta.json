@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "IRON"
+    },
+    {
+      "name": "igreataxe"
+    },
+    {
+      "name": "igreataxe1"
+    },
+    {
+      "name": "STEEL"
+    },
+    {
+      "name": "sgreataxe"
+    },
+    {
+      "name": "sgreataxe1"
+    },
+    {
+      "name": "PEASANT"
+    },
+    {
+      "name": "peasantwaraxe"
+    },
+    {
+      "name": "peasantwaraxe1"
+    },
+    {
+      "name": "silvershovelwaraxe"
+    },
+    {
+      "name": "silvershovelwaraxe1"
+    },
+    {
+      "name": "WOODCUTTER"
+    },
+    {
+      "name": "woodcutter"
+    },
+    {
+      "name": "woodcutter1"
+    },
+    {
+      "name": "STEEL - POLE"
+    },
+    {
+      "name": "steelpoleaxe"
+    },
+    {
+      "name": "steelpoleaxe1"
+    },
+    {
+      "name": "SILVER - POLE"
+    },
+    {
+      "name": "silverpolearm"
+    },
+    {
+      "name": "silverpolearm1"
+    },
+    {
+      "name": "silverpolearm_flip"
+    },
+    {
+      "name": "silverpolearm1_flip"
+    },
+    {
+      "name": "CORRUPT - POLE"
+    },
+    {
+      "name": "corruptpolearm"
+    },
+    {
+      "name": "corruptpolearm1"
+    },
+    {
+      "name": "corruptpolearm_flip"
+    },
+    {
+      "name": "corruptpolearm1_flip"
+    },
+    {
+      "name": "DOUBLE"
+    },
+    {
+      "name": "doublegreataxe"
+    },
+    {
+      "name": "doublegreataxe1"
+    },
+    {
+      "name": "minotaurgreataxe"
+    },
+    {
+      "name": "minotaurgreataxe1"
+    },
+    {
+      "name": "GRAGGAR"
+    },
+    {
+      "name": "graggargaxe"
+    },
+    {
+      "name": "graggargaxe1"
+    },
+    {
+      "name": "DREAMER"
+    },
+    {
+      "name": "dreamaxe"
+    },
+    {
+      "name": "dreamaxe1"
+    },
+    {
+      "name": "dreamaxeactive"
+    },
+    {
+      "name": "dreamaxeactive1"
+    },
+    {
+      "name": "DWARF"
+    },
+    {
+      "name": "oath"
+    },
+    {
+      "name": "oath1"
+    },
+    {
+      "name": "slayer"
+    },
+    {
+      "name": "slayer1"
+    },
+    {
+      "name": "MARTYR"
+    },
+    {
+      "name": "martyraxe_ulton",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyraxe_ulton1",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyraxe"
+    },
+    {
+      "name": "martyraxe_on",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyraxe1"
+    },
+    {
+      "name": "martyraxe_on1",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ICE"
+    },
+    {
+      "name": "iceaxe"
+    },
+    {
+      "name": "iceaxe1"
+    },
+    {
+      "name": "iceaxeactive"
+    },
+    {
+      "name": "iceaxeactive1"
+    },
+    {
+      "name": "BRONZE"
+    },
+    {
+      "name": "bronzegreataxe"
+    },
+    {
+      "name": "bronzegreataxe1"
+    },
+    {
+      "name": "hagaxe"
+    },
+    {
+      "name": "hagaxe1"
+    }
+  ]
+}

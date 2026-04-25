@@ -1,0 +1,515 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "BASE"
+    },
+    {
+      "name": "ring"
+    },
+    {
+      "name": "overlay_couplet_diamond"
+    },
+    {
+      "name": "overlay_couplet_gem"
+    },
+    {
+      "name": "overlay_diamond",
+      "delays": [
+        [
+          3.3,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "overlay_quartz"
+    },
+    {
+      "name": "overlay_sapphire"
+    },
+    {
+      "name": "overlay_emerald"
+    },
+    {
+      "name": "overlay_topaz"
+    },
+    {
+      "name": "overlay_ruby"
+    },
+    {
+      "name": "NEW (INGAME)"
+    },
+    {
+      "name": "ring_s"
+    },
+    {
+      "name": "s_ring_wedding"
+    },
+    {
+      "name": "s_ring_diamond",
+      "delays": [
+        [
+          3.3,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "s_ring_quartz"
+    },
+    {
+      "name": "s_ring_sapphire"
+    },
+    {
+      "name": "s_ring_emerald"
+    },
+    {
+      "name": "s_ring_topaz"
+    },
+    {
+      "name": "s_ring_ruby"
+    },
+    {
+      "name": "signet_alt"
+    },
+    {
+      "name": "signet_alt_stamp"
+    },
+    {
+      "name": "ring_g"
+    },
+    {
+      "name": "g_ring_wedding"
+    },
+    {
+      "name": "g_ring_diamond",
+      "delays": [
+        [
+          3.3,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "g_ring_quartz"
+    },
+    {
+      "name": "g_ring_sapphire"
+    },
+    {
+      "name": "g_ring_emerald"
+    },
+    {
+      "name": "g_ring_topaz"
+    },
+    {
+      "name": "g_ring_ruby"
+    },
+    {
+      "name": "multicolor",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "signet"
+    },
+    {
+      "name": "signet_stamp"
+    },
+    {
+      "name": "ring_bs"
+    },
+    {
+      "name": "bs_ring_diamond",
+      "delays": [
+        [
+          3.3,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "bs_ring_quartz"
+    },
+    {
+      "name": "bs_ring_sapphire"
+    },
+    {
+      "name": "bs_ring_emerald"
+    },
+    {
+      "name": "bs_ring_topaz"
+    },
+    {
+      "name": "bs_ring_ruby"
+    },
+    {
+      "name": "ring_jade"
+    },
+    {
+      "name": "ring_coral"
+    },
+    {
+      "name": "ring_shell"
+    },
+    {
+      "name": "ring_amber"
+    },
+    {
+      "name": "ring_opal"
+    },
+    {
+      "name": "ring_rose"
+    },
+    {
+      "name": "ring_turq"
+    },
+    {
+      "name": "ring_onyxa"
+    },
+    {
+      "name": "ring_a"
+    },
+    {
+      "name": "a_ring_wedding"
+    },
+    {
+      "name": "ring_b"
+    },
+    {
+      "name": "b_ring_wedding"
+    },
+    {
+      "name": "ring_duel"
+    },
+    {
+      "name": "ruby"
+    },
+    {
+      "name": "rubyactive",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "dragonring"
+    },
+    {
+      "name": "factive",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.3,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "signet_silver"
+    },
+    {
+      "name": "signet_silver_stamp"
+    },
+    {
+      "name": "g_newring_emerald"
+    },
+    {
+      "name": "g_newring_quartz"
+    },
+    {
+      "name": "g_newring_sapphire"
+    },
+    {
+      "name": "g_newring_ruby"
+    },
+    {
+      "name": "g_newring_diamond",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "newmulticolor",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "NEW (UNUSED)"
+    },
+    {
+      "name": "newring_s"
+    },
+    {
+      "name": "s_newring_diamond",
+      "delays": [
+        [
+          3.3,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "s_newring_quartz"
+    },
+    {
+      "name": "s_newring_sapphire"
+    },
+    {
+      "name": "s_newring_emerald"
+    },
+    {
+      "name": "s_newring_topaz"
+    },
+    {
+      "name": "s_newring_ruby"
+    },
+    {
+      "name": "newring_g"
+    },
+    {
+      "name": "g_newring_topaz"
+    },
+    {
+      "name": "LEGACY (OLD)"
+    },
+    {
+      "name": "old_ring_s"
+    },
+    {
+      "name": "old_s_ring_wedding"
+    },
+    {
+      "name": "old_s_ring_diamond",
+      "delays": [
+        [
+          3.3,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "old_s_ring_quartz"
+    },
+    {
+      "name": "old_s_ring_sapphire"
+    },
+    {
+      "name": "old_s_ring_emerald"
+    },
+    {
+      "name": "old_s_ring_topaz"
+    },
+    {
+      "name": "old_s_ring_ruby"
+    },
+    {
+      "name": "old_g_ring_diamond",
+      "delays": [
+        [
+          3.3,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "old_g_ring_quartz"
+    },
+    {
+      "name": "old_g_ring_sapphire"
+    },
+    {
+      "name": "old_g_ring_emerald"
+    },
+    {
+      "name": "old_g_ring_topaz"
+    },
+    {
+      "name": "old_g_ring_ruby"
+    },
+    {
+      "name": "old_multicolor",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "old_ring_g"
+    },
+    {
+      "name": "old_dragonring"
+    },
+    {
+      "name": "old_factive",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.3,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "old_signet"
+    },
+    {
+      "name": "old_signet_stamp"
+    },
+    {
+      "name": "old_ring_bs"
+    },
+    {
+      "name": "old_bs_ring_diamond",
+      "delays": [
+        [
+          3.3,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "old_bs_ring_quartz"
+    },
+    {
+      "name": "old_bs_ring_sapphire"
+    },
+    {
+      "name": "old_bs_ring_emerald"
+    },
+    {
+      "name": "old_bs_ring_topaz"
+    },
+    {
+      "name": "old_bs_ring_ruby"
+    },
+    {
+      "name": "old_ring_jade"
+    },
+    {
+      "name": "old_ring_coral"
+    },
+    {
+      "name": "old_ring_shell"
+    },
+    {
+      "name": "old_ring_amber"
+    },
+    {
+      "name": "old_ring_opal"
+    },
+    {
+      "name": "old_ring_rose"
+    },
+    {
+      "name": "old_ring_turq"
+    },
+    {
+      "name": "old_ring_onyxa"
+    },
+    {
+      "name": "old_ruby"
+    },
+    {
+      "name": "old_rubyactive",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "old_ring_duel"
+    },
+    {
+      "name": "old_ring_a"
+    }
+  ]
+}

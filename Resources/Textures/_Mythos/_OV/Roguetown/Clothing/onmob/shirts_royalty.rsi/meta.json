@@ -1,0 +1,239 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "ROYALGOWNS"
+    },
+    {
+      "name": "royaldress",
+      "directions": 4
+    },
+    {
+      "name": "royaldress_f",
+      "directions": 4
+    },
+    {
+      "name": "royaldress_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "royaldress_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "royaldress_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "royaldress_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "royaldress_detail",
+      "directions": 4
+    },
+    {
+      "name": "royaldress_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "royaldress_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "royaldress_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "royaldress_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "royaldress_f_dwarf_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "princess",
+      "directions": 4
+    },
+    {
+      "name": "princess_f",
+      "directions": 4
+    },
+    {
+      "name": "princess_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "princess_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "princess_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "princess_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "princess_child",
+      "directions": 4
+    },
+    {
+      "name": "princess_detail",
+      "directions": 4
+    },
+    {
+      "name": "princess_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "princess_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "princess_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "princess_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "princess_f_dwarf_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "princess_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterdress",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_f",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_f_dwarf_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "prince",
+      "directions": 4
+    },
+    {
+      "name": "prince_f",
+      "directions": 4
+    },
+    {
+      "name": "prince_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "prince_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "prince_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "prince_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "prince_child",
+      "directions": 4
+    },
+    {
+      "name": "prince_detail",
+      "directions": 4
+    },
+    {
+      "name": "prince_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "prince_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "prince_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "prince_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "prince_f_dwarf_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "prince_child_detail",
+      "directions": 4
+    }
+  ]
+}

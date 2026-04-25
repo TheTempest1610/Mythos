@@ -1,0 +1,431 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "delivery"
+    },
+    {
+      "name": "bot"
+    },
+    {
+      "name": "loadingarea",
+      "directions": 4
+    },
+    {
+      "name": "sandyfloor"
+    },
+    {
+      "name": "sandyplating"
+    },
+    {
+      "name": "warningline",
+      "directions": 8
+    },
+    {
+      "name": "warninglinecorner",
+      "directions": 4
+    },
+    {
+      "name": "warn_end",
+      "directions": 4
+    },
+    {
+      "name": "warn_box"
+    },
+    {
+      "name": "warn_full"
+    },
+    {
+      "name": "ast_warn",
+      "directions": 8
+    },
+    {
+      "name": "ast_warn_corner",
+      "directions": 4
+    },
+    {
+      "name": "ast_warn_end",
+      "directions": 4
+    },
+    {
+      "name": "ast_warn_box"
+    },
+    {
+      "name": "ast_warn_full"
+    },
+    {
+      "name": "L1"
+    },
+    {
+      "name": "L2"
+    },
+    {
+      "name": "L3"
+    },
+    {
+      "name": "L4"
+    },
+    {
+      "name": "L5"
+    },
+    {
+      "name": "L6"
+    },
+    {
+      "name": "L7"
+    },
+    {
+      "name": "L8"
+    },
+    {
+      "name": "L9"
+    },
+    {
+      "name": "L10"
+    },
+    {
+      "name": "L11"
+    },
+    {
+      "name": "L12"
+    },
+    {
+      "name": "L13"
+    },
+    {
+      "name": "L14"
+    },
+    {
+      "name": "derelict1"
+    },
+    {
+      "name": "derelict2"
+    },
+    {
+      "name": "derelict3"
+    },
+    {
+      "name": "derelict4"
+    },
+    {
+      "name": "derelict5"
+    },
+    {
+      "name": "derelict6"
+    },
+    {
+      "name": "derelict7"
+    },
+    {
+      "name": "derelict8"
+    },
+    {
+      "name": "derelict9"
+    },
+    {
+      "name": "derelict10"
+    },
+    {
+      "name": "derelict11"
+    },
+    {
+      "name": "derelict12"
+    },
+    {
+      "name": "derelict13"
+    },
+    {
+      "name": "derelict14"
+    },
+    {
+      "name": "derelict15"
+    },
+    {
+      "name": "derelict16"
+    },
+    {
+      "name": "plaque"
+    },
+    {
+      "name": "SBC1"
+    },
+    {
+      "name": "SBC2"
+    },
+    {
+      "name": "SBC3"
+    },
+    {
+      "name": "SBC4"
+    },
+    {
+      "name": "SBC5"
+    },
+    {
+      "name": "SBC6"
+    },
+    {
+      "name": "SBC7"
+    },
+    {
+      "name": "SBC8"
+    },
+    {
+      "name": "SBC9"
+    },
+    {
+      "name": "SBC10"
+    },
+    {
+      "name": "delivery_red"
+    },
+    {
+      "name": "bot_red"
+    },
+    {
+      "name": "loadingarea_red",
+      "directions": 4
+    },
+    {
+      "name": "delivery_white"
+    },
+    {
+      "name": "bot_white"
+    },
+    {
+      "name": "loadingarea_white",
+      "directions": 4
+    },
+    {
+      "name": "caution",
+      "directions": 4
+    },
+    {
+      "name": "caution_red",
+      "directions": 4
+    },
+    {
+      "name": "caution_white",
+      "directions": 4
+    },
+    {
+      "name": "stand_clear",
+      "directions": 4
+    },
+    {
+      "name": "stand_clear_red",
+      "directions": 4
+    },
+    {
+      "name": "stand_clear_white",
+      "directions": 4
+    },
+    {
+      "name": "warningline_white",
+      "directions": 8
+    },
+    {
+      "name": "warninglinecorner_white",
+      "directions": 4
+    },
+    {
+      "name": "warn_end_white",
+      "directions": 4
+    },
+    {
+      "name": "warn_box_white"
+    },
+    {
+      "name": "warn_full_white"
+    },
+    {
+      "name": "arrows",
+      "directions": 4
+    },
+    {
+      "name": "arrows_red",
+      "directions": 4
+    },
+    {
+      "name": "arrows_white",
+      "directions": 4
+    },
+    {
+      "name": "box_white"
+    },
+    {
+      "name": "box_corners_white",
+      "directions": 4
+    },
+    {
+      "name": "warningline_red",
+      "directions": 8
+    },
+    {
+      "name": "warninglinecorner_red",
+      "directions": 4
+    },
+    {
+      "name": "warn_end_red",
+      "directions": 4
+    },
+    {
+      "name": "warn_box_red"
+    },
+    {
+      "name": "warn_full_red"
+    },
+    {
+      "name": "box_red"
+    },
+    {
+      "name": "box_corners_red",
+      "directions": 4
+    },
+    {
+      "name": "box"
+    },
+    {
+      "name": "box_corners",
+      "directions": 4
+    },
+    {
+      "name": "bot_right"
+    },
+    {
+      "name": "bot_left"
+    },
+    {
+      "name": "bot_right_white"
+    },
+    {
+      "name": "bot_left_white"
+    },
+    {
+      "name": "bot_right_red"
+    },
+    {
+      "name": "bot_left_red"
+    },
+    {
+      "name": "tile_corner",
+      "directions": 4
+    },
+    {
+      "name": "AOP1"
+    },
+    {
+      "name": "AOP2"
+    },
+    {
+      "name": "AOP3"
+    },
+    {
+      "name": "AOP4"
+    },
+    {
+      "name": "AOP5"
+    },
+    {
+      "name": "AOP6"
+    },
+    {
+      "name": "AOP7"
+    },
+    {
+      "name": "AOPU1"
+    },
+    {
+      "name": "AOPU2"
+    },
+    {
+      "name": "AOPU3"
+    },
+    {
+      "name": "AOPU4"
+    },
+    {
+      "name": "AOPU5"
+    },
+    {
+      "name": "AOPU6"
+    },
+    {
+      "name": "AOPU7"
+    },
+    {
+      "name": "RAVEN1",
+      "directions": 4
+    },
+    {
+      "name": "RAVEN2",
+      "directions": 4
+    },
+    {
+      "name": "RAVEN3",
+      "directions": 4
+    },
+    {
+      "name": "RAVEN4",
+      "directions": 4
+    },
+    {
+      "name": "RAVEN5",
+      "directions": 4
+    },
+    {
+      "name": "RAVEN6",
+      "directions": 4
+    },
+    {
+      "name": "RAVEN7",
+      "directions": 4
+    },
+    {
+      "name": "RAVEN8",
+      "directions": 4
+    },
+    {
+      "name": "RAVEN9",
+      "directions": 4
+    },
+    {
+      "name": "trimline",
+      "directions": 8
+    },
+    {
+      "name": "trimline_corner",
+      "directions": 4
+    },
+    {
+      "name": "trimline_end",
+      "directions": 4
+    },
+    {
+      "name": "trimline_box"
+    },
+    {
+      "name": "trimline_fill",
+      "directions": 8
+    },
+    {
+      "name": "trimline_corner_fill",
+      "directions": 4
+    },
+    {
+      "name": "trimline_end_fill",
+      "directions": 4
+    },
+    {
+      "name": "trimline_box_fill"
+    },
+    {
+      "name": "dirt_side",
+      "directions": 8
+    }
+  ]
+}

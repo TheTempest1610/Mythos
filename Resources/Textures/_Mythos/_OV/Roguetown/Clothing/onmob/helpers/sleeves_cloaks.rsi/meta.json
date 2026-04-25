@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "LEGACY"
+    },
+    {
+      "name": "CLOAKS"
+    },
+    {
+      "name": "highlights the 'anchors' with a pink background for easier navigation"
+    },
+    {
+      "name": "SILVERTABARD"
+    },
+    {
+      "name": "r_silvertabard",
+      "directions": 4
+    },
+    {
+      "name": "l_silvertabard",
+      "directions": 4
+    },
+    {
+      "name": "r_silvertabard_f",
+      "directions": 4
+    },
+    {
+      "name": "l_silvertabard_f",
+      "directions": 4
+    },
+    {
+      "name": "r_silvertabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silvertabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_silvertabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silvertabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "JUSTICETABARD"
+    },
+    {
+      "name": "r_justicetabard",
+      "directions": 4
+    },
+    {
+      "name": "l_justicetabard",
+      "directions": 4
+    },
+    {
+      "name": "r_justicetabard_f",
+      "directions": 4
+    },
+    {
+      "name": "l_justicetabard_f",
+      "directions": 4
+    },
+    {
+      "name": "r_justicetabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_justicetabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_justicetabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_justicetabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "XYLIXCLOAK"
+    },
+    {
+      "name": "r_xylixcloak",
+      "directions": 4
+    },
+    {
+      "name": "l_xylixcloak",
+      "directions": 4
+    },
+    {
+      "name": "r_xylixcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_xylixcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_xylixcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_xylixcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_xylixcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_xylixcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "FITTED COAT"
+    },
+    {
+      "name": "r_cotehardie",
+      "directions": 4
+    },
+    {
+      "name": "l_cotehardie",
+      "directions": 4
+    },
+    {
+      "name": "r_cotehardie_f",
+      "directions": 4
+    },
+    {
+      "name": "l_cotehardie_f",
+      "directions": 4
+    },
+    {
+      "name": "r_cotehardie_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_cotehardie_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_cotehardie_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_cotehardie_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_fancycoat",
+      "directions": 4
+    },
+    {
+      "name": "r_fancycoat_f",
+      "directions": 4
+    },
+    {
+      "name": "l_fancycoat",
+      "directions": 4
+    },
+    {
+      "name": "l_fancycoat_f",
+      "directions": 4
+    },
+    {
+      "name": "l_halfsurcoat",
+      "directions": 4
+    },
+    {
+      "name": "l_halfsurcoat_f",
+      "directions": 4
+    },
+    {
+      "name": "l_halfsurcoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_halfsurcoat_dwarf_f",
+      "directions": 4
+    }
+  ]
+}

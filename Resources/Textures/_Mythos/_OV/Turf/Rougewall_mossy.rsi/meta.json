@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "decostone-b-green"
+    },
+    {
+      "name": "decostone-l-green",
+      "directions": 4
+    },
+    {
+      "name": "decostone-e-green",
+      "directions": 4
+    },
+    {
+      "name": "decostone-cand-green"
+    },
+    {
+      "name": "decostone-b-blue"
+    },
+    {
+      "name": "decostone-l-blue",
+      "directions": 4
+    },
+    {
+      "name": "decostone-cand-blue"
+    },
+    {
+      "name": "decostone-e-blue",
+      "directions": 4
+    },
+    {
+      "name": "decostone-b-red"
+    },
+    {
+      "name": "decostone-l-red",
+      "directions": 4
+    },
+    {
+      "name": "decostone-e-red",
+      "directions": 4
+    },
+    {
+      "name": "decostone-cand-red"
+    }
+  ]
+}

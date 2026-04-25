@@ -1,0 +1,1203 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "HEADWEAR"
+    },
+    {
+      "name": "HATS"
+    },
+    {
+      "name": "tophat"
+    },
+    {
+      "name": "flathat"
+    },
+    {
+      "name": "strawhat"
+    },
+    {
+      "name": "plague"
+    },
+    {
+      "name": "zucchetto"
+    },
+    {
+      "name": "wizardhatblack"
+    },
+    {
+      "name": "wizardhatyellow"
+    },
+    {
+      "name": "wizardhatgreen"
+    },
+    {
+      "name": "wizardhatred"
+    },
+    {
+      "name": "wizardhat"
+    },
+    {
+      "name": "hatblu"
+    },
+    {
+      "name": "hatfur"
+    },
+    {
+      "name": "papakha"
+    },
+    {
+      "name": "bardhat"
+    },
+    {
+      "name": "witchhunter"
+    },
+    {
+      "name": "knitcap"
+    },
+    {
+      "name": "ricehat"
+    },
+    {
+      "name": "smokingc"
+    },
+    {
+      "name": "puritan_hat"
+    },
+    {
+      "name": "fancy_hat"
+    },
+    {
+      "name": "chef"
+    },
+    {
+      "name": "hennin"
+    },
+    {
+      "name": "physhat"
+    },
+    {
+      "name": "tricorn"
+    },
+    {
+      "name": "tricorn_skull"
+    },
+    {
+      "name": "bandana"
+    },
+    {
+      "name": "minerslamp"
+    },
+    {
+      "name": "minerslamp0"
+    },
+    {
+      "name": "minerslamp1",
+      "delays": [
+        [
+          0.6,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "bucklehat"
+    },
+    {
+      "name": "duelhat"
+    },
+    {
+      "name": "duelhat_detail"
+    },
+    {
+      "name": "archercap"
+    },
+    {
+      "name": "curator"
+    },
+    {
+      "name": "inqhat"
+    },
+    {
+      "name": "gravehat"
+    },
+    {
+      "name": "headscarf"
+    },
+    {
+      "name": "articap"
+    },
+    {
+      "name": "brimmed"
+    },
+    {
+      "name": "witch"
+    },
+    {
+      "name": "witch_detail"
+    },
+    {
+      "name": "witch_detailalt"
+    },
+    {
+      "name": "witchold"
+    },
+    {
+      "name": "chaperon"
+    },
+    {
+      "name": "noblechaperon"
+    },
+    {
+      "name": "noblechaperon_detail"
+    },
+    {
+      "name": "chap_alt"
+    },
+    {
+      "name": "spellcasterhat"
+    },
+    {
+      "name": "grenzelhat"
+    },
+    {
+      "name": "grenzelhat_detail"
+    },
+    {
+      "name": "grenzelhat_detailalt"
+    },
+    {
+      "name": "easthat"
+    },
+    {
+      "name": "explorerhat"
+    },
+    {
+      "name": "fisherhat"
+    },
+    {
+      "name": "headdress"
+    },
+    {
+      "name": "headdressalt"
+    },
+    {
+      "name": "armingcap"
+    },
+    {
+      "name": "paddedarmingcap"
+    },
+    {
+      "name": "leatherhelm"
+    },
+    {
+      "name": "pharaoh"
+    },
+    {
+      "name": "wizardhatgen"
+    },
+    {
+      "name": "priest"
+    },
+    {
+      "name": "marauder_head"
+    },
+    {
+      "name": "HOODS"
+    },
+    {
+      "name": "menacing"
+    },
+    {
+      "name": "basichood_t"
+    },
+    {
+      "name": "basichood"
+    },
+    {
+      "name": "nun"
+    },
+    {
+      "name": "shawl"
+    },
+    {
+      "name": "warlockhood"
+    },
+    {
+      "name": "warlockhood_t"
+    },
+    {
+      "name": "ewarlockhood",
+      "delays": [
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ewarlockhood_t",
+      "delays": [
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "bandithood"
+    },
+    {
+      "name": "undividedhood"
+    },
+    {
+      "name": "undividedhood_t"
+    },
+    {
+      "name": "astratahood"
+    },
+    {
+      "name": "astratahood_t"
+    },
+    {
+      "name": "astratahoodmasked"
+    },
+    {
+      "name": "astratahoodmasked_t"
+    },
+    {
+      "name": "necrahood"
+    },
+    {
+      "name": "dendormask"
+    },
+    {
+      "name": "shalal"
+    },
+    {
+      "name": "shalal_t"
+    },
+    {
+      "name": "nochood"
+    },
+    {
+      "name": "nochood_t"
+    },
+    {
+      "name": "eorahood_t"
+    },
+    {
+      "name": "eorahood"
+    },
+    {
+      "name": "deserthood_t"
+    },
+    {
+      "name": "deserthood"
+    },
+    {
+      "name": "monkhood_t"
+    },
+    {
+      "name": "monkhood"
+    },
+    {
+      "name": "ravoxhood"
+    },
+    {
+      "name": "ravoxhood_t"
+    },
+    {
+      "name": "psydonhood_t"
+    },
+    {
+      "name": "psydonhood"
+    },
+    {
+      "name": "abyssorhood"
+    },
+    {
+      "name": "abyssorhood_t"
+    },
+    {
+      "name": "heavyhood_t"
+    },
+    {
+      "name": "heavyhood"
+    },
+    {
+      "name": "hijab_t"
+    },
+    {
+      "name": "hijab"
+    },
+    {
+      "name": "feldhood"
+    },
+    {
+      "name": "feldhood_t"
+    },
+    {
+      "name": "surghood"
+    },
+    {
+      "name": "surghood_t"
+    },
+    {
+      "name": "whitehood"
+    },
+    {
+      "name": "whitehood_t"
+    },
+    {
+      "name": "atgervi_shaman"
+    },
+    {
+      "name": "confessorhood"
+    },
+    {
+      "name": "confessorhood_t"
+    },
+    {
+      "name": "blackbag"
+    },
+    {
+      "name": "chapnaled"
+    },
+    {
+      "name": "chapnaledalt"
+    },
+    {
+      "name": "chapnaledalt_snout"
+    },
+    {
+      "name": "desert_hood"
+    },
+    {
+      "name": "jester"
+    },
+    {
+      "name": "jester_detail"
+    },
+    {
+      "name": "jester_detailalt"
+    },
+    {
+      "name": "volfhead"
+    },
+    {
+      "name": "deathface"
+    },
+    {
+      "name": "fur_hood"
+    },
+    {
+      "name": "loudmouth"
+    },
+    {
+      "name": "loudmouth_detail"
+    },
+    {
+      "name": "loudmouth_t"
+    },
+    {
+      "name": "loudmouth_t_detail"
+    },
+    {
+      "name": "beekeeper"
+    },
+    {
+      "name": "studhood_t"
+    },
+    {
+      "name": "studhood_t_detail"
+    },
+    {
+      "name": "studhood"
+    },
+    {
+      "name": "studhood_detail"
+    },
+    {
+      "name": "necromhood"
+    },
+    {
+      "name": "antlerhood"
+    },
+    {
+      "name": "saigahead"
+    },
+    {
+      "name": "priesthead"
+    },
+    {
+      "name": "rain_hood"
+    },
+    {
+      "name": "dungeoneer"
+    },
+    {
+      "name": "CROWNS"
+    },
+    {
+      "name": "serpcrowno"
+    },
+    {
+      "name": "sparrowcrown"
+    },
+    {
+      "name": "nile"
+    },
+    {
+      "name": "vamp"
+    },
+    {
+      "name": "serpcrown",
+      "delays": [
+        [
+          8.0,
+          0.1,
+          0.1,
+          3.0,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "circlet"
+    },
+    {
+      "name": "consortcrown"
+    },
+    {
+      "name": "vcrown"
+    },
+    {
+      "name": "briarthorns"
+    },
+    {
+      "name": "rosa_crown"
+    },
+    {
+      "name": "salvia_crown"
+    },
+    {
+      "name": "matricaria_crown"
+    },
+    {
+      "name": "calendula_crown"
+    },
+    {
+      "name": "manabloom_crown"
+    },
+    {
+      "name": "briar_crown"
+    },
+    {
+      "name": "circlet_jade"
+    },
+    {
+      "name": "circlet_coral"
+    },
+    {
+      "name": "circlet_shell"
+    },
+    {
+      "name": "circlet_onyxa"
+    },
+    {
+      "name": "circlet_amber"
+    },
+    {
+      "name": "circlet_rose"
+    },
+    {
+      "name": "circlet_opal"
+    },
+    {
+      "name": "circlet_turq"
+    },
+    {
+      "name": "headdress_dance"
+    },
+    {
+      "name": "MASKS + MISC"
+    },
+    {
+      "name": "veil"
+    },
+    {
+      "name": "veil_detail"
+    },
+    {
+      "name": "veil_t_detail"
+    },
+    {
+      "name": "veil_t"
+    },
+    {
+      "name": "eoramask"
+    },
+    {
+      "name": "headband"
+    },
+    {
+      "name": "goldpin"
+    },
+    {
+      "name": "silverpin"
+    },
+    {
+      "name": "HELMETS"
+    },
+    {
+      "name": "BRONZE"
+    },
+    {
+      "name": "bronzebarbute"
+    },
+    {
+      "name": "bronzebarbute_detail"
+    },
+    {
+      "name": "bronzehelmet"
+    },
+    {
+      "name": "bronzehelmet_detail"
+    },
+    {
+      "name": "bronzemurmillo"
+    },
+    {
+      "name": "bronzemurmillo_detail"
+    },
+    {
+      "name": "ancientbarbute"
+    },
+    {
+      "name": "ancientbarbute_detail"
+    },
+    {
+      "name": "ancientknight"
+    },
+    {
+      "name": "ancientknight_detail"
+    },
+    {
+      "name": "ancientknight_t"
+    },
+    {
+      "name": "ancientknight_t_detail"
+    },
+    {
+      "name": "ancientkettle"
+    },
+    {
+      "name": "ancientkettle_detail"
+    },
+    {
+      "name": "ancientsavoyard"
+    },
+    {
+      "name": "ancientmask"
+    },
+    {
+      "name": "lamellar"
+    },
+    {
+      "name": "GOLD"
+    },
+    {
+      "name": "goldbarbute"
+    },
+    {
+      "name": "goldbarbute_crown"
+    },
+    {
+      "name": "goldknight"
+    },
+    {
+      "name": "goldknight_detail"
+    },
+    {
+      "name": "goldknight_t"
+    },
+    {
+      "name": "goldknight_t_detail"
+    },
+    {
+      "name": "goldknight_crown"
+    },
+    {
+      "name": "goldknight_crown_detail"
+    },
+    {
+      "name": "goldknight_crown_t"
+    },
+    {
+      "name": "goldknight_crown_t_detail"
+    },
+    {
+      "name": "ASCENDANT"
+    },
+    {
+      "name": "vhelmet"
+    },
+    {
+      "name": "zizofrogmouth"
+    },
+    {
+      "name": "zizobarbute"
+    },
+    {
+      "name": "zizobarbute_t"
+    },
+    {
+      "name": "volfplate_avantyne"
+    },
+    {
+      "name": "volfplate_avantyne_t"
+    },
+    {
+      "name": "matthioshelm"
+    },
+    {
+      "name": "graggarplatehelm"
+    },
+    {
+      "name": "dreamsquidhelm"
+    },
+    {
+      "name": "IRON"
+    },
+    {
+      "name": "barbuteold"
+    },
+    {
+      "name": "ironplate",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ironplate_detail"
+    },
+    {
+      "name": "ironplate_detailalt"
+    },
+    {
+      "name": "iknightclassic"
+    },
+    {
+      "name": "iknightclassic_t"
+    },
+    {
+      "name": "iknightclassic_detail"
+    },
+    {
+      "name": "iknightclassic_t_detail"
+    },
+    {
+      "name": "ikettle"
+    },
+    {
+      "name": "ikettle_detail"
+    },
+    {
+      "name": "isallet"
+    },
+    {
+      "name": "isallet_detail"
+    },
+    {
+      "name": "isallet_visor"
+    },
+    {
+      "name": "isallet_visor_t"
+    },
+    {
+      "name": "isallet_visor_t_detail"
+    },
+    {
+      "name": "iknight"
+    },
+    {
+      "name": "iknight_detail"
+    },
+    {
+      "name": "iknight_t"
+    },
+    {
+      "name": "iknight_t_detail"
+    },
+    {
+      "name": "hornedcap"
+    },
+    {
+      "name": "STEEL"
+    },
+    {
+      "name": "skullcap"
+    },
+    {
+      "name": "kettlewide"
+    },
+    {
+      "name": "elven_barbute_winged"
+    },
+    {
+      "name": "elven_barbute_full"
+    },
+    {
+      "name": "beakhelmet"
+    },
+    {
+      "name": "guardhelm"
+    },
+    {
+      "name": "gatehelm"
+    },
+    {
+      "name": "volfplate"
+    },
+    {
+      "name": "volfplate_t"
+    },
+    {
+      "name": "steelsavoyard"
+    },
+    {
+      "name": "wingedcap"
+    },
+    {
+      "name": "nasal"
+    },
+    {
+      "name": "kettle"
+    },
+    {
+      "name": "kettle_detail"
+    },
+    {
+      "name": "kettle_detailp"
+    },
+    {
+      "name": "skettle"
+    },
+    {
+      "name": "skettle_detail"
+    },
+    {
+      "name": "skettle_detailalt"
+    },
+    {
+      "name": "sallet"
+    },
+    {
+      "name": "sallet_detail"
+    },
+    {
+      "name": "sallet_detailp"
+    },
+    {
+      "name": "sallet_visor"
+    },
+    {
+      "name": "sallet_visor_detail"
+    },
+    {
+      "name": "sallet_visor_detailp"
+    },
+    {
+      "name": "sallet_visor_t"
+    },
+    {
+      "name": "sallet_visor_t_detail"
+    },
+    {
+      "name": "sallet_visor_t_detailp"
+    },
+    {
+      "name": "bascinet_novisor"
+    },
+    {
+      "name": "bascinet_novisor_detail"
+    },
+    {
+      "name": "bascinet"
+    },
+    {
+      "name": "bascinet_detail"
+    },
+    {
+      "name": "bascinet_detailalt"
+    },
+    {
+      "name": "bascinet_detailaltp"
+    },
+    {
+      "name": "bascinet_t"
+    },
+    {
+      "name": "bascinet_t_detail"
+    },
+    {
+      "name": "bascinet_t_detailalt"
+    },
+    {
+      "name": "hounskull"
+    },
+    {
+      "name": "hounskull_detail"
+    },
+    {
+      "name": "hounskull_detailalt"
+    },
+    {
+      "name": "hounskull_t"
+    },
+    {
+      "name": "hounskull_t_detail"
+    },
+    {
+      "name": "hounskull_t_detailalt"
+    },
+    {
+      "name": "klappvisier"
+    },
+    {
+      "name": "klappvisier_detail"
+    },
+    {
+      "name": "klappvisier_detailp"
+    },
+    {
+      "name": "klappvisier_t"
+    },
+    {
+      "name": "klappvisier_t_detail"
+    },
+    {
+      "name": "knight"
+    },
+    {
+      "name": "knight_detail"
+    },
+    {
+      "name": "knight_t"
+    },
+    {
+      "name": "knight_t_detail"
+    },
+    {
+      "name": "armet"
+    },
+    {
+      "name": "armet_detail"
+    },
+    {
+      "name": "armet_detailalt"
+    },
+    {
+      "name": "armet_detailaltp"
+    },
+    {
+      "name": "armet_t"
+    },
+    {
+      "name": "armet_t_detail"
+    },
+    {
+      "name": "armet_t_detailalt"
+    },
+    {
+      "name": "topfhelm"
+    },
+    {
+      "name": "topfhelm_detail"
+    },
+    {
+      "name": "topfhelm_detailp"
+    },
+    {
+      "name": "topfhelm_gold"
+    },
+    {
+      "name": "topfhelm_detailalt"
+    },
+    {
+      "name": "topfhelm_gold_detail"
+    },
+    {
+      "name": "topfhelm_gold_detailalt"
+    },
+    {
+      "name": "frogmouth"
+    },
+    {
+      "name": "frogmouth_detail"
+    },
+    {
+      "name": "frogmouth_detailp"
+    },
+    {
+      "name": "frogmouth_detailalt"
+    },
+    {
+      "name": "frogmouthgreatplume"
+    },
+    {
+      "name": "frogmouthgreatplume_detail"
+    },
+    {
+      "name": "frogmouthgreatplume_detailalt"
+    },
+    {
+      "name": "knightclassic"
+    },
+    {
+      "name": "knightclassic_t"
+    },
+    {
+      "name": "knightclassic_detail"
+    },
+    {
+      "name": "knightclassic_t_detail"
+    },
+    {
+      "name": "barbute"
+    },
+    {
+      "name": "barbute_detail"
+    },
+    {
+      "name": "barbute_detailalt"
+    },
+    {
+      "name": "barbute_visor"
+    },
+    {
+      "name": "barbute_visor_detail"
+    },
+    {
+      "name": "barbute_visor_detailalt"
+    },
+    {
+      "name": "barbute_visor_t"
+    },
+    {
+      "name": "barbute_visor_t_detail"
+    },
+    {
+      "name": "barbute_visor_t_detailalt"
+    },
+    {
+      "name": "barbutedunk"
+    },
+    {
+      "name": "barbutedunk_detail"
+    },
+    {
+      "name": "barbutedunk_detailalt"
+    },
+    {
+      "name": "STEEL (MERCENARY)"
+    },
+    {
+      "name": "otavahelm"
+    },
+    {
+      "name": "otavahelm_detail"
+    },
+    {
+      "name": "otavahelm_t"
+    },
+    {
+      "name": "otavahelm_t_detail"
+    },
+    {
+      "name": "raneshen"
+    },
+    {
+      "name": "shishak"
+    },
+    {
+      "name": "shishak_detail"
+    },
+    {
+      "name": "kazengunheavyhelm"
+    },
+    {
+      "name": "kazengunmedhelm"
+    },
+    {
+      "name": "kazengunmedhelm_detail"
+    },
+    {
+      "name": "atgervi_raider"
+    },
+    {
+      "name": "STEEL (CHURCH)"
+    },
+    {
+      "name": "astratahelm"
+    },
+    {
+      "name": "dendorhelm"
+    },
+    {
+      "name": "nochelm"
+    },
+    {
+      "name": "necrahelm"
+    },
+    {
+      "name": "astratanhelm"
+    },
+    {
+      "name": "astratanhelm_detail"
+    },
+    {
+      "name": "astratanhelm_detailp"
+    },
+    {
+      "name": "astratanhelm_detailalt"
+    },
+    {
+      "name": "necranhelm"
+    },
+    {
+      "name": "malumhelm"
+    },
+    {
+      "name": "malumbowl"
+    },
+    {
+      "name": "pestranhelm"
+    },
+    {
+      "name": "eorahelm"
+    },
+    {
+      "name": "eorahelmsallet"
+    },
+    {
+      "name": "xylixhelmet"
+    },
+    {
+      "name": "abyssorgreathelm"
+    },
+    {
+      "name": "ravoxhelmet"
+    },
+    {
+      "name": "ravoxgorget"
+    },
+    {
+      "name": "silversallet"
+    },
+    {
+      "name": "silversallet_detail"
+    },
+    {
+      "name": "silversallet_detailp"
+    },
+    {
+      "name": "crusader_bucket"
+    },
+    {
+      "name": "STEEL (PSYDONIC)"
+    },
+    {
+      "name": "psydonarmet"
+    },
+    {
+      "name": "psydonarmet_t"
+    },
+    {
+      "name": "psydonarmet_t_detailalt"
+    },
+    {
+      "name": "psydonarmet_t_detail"
+    },
+    {
+      "name": "psydonarmet_detailp"
+    },
+    {
+      "name": "psydonbarbute"
+    },
+    {
+      "name": "psysallet"
+    },
+    {
+      "name": "psybucket"
+    },
+    {
+      "name": "psybucket_detail"
+    },
+    {
+      "name": "psybucket_detailalt"
+    },
+    {
+      "name": "ordinatorhelm"
+    },
+    {
+      "name": "ordinatorhelm_t"
+    },
+    {
+      "name": "ordinatorhelmplume_t"
+    },
+    {
+      "name": "ordinatorhelmplume"
+    },
+    {
+      "name": "absolutionisthelm"
+    },
+    {
+      "name": "BLACKSTEEL"
+    },
+    {
+      "name": "bkhelm"
+    },
+    {
+      "name": "bplatehelm"
+    },
+    {
+      "name": "bplatehelm_detail"
+    },
+    {
+      "name": "bplatehelm_detail_alt"
+    },
+    {
+      "name": "bplatehelm_t"
+    },
+    {
+      "name": "bplatehelm_t_detail"
+    },
+    {
+      "name": "bplatehelm_detailalt"
+    },
+    {
+      "name": "MISC"
+    },
+    {
+      "name": "maidband"
+    },
+    {
+      "name": "keeperhelm"
+    }
+  ]
+}

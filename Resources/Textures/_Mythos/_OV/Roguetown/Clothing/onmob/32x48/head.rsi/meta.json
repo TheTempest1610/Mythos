@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "dreamsquidhelm",
+      "directions": 4
+    },
+    {
+      "name": "dreamsquidhelm_f",
+      "directions": 4
+    },
+    {
+      "name": "dreamsquidhelm_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dreamsquidhelm_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

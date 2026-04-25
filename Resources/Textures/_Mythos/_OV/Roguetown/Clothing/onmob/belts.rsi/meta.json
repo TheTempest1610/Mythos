@@ -1,0 +1,435 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "BELTS"
+    },
+    {
+      "name": "leather",
+      "directions": 4
+    },
+    {
+      "name": "leather_f",
+      "directions": 4
+    },
+    {
+      "name": "leather_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leather_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "buttpack",
+      "directions": 4
+    },
+    {
+      "name": "buttpack_f",
+      "directions": 4
+    },
+    {
+      "name": "buttpack_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "buttpack_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "satchel",
+      "directions": 4
+    },
+    {
+      "name": "satchel_f",
+      "directions": 4
+    },
+    {
+      "name": "satchel_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "satchel_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "goldplaque",
+      "directions": 4
+    },
+    {
+      "name": "goldplaque_f",
+      "directions": 4
+    },
+    {
+      "name": "goldplaque_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "goldplaque_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silverplaque",
+      "directions": 4
+    },
+    {
+      "name": "silverplaque_f",
+      "directions": 4
+    },
+    {
+      "name": "silverplaque_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silverplaque_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "steelplaque",
+      "directions": 4
+    },
+    {
+      "name": "steelplaque_f",
+      "directions": 4
+    },
+    {
+      "name": "steelplaque_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "steelplaque_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "shalal",
+      "directions": 4
+    },
+    {
+      "name": "shalal_f",
+      "directions": 4
+    },
+    {
+      "name": "blackbelt",
+      "directions": 4
+    },
+    {
+      "name": "blackbelt_f",
+      "directions": 4
+    },
+    {
+      "name": "blackbelt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "blackbelt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "belt_double",
+      "directions": 4
+    },
+    {
+      "name": "belt_double_f",
+      "directions": 4
+    },
+    {
+      "name": "stewardbelt",
+      "directions": 4
+    },
+    {
+      "name": "stewardbelt_f",
+      "directions": 4
+    },
+    {
+      "name": "stewardbelt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "stewardbelt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "knife",
+      "directions": 4
+    },
+    {
+      "name": "knife_f",
+      "directions": 4
+    },
+    {
+      "name": "knife_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "knife_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "blackknife",
+      "directions": 4
+    },
+    {
+      "name": "silkbelt",
+      "directions": 4
+    },
+    {
+      "name": "silkbelt_f",
+      "directions": 4
+    },
+    {
+      "name": "silkbelt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silkbelt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "cloth",
+      "directions": 4
+    },
+    {
+      "name": "cloth_f",
+      "directions": 4
+    },
+    {
+      "name": "cloth_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "cloth_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "steeltasset",
+      "directions": 4
+    },
+    {
+      "name": "steeltasset_f",
+      "directions": 4
+    },
+    {
+      "name": "steeltasset_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "steeltasset_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "rope",
+      "directions": 4
+    },
+    {
+      "name": "rope_f",
+      "directions": 4
+    },
+    {
+      "name": "rope_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "rope_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "clothsash",
+      "directions": 4
+    },
+    {
+      "name": "clothsash_f",
+      "directions": 4
+    },
+    {
+      "name": "clothsash_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "slayer_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "battleskirt",
+      "directions": 4
+    },
+    {
+      "name": "battleskirt_belt",
+      "directions": 4
+    },
+    {
+      "name": "battleskirt_f",
+      "directions": 4
+    },
+    {
+      "name": "battleskirt_f_belt",
+      "directions": 4
+    },
+    {
+      "name": "battleskirt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "battleskirt_dwarf_belt",
+      "directions": 4
+    },
+    {
+      "name": "battleskirt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "battleskirt_f_dwarf_belt",
+      "directions": 4
+    },
+    {
+      "name": "faulds",
+      "directions": 4
+    },
+    {
+      "name": "faulds_belt",
+      "directions": 4
+    },
+    {
+      "name": "faulds_f",
+      "directions": 4
+    },
+    {
+      "name": "faulds_f_belt",
+      "directions": 4
+    },
+    {
+      "name": "faulds_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "faulds_dwarf_belt",
+      "directions": 4
+    },
+    {
+      "name": "faulds_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "faulds_f_dwarf_belt",
+      "directions": 4
+    },
+    {
+      "name": "breechcloth",
+      "directions": 4
+    },
+    {
+      "name": "breechcloth_f",
+      "directions": 4
+    },
+    {
+      "name": "breechcloth_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "breechcloth_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "breechcloth_belt",
+      "directions": 4
+    },
+    {
+      "name": "breechcloth_f_belt",
+      "directions": 4
+    },
+    {
+      "name": "breechcloth_dwarf_belt",
+      "directions": 4
+    },
+    {
+      "name": "breechcloth_f_dwarf_belt",
+      "directions": 4
+    },
+    {
+      "name": "breechclothalt",
+      "directions": 4
+    },
+    {
+      "name": "breechclothalt_f",
+      "directions": 4
+    },
+    {
+      "name": "breechclothalt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "breechclothalt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "breechclothalt_belt",
+      "directions": 4
+    },
+    {
+      "name": "breechclothalt_f_belt",
+      "directions": 4
+    },
+    {
+      "name": "breechclothalt_dwarf_belt",
+      "directions": 4
+    },
+    {
+      "name": "breechclothalt_f_dwarf_belt",
+      "directions": 4
+    },
+    {
+      "name": "suspenders",
+      "directions": 4
+    },
+    {
+      "name": "suspenders_f",
+      "directions": 4
+    },
+    {
+      "name": "suspenders_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "suspenders_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "beltshawl",
+      "directions": 4
+    },
+    {
+      "name": "beltshawl_f",
+      "directions": 4
+    },
+    {
+      "name": "beltshawl_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "beltshawl_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

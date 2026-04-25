@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "size": {
+    "x": 64,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "iron_horseshoes",
+      "directions": 4
+    },
+    {
+      "name": "steel_horseshoes",
+      "directions": 4
+    },
+    {
+      "name": "silver_horseshoes",
+      "directions": 4
+    },
+    {
+      "name": "gold_horseshoes",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "PALETTE"
+    },
+    {
+      "name": "(not a strict guideline, but more so a benchmark you can refer to)"
+    },
+    {
+      "name": "BASE"
+    },
+    {
+      "name": "ANTIQUATED"
+    },
+    {
+      "name": "stone_knife"
+    },
+    {
+      "name": "huntingknife"
+    },
+    {
+      "name": "wood_dagger"
+    },
+    {
+      "name": "throw_knifea"
+    },
+    {
+      "name": "bonedagger"
+    },
+    {
+      "name": "cdagger"
+    },
+    {
+      "name": "bronzeknife"
+    },
+    {
+      "name": "bronzedagger"
+    },
+    {
+      "name": "adagger"
+    },
+    {
+      "name": "IRON"
+    },
+    {
+      "name": "throw_knifei"
+    },
+    {
+      "name": "navaja_c"
+    },
+    {
+      "name": "navaja_o"
+    },
+    {
+      "name": "idagger"
+    },
+    {
+      "name": "ddagger"
+    },
+    {
+      "name": "vdagger"
+    },
+    {
+      "name": "warden_machete"
+    },
+    {
+      "name": "ikris"
+    },
+    {
+      "name": "ikukri"
+    },
+    {
+      "name": "ijile"
+    },
+    {
+      "name": "injora"
+    },
+    {
+      "name": "STEEL"
+    },
+    {
+      "name": "cleaver"
+    },
+    {
+      "name": "chefsknife"
+    },
+    {
+      "name": "throw_knifes"
+    },
+    {
+      "name": "sail_dagger"
+    },
+    {
+      "name": "stiletto"
+    },
+    {
+      "name": "sdagger"
+    },
+    {
+      "name": "sdaggeralt"
+    },
+    {
+      "name": "stilettoalt"
+    },
+    {
+      "name": "spdagger"
+    },
+    {
+      "name": "combatknife"
+    },
+    {
+      "name": "dagger_trainer"
+    },
+    {
+      "name": "rondel"
+    },
+    {
+      "name": "minimesser"
+    },
+    {
+      "name": "kris"
+    },
+    {
+      "name": "kukri"
+    },
+    {
+      "name": "jile"
+    },
+    {
+      "name": "njora"
+    },
+    {
+      "name": "SILVER"
+    },
+    {
+      "name": "throw_knifep"
+    },
+    {
+      "name": "sildagger"
+    },
+    {
+      "name": "psydagger"
+    },
+    {
+      "name": "elfdagger"
+    },
+    {
+      "name": "gsdagger"
+    },
+    {
+      "name": "silverswordshort"
+    },
+    {
+      "name": "throw_knifesil"
+    },
+    {
+      "name": "MISC"
+    },
+    {
+      "name": "eastdagger"
+    },
+    {
+      "name": "easttossblade"
+    },
+    {
+      "name": "pdagger"
+    },
+    {
+      "name": "pdagger_poison",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "corruptdagger"
+    },
+    {
+      "name": "throw_knifecorrupt"
+    },
+    {
+      "name": "spiderdagger"
+    },
+    {
+      "name": "aelfdagger"
+    },
+    {
+      "name": "pestrasickle"
+    },
+    {
+      "name": "icombatknife"
+    },
+    {
+      "name": "decdagger"
+    },
+    {
+      "name": "stake"
+    },
+    {
+      "name": "stake_silver"
+    },
+    {
+      "name": "fdagger"
+    },
+    {
+      "name": "fdagger_active"
+    },
+    {
+      "name": "heavystake"
+    },
+    {
+      "name": "heavystake_silver"
+    },
+    {
+      "name": "graggardagger"
+    },
+    {
+      "name": "keeperkris"
+    },
+    {
+      "name": "germancombat"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "1-i"
+    },
+    {
+      "name": "2-i"
+    },
+    {
+      "name": "3-i"
+    },
+    {
+      "name": "4-i"
+    },
+    {
+      "name": "1-n"
+    },
+    {
+      "name": "2-n"
+    },
+    {
+      "name": "3-s"
+    },
+    {
+      "name": "4-s"
+    },
+    {
+      "name": "1-w"
+    },
+    {
+      "name": "2-e"
+    },
+    {
+      "name": "3-w"
+    },
+    {
+      "name": "4-e"
+    },
+    {
+      "name": "1-nw"
+    },
+    {
+      "name": "2-ne"
+    },
+    {
+      "name": "3-sw"
+    },
+    {
+      "name": "4-se"
+    },
+    {
+      "name": "1-f"
+    },
+    {
+      "name": "2-f"
+    },
+    {
+      "name": "3-f"
+    },
+    {
+      "name": "4-f"
+    },
+    {
+      "name": "box"
+    },
+    {
+      "name": "stonehole"
+    }
+  ]
+}

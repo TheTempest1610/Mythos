@@ -1,0 +1,1123 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TABARD"
+    },
+    {
+      "name": "tabard",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "tabard_chalice",
+      "directions": 4
+    },
+    {
+      "name": "tabard_psy",
+      "directions": 4
+    },
+    {
+      "name": "tabard_peace",
+      "directions": 4
+    },
+    {
+      "name": "tabard_z",
+      "directions": 4
+    },
+    {
+      "name": "tabard_imp",
+      "directions": 4
+    },
+    {
+      "name": "tabard_skull",
+      "directions": 4
+    },
+    {
+      "name": "tabard_widow",
+      "directions": 4
+    },
+    {
+      "name": "tabard_arrow",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_chalice",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_psy",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_peace",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_z",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_imp",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_skull",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_widow",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_arrow",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf_chalice",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf_psy",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf_peace",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf_z",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf_imp",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf_skull",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf_widow",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf_arrow",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_chalice",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_psy",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_peace",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_z",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_imp",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_skull",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_widow",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_arrow",
+      "directions": 4
+    },
+    {
+      "name": "tabard_quad",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_quad",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_boob_quad",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_boob_quad",
+      "directions": 4
+    },
+    {
+      "name": "tabard_box",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_box",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_boob_box",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf_box",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_box",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_boob_box",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dim",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dim",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_boob_dim",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf_dim",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_dim",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_boob_dim",
+      "directions": 4
+    },
+    {
+      "name": "tabard_spl",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_spl",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_boob_spl",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "tabard_f_dwarf_boob_spl",
+      "directions": 4
+    },
+    {
+      "name": "SURCOAT - SOLDIER TABARD"
+    },
+    {
+      "name": "stabard",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "stabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_stabard",
+      "directions": 4
+    },
+    {
+      "name": "l_stabard",
+      "directions": 4
+    },
+    {
+      "name": "r_stabard_f",
+      "directions": 4
+    },
+    {
+      "name": "l_stabard_f",
+      "directions": 4
+    },
+    {
+      "name": "r_stabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_stabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_stabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_stabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "stabard_quad",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_quad",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_boob_quad",
+      "directions": 4
+    },
+    {
+      "name": "stabard_m_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_dwarf_boob_quad",
+      "directions": 4
+    },
+    {
+      "name": "r_stabard_quad",
+      "directions": 4
+    },
+    {
+      "name": "r_stabard_f_quad",
+      "directions": 4
+    },
+    {
+      "name": "r_stabard_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "r_stabard_f_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "stabard_box",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_box",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_boob_box",
+      "directions": 4
+    },
+    {
+      "name": "stabard_m_dwarf_box",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_dwarf_box",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_dwarf_boob_box",
+      "directions": 4
+    },
+    {
+      "name": "stabard_dim",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_dim",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_boob_dim",
+      "directions": 4
+    },
+    {
+      "name": "stabard_m_dwarf_dim",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_dwarf_dim",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_dwarf_boob_dim",
+      "directions": 4
+    },
+    {
+      "name": "stabard_spl",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_spl",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_boob_spl",
+      "directions": 4
+    },
+    {
+      "name": "stabard_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "stabard_f_dwarf_boob_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_stabard_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_stabard_f_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_stabard_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_stabard_f_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "JUPON - SURCOAT"
+    },
+    {
+      "name": "surcoat",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat",
+      "directions": 4
+    },
+    {
+      "name": "l_surcoat",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_f",
+      "directions": 4
+    },
+    {
+      "name": "l_surcoat_f",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_surcoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_surcoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_quad",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_quad",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_boob_quad",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_dwarf_boob_quad",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_quad",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_f_quad",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_f_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_box",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_box",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_boob_box",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_dwarf_box",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_dwarf_box",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_dwarf_boob_box",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_dim",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_dim",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_boob_dim",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_dwarf_dim",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_dwarf_dim",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_dwarf_boob_dim",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_spl",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_spl",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_boob_spl",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_f_dwarf_boob_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_f_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_f_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "GUARD HOOD"
+    },
+    {
+      "name": "guard_hood",
+      "directions": 4
+    },
+    {
+      "name": "guard_hood_f",
+      "directions": 4
+    },
+    {
+      "name": "guard_hood_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "guard_hood_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "guard_hood_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "guard_hood_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "guard_hood_spl",
+      "directions": 4
+    },
+    {
+      "name": "guard_hood_f_spl",
+      "directions": 4
+    },
+    {
+      "name": "guard_hood_f_boob_spl",
+      "directions": 4
+    },
+    {
+      "name": "guard_hood_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "guard_hood_f_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "guard_hood_f_dwarf_boob_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_guard_hood",
+      "directions": 4
+    },
+    {
+      "name": "r_guard_hood_f",
+      "directions": 4
+    },
+    {
+      "name": "r_guard_hood_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_guard_hood_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_guard_hood_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_guard_hood_f_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_guard_hood_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_guard_hood_f_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "l_guard_hood",
+      "directions": 4
+    },
+    {
+      "name": "l_guard_hood_f",
+      "directions": 4
+    },
+    {
+      "name": "l_guard_hood_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_guard_hood_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "SURCOAT - SHORT"
+    },
+    {
+      "name": "surcoat_short",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_short",
+      "directions": 4
+    },
+    {
+      "name": "l_surcoat_short",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_short_f",
+      "directions": 4
+    },
+    {
+      "name": "l_surcoat_short_f",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_short_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_surcoat_short_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_short_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_surcoat_short_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_dim",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_dim",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_boob_dim",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_dwarf_dim",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_dwarf_dim",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_dwarf_boob_dim",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_box",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_box",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_boob_box",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_dwarf_box",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_dwarf_box",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_dwarf_boob_box",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_quad",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_quad",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_boob_quad",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_dwarf_boob_quad",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_short_quad",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_short_f_quad",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_short_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_short_f_dwarf_quad",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_spl",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_spl",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_boob_spl",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "surcoat_short_f_dwarf_boob_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_short_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_short_f_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_short_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "r_surcoat_short_f_dwarf_spl",
+      "directions": 4
+    },
+    {
+      "name": "I HAVE NO IDEA WHY THIS EXISTS"
+    },
+    {
+      "name": "bksash",
+      "directions": 4
+    },
+    {
+      "name": "bksash_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_weeping",
+      "directions": 4
+    },
+    {
+      "name": "tabard_weeping_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_astrata",
+      "directions": 4
+    },
+    {
+      "name": "tabard_astrata_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_astrata_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_astrata_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_astrata_alt",
+      "directions": 4
+    },
+    {
+      "name": "tabard_astrata_alt_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_noc",
+      "directions": 4
+    },
+    {
+      "name": "tabard_noc_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_noc_alt",
+      "directions": 4
+    },
+    {
+      "name": "tabard_noc_alt_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dendor",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dendor_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dendor_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_dendor_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_necra",
+      "directions": 4
+    },
+    {
+      "name": "tabard_necra_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_necra_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_necra_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_necra_alt",
+      "directions": 4
+    },
+    {
+      "name": "tabard_necra_alt_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_abyssor",
+      "directions": 4
+    },
+    {
+      "name": "tabard_abyssor_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_malum",
+      "directions": 4
+    },
+    {
+      "name": "tabard_malum_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_malum_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_malum_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_eora",
+      "directions": 4
+    },
+    {
+      "name": "tabard_eora_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_eora_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_eora_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_pestra",
+      "directions": 4
+    },
+    {
+      "name": "tabard_pestra_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_ravox",
+      "directions": 4
+    },
+    {
+      "name": "tabard_ravox_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_xylix",
+      "directions": 4
+    },
+    {
+      "name": "tabard_xylix_f",
+      "directions": 4
+    },
+    {
+      "name": "tabard_xylix_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_xylix_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_noc_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_noc_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_abbysor_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_abbysor_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_pestra_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_pestra_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_ravox_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tabard_ravox_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

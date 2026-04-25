@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "elfhead"
+    },
+    {
+      "name": "elfchest"
+    },
+    {
+      "name": "elfshoes"
+    },
+    {
+      "name": "elfhand"
+    },
+    {
+      "name": "dwarfhead"
+    },
+    {
+      "name": "dwarfchest"
+    },
+    {
+      "name": "dwarfshoe"
+    },
+    {
+      "name": "dwarfhand"
+    },
+    {
+      "name": "human_swordhead"
+    },
+    {
+      "name": "human_swordchest"
+    },
+    {
+      "name": "human_swordshoes"
+    },
+    {
+      "name": "human_swordhand"
+    },
+    {
+      "name": "human_spearhead"
+    },
+    {
+      "name": "human_spearchest"
+    },
+    {
+      "name": "human_spearshoe"
+    },
+    {
+      "name": "human_spearhand"
+    },
+    {
+      "name": "welfhead"
+    },
+    {
+      "name": "welfhand"
+    },
+    {
+      "name": "welfshoes"
+    },
+    {
+      "name": "welfchest"
+    },
+    {
+      "name": "H_CHESTPLATE"
+    },
+    {
+      "name": "h_chestplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "H_SHOES_DWARF"
+    },
+    {
+      "name": "h_shoes_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "h_shoes_r_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "h_shoes_l_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "H_GAUNTLETS_DWARF"
+    },
+    {
+      "name": "h_gauntlets_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "H_HELMET_DWARF"
+    },
+    {
+      "name": "h_helmet_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dsmithchest"
+    },
+    {
+      "name": "dsmithhead"
+    },
+    {
+      "name": "welfheadalt"
+    },
+    {
+      "name": "awelfhead"
+    },
+    {
+      "name": "awelfheadalt"
+    },
+    {
+      "name": "awelfhand"
+    },
+    {
+      "name": "awelfshoes"
+    },
+    {
+      "name": "awelfchest"
+    },
+    {
+      "name": "awelfchestalt"
+    }
+  ]
+}

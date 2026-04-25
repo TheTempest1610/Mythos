@@ -1,0 +1,249 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "heatersh_volfhead"
+    },
+    {
+      "name": "heatersh_sun and moon"
+    },
+    {
+      "name": "heatersh_psydonian"
+    },
+    {
+      "name": "heatersh_opulence"
+    },
+    {
+      "name": "heatersh_sinistar"
+    },
+    {
+      "name": "heatersh_zybantar"
+    },
+    {
+      "name": "heatersh_grasscrest"
+    },
+    {
+      "name": "heatersh_powerslave"
+    },
+    {
+      "name": "heatersh_worldtrotter"
+    },
+    {
+      "name": "heatersh_dunger"
+    },
+    {
+      "name": "heatersh_rainbow"
+    },
+    {
+      "name": "heatersh_comet"
+    },
+    {
+      "name": "woodsh_peacemaker"
+    },
+    {
+      "name": "woodsh_dreamguard"
+    },
+    {
+      "name": "woodsh_mighty"
+    },
+    {
+      "name": "woodsh_kemister"
+    },
+    {
+      "name": "woodsh_shaidal"
+    },
+    {
+      "name": "woodsh_sinistar"
+    },
+    {
+      "name": "woodsh_friend of all boys and girls"
+    },
+    {
+      "name": "woodsh_navigator"
+    },
+    {
+      "name": "woodsh_bogman"
+    },
+    {
+      "name": "woodsh_raven"
+    },
+    {
+      "name": "woodsh_Psydon"
+    },
+    {
+      "name": "woodsh_Astrata"
+    },
+    {
+      "name": "woodsh_Hammer Of Malum"
+    },
+    {
+      "name": "woodsh_love"
+    },
+    {
+      "name": "woodsh_comet"
+    },
+    {
+      "name": "kitesh_canvas"
+    },
+    {
+      "name": "kitesh_upra"
+    },
+    {
+      "name": "kitesh_knave"
+    },
+    {
+      "name": "kitesh_doomstar"
+    },
+    {
+      "name": "kitesh_raneshen"
+    },
+    {
+      "name": "kitesh_slakelar"
+    },
+    {
+      "name": "kitesh_mogollon"
+    },
+    {
+      "name": "kitesh_hellcat"
+    },
+    {
+      "name": "kitesh_mournmoon"
+    },
+    {
+      "name": "kitesh_coral"
+    },
+    {
+      "name": "kitesh_vetegir"
+    },
+    {
+      "name": "kitesh_fortunate"
+    },
+    {
+      "name": "kitesh_gruhame"
+    },
+    {
+      "name": "kitesh_magocrat"
+    },
+    {
+      "name": "kitesh_forlorn"
+    },
+    {
+      "name": "kitesh_spectrum"
+    },
+    {
+      "name": "kitesh_ortodo"
+    },
+    {
+      "name": "kitesh_sprigger"
+    },
+    {
+      "name": "kitesh_doglord"
+    },
+    {
+      "name": "kitesh_runiac"
+    },
+    {
+      "name": "kitesh_dangler"
+    },
+    {
+      "name": "kitesh_bokog"
+    },
+    {
+      "name": "kitesh_eyebiter"
+    },
+    {
+      "name": "kitesh_elotok"
+    },
+    {
+      "name": "kitesh_dobrachevyer"
+    },
+    {
+      "name": "kitesh_frongdor"
+    },
+    {
+      "name": "kitesh_sumbola"
+    },
+    {
+      "name": "kitesh_tagil"
+    },
+    {
+      "name": "kitesh_slaymaster"
+    },
+    {
+      "name": "kitesh_gouselein"
+    },
+    {
+      "name": "kitesh_psydonian golden order"
+    },
+    {
+      "name": "kitesh_astrata"
+    },
+    {
+      "name": "kitesh_psydonian silver order"
+    },
+    {
+      "name": "kitesh_hateless"
+    },
+    {
+      "name": "kitesh_undivided"
+    },
+    {
+      "name": "kitesh_profane"
+    },
+    {
+      "name": "kitesh_dark profane"
+    },
+    {
+      "name": "kitesh_malum"
+    },
+    {
+      "name": "kitesh_sinistar"
+    },
+    {
+      "name": "kitesh_undermaiden"
+    },
+    {
+      "name": "kitesh_undermaiden dark"
+    },
+    {
+      "name": "kitesh_crown"
+    },
+    {
+      "name": "kitesh_comet"
+    },
+    {
+      "name": "ironsh_hex"
+    },
+    {
+      "name": "ironsh_bumble"
+    },
+    {
+      "name": "ironsh_bogguard"
+    },
+    {
+      "name": "ironsh_azure peak"
+    },
+    {
+      "name": "ironsh_profane"
+    },
+    {
+      "name": "ironsh_psydonian"
+    },
+    {
+      "name": "ironsh_astrata"
+    },
+    {
+      "name": "ironsh_ham"
+    },
+    {
+      "name": "ironsh_friendship"
+    },
+    {
+      "name": "ironsh_comet"
+    }
+  ]
+}

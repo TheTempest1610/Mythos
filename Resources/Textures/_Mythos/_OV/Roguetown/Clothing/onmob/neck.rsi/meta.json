@@ -1,0 +1,542 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "NECKS"
+    },
+    {
+      "name": "REGULAR"
+    },
+    {
+      "name": "coif",
+      "directions": 4
+    },
+    {
+      "name": "talkstone",
+      "directions": 4
+    },
+    {
+      "name": "pouch",
+      "directions": 4
+    },
+    {
+      "name": "fchaincoif",
+      "directions": 4
+    },
+    {
+      "name": "chaincoif",
+      "directions": 4
+    },
+    {
+      "name": "chaincoif_t",
+      "directions": 4
+    },
+    {
+      "name": "ichaincoif",
+      "directions": 4
+    },
+    {
+      "name": "ichaincoif_t",
+      "directions": 4
+    },
+    {
+      "name": "coif_t",
+      "directions": 4
+    },
+    {
+      "name": "horus",
+      "directions": 4
+    },
+    {
+      "name": "bevor",
+      "directions": 4
+    },
+    {
+      "name": "bevor_t",
+      "directions": 4
+    },
+    {
+      "name": "shalal",
+      "directions": 4
+    },
+    {
+      "name": "listenstone",
+      "directions": 4
+    },
+    {
+      "name": "listenstone_act",
+      "directions": 4
+    },
+    {
+      "name": "ornateamulet",
+      "directions": 4
+    },
+    {
+      "name": "skullamulet",
+      "directions": 4
+    },
+    {
+      "name": "sgorget",
+      "directions": 4
+    },
+    {
+      "name": "iwolfcollaralt",
+      "directions": 4
+    },
+    {
+      "name": "collar",
+      "directions": 4
+    },
+    {
+      "name": "collar_f",
+      "directions": 4
+    },
+    {
+      "name": "bell_collar",
+      "directions": 4
+    },
+    {
+      "name": "bell_collar_f",
+      "directions": 4
+    },
+    {
+      "name": "leathercollar_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leathercollar_dwarf_f",
+      "directions": 4
+    },
+    {
+      "name": "catbellcollar_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "catbellcollar_dwarf_f",
+      "directions": 4
+    },
+    {
+      "name": "fencercollar",
+      "directions": 4
+    },
+    {
+      "name": "lgorget",
+      "directions": 4
+    },
+    {
+      "name": "(old) lgorget",
+      "directions": 4
+    },
+    {
+      "name": "cursed_collar",
+      "directions": 4
+    },
+    {
+      "name": "feldcollar",
+      "directions": 4
+    },
+    {
+      "name": "surgcollar",
+      "directions": 4
+    },
+    {
+      "name": "chainmantle",
+      "directions": 4
+    },
+    {
+      "name": "chainmantle_t",
+      "directions": 4
+    },
+    {
+      "name": "luckcharm",
+      "directions": 4
+    },
+    {
+      "name": "oyster_necklace",
+      "directions": 4
+    },
+    {
+      "name": "pearlcross",
+      "directions": 4
+    },
+    {
+      "name": "bpearlcross",
+      "directions": 4
+    },
+    {
+      "name": "copperneck",
+      "directions": 4
+    },
+    {
+      "name": "achaincoif",
+      "directions": 4
+    },
+    {
+      "name": "achaincoif_t",
+      "directions": 4
+    },
+    {
+      "name": "ancientgorget",
+      "directions": 4
+    },
+    {
+      "name": "ibevor",
+      "directions": 4
+    },
+    {
+      "name": "ibevor_t",
+      "directions": 4
+    },
+    {
+      "name": "fencercollar_detail",
+      "directions": 4
+    },
+    {
+      "name": "fullpaddedold",
+      "directions": 4
+    },
+    {
+      "name": "fullpadded_downold",
+      "directions": 4
+    },
+    {
+      "name": "fullpadded_neckold",
+      "directions": 4
+    },
+    {
+      "name": "ccoifold",
+      "directions": 4
+    },
+    {
+      "name": "ccoif_told",
+      "directions": 4
+    },
+    {
+      "name": "gorget",
+      "directions": 4
+    },
+    {
+      "name": "fullpadded",
+      "directions": 4
+    },
+    {
+      "name": "fullpadded_down",
+      "directions": 4
+    },
+    {
+      "name": "fullpadded_neck",
+      "directions": 4
+    },
+    {
+      "name": "ccoif",
+      "directions": 4
+    },
+    {
+      "name": "ccoif_t",
+      "directions": 4
+    },
+    {
+      "name": "kazengunneckguard",
+      "directions": 4
+    },
+    {
+      "name": "pouch_merchant",
+      "directions": 4
+    },
+    {
+      "name": "goldgorget",
+      "directions": 4
+    },
+    {
+      "name": "bronzegorget",
+      "directions": 4
+    },
+    {
+      "name": "bbevor",
+      "directions": 4
+    },
+    {
+      "name": "PSICROSSES"
+    },
+    {
+      "name": "psicrossiron",
+      "directions": 4
+    },
+    {
+      "name": "psycross",
+      "directions": 4
+    },
+    {
+      "name": "psycross_s",
+      "directions": 4
+    },
+    {
+      "name": "psycross_w",
+      "directions": 4
+    },
+    {
+      "name": "psycross_g",
+      "directions": 4
+    },
+    {
+      "name": "psycross_n",
+      "directions": 4
+    },
+    {
+      "name": "psycross_n_active",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "psicrossblood",
+      "directions": 4
+    },
+    {
+      "name": "psycross_b",
+      "directions": 4
+    },
+    {
+      "name": "psycross_a",
+      "directions": 4
+    },
+    {
+      "name": "zcross_a",
+      "directions": 4
+    },
+    {
+      "name": "zcross_iron",
+      "directions": 4
+    },
+    {
+      "name": "zcross_g",
+      "directions": 4
+    },
+    {
+      "name": "zcross_b",
+      "directions": 4
+    },
+    {
+      "name": "NONPSICROSSES"
+    },
+    {
+      "name": "undivided",
+      "directions": 4
+    },
+    {
+      "name": "undivided_s",
+      "directions": 4
+    },
+    {
+      "name": "astrata",
+      "directions": 4
+    },
+    {
+      "name": "astrata_g",
+      "directions": 4
+    },
+    {
+      "name": "astrata_s",
+      "directions": 4
+    },
+    {
+      "name": "necra",
+      "directions": 4
+    },
+    {
+      "name": "necra_s",
+      "directions": 4
+    },
+    {
+      "name": "ravox",
+      "directions": 4
+    },
+    {
+      "name": "ravox_b",
+      "directions": 4
+    },
+    {
+      "name": "noc",
+      "directions": 4
+    },
+    {
+      "name": "noc_b",
+      "directions": 4
+    },
+    {
+      "name": "noc_a",
+      "directions": 4
+    },
+    {
+      "name": "abyssor",
+      "directions": 4
+    },
+    {
+      "name": "malum",
+      "directions": 4
+    },
+    {
+      "name": "malum_b",
+      "directions": 4
+    },
+    {
+      "name": "xylix",
+      "directions": 4
+    },
+    {
+      "name": "eora",
+      "directions": 4
+    },
+    {
+      "name": "pestra",
+      "directions": 4
+    },
+    {
+      "name": "dendor",
+      "directions": 4
+    },
+    {
+      "name": "matthios",
+      "directions": 4
+    },
+    {
+      "name": "graggar",
+      "directions": 4
+    },
+    {
+      "name": "graggar_b",
+      "directions": 4
+    },
+    {
+      "name": "gronngraggar",
+      "directions": 4
+    },
+    {
+      "name": "gronnmatthios",
+      "directions": 4
+    },
+    {
+      "name": "gronnzizo",
+      "directions": 4
+    },
+    {
+      "name": "gronnbaotha",
+      "directions": 4
+    },
+    {
+      "name": "gronnabyssor",
+      "directions": 4
+    },
+    {
+      "name": "gronndendor",
+      "directions": 4
+    },
+    {
+      "name": "amulet_jade",
+      "directions": 4
+    },
+    {
+      "name": "amulet_turq",
+      "directions": 4
+    },
+    {
+      "name": "amulet_onyxa",
+      "directions": 4
+    },
+    {
+      "name": "amulet_rose",
+      "directions": 4
+    },
+    {
+      "name": "amulet_shell",
+      "directions": 4
+    },
+    {
+      "name": "amulet_coral",
+      "directions": 4
+    },
+    {
+      "name": "amulet_amber",
+      "directions": 4
+    },
+    {
+      "name": "amulet_opal",
+      "directions": 4
+    },
+    {
+      "name": "castifico_collar",
+      "directions": 4
+    },
+    {
+      "name": "reformistcross",
+      "directions": 4
+    },
+    {
+      "name": "woolencollar",
+      "directions": 4
+    },
+    {
+      "name": "woolencollar_f",
+      "directions": 4
+    },
+    {
+      "name": "dragonnecklace",
+      "directions": 4
+    },
+    {
+      "name": "dragonnecklace_f",
+      "directions": 4
+    },
+    {
+      "name": "baotha",
+      "directions": 4
+    }
+  ]
+}

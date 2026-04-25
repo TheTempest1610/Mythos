@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "stonebrick"
+    },
+    {
+      "name": "stonebrick1",
+      "directions": 4
+    },
+    {
+      "name": "stonebrick2",
+      "directions": 4
+    },
+    {
+      "name": "stonebricklight"
+    },
+    {
+      "name": "rockyashbed"
+    },
+    {
+      "name": "rockyash"
+    },
+    {
+      "name": "woodplain"
+    },
+    {
+      "name": "wooddark-k",
+      "directions": 4
+    },
+    {
+      "name": "slittedwooddark"
+    },
+    {
+      "name": "mingold"
+    },
+    {
+      "name": "minrandbad"
+    },
+    {
+      "name": "minrandmed"
+    },
+    {
+      "name": "minrandhigh"
+    },
+    {
+      "name": "shroud1",
+      "directions": 4
+    },
+    {
+      "name": "shroud2",
+      "directions": 4
+    },
+    {
+      "name": "decostone-b"
+    },
+    {
+      "name": "decostone-l",
+      "directions": 4
+    },
+    {
+      "name": "decostone-c"
+    },
+    {
+      "name": "decostone-e",
+      "directions": 4
+    },
+    {
+      "name": "decostone-cand"
+    },
+    {
+      "name": "wood"
+    },
+    {
+      "name": "decowood",
+      "directions": 4
+    },
+    {
+      "name": "decowood-vert",
+      "directions": 4
+    },
+    {
+      "name": "fluffstone"
+    },
+    {
+      "name": "blocker"
+    },
+    {
+      "name": "corner"
+    },
+    {
+      "name": "horizwooddark"
+    },
+    {
+      "name": "vertwooddark"
+    },
+    {
+      "name": "endwooddark",
+      "directions": 4
+    },
+    {
+      "name": "subwindow"
+    },
+    {
+      "name": "tent",
+      "directions": 4
+    },
+    {
+      "name": "tent_door1"
+    },
+    {
+      "name": "tent_door2"
+    },
+    {
+      "name": "tent_door0"
+    },
+    {
+      "name": "woodhole"
+    },
+    {
+      "name": "stonehole"
+    },
+    {
+      "name": "roofTurf_IC",
+      "directions": 4
+    },
+    {
+      "name": "roofTurf_OC",
+      "directions": 4
+    },
+    {
+      "name": "roofTurf_M",
+      "directions": 4
+    },
+    {
+      "name": "roofTurf_I"
+    }
+  ]
+}

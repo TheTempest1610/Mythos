@@ -1,0 +1,273 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "capbarbute",
+      "directions": 4
+    },
+    {
+      "name": "capbarbute_t",
+      "directions": 4
+    },
+    {
+      "name": "capplateleg",
+      "directions": 4
+    },
+    {
+      "name": "capplateleg_f",
+      "directions": 4
+    },
+    {
+      "name": "capplateleg_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "capplateleg_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_capplateleg",
+      "directions": 4
+    },
+    {
+      "name": "l_capplateleg",
+      "directions": 4
+    },
+    {
+      "name": "r_capplateleg_f",
+      "directions": 4
+    },
+    {
+      "name": "l_capplateleg_f",
+      "directions": 4
+    },
+    {
+      "name": "r_capplateleg_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_capplateleg_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_capplateleg_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_capplateleg_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "capplate",
+      "directions": 4
+    },
+    {
+      "name": "capplate_f",
+      "directions": 4
+    },
+    {
+      "name": "capplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "capplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "capplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "capplate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_capplate",
+      "directions": 4
+    },
+    {
+      "name": "l_capplate",
+      "directions": 4
+    },
+    {
+      "name": "r_capplate_f",
+      "directions": 4
+    },
+    {
+      "name": "l_capplate_f",
+      "directions": 4
+    },
+    {
+      "name": "r_capplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_capplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_capplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_capplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "capplate_detail",
+      "directions": 4
+    },
+    {
+      "name": "capplate_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "capplate_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "capplate_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "capplate_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "capplate_f_dwarf_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_capplate_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_capplate_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_capplate_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_capplate_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_capplate_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_capplate_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_capplate_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_capplate_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "capcloak",
+      "directions": 4
+    },
+    {
+      "name": "capcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "capcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "capcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_capcloak",
+      "directions": 4
+    },
+    {
+      "name": "l_capcloak",
+      "directions": 4
+    },
+    {
+      "name": "r_capcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_capcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_capcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_capcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_capcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_capcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "capcloak_detail",
+      "directions": 4
+    },
+    {
+      "name": "capcloak_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "capcloak_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "capcloak_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_capcloak_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_capcloak_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_capcloak_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_capcloak_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_capcloak_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_capcloak_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_capcloak_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_capcloak_f_dwarf_detail",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "courtcollar"
+    },
+    {
+      "name": "courtmask"
+    },
+    {
+      "name": "courthat"
+    },
+    {
+      "name": "courtrobe"
+    },
+    {
+      "name": "docskirt"
+    },
+    {
+      "name": "docblouse"
+    },
+    {
+      "name": "docjacket"
+    },
+    {
+      "name": "docsleeves"
+    },
+    {
+      "name": "docheels"
+    },
+    {
+      "name": "docpants"
+    },
+    {
+      "name": "docshoes"
+    },
+    {
+      "name": "docvest"
+    },
+    {
+      "name": "doccoat"
+    },
+    {
+      "name": "docgloves"
+    },
+    {
+      "name": "docmask"
+    },
+    {
+      "name": "dochat1"
+    },
+    {
+      "name": "dochat2"
+    },
+    {
+      "name": "docskirt_detail"
+    },
+    {
+      "name": "docblouse_detail"
+    },
+    {
+      "name": "docjacket_detail"
+    },
+    {
+      "name": "docsleeves_detail"
+    },
+    {
+      "name": "docheels_detail"
+    },
+    {
+      "name": "docvest_detail"
+    },
+    {
+      "name": "doccoat_detail"
+    },
+    {
+      "name": "dochat1_detail"
+    },
+    {
+      "name": "dochat2_detail"
+    }
+  ]
+}

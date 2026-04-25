@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "LEGACY"
+    },
+    {
+      "name": "GRENZSHIRTS"
+    },
+    {
+      "name": "highlights the 'anchors' with a pink background for easier navigation"
+    },
+    {
+      "name": "could probably fold this into sleeves_shirts, later on"
+    },
+    {
+      "name": "r_grenzelshirt",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelshirt",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelshirt_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelshirt_detail",
+      "directions": 4
+    },
+    {
+      "name": "grenzelshirt_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelshirt_f",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelshirt_f",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelshirt_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelshirt_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelshirt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelshirt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelshirt_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelshirt_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelgloves",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelgloves",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelgloves_f",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelgloves_f",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelgloves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelgloves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelboots",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelboots",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelboots_f",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelboots_f",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelboots_dwarf",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "gronnleatherhelm"
+    },
+    {
+      "name": "gronnleatherhelm_horns"
+    },
+    {
+      "name": "gronnleatherarmor"
+    },
+    {
+      "name": "gronnleatherpants"
+    },
+    {
+      "name": "gronnleathergloves"
+    },
+    {
+      "name": "gronnfurgloves"
+    },
+    {
+      "name": "gronnfurhood_down"
+    },
+    {
+      "name": "gronnfurhood"
+    },
+    {
+      "name": "gronnfurhood_lit1",
+      "delays": [
+        [
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "gronnfurhood_lit2",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gronnfurhood_lit3",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gronnplatehelm"
+    },
+    {
+      "name": "gronnplate"
+    },
+    {
+      "name": "gronnplategloves"
+    },
+    {
+      "name": "gronnplatepants"
+    },
+    {
+      "name": "gronnplateboots"
+    },
+    {
+      "name": "gronnhelm"
+    },
+    {
+      "name": "gronnchain"
+    },
+    {
+      "name": "gronnchaingloves"
+    },
+    {
+      "name": "gronnchainpants"
+    }
+  ]
+}

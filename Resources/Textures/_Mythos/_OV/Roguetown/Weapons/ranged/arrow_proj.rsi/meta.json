@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "arrowpyro_proj"
+    },
+    {
+      "name": "arrowthunder_proj"
+    },
+    {
+      "name": "arrowkinetic_proj"
+    },
+    {
+      "name": "arrow_proj"
+    },
+    {
+      "name": "arrowpoison_proj"
+    },
+    {
+      "name": "silvarrow_proj"
+    },
+    {
+      "name": "arrow_vial_proj"
+    },
+    {
+      "name": "arrowwater_proj"
+    },
+    {
+      "name": "bronzearrow_proj"
+    },
+    {
+      "name": "ancientarrow_proj"
+    },
+    {
+      "name": "arrowsplinter_proj"
+    }
+  ]
+}

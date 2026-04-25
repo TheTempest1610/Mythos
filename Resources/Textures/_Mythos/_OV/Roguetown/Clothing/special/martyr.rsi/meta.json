@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "silverlegs"
+    },
+    {
+      "name": "silverarmor"
+    },
+    {
+      "name": "silvertabard"
+    },
+    {
+      "name": "silverbascinet"
+    },
+    {
+      "name": "silverbascinet_t"
+    },
+    {
+      "name": "silvergloves"
+    },
+    {
+      "name": "silverboots"
+    },
+    {
+      "name": "silverarmet"
+    },
+    {
+      "name": "silverarmet_t"
+    }
+  ]
+}

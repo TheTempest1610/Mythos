@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "stone_sling_bullet"
+    },
+    {
+      "name": "iron_sling_bullet"
+    },
+    {
+      "name": "ancient_sling_bullet"
+    },
+    {
+      "name": "steel_sling_bullet"
+    },
+    {
+      "name": "heavy_sling_bullet"
+    },
+    {
+      "name": "musketball"
+    },
+    {
+      "name": "silverbullet"
+    },
+    {
+      "name": "bronze_sling_bullet"
+    },
+    {
+      "name": "scattershot"
+    },
+    {
+      "name": "fire_pot"
+    }
+  ]
+}

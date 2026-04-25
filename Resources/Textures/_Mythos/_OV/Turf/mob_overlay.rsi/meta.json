@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "gen_blocker"
+    },
+    {
+      "name": "water"
+    },
+    {
+      "name": "yuckwater"
+    },
+    {
+      "name": "lavafloor"
+    },
+    {
+      "name": "dirt"
+    },
+    {
+      "name": "grass"
+    },
+    {
+      "name": "mud1"
+    }
+  ]
+}

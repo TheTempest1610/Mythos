@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "satchel"
+    },
+    {
+      "name": "satchelshort"
+    },
+    {
+      "name": "pouch"
+    },
+    {
+      "name": "pouch_merchant"
+    },
+    {
+      "name": "pouch_e"
+    },
+    {
+      "name": "pouch_cut"
+    },
+    {
+      "name": "backpack"
+    },
+    {
+      "name": "surgery_bag"
+    },
+    {
+      "name": "artibackpack",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "rucksack_untied"
+    },
+    {
+      "name": "rucksack_untied_full"
+    },
+    {
+      "name": "rucksack_tied"
+    },
+    {
+      "name": "rucksack_tied_sling"
+    },
+    {
+      "name": "gamesatchel"
+    },
+    {
+      "name": "buttpack"
+    },
+    {
+      "name": "summoning"
+    },
+    {
+      "name": "osatchel"
+    },
+    {
+      "name": "deliverypackage1"
+    },
+    {
+      "name": "deliverypackage2"
+    },
+    {
+      "name": "deliverypackage3"
+    },
+    {
+      "name": "deliverypackage4"
+    },
+    {
+      "name": "deliverypackage5"
+    },
+    {
+      "name": "deliverypackage_unwrapped"
+    },
+    {
+      "name": "climbing_gear"
+    },
+    {
+      "name": "smokebox"
+    },
+    {
+      "name": "smokebox5"
+    },
+    {
+      "name": "smokebox4"
+    },
+    {
+      "name": "smokebox3"
+    },
+    {
+      "name": "smokebox2"
+    },
+    {
+      "name": "smokebox1"
+    },
+    {
+      "name": "smokebox0"
+    },
+    {
+      "name": "clothpouch"
+    },
+    {
+      "name": "clothpouch_e"
+    },
+    {
+      "name": "clothbackpack"
+    }
+  ]
+}

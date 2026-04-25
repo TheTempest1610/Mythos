@@ -1,0 +1,706 @@
+{
+  "version": 1,
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "UNUSED"
+    },
+    {
+      "name": "blksword"
+    },
+    {
+      "name": "blksword1"
+    },
+    {
+      "name": "martyrsword_on1_old",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyrsword_on_old",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyrsword_old"
+    },
+    {
+      "name": "martyrsword1_old"
+    },
+    {
+      "name": "martyrsword_ulton_old",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyrsword_ulton1_old",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "zweiold"
+    },
+    {
+      "name": "zwei1old"
+    },
+    {
+      "name": "pestranmesser"
+    },
+    {
+      "name": "pestranmesser1"
+    },
+    {
+      "name": "tuck"
+    },
+    {
+      "name": "tuck1"
+    },
+    {
+      "name": "LONGSWORD"
+    },
+    {
+      "name": "longsword"
+    },
+    {
+      "name": "longsword1"
+    },
+    {
+      "name": "aplongsword"
+    },
+    {
+      "name": "aplongsword1"
+    },
+    {
+      "name": "aplongsword_triumph"
+    },
+    {
+      "name": "aplongsword_triumph1"
+    },
+    {
+      "name": "LONGSWORD - DECORATED"
+    },
+    {
+      "name": "declongsword"
+    },
+    {
+      "name": "declongsword1"
+    },
+    {
+      "name": "LONGSWORD - HEIRLOOM"
+    },
+    {
+      "name": "heirloom"
+    },
+    {
+      "name": "heirloom1"
+    },
+    {
+      "name": "LONGSWORD - SILVER"
+    },
+    {
+      "name": "silverbroadsword"
+    },
+    {
+      "name": "silverbroadsword1"
+    },
+    {
+      "name": "silverlongsword"
+    },
+    {
+      "name": "silverlongsword1"
+    },
+    {
+      "name": "LONGSWORD - KINGSLAYER"
+    },
+    {
+      "name": "kingslayer"
+    },
+    {
+      "name": "kingslayer1"
+    },
+    {
+      "name": "LONGSWORD - JUDGEMENT"
+    },
+    {
+      "name": "judgement"
+    },
+    {
+      "name": "judgement1"
+    },
+    {
+      "name": "LONGSWORD - REDENTOR"
+    },
+    {
+      "name": "crucified"
+    },
+    {
+      "name": "LONGSWORD - VAMPIRE"
+    },
+    {
+      "name": "vlord"
+    },
+    {
+      "name": "vlord1"
+    },
+    {
+      "name": "LONGSWORD - ETRUSCAN"
+    },
+    {
+      "name": "elongsword"
+    },
+    {
+      "name": "elongsword1"
+    },
+    {
+      "name": "LONGSWORD - KRIEG"
+    },
+    {
+      "name": "kriegmesser"
+    },
+    {
+      "name": "kriegmesser1"
+    },
+    {
+      "name": "LONGSWORD - ZIZO"
+    },
+    {
+      "name": "zizosword"
+    },
+    {
+      "name": "zizosword1"
+    },
+    {
+      "name": "LONGSWORD - CHURCH"
+    },
+    {
+      "name": "eclipsum"
+    },
+    {
+      "name": "eclipsum1"
+    },
+    {
+      "name": "seeblade"
+    },
+    {
+      "name": "seeblade1"
+    },
+    {
+      "name": "seemasterblade"
+    },
+    {
+      "name": "seemasterblade1"
+    },
+    {
+      "name": "churchsword"
+    },
+    {
+      "name": "churchsword1"
+    },
+    {
+      "name": "LONGSWORD - DREAMWALKER"
+    },
+    {
+      "name": "dreamsword"
+    },
+    {
+      "name": "dreamswordactive"
+    },
+    {
+      "name": "dreamsword1"
+    },
+    {
+      "name": "dreamswordactive1"
+    },
+    {
+      "name": "LONGSWORD - GRENZELHOFT"
+    },
+    {
+      "name": "germanlong"
+    },
+    {
+      "name": "germanlong1"
+    },
+    {
+      "name": "RAPIER"
+    },
+    {
+      "name": "rapier"
+    },
+    {
+      "name": "decrapier"
+    },
+    {
+      "name": "lordrap"
+    },
+    {
+      "name": "cup_hilt_rapier"
+    },
+    {
+      "name": "silverrapier"
+    },
+    {
+      "name": "EXECUTIONEER SWORD"
+    },
+    {
+      "name": "exe"
+    },
+    {
+      "name": "exe1"
+    },
+    {
+      "name": "EXECUTIONEER SWORD - TERMINUS"
+    },
+    {
+      "name": "terminusest"
+    },
+    {
+      "name": "terminusest1"
+    },
+    {
+      "name": "EXECUTIONEER SWORD - ASTRATA"
+    },
+    {
+      "name": "astratasword"
+    },
+    {
+      "name": "astratasword1"
+    },
+    {
+      "name": "GREATSWORD - MISC"
+    },
+    {
+      "name": "iaruval"
+    },
+    {
+      "name": "iaruval1"
+    },
+    {
+      "name": "aruval"
+    },
+    {
+      "name": "aruval1"
+    },
+    {
+      "name": "GREATSWORD - ANCIENT"
+    },
+    {
+      "name": "ancient_gsw"
+    },
+    {
+      "name": "ancient_gsw1"
+    },
+    {
+      "name": "ancientflamb"
+    },
+    {
+      "name": "ancientflamb1"
+    },
+    {
+      "name": "GREATSWORD - IRON"
+    },
+    {
+      "name": "igsw"
+    },
+    {
+      "name": "igsw1"
+    },
+    {
+      "name": "claymore"
+    },
+    {
+      "name": "claymore1"
+    },
+    {
+      "name": "GREATSWORD - STEEL"
+    },
+    {
+      "name": "gsw"
+    },
+    {
+      "name": "gsw1"
+    },
+    {
+      "name": "GREATSWORD - ZWEI"
+    },
+    {
+      "name": "steelzwei"
+    },
+    {
+      "name": "steelzwei1"
+    },
+    {
+      "name": "GREATSWORD - ESTOC"
+    },
+    {
+      "name": "estoc"
+    },
+    {
+      "name": "estoc1"
+    },
+    {
+      "name": "estoc_triumph"
+    },
+    {
+      "name": "estoc_triumph1"
+    },
+    {
+      "name": "FLAMEBERGE - STEEL"
+    },
+    {
+      "name": "steelflamberge"
+    },
+    {
+      "name": "steelflamberge1"
+    },
+    {
+      "name": "FLAMEBERGE - BLACKSTEEL"
+    },
+    {
+      "name": "blackflamb"
+    },
+    {
+      "name": "blackflamb1"
+    },
+    {
+      "name": "malumflamberge"
+    },
+    {
+      "name": "malumflamberge1"
+    },
+    {
+      "name": "ravoxflamberge"
+    },
+    {
+      "name": "ravoxflamberge1"
+    },
+    {
+      "name": "RHOMPANIA - STEEL"
+    },
+    {
+      "name": "rhomphaia"
+    },
+    {
+      "name": "rhomphaia1"
+    },
+    {
+      "name": "RHOMPANIA - COPPER"
+    },
+    {
+      "name": "crhomphaia"
+    },
+    {
+      "name": "crhomphaia1"
+    },
+    {
+      "name": "HOOK SWORD"
+    },
+    {
+      "name": "hook_sword"
+    },
+    {
+      "name": "SSANGSUDO"
+    },
+    {
+      "name": "ssangsudo"
+    },
+    {
+      "name": "ssangsudo1"
+    },
+    {
+      "name": "MARTYR"
+    },
+    {
+      "name": "martyrsword"
+    },
+    {
+      "name": "martyrsword_on",
+      "delays": [
+        [
+          0.15,
+          0.15,
+          0.15,
+          0.15
+        ]
+      ]
+    },
+    {
+      "name": "martyrsword_ulton",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyrsword1"
+    },
+    {
+      "name": "martyrsword_on1",
+      "delays": [
+        [
+          0.15,
+          0.15,
+          0.15
+        ]
+      ]
+    },
+    {
+      "name": "martyrsword_ulton1",
+      "delays": [
+        [
+          0.15,
+          0.2,
+          0.15,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "SHOTEL"
+    },
+    {
+      "name": "shotel_steel"
+    },
+    {
+      "name": "shotel_iron"
+    },
+    {
+      "name": "FEDER"
+    },
+    {
+      "name": "feder"
+    },
+    {
+      "name": "feder1"
+    },
+    {
+      "name": "sharpfeder"
+    },
+    {
+      "name": "sharpfeder1"
+    },
+    {
+      "name": "SHAMSHIR"
+    },
+    {
+      "name": "tabi"
+    },
+    {
+      "name": "tabi1"
+    },
+    {
+      "name": "SHALAL"
+    },
+    {
+      "name": "marlin"
+    },
+    {
+      "name": "marlin1"
+    },
+    {
+      "name": "DAEMONSLAYER"
+    },
+    {
+      "name": "machaslayer"
+    },
+    {
+      "name": "machaslayer1"
+    },
+    {
+      "name": "PSYDON"
+    },
+    {
+      "name": "psybroadsword"
+    },
+    {
+      "name": "psybroadsword1"
+    },
+    {
+      "name": "psyrapier"
+    },
+    {
+      "name": "oldpsybroadsword"
+    },
+    {
+      "name": "oldpsybroadsword1"
+    },
+    {
+      "name": "psybsword"
+    },
+    {
+      "name": "psybsword1"
+    },
+    {
+      "name": "forgottenblade"
+    },
+    {
+      "name": "forgottenblade1"
+    },
+    {
+      "name": "silverexealt"
+    },
+    {
+      "name": "silverexealt1"
+    },
+    {
+      "name": "opsysword"
+    },
+    {
+      "name": "opsysword1"
+    },
+    {
+      "name": "psysword"
+    },
+    {
+      "name": "psysword1"
+    },
+    {
+      "name": "psygsword"
+    },
+    {
+      "name": "psygsword1"
+    },
+    {
+      "name": "CORRUPTED"
+    },
+    {
+      "name": "corruptrapier"
+    },
+    {
+      "name": "corruptbroadsword"
+    },
+    {
+      "name": "corruptbroadsword1"
+    },
+    {
+      "name": "BROADSWORDS"
+    },
+    {
+      "name": "spatha"
+    },
+    {
+      "name": "spatha1"
+    },
+    {
+      "name": "broadsword"
+    },
+    {
+      "name": "broadsword1"
+    },
+    {
+      "name": "sbroadsword"
+    },
+    {
+      "name": "sbroadsword1"
+    },
+    {
+      "name": "GREATKHOPESH"
+    },
+    {
+      "name": "bronzegreatkhopesh"
+    },
+    {
+      "name": "bronzegreatkhopesh1"
+    },
+    {
+      "name": "GREATDADAO"
+    },
+    {
+      "name": "gdadao"
+    },
+    {
+      "name": "gdadao1"
+    },
+    {
+      "name": "GREATSWORD - ELVEN"
+    },
+    {
+      "name": "elfkriegmesser"
+    },
+    {
+      "name": "elfkriegmesser1"
+    },
+    {
+      "name": "FLAMEBERGE - CHURCH"
+    },
+    {
+      "name": "dragonslayer"
+    },
+    {
+      "name": "dragonslayer1"
+    },
+    {
+      "name": "ELF"
+    },
+    {
+      "name": "elflongsword"
+    },
+    {
+      "name": "elflongsword1"
+    },
+    {
+      "name": "aelflongsword"
+    },
+    {
+      "name": "aelflongsword1"
+    },
+    {
+      "name": "elfcurveblade"
+    },
+    {
+      "name": "elfcurveblade1"
+    },
+    {
+      "name": "HAG"
+    },
+    {
+      "name": "hagsword"
+    },
+    {
+      "name": "hagsword1"
+    },
+    {
+      "name": "mkriegmesser"
+    },
+    {
+      "name": "mkriegmesser1"
+    }
+  ]
+}

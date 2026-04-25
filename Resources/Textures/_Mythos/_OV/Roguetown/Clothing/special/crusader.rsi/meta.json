@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "legacy_crusader_helm"
+    },
+    {
+      "name": "legacy_crusader_helmt2"
+    },
+    {
+      "name": "legacy_crusader_helm_detail"
+    },
+    {
+      "name": "legacy_crusader_helmt2_detail"
+    },
+    {
+      "name": "legacy_crusader_surcoat"
+    },
+    {
+      "name": "legacy_crusader_surcoatt2"
+    },
+    {
+      "name": "crusader_cloak"
+    },
+    {
+      "name": "NEW"
+    },
+    {
+      "name": "crusader_surcoat"
+    },
+    {
+      "name": "crusader_surcoatt2"
+    },
+    {
+      "name": "crusader_surcoatb3"
+    },
+    {
+      "name": "acrusader_surcoat"
+    },
+    {
+      "name": "acrusader_surcoatt2"
+    },
+    {
+      "name": "ucrusader_surcoat"
+    },
+    {
+      "name": "ucrusader_surcoatt2"
+    },
+    {
+      "name": "priest_surcoat"
+    },
+    {
+      "name": "crusader_helm"
+    },
+    {
+      "name": "crusader_helmt2"
+    },
+    {
+      "name": "crusader_helmb3"
+    },
+    {
+      "name": "crusader_helm_detail"
+    },
+    {
+      "name": "crusader_helmt2_detail"
+    },
+    {
+      "name": "crusader_helmb3_detail"
+    },
+    {
+      "name": "crusader_helm_detailalt"
+    },
+    {
+      "name": "crusader_helmt2_detailalt"
+    },
+    {
+      "name": "crusader_helmb3_detailalt"
+    }
+  ]
+}

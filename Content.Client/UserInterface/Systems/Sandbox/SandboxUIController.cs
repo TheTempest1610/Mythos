@@ -1,5 +1,6 @@
 using System.Numerics;
 using Content.Client.Administration.Managers;
+using Content.Client._Mythos.TileSpawn; // Mythos: variant-aware tile spawn panel
 using Content.Client.Gameplay;
 using Content.Client.Sandbox;
 using Content.Client.UserInterface.Controllers;
@@ -37,7 +38,8 @@ public sealed class SandboxUIController : UIController, IOnStateChanged<Gameplay
 
     // TODO hud refactor cache
     private EntitySpawningUIController EntitySpawningController => UIManager.GetUIController<EntitySpawningUIController>();
-    private TileSpawningUIController TileSpawningController => UIManager.GetUIController<TileSpawningUIController>();
+    // Mythos: replace engine TileSpawningUIController with the variant-aware Mythos one.
+    private MythosTileSpawningUIController TileSpawningController => UIManager.GetUIController<MythosTileSpawningUIController>();
     private DecalPlacerUIController DecalPlacerController => UIManager.GetUIController<DecalPlacerUIController>();
 
     private MenuButton? SandboxButton => UIManager.GetActiveUIWidgetOrNull<MenuBar.Widgets.GameTopMenuBar>()?.SandboxButton;

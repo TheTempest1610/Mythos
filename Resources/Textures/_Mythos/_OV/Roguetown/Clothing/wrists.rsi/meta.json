@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bracers"
+    },
+    {
+      "name": "ibracers"
+    },
+    {
+      "name": "jackchain"
+    },
+    {
+      "name": "lbracers"
+    },
+    {
+      "name": "wrappings"
+    },
+    {
+      "name": "nocwrappings"
+    },
+    {
+      "name": "splintarms"
+    },
+    {
+      "name": "royalsleeves"
+    },
+    {
+      "name": "royalsleeves_detail"
+    },
+    {
+      "name": "albracers"
+    },
+    {
+      "name": "copperarm"
+    },
+    {
+      "name": "ancientbracers"
+    },
+    {
+      "name": "psybarbs"
+    },
+    {
+      "name": "ironsplintarms"
+    },
+    {
+      "name": "goldbracers"
+    },
+    {
+      "name": "bronzebracers"
+    },
+    {
+      "name": "br_jade"
+    },
+    {
+      "name": "br_coral"
+    },
+    {
+      "name": "br_shell"
+    },
+    {
+      "name": "br_amber"
+    },
+    {
+      "name": "br_opal"
+    },
+    {
+      "name": "br_rose"
+    },
+    {
+      "name": "br_turq"
+    },
+    {
+      "name": "br_onyxa"
+    },
+    {
+      "name": "goldpauldron"
+    },
+    {
+      "name": "bracer_base"
+    },
+    {
+      "name": "superbracer"
+    },
+    {
+      "name": "superbracer_tossblades"
+    },
+    {
+      "name": "superbracer_vials"
+    },
+    {
+      "name": "superbracer_pouch"
+    },
+    {
+      "name": "superbracer_sheath0"
+    },
+    {
+      "name": "superbracer_sheath1"
+    },
+    {
+      "name": "superbracer_crossbow"
+    },
+    {
+      "name": "superbracer_crossbow1"
+    },
+    {
+      "name": "superbracer_crossbow2"
+    },
+    {
+      "name": "bracerbow_folded"
+    },
+    {
+      "name": "bracerbow_unfolded"
+    },
+    {
+      "name": "bracerbow_drawn"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "cantfind"
+    },
+    {
+      "name": "noop"
+    },
+    {
+      "name": "dirt"
+    },
+    {
+      "name": "greenerdirt"
+    },
+    {
+      "name": "reebemap"
+    },
+    {
+      "name": "reebegame"
+    },
+    {
+      "name": "transparent"
+    },
+    {
+      "name": "openspace"
+    },
+    {
+      "name": "black"
+    },
+    {
+      "name": "pure_white"
+    },
+    {
+      "name": "grey"
+    },
+    {
+      "name": "staticedge-no"
+    },
+    {
+      "name": "staticedge-so"
+    },
+    {
+      "name": "staticedge-eo"
+    },
+    {
+      "name": "staticedge-wo"
+    },
+    {
+      "name": "staticedge-n"
+    },
+    {
+      "name": "staticedge-s"
+    },
+    {
+      "name": "staticedge-e"
+    },
+    {
+      "name": "staticedge-w"
+    },
+    {
+      "name": "staticedge-ne"
+    },
+    {
+      "name": "staticedge-nw"
+    },
+    {
+      "name": "staticedge-se"
+    },
+    {
+      "name": "staticedge-sw"
+    }
+  ]
+}

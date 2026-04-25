@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "leather_gloves"
+    },
+    {
+      "name": "cgloves"
+    },
+    {
+      "name": "icgloves"
+    },
+    {
+      "name": "bgloves"
+    },
+    {
+      "name": "gauntlets"
+    },
+    {
+      "name": "fingerless_gloves"
+    },
+    {
+      "name": "gloves_black"
+    },
+    {
+      "name": "angle"
+    },
+    {
+      "name": "vgloves"
+    },
+    {
+      "name": "grenzelgloves"
+    },
+    {
+      "name": "bkgloves"
+    },
+    {
+      "name": "bplategloves"
+    },
+    {
+      "name": "shadowgloves"
+    },
+    {
+      "name": "clothwraps"
+    },
+    {
+      "name": "roguegloves"
+    },
+    {
+      "name": "psydongloveschain"
+    },
+    {
+      "name": "fencergloves"
+    },
+    {
+      "name": "inqgloves"
+    },
+    {
+      "name": "atgervi_shaman_gloves"
+    },
+    {
+      "name": "atgervi_raider_gloves"
+    },
+    {
+      "name": "zizogauntlets"
+    },
+    {
+      "name": "matthiosgloves"
+    },
+    {
+      "name": "acgloves"
+    },
+    {
+      "name": "agauntlets"
+    },
+    {
+      "name": "graggarplategloves"
+    },
+    {
+      "name": "eastgloves1"
+    },
+    {
+      "name": "eastgloves2"
+    },
+    {
+      "name": "igauntlets"
+    },
+    {
+      "name": "manabindinggloves"
+    },
+    {
+      "name": "psydongloves"
+    },
+    {
+      "name": "psydongloveschainwrap"
+    },
+    {
+      "name": "dreamgauntlets"
+    },
+    {
+      "name": "shadowgauntlets"
+    },
+    {
+      "name": "kazengungauntlets"
+    },
+    {
+      "name": "kazengungauntlets_detail"
+    },
+    {
+      "name": "volticgauntlets"
+    },
+    {
+      "name": "freigloves"
+    }
+  ]
+}

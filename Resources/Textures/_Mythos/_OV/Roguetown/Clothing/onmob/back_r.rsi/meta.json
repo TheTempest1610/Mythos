@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "BACK"
+    },
+    {
+      "name": "satchel",
+      "directions": 4
+    },
+    {
+      "name": "satchelshort",
+      "directions": 4
+    },
+    {
+      "name": "rucksack",
+      "directions": 4
+    },
+    {
+      "name": "osatchel",
+      "directions": 4
+    },
+    {
+      "name": "climbing_gear_f",
+      "directions": 4
+    },
+    {
+      "name": "climbing_gear",
+      "directions": 4
+    }
+  ]
+}

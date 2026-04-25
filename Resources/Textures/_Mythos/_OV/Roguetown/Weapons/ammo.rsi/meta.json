@@ -1,0 +1,325 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "STANDARD"
+    },
+    {
+      "name": "BOLTS _"
+    },
+    {
+      "name": "bolt_proj"
+    },
+    {
+      "name": "boltpoison_proj"
+    },
+    {
+      "name": "bolt_vial_proj"
+    },
+    {
+      "name": "silvbolt_proj"
+    },
+    {
+      "name": "boltwater_proj"
+    },
+    {
+      "name": "bolthwater_proj"
+    },
+    {
+      "name": "boltpyro_proj"
+    },
+    {
+      "name": "bronzebolt_proj"
+    },
+    {
+      "name": "ancientbolt_proj"
+    },
+    {
+      "name": "bolt"
+    },
+    {
+      "name": "light_bolt"
+    },
+    {
+      "name": "bronzebolt"
+    },
+    {
+      "name": "bolt_blunt"
+    },
+    {
+      "name": "bolt_poison"
+    },
+    {
+      "name": "ancientbolt"
+    },
+    {
+      "name": "bolt_vial"
+    },
+    {
+      "name": "bolt_water"
+    },
+    {
+      "name": "silvbolt"
+    },
+    {
+      "name": "bolt_holywater"
+    },
+    {
+      "name": "bolt_pyroclastic"
+    },
+    {
+      "name": "bolt_vial_filling"
+    },
+    {
+      "name": "SIEGEBOLTS _"
+    },
+    {
+      "name": "heavybolt_proj"
+    },
+    {
+      "name": "silvheavybolt_proj"
+    },
+    {
+      "name": "ancientheavybolt_proj"
+    },
+    {
+      "name": "bronzeheavybolt_proj"
+    },
+    {
+      "name": "heavybolt"
+    },
+    {
+      "name": "bluntheavybolt"
+    },
+    {
+      "name": "silvheavybolt"
+    },
+    {
+      "name": "ancientheavybolt"
+    },
+    {
+      "name": "bronzeheavybolt"
+    },
+    {
+      "name": "JAVELINS _"
+    },
+    {
+      "name": "bjavelin"
+    },
+    {
+      "name": "ijavelin"
+    },
+    {
+      "name": "javelin"
+    },
+    {
+      "name": "sjavelin"
+    },
+    {
+      "name": "ajavelin"
+    },
+    {
+      "name": "QUIVERS _"
+    },
+    {
+      "name": "quiver1"
+    },
+    {
+      "name": "quiver0"
+    },
+    {
+      "name": "boltpouch1"
+    },
+    {
+      "name": "boltpouch0"
+    },
+    {
+      "name": "javelinbag1"
+    },
+    {
+      "name": "javelinbag0"
+    },
+    {
+      "name": "slingpouch"
+    },
+    {
+      "name": "MISCELLANIOUS"
+    },
+    {
+      "name": "BLASTPOWDER"
+    },
+    {
+      "name": "powderbag"
+    },
+    {
+      "name": "powderbag_open"
+    },
+    {
+      "name": "powderbag_empty"
+    },
+    {
+      "name": "powder"
+    },
+    {
+      "name": "ramrod"
+    },
+    {
+      "name": "sparkrod",
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "powderflask"
+    },
+    {
+      "name": "powderflask_open"
+    },
+    {
+      "name": "shotslug"
+    },
+    {
+      "name": "shotgrape"
+    },
+    {
+      "name": "shotslugsilv"
+    },
+    {
+      "name": "shotbomb_o"
+    },
+    {
+      "name": "shotbomb"
+    },
+    {
+      "name": "shotbomb_lit",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "shotsmoke"
+    },
+    {
+      "name": "shotmortar_o"
+    },
+    {
+      "name": "shotmortar"
+    },
+    {
+      "name": "shotmortar_lit",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "STAKES"
+    },
+    {
+      "name": "woodstake"
+    },
+    {
+      "name": "woodstake_super"
+    },
+    {
+      "name": "woodstake_proj"
+    },
+    {
+      "name": "woodstake_super_proj"
+    },
+    {
+      "name": "silverstake"
+    },
+    {
+      "name": "silverstake_super"
+    },
+    {
+      "name": "silverstake_proj"
+    },
+    {
+      "name": "silverstake_super_proj"
+    },
+    {
+      "name": "stakecart5_open"
+    },
+    {
+      "name": "stakecart4_open"
+    },
+    {
+      "name": "stakecart3_open"
+    },
+    {
+      "name": "stakecart2_open"
+    },
+    {
+      "name": "stakecart1_open"
+    },
+    {
+      "name": "stakecart0_open"
+    },
+    {
+      "name": "stakecart5"
+    },
+    {
+      "name": "stakecart4"
+    },
+    {
+      "name": "stakecart3"
+    },
+    {
+      "name": "stakecart2"
+    },
+    {
+      "name": "stakecart1"
+    },
+    {
+      "name": "stakecart0"
+    },
+    {
+      "name": "ASH"
+    },
+    {
+      "name": "boomstick"
+    },
+    {
+      "name": "boomstick_0"
+    },
+    {
+      "name": "boomstick_1"
+    },
+    {
+      "name": "boomstick_2"
+    },
+    {
+      "name": "boomstickshot_1"
+    },
+    {
+      "name": "boomstickshot_2"
+    },
+    {
+      "name": "boomstickshot_0",
+      "directions": 8
+    },
+    {
+      "name": "invisible"
+    }
+  ]
+}

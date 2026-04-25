@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "undershirt"
+    },
+    {
+      "name": "shortshirt"
+    },
+    {
+      "name": "tunic",
+      "directions": 4
+    },
+    {
+      "name": "webs"
+    },
+    {
+      "name": "rags"
+    },
+    {
+      "name": "coat"
+    },
+    {
+      "name": "dress"
+    },
+    {
+      "name": "dressgen"
+    },
+    {
+      "name": "silkdress"
+    },
+    {
+      "name": "jestershirt",
+      "directions": 4
+    },
+    {
+      "name": "jestershirt_detail",
+      "directions": 4
+    },
+    {
+      "name": "jestershirt_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "sailorreds"
+    },
+    {
+      "name": "sailorblues"
+    },
+    {
+      "name": "priestshirt"
+    },
+    {
+      "name": "wizardrobes"
+    },
+    {
+      "name": "puritan_shirt"
+    },
+    {
+      "name": "sexydress"
+    },
+    {
+      "name": "priestunder"
+    },
+    {
+      "name": "vrobe"
+    },
+    {
+      "name": "tribalrag"
+    },
+    {
+      "name": "stewardtunic"
+    },
+    {
+      "name": "stewarddress"
+    },
+    {
+      "name": "shadowshirt"
+    },
+    {
+      "name": "archivist"
+    },
+    {
+      "name": "apothshirt"
+    },
+    {
+      "name": "artishirt"
+    },
+    {
+      "name": "noblecoat"
+    },
+    {
+      "name": "lowcut"
+    },
+    {
+      "name": "noblecoat_detail"
+    },
+    {
+      "name": "weddingdress"
+    },
+    {
+      "name": "silkydress"
+    },
+    {
+      "name": "silkydress_detail"
+    },
+    {
+      "name": "silkbra"
+    },
+    {
+      "name": "eastshirt1"
+    },
+    {
+      "name": "eastshirt2"
+    },
+    {
+      "name": "loudmouthrobe"
+    },
+    {
+      "name": "desertbra"
+    },
+    {
+      "name": "fancyjacket"
+    },
+    {
+      "name": "explorervest"
+    },
+    {
+      "name": "slitdress"
+    },
+    {
+      "name": "maiddressfancy"
+    },
+    {
+      "name": "maiddressfancy_detail"
+    },
+    {
+      "name": "maidgown"
+    },
+    {
+      "name": "maidgown_detail"
+    },
+    {
+      "name": "butlershirt"
+    },
+    {
+      "name": "saree"
+    },
+    {
+      "name": "saree_detail"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "rock_Gibtonite_active",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "rock_Gibtonite_inactive"
+    },
+    {
+      "name": "rock_Adamantine"
+    },
+    {
+      "name": "rock_Coal"
+    },
+    {
+      "name": "rock_Bananium"
+    },
+    {
+      "name": "rock"
+    },
+    {
+      "name": "rock_labor"
+    },
+    {
+      "name": "rock_nochance"
+    },
+    {
+      "name": "rock_lowchance"
+    },
+    {
+      "name": "rock_highchance"
+    },
+    {
+      "name": "rock_side_s"
+    },
+    {
+      "name": "rock_side_n"
+    },
+    {
+      "name": "rock_side_w"
+    },
+    {
+      "name": "rock_side_e"
+    },
+    {
+      "name": "rock_Iron"
+    },
+    {
+      "name": "ash"
+    },
+    {
+      "name": "rock2"
+    },
+    {
+      "name": "rockyash"
+    },
+    {
+      "name": "wateryrock"
+    },
+    {
+      "name": "wateryrock1"
+    },
+    {
+      "name": "wateryrock2"
+    },
+    {
+      "name": "wateryrock3"
+    },
+    {
+      "name": "wateryrock4"
+    },
+    {
+      "name": "wateryrock5"
+    },
+    {
+      "name": "wateryrock6"
+    },
+    {
+      "name": "wateryrock7"
+    },
+    {
+      "name": "wateryrock8"
+    },
+    {
+      "name": "wateryrock9"
+    },
+    {
+      "name": "spring"
+    },
+    {
+      "name": "icerock"
+    },
+    {
+      "name": "mountainrock"
+    },
+    {
+      "name": "icerock_diamond"
+    },
+    {
+      "name": "icerock_plasma"
+    },
+    {
+      "name": "icerock_iron"
+    }
+  ]
+}

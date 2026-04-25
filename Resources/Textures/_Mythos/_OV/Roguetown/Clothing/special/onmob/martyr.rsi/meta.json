@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "silverlegs",
+      "directions": 4
+    },
+    {
+      "name": "r_silverlegs",
+      "directions": 4
+    },
+    {
+      "name": "l_silverlegs",
+      "directions": 4
+    },
+    {
+      "name": "silverlegs_f",
+      "directions": 4
+    },
+    {
+      "name": "r_silverlegs_f",
+      "directions": 4
+    },
+    {
+      "name": "l_silverlegs_f",
+      "directions": 4
+    },
+    {
+      "name": "silverlegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_silverlegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silverlegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silverlegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_silverlegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silverlegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silverarmor",
+      "directions": 4
+    },
+    {
+      "name": "r_silverarmor",
+      "directions": 4
+    },
+    {
+      "name": "l_silverarmor",
+      "directions": 4
+    },
+    {
+      "name": "silverarmor_f",
+      "directions": 4
+    },
+    {
+      "name": "r_silverarmor_f",
+      "directions": 4
+    },
+    {
+      "name": "l_silverarmor_f",
+      "directions": 4
+    },
+    {
+      "name": "silverarmor_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_silverarmor_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silverarmor_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silverarmor_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_silverarmor_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silverarmor_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silvertabard",
+      "directions": 4
+    },
+    {
+      "name": "r_silvertabard",
+      "directions": 4
+    },
+    {
+      "name": "l_silvertabard",
+      "directions": 4
+    },
+    {
+      "name": "silvertabard_f",
+      "directions": 4
+    },
+    {
+      "name": "r_silvertabard_f",
+      "directions": 4
+    },
+    {
+      "name": "l_silvertabard_f",
+      "directions": 4
+    },
+    {
+      "name": "silvertabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_silvertabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silvertabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silvertabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_silvertabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silvertabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silvergloves",
+      "directions": 4
+    },
+    {
+      "name": "r_silvergloves",
+      "directions": 4
+    },
+    {
+      "name": "l_silvergloves",
+      "directions": 4
+    },
+    {
+      "name": "silvergloves_f",
+      "directions": 4
+    },
+    {
+      "name": "r_silvergloves_f",
+      "directions": 4
+    },
+    {
+      "name": "l_silvergloves_f",
+      "directions": 4
+    },
+    {
+      "name": "silvergloves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_silvergloves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silvergloves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silvergloves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_silvergloves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silvergloves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silverboots",
+      "directions": 4
+    },
+    {
+      "name": "silverboots_f",
+      "directions": 4
+    },
+    {
+      "name": "silverboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silverboots_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

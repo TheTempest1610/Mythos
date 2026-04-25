@@ -1,0 +1,2457 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "CLOAKS"
+    },
+    {
+      "name": "leather_apron",
+      "directions": 4
+    },
+    {
+      "name": "leather_apron_f",
+      "directions": 4
+    },
+    {
+      "name": "leather_apron_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leather_apron_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "apron",
+      "directions": 4
+    },
+    {
+      "name": "apron_f",
+      "directions": 4
+    },
+    {
+      "name": "apron_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "apron_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "apron_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "apron_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "waistpron",
+      "directions": 4
+    },
+    {
+      "name": "waistpron_f",
+      "directions": 4
+    },
+    {
+      "name": "waistpron_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "waistpron_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "fur",
+      "directions": 4
+    },
+    {
+      "name": "r_fur",
+      "directions": 4
+    },
+    {
+      "name": "xr_fur",
+      "directions": 4
+    },
+    {
+      "name": "l_fur",
+      "directions": 4
+    },
+    {
+      "name": "xl_fur",
+      "directions": 4
+    },
+    {
+      "name": "hidecape",
+      "directions": 4
+    },
+    {
+      "name": "hidecape_r",
+      "directions": 4
+    },
+    {
+      "name": "cape",
+      "directions": 4
+    },
+    {
+      "name": "r_cape",
+      "directions": 4
+    },
+    {
+      "name": "l_cape",
+      "directions": 4
+    },
+    {
+      "name": "cape_f",
+      "directions": 4
+    },
+    {
+      "name": "r_cape_f",
+      "directions": 4
+    },
+    {
+      "name": "l_cape_f",
+      "directions": 4
+    },
+    {
+      "name": "cape_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_cape_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_cape_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "cape_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_cape_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_cape_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "furgrey",
+      "directions": 4
+    },
+    {
+      "name": "r_furgrey",
+      "directions": 4
+    },
+    {
+      "name": "l_furgrey",
+      "directions": 4
+    },
+    {
+      "name": "furgrey_f",
+      "directions": 4
+    },
+    {
+      "name": "r_furgrey_f",
+      "directions": 4
+    },
+    {
+      "name": "l_furgrey_f",
+      "directions": 4
+    },
+    {
+      "name": "furgrey_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_furgrey_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_furgrey_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "furgrey_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_furgrey_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_furgrey_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "chasuble",
+      "directions": 4
+    },
+    {
+      "name": "r_chasuble",
+      "directions": 4
+    },
+    {
+      "name": "l_chasuble",
+      "directions": 4
+    },
+    {
+      "name": "stole_gold",
+      "directions": 4
+    },
+    {
+      "name": "stole_red",
+      "directions": 4
+    },
+    {
+      "name": "stole_purple",
+      "directions": 4
+    },
+    {
+      "name": "black_cloak",
+      "directions": 4
+    },
+    {
+      "name": "black_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_black_cloak",
+      "directions": 4
+    },
+    {
+      "name": "l_black_cloak",
+      "directions": 4
+    },
+    {
+      "name": "r_black_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_black_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "rain_cloak",
+      "directions": 4
+    },
+    {
+      "name": "r_rain_cloak",
+      "directions": 4
+    },
+    {
+      "name": "l_rain_cloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_rain_cloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_rain_cloak",
+      "directions": 4
+    },
+    {
+      "name": "rain_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_rain_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_rain_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_rain_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_rain_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "rain_cloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_rain_cloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_rain_cloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_rain_cloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_rain_cloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "rain_cloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_rain_cloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_rain_cloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_rain_cloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_rain_cloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "puritan_cape",
+      "directions": 4
+    },
+    {
+      "name": "r_puritan_cape",
+      "directions": 4
+    },
+    {
+      "name": "l_puritan_cape",
+      "directions": 4
+    },
+    {
+      "name": "puritan_cape_f",
+      "directions": 4
+    },
+    {
+      "name": "r_puritan_cape_f",
+      "directions": 4
+    },
+    {
+      "name": "l_puritan_cape_f",
+      "directions": 4
+    },
+    {
+      "name": "guardcloak",
+      "directions": 4
+    },
+    {
+      "name": "guardcloak_rev",
+      "directions": 4
+    },
+    {
+      "name": "l_guardcloak",
+      "directions": 4
+    },
+    {
+      "name": "l_guardcloak_rev",
+      "directions": 4
+    },
+    {
+      "name": "guardcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "guardcloak_rev_f",
+      "directions": 4
+    },
+    {
+      "name": "l_guardcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_guardcloak_rev_f",
+      "directions": 4
+    },
+    {
+      "name": "halfcloak",
+      "directions": 4
+    },
+    {
+      "name": "halfcloak_rev",
+      "directions": 4
+    },
+    {
+      "name": "halfcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "halfcloak_rev_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_halfcloak",
+      "directions": 4
+    },
+    {
+      "name": "r_halfcloak_rev",
+      "directions": 4
+    },
+    {
+      "name": "r_halfcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_halfcloak_rev_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_halfcloak",
+      "directions": 4
+    },
+    {
+      "name": "l_halfcloak_rev",
+      "directions": 4
+    },
+    {
+      "name": "l_halfcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_halfcloak_rev_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_halfcloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_halfcloak_rev",
+      "directions": 4
+    },
+    {
+      "name": "xr_halfcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_halfcloak_rev_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_halfcloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_halfcloak_rev",
+      "directions": 4
+    },
+    {
+      "name": "xl_halfcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_halfcloak_rev_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "halfcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "halfcloak_rev_f",
+      "directions": 4
+    },
+    {
+      "name": "halfcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "halfcloak_rev_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_halfcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_halfcloak_rev_f",
+      "directions": 4
+    },
+    {
+      "name": "r_halfcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_halfcloak_rev_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_halfcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_halfcloak_rev_f",
+      "directions": 4
+    },
+    {
+      "name": "l_halfcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_halfcloak_rev_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_halfcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_halfcloak_rev_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_halfcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_halfcloak_rev_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_halfcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_halfcloak_rev_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_halfcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_halfcloak_rev_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "lord_cloak",
+      "directions": 4
+    },
+    {
+      "name": "r_lord_cloak",
+      "directions": 4
+    },
+    {
+      "name": "l_lord_cloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_lord_cloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_lord_cloak",
+      "directions": 4
+    },
+    {
+      "name": "lord_cloak_det",
+      "directions": 4
+    },
+    {
+      "name": "r_lord_cloak_det",
+      "directions": 4
+    },
+    {
+      "name": "l_lord_cloak_det",
+      "directions": 4
+    },
+    {
+      "name": "xr_lord_cloak_det",
+      "directions": 4
+    },
+    {
+      "name": "xl_lord_cloak_det",
+      "directions": 4
+    },
+    {
+      "name": "aproncook",
+      "directions": 4
+    },
+    {
+      "name": "aproncook_f",
+      "directions": 4
+    },
+    {
+      "name": "aproncook_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "aproncook_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "lord_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_lord_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_lord_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_lord_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_lord_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "lord_cloak_f_det",
+      "directions": 4
+    },
+    {
+      "name": "r_lord_cloak_f_det",
+      "directions": 4
+    },
+    {
+      "name": "l_lord_cloak_f_det",
+      "directions": 4
+    },
+    {
+      "name": "xr_lord_cloak_f_det",
+      "directions": 4
+    },
+    {
+      "name": "xl_lord_cloak_f_det",
+      "directions": 4
+    },
+    {
+      "name": "heartfelt_cloak",
+      "directions": 4
+    },
+    {
+      "name": "heartfelt_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "dark_cloak",
+      "directions": 4
+    },
+    {
+      "name": "r_dark_cloak",
+      "directions": 4
+    },
+    {
+      "name": "l_dark_cloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_dark_cloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_dark_cloak",
+      "directions": 4
+    },
+    {
+      "name": "dark_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_dark_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_dark_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_dark_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_dark_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "bear_cloak",
+      "directions": 4
+    },
+    {
+      "name": "r_bear_cloak",
+      "directions": 4
+    },
+    {
+      "name": "l_bear_cloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_bear_cloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_bear_cloak",
+      "directions": 4
+    },
+    {
+      "name": "bear_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_bear_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_bear_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_bear_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_bear_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "bbear_cloak",
+      "directions": 4
+    },
+    {
+      "name": "r_bbear_cloak",
+      "directions": 4
+    },
+    {
+      "name": "l_bbear_cloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_bbear_cloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_bbear_cloak",
+      "directions": 4
+    },
+    {
+      "name": "bbear_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_bbear_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_bbear_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_bbear_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_bbear_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "astratatabard",
+      "directions": 4
+    },
+    {
+      "name": "astratatabard_f",
+      "directions": 4
+    },
+    {
+      "name": "astratatabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "malumtabard",
+      "directions": 4
+    },
+    {
+      "name": "malumtabard_f",
+      "directions": 4
+    },
+    {
+      "name": "malumtabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "necratabard",
+      "directions": 4
+    },
+    {
+      "name": "necratabard_f",
+      "directions": 4
+    },
+    {
+      "name": "necratabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bkcape",
+      "directions": 4
+    },
+    {
+      "name": "bkcape_f",
+      "directions": 4
+    },
+    {
+      "name": "r_bkcape",
+      "directions": 4
+    },
+    {
+      "name": "r_bkcape_f",
+      "directions": 4
+    },
+    {
+      "name": "l_bkcape",
+      "directions": 4
+    },
+    {
+      "name": "l_bkcape_f",
+      "directions": 4
+    },
+    {
+      "name": "shadowcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_shadowcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_shadowcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_shadowcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_shadowcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "shadowcloak",
+      "directions": 4
+    },
+    {
+      "name": "r_shadowcloak",
+      "directions": 4
+    },
+    {
+      "name": "l_shadowcloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_shadowcloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_shadowcloak",
+      "directions": 4
+    },
+    {
+      "name": "naledisash",
+      "directions": 4
+    },
+    {
+      "name": "naledisash_f",
+      "directions": 4
+    },
+    {
+      "name": "naledisash_f_boob",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "naledisash_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "naledisash_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "naledisash_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "psydontabard_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "psydontabard_f",
+      "directions": 4
+    },
+    {
+      "name": "psydontabard",
+      "directions": 4
+    },
+    {
+      "name": "psydontabard_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "psydontabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "psydontabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "psydontabardalt",
+      "directions": 4
+    },
+    {
+      "name": "psydontabardalt_f",
+      "directions": 4
+    },
+    {
+      "name": "psydontabardalt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "psydontabardalt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "abyssortabard_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "abyssortabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "abyssortabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "abyssortabard_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "abyssortabard_f",
+      "directions": 4
+    },
+    {
+      "name": "abyssortabard",
+      "directions": 4
+    },
+    {
+      "name": "tribal",
+      "directions": 4
+    },
+    {
+      "name": "l_tribal",
+      "directions": 4
+    },
+    {
+      "name": "r_tribal",
+      "directions": 4
+    },
+    {
+      "name": "tribal_f",
+      "directions": 4
+    },
+    {
+      "name": "l_tribal_f",
+      "directions": 4
+    },
+    {
+      "name": "r_tribal_f",
+      "directions": 4
+    },
+    {
+      "name": "tribal_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_tribal_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_tribal_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "tribal_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_tribal_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_tribal_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "battlenun",
+      "directions": 4
+    },
+    {
+      "name": "battlenun_f",
+      "directions": 4
+    },
+    {
+      "name": "inquisitor_cloak",
+      "directions": 4
+    },
+    {
+      "name": "r_inquisitor_cloak",
+      "directions": 4
+    },
+    {
+      "name": "l_inquisitor_cloak",
+      "directions": 4
+    },
+    {
+      "name": "inquisitor_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_inquisitor_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_inquisitor_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "wicker_cloak",
+      "directions": 4
+    },
+    {
+      "name": "r_wicker_cloak",
+      "directions": 4
+    },
+    {
+      "name": "l_wicker_cloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_wicker_cloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_wicker_cloak",
+      "directions": 4
+    },
+    {
+      "name": "wicker_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_wicker_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_wicker_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_wicker_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_wicker_cloak_f",
+      "directions": 4
+    },
+    {
+      "name": "shortcloak",
+      "directions": 4
+    },
+    {
+      "name": "r_shortcloak",
+      "directions": 4
+    },
+    {
+      "name": "l_shortcloak",
+      "directions": 4
+    },
+    {
+      "name": "shortcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_shortcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_shortcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "shortcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_shortcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_shortcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "shortcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_shortcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "_lshortcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "shortcloak_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_shortcloak_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_shortcloak_detail",
+      "directions": 4
+    },
+    {
+      "name": "shortcloak_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_shortcloak_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_shortcloak_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "shortcloak_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_shortcloak_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_shortcloak_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "shortcloak_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_shortcloak_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_shortcloak_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "xr_shortcloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_shortcloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_shortcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_shortcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_shortcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_shortcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_shortcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_lshortcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_shortcloak_detail",
+      "directions": 4
+    },
+    {
+      "name": "xl_shortcloak_detail",
+      "directions": 4
+    },
+    {
+      "name": "xr_shortcloak_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "xl_shortcloak_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "xr_shortcloak_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "xl_shortcloak_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "xr_shortcloak_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "xl_shortcloak_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "matroncloak",
+      "directions": 4
+    },
+    {
+      "name": "r_matroncloak",
+      "directions": 4
+    },
+    {
+      "name": "l_matroncloak",
+      "directions": 4
+    },
+    {
+      "name": "matroncloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_matroncloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_matroncloak_f",
+      "directions": 4
+    },
+    {
+      "name": "matroncloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_matroncloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_matroncloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "matroncloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_matroncloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_matroncloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "volfpelt",
+      "directions": 4
+    },
+    {
+      "name": "r_volfpelt",
+      "directions": 4
+    },
+    {
+      "name": "l_volfpelt",
+      "directions": 4
+    },
+    {
+      "name": "pestratabard",
+      "directions": 4
+    },
+    {
+      "name": "pestratabard_f",
+      "directions": 4
+    },
+    {
+      "name": "pestratabard_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "pestratabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "pestratabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "pestratabard_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "eoratabard",
+      "directions": 4
+    },
+    {
+      "name": "eoratabard_f",
+      "directions": 4
+    },
+    {
+      "name": "eoratabard_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "eoratabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "eoratabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "eoratabard_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "martyrcloak",
+      "directions": 4
+    },
+    {
+      "name": "martyrcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "forestcloak",
+      "directions": 4
+    },
+    {
+      "name": "r_forestcloak",
+      "directions": 4
+    },
+    {
+      "name": "l_forestcloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_forestcloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_forestcloak",
+      "directions": 4
+    },
+    {
+      "name": "forestcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_forestcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_forestcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_forestcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_forestcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "forestcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_forestcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_forestcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_forestcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_forestcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "forestcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_forestcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_forestcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_forestcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_forestcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "aforestcloak",
+      "directions": 4
+    },
+    {
+      "name": "r_aforestcloak",
+      "directions": 4
+    },
+    {
+      "name": "l_aforestcloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_aforestcloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_aforestcloak",
+      "directions": 4
+    },
+    {
+      "name": "aforestcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_aforestcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_aforestcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_aforestcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_aforestcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "aforestcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_aforestcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_aforestcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_aforestcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_aforestcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "aforestcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_aforestcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_aforestcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_aforestcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_aforestcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "snowcloak",
+      "directions": 4
+    },
+    {
+      "name": "r_snowcloak",
+      "directions": 4
+    },
+    {
+      "name": "l_snowcloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_snowcloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_snowcloak",
+      "directions": 4
+    },
+    {
+      "name": "snowcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_snowcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_snowcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_snowcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_snowcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "snowcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_snowcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_snowcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_snowcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_snowcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "snowcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_snowcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_snowcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_snowcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_snowcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "wardencloak",
+      "directions": 4
+    },
+    {
+      "name": "r_wardencloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_wardencloak",
+      "directions": 4
+    },
+    {
+      "name": "l_wardencloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_wardencloak",
+      "directions": 4
+    },
+    {
+      "name": "wardencloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_wardencloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_wardencloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_wardencloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_wardencloak_f",
+      "directions": 4
+    },
+    {
+      "name": "wardencloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_wardencloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_wardencloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_wardencloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_wardencloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "wardencloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_wardencloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_wardencloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_wardencloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_wardencloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "graggarcloak",
+      "directions": 4
+    },
+    {
+      "name": "graggarcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "graggarcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "graggarcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_graggarcloak",
+      "directions": 4
+    },
+    {
+      "name": "l_graggarcloak",
+      "directions": 4
+    },
+    {
+      "name": "r_graggarcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_graggarcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_graggarcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_graggarcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_graggarcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_graggarcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xylixcloak",
+      "directions": 4
+    },
+    {
+      "name": "xylixcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xylixcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xylixcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xylixcloak_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "xylixcloak_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "justicetabard",
+      "directions": 4
+    },
+    {
+      "name": "r_justicetabard",
+      "directions": 4
+    },
+    {
+      "name": "l_justicetabard",
+      "directions": 4
+    },
+    {
+      "name": "justicetabard_f",
+      "directions": 4
+    },
+    {
+      "name": "r_justicetabard_f",
+      "directions": 4
+    },
+    {
+      "name": "l_justicetabard_f",
+      "directions": 4
+    },
+    {
+      "name": "justicetabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_justicetabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_justicetabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "justicetabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_justicetabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_justicetabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "eastcloak1",
+      "directions": 4
+    },
+    {
+      "name": "r_eastcloak1",
+      "directions": 4
+    },
+    {
+      "name": "l_eastcloak1",
+      "directions": 4
+    },
+    {
+      "name": "eastcloak1_f",
+      "directions": 4
+    },
+    {
+      "name": "r_eastcloak1_f",
+      "directions": 4
+    },
+    {
+      "name": "l_eastcloak1_f",
+      "directions": 4
+    },
+    {
+      "name": "eastcloak2",
+      "directions": 4
+    },
+    {
+      "name": "r_eastcloak2",
+      "directions": 4
+    },
+    {
+      "name": "l_eastcloak2",
+      "directions": 4
+    },
+    {
+      "name": "eastcloak2_f",
+      "directions": 4
+    },
+    {
+      "name": "r_eastcloak2_f",
+      "directions": 4
+    },
+    {
+      "name": "l_eastcloak2_f",
+      "directions": 4
+    },
+    {
+      "name": "thiefcloak",
+      "directions": 4
+    },
+    {
+      "name": "thiefcloak_f",
+      "directions": 4
+    },
+    {
+      "name": "thiefcloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "thiefcloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ordinatorcape",
+      "directions": 4
+    },
+    {
+      "name": "ordinatorcape_f",
+      "directions": 4
+    },
+    {
+      "name": "ordinatorcape_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ordinatorcape_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "absolutionistrobe",
+      "directions": 4
+    },
+    {
+      "name": "absolutionistrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "absolutionistrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "absolutionistrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "cotehardie",
+      "directions": 4
+    },
+    {
+      "name": "cotehardie_detail",
+      "directions": 4
+    },
+    {
+      "name": "cotehardie_f",
+      "directions": 4
+    },
+    {
+      "name": "cotehardie_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "cotehardie_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "cotehardie_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "cotehardie_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "cotehardie_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "cotehardie_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "seetabard",
+      "directions": 4
+    },
+    {
+      "name": "seetabard_f",
+      "directions": 4
+    },
+    {
+      "name": "seetabard_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "seetabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "seetabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "seetabard_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "seetabardalt",
+      "directions": 4
+    },
+    {
+      "name": "seetabardalt_f",
+      "directions": 4
+    },
+    {
+      "name": "seetabardalt_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "seetabardalt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "seetabardalt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "seetabardalt_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_seecloak",
+      "directions": 4
+    },
+    {
+      "name": "l_seecloak",
+      "directions": 4
+    },
+    {
+      "name": "r_seecloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_seecloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_seecloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_seecloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_seecloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_seecloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "poncho",
+      "directions": 4
+    },
+    {
+      "name": "r_poncho",
+      "directions": 4
+    },
+    {
+      "name": "l_poncho",
+      "directions": 4
+    },
+    {
+      "name": "poncho_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_poncho_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_poncho_detail",
+      "directions": 4
+    },
+    {
+      "name": "poncho_f",
+      "directions": 4
+    },
+    {
+      "name": "r_poncho_f",
+      "directions": 4
+    },
+    {
+      "name": "l_poncho_f",
+      "directions": 4
+    },
+    {
+      "name": "poncho_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_poncho_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_poncho_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "poncho_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_poncho_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_poncho_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "poncho_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_poncho_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_poncho_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "poncho_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_poncho_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_poncho_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "poncho_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_poncho_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_poncho_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazenguncoat",
+      "directions": 4
+    },
+    {
+      "name": "kazenguncoat_f",
+      "directions": 4
+    },
+    {
+      "name": "kazenguncoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kazenguncoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kazenguncoat_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazenguncoat_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazenguncoat_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazenguncoat_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "psaltertabard",
+      "directions": 4
+    },
+    {
+      "name": "psaltertabard_f",
+      "directions": 4
+    },
+    {
+      "name": "psaltertabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "psaltertabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "fancycoat",
+      "directions": 4
+    },
+    {
+      "name": "fancycoat_f",
+      "directions": 4
+    },
+    {
+      "name": "buttpack",
+      "directions": 4
+    },
+    {
+      "name": "buttpack_f",
+      "directions": 4
+    },
+    {
+      "name": "buttpack_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "buttpack_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "mino",
+      "directions": 4
+    },
+    {
+      "name": "r_mino",
+      "directions": 4
+    },
+    {
+      "name": "l_mino",
+      "directions": 4
+    },
+    {
+      "name": "mino_f",
+      "directions": 4
+    },
+    {
+      "name": "r_mino_f",
+      "directions": 4
+    },
+    {
+      "name": "l_mino_f",
+      "directions": 4
+    },
+    {
+      "name": "lirvastabard",
+      "directions": 4
+    },
+    {
+      "name": "lirvastabard_f",
+      "directions": 4
+    },
+    {
+      "name": "lirvastabard_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "lirvastabard_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bandolier",
+      "directions": 4
+    },
+    {
+      "name": "bandolier_f",
+      "directions": 4
+    },
+    {
+      "name": "bandolier_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bandolier_dwarf_f",
+      "directions": 4
+    },
+    {
+      "name": "maidapronfancy",
+      "directions": 4
+    },
+    {
+      "name": "maidapronfancy_f",
+      "directions": 4
+    },
+    {
+      "name": "maidapronfancy_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "maidapronfancy_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "maidapronfancy_detail",
+      "directions": 4
+    },
+    {
+      "name": "maidapronfancy_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "maidapronfancy_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "maidapronfancy_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "scalecloak",
+      "directions": 4
+    },
+    {
+      "name": "r_scalecloak",
+      "directions": 4
+    },
+    {
+      "name": "l_scalecloak",
+      "directions": 4
+    },
+    {
+      "name": "xr_scalecloak",
+      "directions": 4
+    },
+    {
+      "name": "xl_scalecloak",
+      "directions": 4
+    },
+    {
+      "name": "r_scalecloak_detail",
+      "directions": 4
+    },
+    {
+      "name": "xr_scalecloak_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_scalecloak_detail",
+      "directions": 4
+    },
+    {
+      "name": "xl_scalecloak_detail",
+      "directions": 4
+    },
+    {
+      "name": "scalecloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_scalecloak_f",
+      "directions": 4
+    },
+    {
+      "name": "l_scalecloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xr_scalecloak_f",
+      "directions": 4
+    },
+    {
+      "name": "xl_scalecloak_f",
+      "directions": 4
+    },
+    {
+      "name": "r_scalecloak_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "xr_scalecloak_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_scalecloak_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "xl_scalecloak_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "scalecloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_scalecloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_scalecloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_scalecloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_scalecloak_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_scalecloak_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "xr_scalecloak_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_scalecloak_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "xl_scalecloak_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "scalecloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_scalecloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_scalecloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xr_scalecloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "xl_scalecloak_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_scalecloak_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "xr_scalecloak_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "xl_scalecloak_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_scalecloak_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "halfsurcoat",
+      "directions": 4
+    },
+    {
+      "name": "halfsurcoat_f",
+      "directions": 4
+    },
+    {
+      "name": "halfsurcoat_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "halfsurcoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "halfsurcoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "halfsurcoat_f_dwarf_boob",
+      "directions": 4
+    }
+  ]
+}

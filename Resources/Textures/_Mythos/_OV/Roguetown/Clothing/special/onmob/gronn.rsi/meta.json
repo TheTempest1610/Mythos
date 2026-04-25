@@ -1,0 +1,193 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "gronnplate",
+      "directions": 4
+    },
+    {
+      "name": "gronnplate_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnplategloves",
+      "directions": 4
+    },
+    {
+      "name": "gronnplategloves_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnplategloves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnplategloves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnplatepants",
+      "directions": 4
+    },
+    {
+      "name": "gronnplatepants_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnplatepants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnplatepants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnplateboots",
+      "directions": 4
+    },
+    {
+      "name": "gronnplateboots_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnplateboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnplateboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnleatherhelm",
+      "directions": 4
+    },
+    {
+      "name": "gronnleatherarmor",
+      "directions": 4
+    },
+    {
+      "name": "gronnleatherarmor_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnleatherarmor_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnleatherarmor_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnleatherpants",
+      "directions": 4
+    },
+    {
+      "name": "gronnleatherpants_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnleatherpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnleatherpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnleathergloves",
+      "directions": 4
+    },
+    {
+      "name": "gronnleathergloves_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnleathergloves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnleathergloves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnfurgloves",
+      "directions": 4
+    },
+    {
+      "name": "gronnfurgloves_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnfurgloves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnfurgloves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnhelm",
+      "directions": 4
+    },
+    {
+      "name": "gronnchain",
+      "directions": 4
+    },
+    {
+      "name": "gronnchain_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnchain_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnchain_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnchaingloves",
+      "directions": 4
+    },
+    {
+      "name": "gronnchaingloves_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnchaingloves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnchaingloves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnchainpants",
+      "directions": 4
+    },
+    {
+      "name": "gronnchainpants_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnchainpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnchainpants_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

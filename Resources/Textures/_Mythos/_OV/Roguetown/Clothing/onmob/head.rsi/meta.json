@@ -1,0 +1,1471 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "HELMETS"
+    },
+    {
+      "name": "barbuteold",
+      "directions": 4
+    },
+    {
+      "name": "menacing",
+      "directions": 4
+    },
+    {
+      "name": "strawhat",
+      "directions": 4
+    },
+    {
+      "name": "armingcap",
+      "directions": 4
+    },
+    {
+      "name": "paddedarmingcap",
+      "directions": 4
+    },
+    {
+      "name": "plague",
+      "directions": 4
+    },
+    {
+      "name": "witch",
+      "directions": 4
+    },
+    {
+      "name": "witch_detail",
+      "directions": 4
+    },
+    {
+      "name": "witch_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "witchold",
+      "directions": 4
+    },
+    {
+      "name": "serpcrowno",
+      "directions": 4
+    },
+    {
+      "name": "sparrowcrown",
+      "directions": 4
+    },
+    {
+      "name": "rangerhood",
+      "directions": 4
+    },
+    {
+      "name": "basichood_t",
+      "directions": 4
+    },
+    {
+      "name": "basichood",
+      "directions": 4
+    },
+    {
+      "name": "zucchetto",
+      "directions": 4
+    },
+    {
+      "name": "reqhat",
+      "directions": 4
+    },
+    {
+      "name": "nun",
+      "directions": 4
+    },
+    {
+      "name": "headdress",
+      "directions": 4
+    },
+    {
+      "name": "headdressalt",
+      "directions": 4
+    },
+    {
+      "name": "jester",
+      "directions": 4
+    },
+    {
+      "name": "jester_detail",
+      "directions": 4
+    },
+    {
+      "name": "jester_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "rain_hood",
+      "directions": 4
+    },
+    {
+      "name": "leatherhelm",
+      "directions": 4
+    },
+    {
+      "name": "fisherhat",
+      "directions": 4
+    },
+    {
+      "name": "fur_hood",
+      "directions": 4
+    },
+    {
+      "name": "headband",
+      "directions": 4
+    },
+    {
+      "name": "nile",
+      "directions": 4
+    },
+    {
+      "name": "vamp",
+      "directions": 4
+    },
+    {
+      "name": "tophat",
+      "directions": 4
+    },
+    {
+      "name": "serpcrown",
+      "directions": 4
+    },
+    {
+      "name": "hatblu",
+      "directions": 4
+    },
+    {
+      "name": "papakha",
+      "directions": 4
+    },
+    {
+      "name": "hatfur",
+      "directions": 4
+    },
+    {
+      "name": "smokingc",
+      "directions": 4
+    },
+    {
+      "name": "bardhat",
+      "directions": 4
+    },
+    {
+      "name": "ricehat",
+      "directions": 4
+    },
+    {
+      "name": "fancy_hat",
+      "directions": 4
+    },
+    {
+      "name": "knitcap",
+      "directions": 4
+    },
+    {
+      "name": "metalarming",
+      "directions": 4
+    },
+    {
+      "name": "shawl",
+      "directions": 4
+    },
+    {
+      "name": "hornedcap",
+      "directions": 4
+    },
+    {
+      "name": "bandithood",
+      "directions": 4
+    },
+    {
+      "name": "warlockhood",
+      "directions": 4
+    },
+    {
+      "name": "warlockhood_t",
+      "directions": 4
+    },
+    {
+      "name": "hennin",
+      "directions": 4
+    },
+    {
+      "name": "puritan_hat",
+      "directions": 4
+    },
+    {
+      "name": "guardhelm",
+      "directions": 4
+    },
+    {
+      "name": "gatehelm",
+      "directions": 4
+    },
+    {
+      "name": "hounskull",
+      "directions": 4
+    },
+    {
+      "name": "hounskull_detail",
+      "directions": 4
+    },
+    {
+      "name": "hounskull_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "hounskull_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "hounskull_t_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "bascinet_novisor",
+      "directions": 4
+    },
+    {
+      "name": "bascinet_novisor_detail",
+      "directions": 4
+    },
+    {
+      "name": "skullcap",
+      "directions": 4
+    },
+    {
+      "name": "knight",
+      "directions": 4
+    },
+    {
+      "name": "knight_detail",
+      "directions": 4
+    },
+    {
+      "name": "knight_t",
+      "directions": 4
+    },
+    {
+      "name": "knight_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "nasal",
+      "directions": 4
+    },
+    {
+      "name": "kettle",
+      "directions": 4
+    },
+    {
+      "name": "kettle_detail",
+      "directions": 4
+    },
+    {
+      "name": "skettle",
+      "directions": 4
+    },
+    {
+      "name": "skettle_detail",
+      "directions": 4
+    },
+    {
+      "name": "skettle_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "sallet",
+      "directions": 4
+    },
+    {
+      "name": "sallet_detail",
+      "directions": 4
+    },
+    {
+      "name": "sallet_visor",
+      "directions": 4
+    },
+    {
+      "name": "sallet_visor_detail",
+      "directions": 4
+    },
+    {
+      "name": "sallet_visor_t",
+      "directions": 4
+    },
+    {
+      "name": "sallet_visor_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "kettlewide",
+      "directions": 4
+    },
+    {
+      "name": "kettlewide_detail",
+      "directions": 4
+    },
+    {
+      "name": "topfhelm",
+      "directions": 4
+    },
+    {
+      "name": "topfhelm_gold",
+      "directions": 4
+    },
+    {
+      "name": "topfhelm_detail",
+      "directions": 4
+    },
+    {
+      "name": "topfhelm_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "topfhelm_gold_detail",
+      "directions": 4
+    },
+    {
+      "name": "topfhelm_gold_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "fancyhat",
+      "directions": 4
+    },
+    {
+      "name": "chef",
+      "directions": 4
+    },
+    {
+      "name": "astratahood",
+      "directions": 4
+    },
+    {
+      "name": "astratahood_t",
+      "directions": 4
+    },
+    {
+      "name": "necrahood",
+      "directions": 4
+    },
+    {
+      "name": "dendormask",
+      "directions": 4
+    },
+    {
+      "name": "briarthorns",
+      "directions": 4
+    },
+    {
+      "name": "priesthead",
+      "directions": 4
+    },
+    {
+      "name": "shalal",
+      "directions": 4
+    },
+    {
+      "name": "shalal_t",
+      "directions": 4
+    },
+    {
+      "name": "vcrown",
+      "directions": 4
+    },
+    {
+      "name": "vcrown_f",
+      "directions": 4
+    },
+    {
+      "name": "volfhead",
+      "directions": 4
+    },
+    {
+      "name": "necromhood",
+      "directions": 4
+    },
+    {
+      "name": "necromhood_f",
+      "directions": 4
+    },
+    {
+      "name": "nochood",
+      "directions": 4
+    },
+    {
+      "name": "nochood_t",
+      "directions": 4
+    },
+    {
+      "name": "astratahelm",
+      "directions": 4
+    },
+    {
+      "name": "dendorhelm",
+      "directions": 4
+    },
+    {
+      "name": "nochelm",
+      "directions": 4
+    },
+    {
+      "name": "necrahelm",
+      "directions": 4
+    },
+    {
+      "name": "vhelmet",
+      "directions": 4
+    },
+    {
+      "name": "vhelmet_f",
+      "directions": 4
+    },
+    {
+      "name": "helmet_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "helmet_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "plate_helm_item",
+      "directions": 4
+    },
+    {
+      "name": "leather_helm_item",
+      "directions": 4
+    },
+    {
+      "name": "physhat",
+      "directions": 4
+    },
+    {
+      "name": "grenzelhat",
+      "directions": 4
+    },
+    {
+      "name": "grenzelhat_detail",
+      "directions": 4
+    },
+    {
+      "name": "grenzelhat_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "tricorn",
+      "directions": 4
+    },
+    {
+      "name": "tricorn_skull",
+      "directions": 4
+    },
+    {
+      "name": "bandana",
+      "directions": 4
+    },
+    {
+      "name": "minerslamp",
+      "directions": 4
+    },
+    {
+      "name": "minerslamp0",
+      "directions": 4
+    },
+    {
+      "name": "minerslamp1",
+      "directions": 4
+    },
+    {
+      "name": "antlerhood",
+      "directions": 4
+    },
+    {
+      "name": "frogmouth",
+      "directions": 4
+    },
+    {
+      "name": "frogmouth_detail",
+      "directions": 4
+    },
+    {
+      "name": "frogmouth_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "archercap",
+      "directions": 4
+    },
+    {
+      "name": "astratanhelm",
+      "directions": 4
+    },
+    {
+      "name": "astratanhelm_detail",
+      "directions": 4
+    },
+    {
+      "name": "astratanhelm_detailp",
+      "directions": 4
+    },
+    {
+      "name": "astratanhelm_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "necranhelm",
+      "directions": 4
+    },
+    {
+      "name": "malumhelm",
+      "directions": 4
+    },
+    {
+      "name": "pestranhelm",
+      "directions": 4
+    },
+    {
+      "name": "eorahelm",
+      "directions": 4
+    },
+    {
+      "name": "hijab",
+      "directions": 4
+    },
+    {
+      "name": "hijab_t",
+      "directions": 4
+    },
+    {
+      "name": "monkhood",
+      "directions": 4
+    },
+    {
+      "name": "monkhood_t",
+      "directions": 4
+    },
+    {
+      "name": "bucklehat",
+      "directions": 4
+    },
+    {
+      "name": "duelhat",
+      "directions": 4
+    },
+    {
+      "name": "duelhat_detail",
+      "directions": 4
+    },
+    {
+      "name": "psydonarmet",
+      "directions": 4
+    },
+    {
+      "name": "psydonarmet_detail",
+      "directions": 4
+    },
+    {
+      "name": "psydonarmet_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "psydonbarbute",
+      "directions": 4
+    },
+    {
+      "name": "volfplate",
+      "directions": 4
+    },
+    {
+      "name": "volfplate_t",
+      "directions": 4
+    },
+    {
+      "name": "psydonhood_t",
+      "directions": 4
+    },
+    {
+      "name": "psydonhood",
+      "directions": 4
+    },
+    {
+      "name": "deathface",
+      "directions": 4
+    },
+    {
+      "name": "abyssorgreathelm",
+      "directions": 4
+    },
+    {
+      "name": "abyssorhood_t",
+      "directions": 4
+    },
+    {
+      "name": "abyssorhood",
+      "directions": 4
+    },
+    {
+      "name": "otavahelm",
+      "directions": 4
+    },
+    {
+      "name": "curator",
+      "directions": 4
+    },
+    {
+      "name": "inqhat",
+      "directions": 4
+    },
+    {
+      "name": "gravehat",
+      "directions": 4
+    },
+    {
+      "name": "heavyhood_t",
+      "directions": 4
+    },
+    {
+      "name": "heavyhood",
+      "directions": 4
+    },
+    {
+      "name": "articap",
+      "directions": 4
+    },
+    {
+      "name": "eorahelmsallet",
+      "directions": 4
+    },
+    {
+      "name": "feldhood",
+      "directions": 4
+    },
+    {
+      "name": "feldhood_t",
+      "directions": 4
+    },
+    {
+      "name": "surghood",
+      "directions": 4
+    },
+    {
+      "name": "surghood_t",
+      "directions": 4
+    },
+    {
+      "name": "whitehood",
+      "directions": 4
+    },
+    {
+      "name": "whitehood_t",
+      "directions": 4
+    },
+    {
+      "name": "consortcrown",
+      "directions": 4
+    },
+    {
+      "name": "headscarf",
+      "directions": 4
+    },
+    {
+      "name": "brimmed",
+      "directions": 4
+    },
+    {
+      "name": "goldcirclet",
+      "directions": 4
+    },
+    {
+      "name": "visioncirclet",
+      "directions": 4
+    },
+    {
+      "name": "sleepcirclet",
+      "directions": 4
+    },
+    {
+      "name": "stinkcirclet",
+      "directions": 4
+    },
+    {
+      "name": "circlet",
+      "directions": 4
+    },
+    {
+      "name": "zizofrogmouth",
+      "directions": 4
+    },
+    {
+      "name": "zizobarbute",
+      "directions": 4
+    },
+    {
+      "name": "volfplate_avantyne",
+      "directions": 4
+    },
+    {
+      "name": "volfplate_avantyne_t",
+      "directions": 4
+    },
+    {
+      "name": "bascinet",
+      "directions": 4
+    },
+    {
+      "name": "bascinet_detail",
+      "directions": 4
+    },
+    {
+      "name": "bascinet_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "bascinet_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "bascinet_t_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "armet",
+      "directions": 4
+    },
+    {
+      "name": "armet_detail",
+      "directions": 4
+    },
+    {
+      "name": "armet_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "klappvisier",
+      "directions": 4
+    },
+    {
+      "name": "klappvisier_detail",
+      "directions": 4
+    },
+    {
+      "name": "elven_barbute_full",
+      "directions": 4
+    },
+    {
+      "name": "elven_barbute_winged",
+      "directions": 4
+    },
+    {
+      "name": "chap_alt",
+      "directions": 4
+    },
+    {
+      "name": "chaperon",
+      "directions": 4
+    },
+    {
+      "name": "noblechaperon",
+      "directions": 4
+    },
+    {
+      "name": "noblechaperon_detail",
+      "directions": 4
+    },
+    {
+      "name": "lamellar",
+      "directions": 4
+    },
+    {
+      "name": "ancientbarbute",
+      "directions": 4
+    },
+    {
+      "name": "ancientbarbute_detail",
+      "directions": 4
+    },
+    {
+      "name": "ancientsavoyard",
+      "directions": 4
+    },
+    {
+      "name": "ancientknight",
+      "directions": 4
+    },
+    {
+      "name": "ancientknight_t",
+      "directions": 4
+    },
+    {
+      "name": "ancientknight_detail",
+      "directions": 4
+    },
+    {
+      "name": "ancientknight_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "ancientkettle",
+      "directions": 4
+    },
+    {
+      "name": "ancientkettle_detail",
+      "directions": 4
+    },
+    {
+      "name": "hounskull_t",
+      "directions": 4
+    },
+    {
+      "name": "psydonarmet_t",
+      "directions": 4
+    },
+    {
+      "name": "psydonarmet_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "psydonarmet_t_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "volfplate_t_1",
+      "directions": 4
+    },
+    {
+      "name": "otavahelm_t",
+      "directions": 4
+    },
+    {
+      "name": "zizobarbute_t",
+      "directions": 4
+    },
+    {
+      "name": "bascinet_t",
+      "directions": 4
+    },
+    {
+      "name": "armet_t",
+      "directions": 4
+    },
+    {
+      "name": "armet_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "armet_t_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "klappvisier_t",
+      "directions": 4
+    },
+    {
+      "name": "klappvisier_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "beekeeper",
+      "directions": 4
+    },
+    {
+      "name": "graggarplatehelm",
+      "directions": 4
+    },
+    {
+      "name": "xylixhelmet",
+      "directions": 4
+    },
+    {
+      "name": "ravoxhelmet",
+      "directions": 4
+    },
+    {
+      "name": "ravoxhelmet_detail",
+      "directions": 4
+    },
+    {
+      "name": "ravoxgorget",
+      "directions": 4
+    },
+    {
+      "name": "easthat",
+      "directions": 4
+    },
+    {
+      "name": "ikettle",
+      "directions": 4
+    },
+    {
+      "name": "ikettle_detail",
+      "directions": 4
+    },
+    {
+      "name": "iknight",
+      "directions": 4
+    },
+    {
+      "name": "iknight_t",
+      "directions": 4
+    },
+    {
+      "name": "iknight_detail",
+      "directions": 4
+    },
+    {
+      "name": "iknight_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "isallet",
+      "directions": 4
+    },
+    {
+      "name": "isallet_detail",
+      "directions": 4
+    },
+    {
+      "name": "isallet_visor",
+      "directions": 4
+    },
+    {
+      "name": "isallet_visor_t",
+      "directions": 4
+    },
+    {
+      "name": "isallet_visor_detail",
+      "directions": 4
+    },
+    {
+      "name": "isallet_visor_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "otavahelm_detail",
+      "directions": 4
+    },
+    {
+      "name": "otavahelm_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "confessorhood",
+      "directions": 4
+    },
+    {
+      "name": "confessorhood_t",
+      "directions": 4
+    },
+    {
+      "name": "psybarbs",
+      "directions": 4
+    },
+    {
+      "name": "psysallet",
+      "directions": 4
+    },
+    {
+      "name": "psybucket",
+      "directions": 4
+    },
+    {
+      "name": "psybucket_detail",
+      "directions": 4
+    },
+    {
+      "name": "psybucket_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "blackbag",
+      "directions": 4
+    },
+    {
+      "name": "kettlewide_detailp",
+      "directions": 4
+    },
+    {
+      "name": "topfhelm_detailp",
+      "directions": 4
+    },
+    {
+      "name": "sallet_visor_detailp",
+      "directions": 4
+    },
+    {
+      "name": "sallet_detailp",
+      "directions": 4
+    },
+    {
+      "name": "frogmouth_detailp",
+      "directions": 4
+    },
+    {
+      "name": "psydonarmet_detailp",
+      "directions": 4
+    },
+    {
+      "name": "bascinet_detailaltp",
+      "directions": 4
+    },
+    {
+      "name": "armet_detailaltp",
+      "directions": 4
+    },
+    {
+      "name": "klappvisier_detailp",
+      "directions": 4
+    },
+    {
+      "name": "kettle_detailp",
+      "directions": 4
+    },
+    {
+      "name": "sallet_visor_t_detailp",
+      "directions": 4
+    },
+    {
+      "name": "psydonarmet_t_detailp",
+      "directions": 4
+    },
+    {
+      "name": "armet_t_detailaltp",
+      "directions": 4
+    },
+    {
+      "name": "klappvisier_t_detailp",
+      "directions": 4
+    },
+    {
+      "name": "ironplate",
+      "directions": 4
+    },
+    {
+      "name": "ironplate_detail",
+      "directions": 4
+    },
+    {
+      "name": "ironplate_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "loudmouth",
+      "directions": 4
+    },
+    {
+      "name": "loudmouth_detail",
+      "directions": 4
+    },
+    {
+      "name": "loudmouth_t",
+      "directions": 4
+    },
+    {
+      "name": "loudmouth_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "shishak",
+      "directions": 4
+    },
+    {
+      "name": "shishak_detail",
+      "directions": 4
+    },
+    {
+      "name": "veil",
+      "directions": 4
+    },
+    {
+      "name": "veil_detail",
+      "directions": 4
+    },
+    {
+      "name": "veil_t",
+      "directions": 4
+    },
+    {
+      "name": "veil_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "steelsavoyard",
+      "directions": 4
+    },
+    {
+      "name": "kazengunheavyhelm",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmedhelm",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmedhelm_detail",
+      "directions": 4
+    },
+    {
+      "name": "explorerhat",
+      "directions": 4
+    },
+    {
+      "name": "desert_hood_f",
+      "directions": 4
+    },
+    {
+      "name": "desert_hood",
+      "directions": 4
+    },
+    {
+      "name": "knightclassic",
+      "directions": 4
+    },
+    {
+      "name": "knightclassic_detail",
+      "directions": 4
+    },
+    {
+      "name": "knightclassic_t",
+      "directions": 4
+    },
+    {
+      "name": "knightclassic_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "iknightclassic",
+      "directions": 4
+    },
+    {
+      "name": "iknightclassic_detail",
+      "directions": 4
+    },
+    {
+      "name": "iknightclassic_t",
+      "directions": 4
+    },
+    {
+      "name": "iknightclassic_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "goldbarbute",
+      "directions": 4
+    },
+    {
+      "name": "goldbarbute_crown",
+      "directions": 4
+    },
+    {
+      "name": "goldknight",
+      "directions": 4
+    },
+    {
+      "name": "goldknight_detail",
+      "directions": 4
+    },
+    {
+      "name": "goldknight_t",
+      "directions": 4
+    },
+    {
+      "name": "goldknight_crown",
+      "directions": 4
+    },
+    {
+      "name": "goldknight_crown_detail",
+      "directions": 4
+    },
+    {
+      "name": "goldknight_crown_t",
+      "directions": 4
+    },
+    {
+      "name": "ewarlockhood",
+      "directions": 4,
+      "delays": [
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ewarlockhood_t",
+      "directions": 4,
+      "delays": [
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "dungeoneer",
+      "directions": 4
+    },
+    {
+      "name": "bronzebarbute",
+      "directions": 4
+    },
+    {
+      "name": "bronzebarbute_detail",
+      "directions": 4
+    },
+    {
+      "name": "bronzemurmillo",
+      "directions": 4
+    },
+    {
+      "name": "bronzemurmillo_detail",
+      "directions": 4
+    },
+    {
+      "name": "chapnaled",
+      "directions": 4
+    },
+    {
+      "name": "chapnaledalt",
+      "directions": 4
+    },
+    {
+      "name": "chapnaledalt_snout",
+      "directions": 4
+    },
+    {
+      "name": "beakhelmet",
+      "directions": 4
+    },
+    {
+      "name": "circlet_jade",
+      "directions": 4
+    },
+    {
+      "name": "circlet_turq",
+      "directions": 4
+    },
+    {
+      "name": "circlet_onyxa",
+      "directions": 4
+    },
+    {
+      "name": "circlet_rose",
+      "directions": 4
+    },
+    {
+      "name": "circlet_shell",
+      "directions": 4
+    },
+    {
+      "name": "circlet_coral",
+      "directions": 4
+    },
+    {
+      "name": "circlet_amber",
+      "directions": 4
+    },
+    {
+      "name": "circlet_opal",
+      "directions": 4
+    },
+    {
+      "name": "studhood_t",
+      "directions": 4
+    },
+    {
+      "name": "studhood_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "studhood",
+      "directions": 4
+    },
+    {
+      "name": "studhood_detail",
+      "directions": 4
+    },
+    {
+      "name": "barbute",
+      "directions": 4
+    },
+    {
+      "name": "barbute_detail",
+      "directions": 4
+    },
+    {
+      "name": "barbute_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "barbute_visor",
+      "directions": 4
+    },
+    {
+      "name": "barbute_visor_detail",
+      "directions": 4
+    },
+    {
+      "name": "barbute_visor_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "barbute_visor_t",
+      "directions": 4
+    },
+    {
+      "name": "barbute_visor_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "barbute_visor_t_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "barbutedunk",
+      "directions": 4
+    },
+    {
+      "name": "barbutedunk_detail",
+      "directions": 4
+    },
+    {
+      "name": "barbutedunk_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "bkhelm",
+      "directions": 4
+    },
+    {
+      "name": "bplatehelm",
+      "directions": 4
+    },
+    {
+      "name": "bplatehelm_detail",
+      "directions": 4
+    },
+    {
+      "name": "bplatehelm_detail_alt",
+      "directions": 4
+    },
+    {
+      "name": "bplatehelm_t",
+      "directions": 4
+    },
+    {
+      "name": "bplatehelm_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "bplatehelm_detailalt",
+      "directions": 4
+    },
+    {
+      "name": "maidband",
+      "directions": 4
+    },
+    {
+      "name": "keeperhelm",
+      "directions": 4
+    },
+    {
+      "name": "headdress_dance",
+      "directions": 4
+    },
+    {
+      "name": "silversallet",
+      "directions": 4
+    },
+    {
+      "name": "silversallet_detail",
+      "directions": 4
+    },
+    {
+      "name": "silversallet_detailp",
+      "directions": 4
+    },
+    {
+      "name": "undividedhood",
+      "directions": 4
+    },
+    {
+      "name": "undividedhood_t",
+      "directions": 4
+    },
+    {
+      "name": "ravoxhood",
+      "directions": 4
+    },
+    {
+      "name": "ravoxhood_t",
+      "directions": 4
+    }
+  ]
+}

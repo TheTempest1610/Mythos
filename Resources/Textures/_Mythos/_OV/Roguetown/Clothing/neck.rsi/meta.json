@@ -1,0 +1,384 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "coif"
+    },
+    {
+      "name": "fchaincoif"
+    },
+    {
+      "name": "chaincoif"
+    },
+    {
+      "name": "talkstone",
+      "delays": [
+        [
+          1.0,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "ichaincoif"
+    },
+    {
+      "name": "horus"
+    },
+    {
+      "name": "bevor"
+    },
+    {
+      "name": "oldgoldgorget"
+    },
+    {
+      "name": "bronzegorget"
+    },
+    {
+      "name": "bbevor"
+    },
+    {
+      "name": "goldgorget"
+    },
+    {
+      "name": "sgorget"
+    },
+    {
+      "name": "gorget"
+    },
+    {
+      "name": "noc"
+    },
+    {
+      "name": "noc_b"
+    },
+    {
+      "name": "noc_a"
+    },
+    {
+      "name": "dendor"
+    },
+    {
+      "name": "pestra"
+    },
+    {
+      "name": "necra"
+    },
+    {
+      "name": "necra_s"
+    },
+    {
+      "name": "astrata"
+    },
+    {
+      "name": "astrata_s"
+    },
+    {
+      "name": "astrata_g"
+    },
+    {
+      "name": "astrata_b"
+    },
+    {
+      "name": "abyssor"
+    },
+    {
+      "name": "malum"
+    },
+    {
+      "name": "malum_b"
+    },
+    {
+      "name": "ravox"
+    },
+    {
+      "name": "ravox_b"
+    },
+    {
+      "name": "xylix"
+    },
+    {
+      "name": "eora"
+    },
+    {
+      "name": "0,0"
+    },
+    {
+      "name": "shalal"
+    },
+    {
+      "name": "bloodtooth"
+    },
+    {
+      "name": "listenstone"
+    },
+    {
+      "name": "listenstone_act",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "ornateamulet"
+    },
+    {
+      "name": "skullamulet"
+    },
+    {
+      "name": "psybracelet"
+    },
+    {
+      "name": "ichaincoif_t"
+    },
+    {
+      "name": "chaincoif_t"
+    },
+    {
+      "name": "coif_t"
+    },
+    {
+      "name": "iwolfcollaralt"
+    },
+    {
+      "name": "psycross"
+    },
+    {
+      "name": "psycross_s"
+    },
+    {
+      "name": "psycross_w"
+    },
+    {
+      "name": "psycross_b"
+    },
+    {
+      "name": "psycross_g"
+    },
+    {
+      "name": "psycross_n"
+    },
+    {
+      "name": "psycross_n_active",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "psicrossblood"
+    },
+    {
+      "name": "bell_collar"
+    },
+    {
+      "name": "collar"
+    },
+    {
+      "name": "fencercollar"
+    },
+    {
+      "name": "fencercollar_detail"
+    },
+    {
+      "name": "lgorget"
+    },
+    {
+      "name": "(old) lgorget"
+    },
+    {
+      "name": "feldcollar"
+    },
+    {
+      "name": "surgcollar"
+    },
+    {
+      "name": "cursed_collar"
+    },
+    {
+      "name": "chainmantle"
+    },
+    {
+      "name": "chainmantle_t"
+    },
+    {
+      "name": "luckcharm"
+    },
+    {
+      "name": "copperneck"
+    },
+    {
+      "name": "pearlcross"
+    },
+    {
+      "name": "bpearlcross"
+    },
+    {
+      "name": "oyster_bracelet"
+    },
+    {
+      "name": "oyster_necklace"
+    },
+    {
+      "name": "achaincoif"
+    },
+    {
+      "name": "achaincoif_t"
+    },
+    {
+      "name": "ancientgorget"
+    },
+    {
+      "name": "psycross_a"
+    },
+    {
+      "name": "zcross_a"
+    },
+    {
+      "name": "zcross_b"
+    },
+    {
+      "name": "zcross_iron"
+    },
+    {
+      "name": "zcross_g"
+    },
+    {
+      "name": "bevor_t"
+    },
+    {
+      "name": "undivided"
+    },
+    {
+      "name": "undivided_s"
+    },
+    {
+      "name": "manabindingcollar"
+    },
+    {
+      "name": "ibevor"
+    },
+    {
+      "name": "ibevor_t"
+    },
+    {
+      "name": "fullpaddedold"
+    },
+    {
+      "name": "fullpadded_downold"
+    },
+    {
+      "name": "fullpadded_neckold"
+    },
+    {
+      "name": "ccoifold"
+    },
+    {
+      "name": "ccoif_told"
+    },
+    {
+      "name": "fullpadded"
+    },
+    {
+      "name": "fullpadded_down"
+    },
+    {
+      "name": "fullpadded_neck"
+    },
+    {
+      "name": "ccoif"
+    },
+    {
+      "name": "ccoif_t"
+    },
+    {
+      "name": "kazengunneckguard"
+    },
+    {
+      "name": "matthios"
+    },
+    {
+      "name": "graggar"
+    },
+    {
+      "name": "graggar_b"
+    },
+    {
+      "name": "gronngraggar"
+    },
+    {
+      "name": "gronnmatthios"
+    },
+    {
+      "name": "gronnzizo"
+    },
+    {
+      "name": "gronnbaotha"
+    },
+    {
+      "name": "gronnabyssor"
+    },
+    {
+      "name": "gronndendor"
+    },
+    {
+      "name": "amulet_jade"
+    },
+    {
+      "name": "amulet_coral"
+    },
+    {
+      "name": "amulet_shell"
+    },
+    {
+      "name": "amulet_onyxa"
+    },
+    {
+      "name": "amulet_turq"
+    },
+    {
+      "name": "amulet_rose"
+    },
+    {
+      "name": "amulet_amber"
+    },
+    {
+      "name": "amulet_opal"
+    },
+    {
+      "name": "castifico_collar"
+    },
+    {
+      "name": "reformistcross"
+    },
+    {
+      "name": "woolencollar"
+    },
+    {
+      "name": "dragonnecklace"
+    },
+    {
+      "name": "baotha"
+    }
+  ]
+}

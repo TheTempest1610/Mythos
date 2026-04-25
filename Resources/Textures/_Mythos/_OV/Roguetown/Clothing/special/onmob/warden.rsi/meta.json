@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "BASE WARDEN ARMOR"
+    },
+    {
+      "name": "forestleather",
+      "directions": 4
+    },
+    {
+      "name": "r_forestleather",
+      "directions": 4
+    },
+    {
+      "name": "l_forestleather",
+      "directions": 4
+    },
+    {
+      "name": "forestleather_f",
+      "directions": 4
+    },
+    {
+      "name": "forestleather_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_forestleather_f",
+      "directions": 4
+    },
+    {
+      "name": "l_forestleather_f",
+      "directions": 4
+    },
+    {
+      "name": "forestleather_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_forestleather_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_forestleather_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "forestleather_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "forestleather_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_forestleather_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_forestleather_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "UPGRADED WARDEN ARMOR"
+    },
+    {
+      "name": "forestbrig",
+      "directions": 4
+    },
+    {
+      "name": "r_forestbrig",
+      "directions": 4
+    },
+    {
+      "name": "l_forestbrig",
+      "directions": 4
+    },
+    {
+      "name": "forestbrig_f",
+      "directions": 4
+    },
+    {
+      "name": "forestbrig_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_forestbrig_f",
+      "directions": 4
+    },
+    {
+      "name": "l_forestbrig_f",
+      "directions": 4
+    },
+    {
+      "name": "forestbrig_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_forestbrig_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_forestbrig_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "forestbrig_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "forestbrig_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_forestbrig_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_forestbrig_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "WOLF SKULL"
+    },
+    {
+      "name": "skullmet_volf",
+      "directions": 4
+    },
+    {
+      "name": "GOAT SKULL"
+    },
+    {
+      "name": "skullmet_goat",
+      "directions": 4
+    },
+    {
+      "name": "BEAR SKULL"
+    },
+    {
+      "name": "skullmet_bear",
+      "directions": 4
+    },
+    {
+      "name": "WARDEN HOOD"
+    },
+    {
+      "name": "wardenhood",
+      "directions": 4
+    },
+    {
+      "name": "wardenhood_t",
+      "directions": 4
+    },
+    {
+      "name": "ALT. WARDEN HOOD in warden64.dmi"
+    },
+    {
+      "name": "skullmet_rat",
+      "directions": 4
+    }
+  ]
+}

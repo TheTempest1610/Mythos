@@ -1,0 +1,1063 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "LEGACY"
+    },
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "PANTS (LIGHT)"
+    },
+    {
+      "name": "highlights the 'anchors' with a pink background for easier navigation"
+    },
+    {
+      "name": "sortable, later on"
+    },
+    {
+      "name": "tights"
+    },
+    {
+      "name": "r_tights",
+      "directions": 4
+    },
+    {
+      "name": "l_tights",
+      "directions": 4
+    },
+    {
+      "name": "r_tights_f",
+      "directions": 4
+    },
+    {
+      "name": "l_tights_f",
+      "directions": 4
+    },
+    {
+      "name": "r_tights_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_tights_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_tights_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_tights_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "trou"
+    },
+    {
+      "name": "r_trou",
+      "directions": 4
+    },
+    {
+      "name": "l_trou",
+      "directions": 4
+    },
+    {
+      "name": "r_trou_f",
+      "directions": 4
+    },
+    {
+      "name": "l_trou_f",
+      "directions": 4
+    },
+    {
+      "name": "r_trou_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_trou_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_trou_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_trou_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "loincloth"
+    },
+    {
+      "name": "r_loincloth",
+      "directions": 4
+    },
+    {
+      "name": "l_loincloth",
+      "directions": 4
+    },
+    {
+      "name": "r_loincloth_f",
+      "directions": 4
+    },
+    {
+      "name": "l_loincloth_f",
+      "directions": 4
+    },
+    {
+      "name": "r_loincloth_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_loincloth_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_loincloth_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_loincloth_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "chain_legs"
+    },
+    {
+      "name": "r_chain_legs",
+      "directions": 4
+    },
+    {
+      "name": "l_chain_legs",
+      "directions": 4
+    },
+    {
+      "name": "r_chain_legs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_chain_legs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_chain_legs_f",
+      "directions": 4
+    },
+    {
+      "name": "l_chain_legs_f",
+      "directions": 4
+    },
+    {
+      "name": "r_chain_legs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_chain_legs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ichain_legs"
+    },
+    {
+      "name": "r_ichain_legs",
+      "directions": 4
+    },
+    {
+      "name": "l_ichain_legs",
+      "directions": 4
+    },
+    {
+      "name": "r_ichain_legs_f",
+      "directions": 4
+    },
+    {
+      "name": "l_ichain_legs_f",
+      "directions": 4
+    },
+    {
+      "name": "r_ichain_legs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ichain_legs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_ichain_legs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ichain_legs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "PLATELEGS"
+    },
+    {
+      "name": "r_plate_legs",
+      "directions": 4
+    },
+    {
+      "name": "l_plate_legs",
+      "directions": 4
+    },
+    {
+      "name": "r_plate_legs_f",
+      "directions": 4
+    },
+    {
+      "name": "l_plate_legs_f",
+      "directions": 4
+    },
+    {
+      "name": "r_plate_legs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_plate_legs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_plate_legs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_plate_legs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "SAILORPANTS"
+    },
+    {
+      "name": "r_sailorpants",
+      "directions": 4
+    },
+    {
+      "name": "l_sailorpants",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "r_sailorpants_f",
+      "directions": 4
+    },
+    {
+      "name": "l_sailorpants_f",
+      "directions": 4
+    },
+    {
+      "name": "r_sailorpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_sailorpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_sailorpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_sailorpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leathertrou"
+    },
+    {
+      "name": "r_leathertrou",
+      "directions": 4
+    },
+    {
+      "name": "l_leathertrou",
+      "directions": 4
+    },
+    {
+      "name": "r_leathertrou_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_leathertrou_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_leathertrou_f",
+      "directions": 4
+    },
+    {
+      "name": "l_leathertrou_f",
+      "directions": 4
+    },
+    {
+      "name": "r_leathertrou_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_leathertrou_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "vpants",
+      "directions": 4
+    },
+    {
+      "name": "r_vpants",
+      "directions": 4
+    },
+    {
+      "name": "l_vpants",
+      "directions": 4
+    },
+    {
+      "name": "r_vpants_f",
+      "directions": 4
+    },
+    {
+      "name": "l_vpants_f",
+      "directions": 4
+    },
+    {
+      "name": "r_vpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_vpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_vpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_vpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "webs"
+    },
+    {
+      "name": "r_webs",
+      "directions": 4
+    },
+    {
+      "name": "l_webs",
+      "directions": 4
+    },
+    {
+      "name": "r_webs_f",
+      "directions": 4
+    },
+    {
+      "name": "l_webs_f",
+      "directions": 4
+    },
+    {
+      "name": "SHADOWPANTS"
+    },
+    {
+      "name": "r_shadowpants",
+      "directions": 4
+    },
+    {
+      "name": "l_shadowpants",
+      "directions": 4
+    },
+    {
+      "name": "r_shadowpants_f",
+      "directions": 4
+    },
+    {
+      "name": "l_shadowpants_f",
+      "directions": 4
+    },
+    {
+      "name": "MONKPANTS"
+    },
+    {
+      "name": "r_monkpants",
+      "directions": 4
+    },
+    {
+      "name": "l_monkpants",
+      "directions": 4
+    },
+    {
+      "name": "r_monkpants_f",
+      "directions": 4
+    },
+    {
+      "name": "l_monkpants_f",
+      "directions": 4
+    },
+    {
+      "name": "r_monkpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_monkpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_monkpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_monkpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "FENCERPANTS"
+    },
+    {
+      "name": "r_fencerpants",
+      "directions": 4
+    },
+    {
+      "name": "l_fencerpants",
+      "directions": 4
+    },
+    {
+      "name": "r_fencerpants_f",
+      "directions": 4
+    },
+    {
+      "name": "l_fencerpants_f",
+      "directions": 4
+    },
+    {
+      "name": "SILVERLEGS"
+    },
+    {
+      "name": "r_silverlegs",
+      "directions": 4
+    },
+    {
+      "name": "l_silverlegs",
+      "directions": 4
+    },
+    {
+      "name": "r_silverlegs_f",
+      "directions": 4
+    },
+    {
+      "name": "l_silverlegs_f",
+      "directions": 4
+    },
+    {
+      "name": "r_silverlegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silverlegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_silverlegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silverlegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_matthioslegs",
+      "directions": 4
+    },
+    {
+      "name": "l_matthioslegs",
+      "directions": 4
+    },
+    {
+      "name": "r_matthioslegs_f",
+      "directions": 4
+    },
+    {
+      "name": "l_matthioslegs_f",
+      "directions": 4
+    },
+    {
+      "name": "r_matthioslegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_matthioslegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_matthioslegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_matthioslegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_chainkilt",
+      "directions": 4
+    },
+    {
+      "name": "l_chainkilt_f",
+      "directions": 4
+    },
+    {
+      "name": "l_chainkilt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_chainkilt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_chainkilt",
+      "directions": 4
+    },
+    {
+      "name": "r_chainkilt_f",
+      "directions": 4
+    },
+    {
+      "name": "r_chainkilt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_chainkilt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_skirt",
+      "directions": 4
+    },
+    {
+      "name": "l_skirt_f",
+      "directions": 4
+    },
+    {
+      "name": "l_skirt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_skirt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_achainkilt",
+      "directions": 4
+    },
+    {
+      "name": "l_achainkilt_f",
+      "directions": 4
+    },
+    {
+      "name": "l_achainkilt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_achainkilt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_ichainkilt",
+      "directions": 4
+    },
+    {
+      "name": "l_ichainkilt",
+      "directions": 4
+    },
+    {
+      "name": "r_ichainkilt_f",
+      "directions": 4
+    },
+    {
+      "name": "l_ichainkilt_f",
+      "directions": 4
+    },
+    {
+      "name": "r_ichainkilt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ichainkilt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_ichainkilt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ichainkilt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_skirt",
+      "directions": 4
+    },
+    {
+      "name": "r_skirt_f",
+      "directions": 4
+    },
+    {
+      "name": "r_skirt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_skirt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_achainkilt",
+      "directions": 4
+    },
+    {
+      "name": "r_achainkilt_f",
+      "directions": 4
+    },
+    {
+      "name": "r_achainkilt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_achainkilt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "graggarlegs"
+    },
+    {
+      "name": "r_graggarplatelegs",
+      "directions": 4
+    },
+    {
+      "name": "l_graggarplatelegs",
+      "directions": 4
+    },
+    {
+      "name": "r_graggarplatelegs_f",
+      "directions": 4
+    },
+    {
+      "name": "l_graggarplatelegs_f",
+      "directions": 4
+    },
+    {
+      "name": "r_graggarplatelegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_graggarplatelegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_graggarplatelegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_graggarplatelegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "eastpants1",
+      "directions": 4
+    },
+    {
+      "name": "r_eastpants1",
+      "directions": 4
+    },
+    {
+      "name": "l_eastpants1",
+      "directions": 4
+    },
+    {
+      "name": "r_eastpants1_f",
+      "directions": 4
+    },
+    {
+      "name": "l_eastpants1_f",
+      "directions": 4
+    },
+    {
+      "name": "eastpants2",
+      "directions": 4
+    },
+    {
+      "name": "r_eastpants2",
+      "directions": 4
+    },
+    {
+      "name": "l_eastpants2",
+      "directions": 4
+    },
+    {
+      "name": "r_eastpants2_f",
+      "directions": 4
+    },
+    {
+      "name": "l_eastpants2_f",
+      "directions": 4
+    },
+    {
+      "name": "r_ironsplintlegs",
+      "directions": 4
+    },
+    {
+      "name": "l_ironsplintlegs",
+      "directions": 4
+    },
+    {
+      "name": "r_ironsplintlegs_f",
+      "directions": 4
+    },
+    {
+      "name": "l_ironsplintlegs_f",
+      "directions": 4
+    },
+    {
+      "name": "r_ironsplintlegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ironsplintlegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_ironsplintlegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ironsplintlegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_fencerpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_fencerpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_fencerpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_fencerpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "iplate_legs"
+    },
+    {
+      "name": "r_iplate_legs",
+      "directions": 4
+    },
+    {
+      "name": "l_iplate_legs",
+      "directions": 4
+    },
+    {
+      "name": "r_iplate_legs_f",
+      "directions": 4
+    },
+    {
+      "name": "l_iplate_legs_f",
+      "directions": 4
+    },
+    {
+      "name": "r_iplate_legs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_iplate_legs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_iplate_legs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_iplate_legs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_explorerpants_f",
+      "directions": 4
+    },
+    {
+      "name": "l_explorerpants",
+      "directions": 4
+    },
+    {
+      "name": "r_explorerpants_f",
+      "directions": 4
+    },
+    {
+      "name": "r_explorerpants",
+      "directions": 4
+    },
+    {
+      "name": "r_skirtdesert_f",
+      "directions": 4
+    },
+    {
+      "name": "r_skirtdesert",
+      "directions": 4
+    },
+    {
+      "name": "l_skirtdesert_f",
+      "directions": 4
+    },
+    {
+      "name": "l_skirtdesert",
+      "directions": 4
+    },
+    {
+      "name": "bplatelegs"
+    },
+    {
+      "name": "r_bplatelegs",
+      "directions": 4
+    },
+    {
+      "name": "l_bplatelegs",
+      "directions": 4
+    },
+    {
+      "name": "r_bplatelegs_f",
+      "directions": 4
+    },
+    {
+      "name": "l_bplatelegs_f",
+      "directions": 4
+    },
+    {
+      "name": "r_bplatelegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_bplatelegs_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_bplatelegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_bplatelegs_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancientpants (anchor)",
+      "directions": 4
+    },
+    {
+      "name": "r_ancientpants",
+      "directions": 4
+    },
+    {
+      "name": "l_ancientpants",
+      "directions": 4
+    },
+    {
+      "name": "r_ancientpants_f",
+      "directions": 4
+    },
+    {
+      "name": "l_ancientpants_f",
+      "directions": 4
+    },
+    {
+      "name": "r_ancientpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ancientpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_ancientpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_ancientpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dhoti"
+    },
+    {
+      "name": "r_dhoti",
+      "directions": 4
+    },
+    {
+      "name": "l_dhoti",
+      "directions": 4
+    },
+    {
+      "name": "r_dhoti_f",
+      "directions": 4
+    },
+    {
+      "name": "l_dhoti_f",
+      "directions": 4
+    },
+    {
+      "name": "r_dhoti_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_dhoti_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_dhoti_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_dhoti_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dhoti_detail"
+    },
+    {
+      "name": "r_dhoti_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_dhoti_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_dhoti_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_dhoti_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_dhoti_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_dhoti_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_dhoti_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_dhoti_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "lakkarikilt"
+    },
+    {
+      "name": "r_lakkarikilt",
+      "directions": 4
+    },
+    {
+      "name": "l_lakkarikilt",
+      "directions": 4
+    },
+    {
+      "name": "r_lakkarikilt_f",
+      "directions": 4
+    },
+    {
+      "name": "l_lakkarikilt_f",
+      "directions": 4
+    },
+    {
+      "name": "r_lakkarikilt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_lakkarikilt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_lakkarikilt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_lakkarikilt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "patkilt",
+      "directions": 4
+    },
+    {
+      "name": "r_patkilt",
+      "directions": 4
+    },
+    {
+      "name": "l_patkilt",
+      "directions": 4
+    },
+    {
+      "name": "r_patkilt_f",
+      "directions": 4
+    },
+    {
+      "name": "l_patkilt_f",
+      "directions": 4
+    },
+    {
+      "name": "r_patkilt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_patkilt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_patkilt_dwarf_f",
+      "directions": 4
+    },
+    {
+      "name": "l_patkilt_dwarf_f",
+      "directions": 4
+    }
+  ]
+}
