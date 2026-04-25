@@ -15,6 +15,8 @@
         # Random lighting item GroupSelector
         - !type:GroupSelector
           children:
+          - id: FlashlightLantern
+          - id: Flare
           - id: GlowstickGreen
         # Low-chance items
         - id: FoodSnackChocolate
@@ -100,6 +102,8 @@
         - id: Wirecutter
         - id: Screwdriver
           prob: 0.5
+        - id: FlashlightLantern
+          prob: 0.7
         - id: ClothingHeadHatHardhatBlue
           prob: 0.5
 
@@ -184,6 +188,8 @@
         tableId: AllCrayonsTable
         rolls: 1, 3
         weight: 5
+      - id: BarberScissors
+        weight: 0.75
       - id: DrinkSpaceLube
       - id: DrinkSpaceGlue
       - !type:NestedSelector
@@ -233,6 +239,7 @@
         children:
         - id: ClothingHeadHatCatEars
         - id: ClothingHeadHatFancyCrown
+        - id: ClothingHeadHatChameleon
 
 - type: entityTable
   id: ClownOtherJobTable

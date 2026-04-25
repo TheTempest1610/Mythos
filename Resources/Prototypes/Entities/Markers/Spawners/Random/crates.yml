@@ -102,6 +102,8 @@
     - id: CrateEngineeringCableBulk
     - id: CrateTechBoardRandom
     - id: CrateEngineeringSpaceHeater
+    - id: StorageCanister
+      weight: 0.5
 
 - type: entityTable
   id: LowValueMedicalCrateTable
@@ -201,6 +203,8 @@
         - id: CrateEngineeringSingularityCollector
         - id: CrateEngineeringTeslaCoil
         - id: CrateEngineeringSingularityEmitter
+        - id: CrateEngineeringGyroscope
+        - id: CrateEngineeringThruster
         - id: CrateEngineeringToolbox
         - id: CrateEngineeringShuttle
         - id: CrateEngineeringSolar

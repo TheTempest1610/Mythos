@@ -1,7 +1,9 @@
 using Content.Server.Body.Components;
 using Content.Server.Temperature.Systems;
 using Content.Shared.ActionBlocker;
+using Content.Shared.CCVar;
 using Content.Shared.Temperature.Components;
+using Robust.Shared.Configuration;
 using Robust.Shared.Timing;
 
 namespace Content.Server.Body.Systems;
@@ -11,6 +13,7 @@ public sealed class ThermalRegulatorSystem : EntitySystem
     [Dependency] private readonly IGameTiming _gameTiming = default!;
     [Dependency] private readonly TemperatureSystem _tempSys = default!;
     [Dependency] private readonly ActionBlockerSystem _actionBlockerSys = default!;
+    [Dependency] private readonly IConfigurationManager _cfg = default!; // Mythos: gate via mythos.atmos.enabled
 
     public override void Initialize()
     {
@@ -32,6 +35,10 @@ public sealed class ThermalRegulatorSystem : EntitySystem
 
     public override void Update(float frameTime)
     {
+        // Mythos: skip when atmos disabled.
+        if (!_cfg.GetCVar(CCVars.MythosAtmosEnabled))
+            return;
+
         var query = EntityQueryEnumerator<ThermalRegulatorComponent>();
         while (query.MoveNext(out var uid, out var regulator))
         {

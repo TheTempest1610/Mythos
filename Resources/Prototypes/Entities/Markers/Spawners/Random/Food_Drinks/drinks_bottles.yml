@@ -48,6 +48,7 @@
     - id: DrinkWhiskeyBottleFull
     - id: DrinkWineBottleFull
     - id: DrinkBeerBottleFull
+    - id: DrinkBeerGrowler
     - id: DrinkAleBottleFull
     - id: DrinkAleBottleFullGrowler
     - id: DrinkChampagneBottleFull

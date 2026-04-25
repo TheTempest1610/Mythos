@@ -106,6 +106,8 @@
   - type: GhostTakeoverAvailable
   - type: TypingIndicator
     proto: alien
+  - type: Temperature
+    currentTemperature: 310.15
   - type: TemperatureDamage
     heatDamageThreshold: 360
     coldDamageThreshold: -150
@@ -522,6 +524,8 @@
       amount: 5
   - type: TypingIndicator
     proto: alien
+  - type: Temperature
+    currentTemperature: 310.15
   - type: TemperatureDamage
     heatDamageThreshold: 360
     coldDamageThreshold: -150

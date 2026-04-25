@@ -40,6 +40,8 @@
         friction: 0.2
   # let air cook and freeze meat for cooking and preservation
   - type: AtmosExposed
+  - type: Temperature
+    currentTemperature: 290
   - type: TemperatureDamage
   # required for cooking to work
   - type: InternalTemperature

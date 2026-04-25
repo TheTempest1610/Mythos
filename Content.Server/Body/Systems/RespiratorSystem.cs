@@ -8,6 +8,7 @@ using Content.Shared.Atmos;
 using Content.Shared.Body;
 using Content.Shared.Body.Components;
 using Content.Shared.Body.Events;
+using Content.Shared.CCVar;
 using Content.Shared.Chat;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.EntitySystems;
@@ -22,6 +23,7 @@ using Content.Shared.EntityEffects.Effects.Damage;
 using Content.Shared.Metabolism;
 using Content.Shared.Mobs.Systems;
 using JetBrains.Annotations;
+using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
@@ -42,6 +44,7 @@ public sealed class RespiratorSystem : EntitySystem
     [Dependency] private readonly MobStateSystem _mobState = default!;
     [Dependency] private readonly SharedEntityConditionsSystem _entityConditions = default!;
     [Dependency] private readonly SharedSolutionContainerSystem _solutionContainerSystem = default!;
+    [Dependency] private readonly IConfigurationManager _cfg = default!; // Mythos: gate via mythos.atmos.enabled
 
     private static readonly ProtoId<MetabolismStagePrototype> RespirationStage = new("Respiration");
 
@@ -75,6 +78,10 @@ public sealed class RespiratorSystem : EntitySystem
 
     public override void Update(float frameTime)
     {
+        // Mythos: skip when atmos disabled.
+        if (!_cfg.GetCVar(CCVars.MythosAtmosEnabled))
+            return;
+
         base.Update(frameTime);
 
         var query = EntityQueryEnumerator<RespiratorComponent>();

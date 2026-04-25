@@ -462,6 +462,21 @@
       Cable: 5
 
 - type: entity
+  id: CloningPodMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: cloning pod machine board
+  description: A machine printed circuit board for a cloning pod.
+  components:
+    - type: Sprite
+      state: medical
+    - type: MachineBoard
+      prototype: CloningPod
+      stackRequirements:
+        Manipulator: 4
+        Glass: 1
+        Cable: 1
+
+- type: entity
   id: MedicalScannerMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: medical scanner machine board
@@ -674,6 +689,27 @@
         Plastic: 30
     - type: StaticPrice
       price: 30
+
+- type: entity
+  id: BorgChargerCircuitboard
+  parent: BaseMachineCircuitboard
+  name: cyborg recharging station machine board
+  description: A machine printed circuit board for a robot recharging station.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: charger_APC
+    - type: MachineBoard
+      prototype: BorgCharger
+      stackRequirements:
+        Manipulator: 2
+        Cable: 5
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 25
+        Plastic: 25
+    - type: StaticPrice
+      price: 15
 
 - type: entity
   id: WeaponCapacitorRechargerCircuitboard
@@ -1170,6 +1206,34 @@
             defaultPrototype: Beaker
 
 - type: entity
+  id: CargoTelepadMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: cargo telepad machine board
+  description: A machine printed circuit board for a cargo telepad.
+  components:
+    - type: Sprite
+      state: supply
+    - type: MachineBoard
+      prototype: CargoTelepad
+      stackRequirements:
+        Manipulator: 2
+        Steel: 5
+
+- type: entity
+  id: MailTeleporterMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: mail teleporter machine board
+  description: A machine printed circuit board for a mail teleporter.
+  components:
+  - type: Sprite
+    state: supply
+  - type: MachineBoard
+    prototype: CargoMailTeleporter
+    stackRequirements:
+      Manipulator: 2
+      Steel: 5
+
+- type: entity
   id: SodaDispenserMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: soda dispenser machine board
@@ -1198,6 +1262,22 @@
     prototype: TelecomServer
     stackRequirements:
       Steel: 1
+      Cable: 2
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: SalvageMagnetMachineCircuitboard
+  name: salvage magnet machine board
+  description: A machine printed circuit board for a salvage magnet.
+  components:
+  - type: Sprite
+    state: supply
+  - type: MachineBoard
+    prototype: SalvageMagnet
+    stackRequirements:
+      Manipulator: 4
+      Steel: 5
+      CableHV: 5
       Cable: 2
 
 - type: entity
@@ -1270,3 +1350,20 @@
       Manipulator: 2
       Cable: 1
 
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: SmartFridgeCircuitboard
+  name: SmartFridge machine board
+  description: A machine printed circuit board for a SmartFridge.
+  components:
+  - type: Sprite
+    state: service
+  - type: MachineBoard
+    prototype: SmartFridge
+    stackRequirements:
+      Glass: 5
+      Manipulator: 2
+    tagRequirements:
+        GlassBeaker:
+          amount: 2
+          defaultPrototype: Beaker

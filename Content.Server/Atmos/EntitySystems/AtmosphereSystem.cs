@@ -6,6 +6,7 @@ using Content.Server.NodeContainer.EntitySystems;
 using Content.Shared.Atmos;
 using Content.Shared.Atmos.Components;
 using Content.Shared.Atmos.EntitySystems;
+using Content.Shared.CCVar;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Decals;
 using Content.Shared.Doors.Components;
@@ -41,6 +42,7 @@ public sealed partial class AtmosphereSystem : SharedAtmosphereSystem
     [Dependency] private readonly MapSystem _map = default!;
     [Dependency] public readonly PuddleSystem Puddle = default!;
     [Dependency] private readonly DamageableSystem _damage = default!;
+    // Mythos: _cfg already declared in AtmosphereSystem.CVars.cs; reused here for mythos.atmos.enabled gate.
 
     private const float ExposedUpdateDelay = 1f;
     private float _exposedTimer = 0f;
@@ -99,6 +101,10 @@ public sealed partial class AtmosphereSystem : SharedAtmosphereSystem
 
     public override void Update(float frameTime)
     {
+        // Mythos: skip all atmos work when disabled.
+        if (!_cfg.GetCVar(CCVars.MythosAtmosEnabled))
+            return;
+
         base.Update(frameTime);
 
         UpdateProcessing(frameTime);

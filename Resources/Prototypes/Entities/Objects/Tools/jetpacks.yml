@@ -46,6 +46,11 @@
     quickEquip: false
     slots:
     - Back
+  - type: GasTank
+    releasePressure: 21.3
+    air:
+      volume: 5
+      temperature: 293.15
   - type: Jetpack
     moleUsage: 0.00085
   - type: Appearance
@@ -95,7 +100,17 @@
   parent: JetpackBlue
   name: jetpack
   suffix: Filled
-  components: []
+  components:
+  - type: GasTank
+    releasePressure: 42.6
+    air:
+      # 13 minutes of thrust
+      volume: 5
+      temperature: 293.15
+      moles:
+        Oxygen: 1.025689525 # oxygen
+        Nitrogen: 1.025689525 # nitrogen
+
 #Empty black
 - type: entity
   id: JetpackBlack
@@ -120,7 +135,17 @@
   parent: JetpackBlack
   name: jetpack
   suffix: Filled
-  components: []
+  components:
+  - type: GasTank
+    releasePressure: 42.6
+    air:
+      # 13 minutes of thrust
+      volume: 5
+      temperature: 293.15
+      moles:
+        Oxygen: 1.025689525 # oxygen
+        Nitrogen: 1.025689525 # nitrogen
+
 #Empty captain
 - type: entity
   id: JetpackCaptain
@@ -150,7 +175,17 @@
   parent: JetpackCaptain
   name: captain's jetpack
   suffix: Filled
-  components: []
+  components:
+  - type: GasTank
+    releasePressure: 42.6
+    air:
+      # 13 minutes of thrust
+      volume: 5
+      temperature: 293.15
+      moles:
+        Oxygen: 1.025689525 # oxygen
+        Nitrogen: 1.025689525 # nitrogen
+
 #Empty mini
 - type: entity
   id: JetpackMini
@@ -169,13 +204,29 @@
         - Back
         - suitStorage
         - Belt
+    - type: GasTank
+      overpressure: 1519.875 # Poorly manufactured, they also lose pressure quickly so this makes exploding them easier, at the cost of the explosion being tiny.
+      releasePressure: 42.6
+      air:
+        volume: 1.5
+
 # Filled mini
 - type: entity
   id: JetpackMiniFilled
   parent: JetpackMini
   name: mini jetpack
   suffix: Filled
-  components: []
+  components:
+  - type: GasTank
+    releasePressure: 42.6
+    air:
+      # 4 minutes of thrust
+      volume: 1.5
+      temperature: 293.15
+      moles:
+        Oxygen: 0.307706858 # oxygen
+        Nitrogen: 0.307706858 # nitrogen
+
 #Empty security
 - type: entity
   id: JetpackSecurity
@@ -190,6 +241,9 @@
     sprite: Objects/Tanks/Jetpacks/security.rsi
   - type: Clothing
     sprite: Objects/Tanks/Jetpacks/security.rsi
+  - type: GasTank
+    maxIntegrity: 5 # You may ask why this microbalance? The answer is: Sec jetpacks sprite is based off regular jetpacks, and I'm too lazy to make their sprite data different.
+    integrity: 5
   - type: MaxPressureVisuals
     steps: 5
 
@@ -199,7 +253,17 @@
   parent: JetpackSecurity
   name: security jetpack
   suffix: Filled
-  components: []
+  components:
+  - type: GasTank
+    releasePressure: 42.6
+    air:
+      # 4 minutes of thrust
+      volume: 1.5
+      temperature: 293.15
+      moles:
+        Oxygen: 0.307706858 # oxygen
+        Nitrogen: 0.307706858 # nitrogen
+
 #Empty void
 - type: entity
   id: JetpackVoid
@@ -224,7 +288,17 @@
   parent: JetpackVoid
   name: void jetpack
   suffix: Filled
-  components: []
+  components:
+  - type: GasTank
+    releasePressure: 42.6
+    air:
+      # 13 minutes of thrust
+      volume: 5
+      temperature: 293.15
+      moles:
+        Oxygen: 1.025689525 # oxygen
+        Nitrogen: 1.025689525 # nitrogen
+
 # Infinite jetpack
 - type: entity
   parent: [ JetpackBlack, BaseXenoborgContraband ]
@@ -232,6 +306,11 @@
   name: xenoborg jetpack
   suffix: Infinite
   components:
+  - type: GasTank
+    releasePressure: 21.3
+    air:
+      volume: 5
+      temperature: 293.15
   - type: Jetpack
     moleUsage: 0
   - type: MovementSpeedModifier

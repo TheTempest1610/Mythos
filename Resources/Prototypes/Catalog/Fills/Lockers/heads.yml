@@ -40,6 +40,7 @@
     - id: DoorRemoteCustom
     - id: MedalCase
     - id: NukeDisk
+    - id: PinpointerNuclear
     - id: PlushieNuke
       prob: 0.1
     - id: RubberStampCaptain
@@ -264,11 +265,13 @@
   id: LockerFillResearchDirectorNoHardsuit
   table: !type:AllSelector
     children:
+    - id: Intellicard
     - id: BoxEncryptionKeyScience
     - id: BoxRDCircuitboards
     - id: ClothingBeltUtilityFilled
     - id: ClothingHeadsetAltScience
     - id: DoorRemoteResearch
+    - id: HandTeleporter
     - id: RubberStampRd
     - id: PlushieLizardJobResearchdirector
       prob: 0.02

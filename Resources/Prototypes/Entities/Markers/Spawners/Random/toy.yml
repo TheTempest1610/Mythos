@@ -28,6 +28,7 @@
     - id: PlushieNuke
     - id: PlushieSlime
     - id: PlushieSnake
+    - id: PlushieExperiment
     - id: PlushieVox
     - id: PlushieRouny
     - id: PlushieAtmosian
@@ -83,6 +84,12 @@
   id: AllLizardPlushieTable
   table: !type:GroupSelector
     children:
+    - id: PlushieLizard
+      weight: 8
+    - id: PlushieSpaceLizard
+      weight: 1
+    - id: PlushieLizardInversed
+      weight: 0.1 # 1 in >100
     - !type:GroupSelector # Lizard gets a job table
       children:
       - id: PlushieLizardJobAtmospherictechnician
@@ -202,7 +209,18 @@
 - type: entityTable # size 1x2  # price 75
   id: AllFigurineMechsTable
   table: !type:GroupSelector
-    children: []
+    children:
+    - id: ToyRipley
+    - id: ToyFireRipley
+    - id: ToyDeathRipley
+    - id: ToyGygax
+    - id: ToyDurand
+    - id: ToyMarauder
+    - id: ToySeraph
+    - id: ToyMauler
+    - id: ToyOdysseus
+    - id: ToyPhazon
+    - id: ToyReticence
 
 # Items that are used to "attack" people. Legitimate combat use for these is limited
 - type: entityTable # size 2x4  # price 100
@@ -277,6 +295,7 @@
     - id: DiceBag
     - id: SpectralLocator
     - id: Magic9Ball
+    - id: BarberScissors
     - id: SprayFlowerPin
     - id: ClothingShoesSkates
     - id: CrazyGlue
@@ -326,6 +345,8 @@
     - id: NewtonCradle
     - id: Skub
     - id: DeskBell
+    - id: BikeHornImplanter
+    - id: SadTromboneImplanter
     - !type:GroupSelector
       children:
       - id: Whistle

@@ -568,6 +568,13 @@
       reagents:
       - ReagentId: InsectBlood
         Quantity: 20
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 0.5
+    damageRecovery:
+      types:
+        Asphyxiation: -0.5
   - type: CombatMode
   - type: Butcherable
     spawned:
@@ -1591,6 +1598,9 @@
       types:
         Slash: 5
         Piercing: 4
+  - type: Temperature
+    currentTemperature: 310.15
+    specificHeat: 42
   - type: TemperatureDamage
     heatDamageThreshold: 360
     coldDamageThreshold: 285
@@ -1837,6 +1847,17 @@
     - ChefPilot
     - Mouse
     - Meat
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 0.25
+    damageRecovery:
+      types:
+        Asphyxiation: -0.25
+  - type: Barotrauma
+    damage:
+      types:
+        Blunt: 0.1
   - type: Vocal
     sounds:
       Male: Mouse
@@ -2333,6 +2354,9 @@
   - type: NpcFactionMember
     factions:
     - Passive
+  - type: Temperature
+    currentTemperature: 310.15
+    specificHeat: 46
   - type: TemperatureDamage
     heatDamageThreshold: 335
     coldDamageThreshold: 230
@@ -3023,6 +3047,9 @@
   - type: Damageable
     damageContainer: BiologicalMetaphysical
     damageModifierSet: Infernal
+  - type: Temperature
+    currentTemperature: 310.15
+    specificHeat: 42
   - type: TemperatureDamage
     heatDamageThreshold: 4000 #They come from hell, so..
     coldDamageThreshold: 260
@@ -3222,6 +3249,7 @@
         Base: spacecat_dead
       Dead:
         Base: spacecat_dead
+  - type: Temperature
   - type: TemperatureDamage
     heatDamageThreshold: 423
     coldDamageThreshold: 0
@@ -3239,6 +3267,9 @@
     interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/cat_meow.ogg
+  - type: Respirator #It just works?
+    minSaturation: 5.0
+
 - type: entity
   name: caracal cat
   id: MobCatCaracal
@@ -3508,6 +3539,17 @@
     - Trash
     - Hamster
     - Meat
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 0.25
+    damageRecovery:
+      types:
+        Asphyxiation: -0.25
+  - type: Barotrauma
+    damage:
+      types:
+        Blunt: 0.1
   - type: CombatMode
   - type: MeleeWeapon
     soundHit:

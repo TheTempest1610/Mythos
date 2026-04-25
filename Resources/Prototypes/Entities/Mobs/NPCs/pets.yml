@@ -832,6 +832,7 @@
       types:
         Bloodloss:
           -0.8
+  - type: Temperature
   - type: TemperatureDamage
     heatDamageThreshold: 800
     coldDamageThreshold: 0

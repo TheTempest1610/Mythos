@@ -44,6 +44,7 @@
         - id: WelderExperimental
         - id: Multitool
         - id: HolofanProjector
+        - id: GasAnalyzer
         - id: trayScanner
 
 - type: entityTable
@@ -90,6 +91,7 @@
         - id: SprayBottleSpaceCleaner
         - id: CleanerGrenade
           amount: 2
+        - id: FlashlightLantern
         - id: LightReplacer
         - id: WireBrush
 

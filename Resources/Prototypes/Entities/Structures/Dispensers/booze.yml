@@ -36,6 +36,7 @@
       storagebase: !type:AllSelector
         children:
         - id: DrinkAleBottleFullGrowler
+        - id: DrinkBeerGrowler
         - id: DrinkCoffeeLiqueurBottleFull
         - id: DrinkCognacBottleFull
         - id: DrinkGinBottleFull

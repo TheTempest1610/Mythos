@@ -2,7 +2,7 @@
 # Straight in-game baby
 lobbyenabled = false
 # Dev map for faster loading & convenience
-map = "Dev"
+map = "FlatPlain"
 role_timers = false
 admin_job_tracking = true
 role_loadout_timers = false
@@ -39,6 +39,11 @@ auto_call_time = 0
 emergency = false
 arrivals = false
 preload_grids = false
+
+# Mythos: master switch for atmospheric simulation
+[mythos]
+[mythos.atmos]
+enabled = false
 
 [admin]
 see_own_notes = true
