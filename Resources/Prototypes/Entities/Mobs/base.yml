@@ -171,6 +171,9 @@
   abstract: true
   components:
   - type: AtmosExposed
+  - type: Temperature
+    currentTemperature: 310.15
+    specificHeat: 42
   - type: TemperatureDamage
     heatDamageThreshold: 325
     coldDamageThreshold: 0
@@ -204,6 +207,9 @@
     shiveringHeatRegulation: 500
     normalBodyTemperature: 310.15
     thermalRegulationTemperatureThreshold: 2
+  - type: Temperature
+    currentTemperature: 310.15
+    specificHeat: 42
   - type: TemperatureDamage
     heatDamageThreshold: 325
     coldDamageThreshold: 260
@@ -213,12 +219,23 @@
     heatDamage:
       types:
         Heat: 1.5 #per second, scales with temperature & other constants
+  - type: Barotrauma
+    damage:
+      types:
+        Blunt: 0.15 #per second, scales with pressure and other constants.
+
 # Used for mobs that can be set on fire
 - type: entity
   save: false
   id: MobFlammable
   abstract: true
   components:
+  - type: Flammable
+    fireSpread: true
+    canResistFire: true
+    damage: #per second, scales with number of fire 'stacks'
+      types:
+        Heat: 1.5
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Generic_mob_burning
@@ -228,7 +245,16 @@
   save: false
   id: MobRespirator
   abstract: true
-  components: []
+  components:
+  - type: Internals
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 2
+    damageRecovery:
+      types:
+        Asphyxiation: -1.0
+
 # Used for mobs that have a bloodstream
 - type: entity
   save: false

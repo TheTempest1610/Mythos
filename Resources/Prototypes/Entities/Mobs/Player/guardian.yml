@@ -78,6 +78,7 @@
       allowedStates:
         - Alive
     - type: CombatMode
+    - type: Internals
     - type: Examiner
     - type: Speech
       speechVerb: Robotic

@@ -135,6 +135,11 @@
       reagents:
       - ReagentId: Slime
         Quantity: 300
+  - type: Barotrauma
+    damage:
+      types:
+        Blunt: 0.50 #per second, scales with pressure and other constants.
+        Heat: 0.2 # 0.1 more than humans, i feel like low pressure would make slime boil more than blunt stretch them so i decided on this instead.
   - type: Reactive
     groups:
       Flammable: [ Touch ]
@@ -161,6 +166,15 @@
     spawned:
     - id: FoodMeatSlime
       amount: 5
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 0.2
+    damageRecovery:
+      types:
+        Asphyxiation: -1.0
+    maxSaturation: 15
+
 - type: entity
   parent: OrganBase
   id: OrganSlimePerson

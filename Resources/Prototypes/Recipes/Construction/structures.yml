@@ -397,6 +397,20 @@
   canRotate: false
 
 - type: construction
+  id: ShuttleWindow
+  graph: Window
+  startNode: start
+  targetNode: shuttleWindow
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+
+- type: construction
   id: PlasmaWindowDiagonal
   name: construction-recipe-plasma-window-diagonal
   graph: WindowDiagonal
@@ -977,6 +991,33 @@
     - !type:TileNotBlocked
 
 - type: construction
+  id: AirlockShuttle
+  graph: AirlockShuttle
+  startNode: start
+  targetNode: airlock
+  category: construction-category-structures
+  #  state: assembly
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+  - !type:TileNotBlocked
+
+- type: construction
+  id: AirlockGlassShuttle
+  name: construction-recipe-airlock-glass-shuttle
+  graph: AirlockShuttle
+  startNode: start
+  targetNode: airlockGlass
+  category: construction-category-structures
+  #  state: assembly
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
   id: Windoor
   graph: Windoor
   startNode: start
@@ -1271,6 +1312,19 @@
   category: construction-category-structures
   objectType: Structure
   placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: StationAiCore
+  graph: StationAiCore
+  startNode: start
+  targetNode: stationAiCore
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked

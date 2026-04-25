@@ -3,12 +3,14 @@ using Content.Server.Administration.Logs;
 using Content.Server.Atmos.Components;
 using Content.Shared.Alert;
 using Content.Shared.Atmos;
+using Content.Shared.CCVar;
 using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Database;
 using Content.Shared.FixedPoint;
 using Content.Shared.Inventory;
 using Content.Shared.Inventory.Events;
+using Robust.Shared.Configuration;
 using Robust.Shared.Containers;
 
 namespace Content.Server.Atmos.EntitySystems
@@ -20,6 +22,7 @@ namespace Content.Server.Atmos.EntitySystems
         [Dependency] private readonly AlertsSystem _alertsSystem = default!;
         [Dependency] private readonly IAdminLogManager _adminLogger= default!;
         [Dependency] private readonly InventorySystem _inventorySystem = default!;
+        [Dependency] private readonly IConfigurationManager _cfg = default!; // Mythos: gate via mythos.atmos.enabled
 
         private const float UpdateTimer = 1f;
         private float _timer;
@@ -200,6 +203,10 @@ namespace Content.Server.Atmos.EntitySystems
 
         public override void Update(float frameTime)
         {
+            // Mythos: skip when atmos disabled.
+            if (!_cfg.GetCVar(CCVars.MythosAtmosEnabled))
+                return;
+
             _timer += frameTime;
 
             if (_timer < UpdateTimer)

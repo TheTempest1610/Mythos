@@ -1,18 +1,21 @@
 using Content.Server.Atmos.EntitySystems;
 using Content.Server.Temperature.Components;
 using Content.Shared.Atmos;
+using Content.Shared.CCVar;
 using Content.Shared.Inventory;
 using Content.Shared.Rejuvenate;
 using Content.Shared.Temperature;
 using Content.Shared.Projectiles;
 using Content.Shared.Temperature.Components;
 using Content.Shared.Temperature.Systems;
+using Robust.Shared.Configuration;
 
 namespace Content.Server.Temperature.Systems;
 
 public sealed partial class TemperatureSystem : SharedTemperatureSystem
 {
     [Dependency] private readonly AtmosphereSystem _atmosphere = default!;
+    [Dependency] private readonly IConfigurationManager _cfg = default!; // Mythos: gate via mythos.atmos.enabled
 
     public override void Initialize()
     {
@@ -31,6 +34,10 @@ public sealed partial class TemperatureSystem : SharedTemperatureSystem
 
     public override void Update(float frameTime)
     {
+        // Mythos: skip when atmos disabled.
+        if (!_cfg.GetCVar(CCVars.MythosAtmosEnabled))
+            return;
+
         base.Update(frameTime);
 
         // conduct heat from the surface to the inside of entities with internal temperatures

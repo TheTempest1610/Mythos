@@ -108,6 +108,7 @@
     containers:
       storagebase: !type:AllSelector
         children:
+        - id: WeaponRevolverPythonAP
         - id: SpeedLoaderMagnumAP
           amount: 2
 
@@ -237,6 +238,7 @@
           amount: 3
         - id: PlushieCarp
         - id: PlushieNuke
+        - id: PlushieLizard
         - id: PlushieSharkBlue
 
 - type: entity
@@ -261,10 +263,16 @@
       storagebase: !type:AllSelector
         children:
         - id: ChameleonPDA
+        - id: ClothingUniformJumpsuitChameleon
+        - id: ClothingOuterChameleon
         - id: ClothingNeckChameleon
         - id: ClothingMaskGasChameleon
+        - id: ClothingHeadHatChameleon
+        - id: ClothingHandsChameleon
         - id: ClothingEyesChameleon
+        - id: ClothingHeadsetChameleon
         - id: ClothingShoesChameleon
+        - id: ChameleonControllerImplanter
 
 - type: entity
   parent: ClothingBackpackChameleon
@@ -276,10 +284,16 @@
       storagebase: !type:AllSelector
         children:
         - id: ChameleonAgentPDA
+        - id: ClothingUniformJumpsuitChameleon
+        - id: ClothingOuterChameleon
         - id: ClothingNeckChameleon
         - id: ClothingMaskGasChameleon
+        - id: ClothingHeadHatChameleon
+        - id: ClothingHandsChameleon
         - id: ClothingEyesChameleon
+        - id: ClothingHeadsetChameleon
         - id: ClothingShoesChameleon
+        - id: ChameleonControllerImplanter
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -441,6 +455,7 @@
         - id: C4
           amount: 2
         - id: MedkitCombatFilled
+        - id: EmpImplanter
         - id: ClothingShoesBootsMagSyndie
 
 - type: entity

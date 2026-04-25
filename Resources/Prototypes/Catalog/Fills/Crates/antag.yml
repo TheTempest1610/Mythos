@@ -10,6 +10,7 @@
         children:
         - id: ClothingNeckCloakPirateCap
         - id: EnergyCutlass
+        - id: MicroBombImplanter
 
 - type: entity
   parent: CratePirate

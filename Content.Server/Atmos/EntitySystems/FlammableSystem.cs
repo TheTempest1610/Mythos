@@ -7,6 +7,7 @@ using Content.Shared.ActionBlocker;
 using Content.Shared.Alert;
 using Content.Shared.Atmos;
 using Content.Shared.Atmos.Components;
+using Content.Shared.CCVar;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Database;
 using Content.Shared.IgnitionSource;
@@ -27,6 +28,7 @@ using Robust.Server.Audio;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
+using Robust.Shared.Configuration;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 
@@ -48,6 +50,7 @@ namespace Content.Server.Atmos.EntitySystems
         [Dependency] private readonly SharedPopupSystem _popup = default!;
         [Dependency] private readonly UseDelaySystem _useDelay = default!;
         [Dependency] private readonly AudioSystem _audio = default!;
+        [Dependency] private readonly IConfigurationManager _cfg = default!; // Mythos: gate via mythos.atmos.enabled
         [Dependency] private readonly IRobustRandom _random = default!;
         [Dependency] private readonly IGameTiming _timing = default!;
 
@@ -393,6 +396,10 @@ namespace Content.Server.Atmos.EntitySystems
 
         public override void Update(float frameTime)
         {
+            // Mythos: skip when atmos disabled.
+            if (!_cfg.GetCVar(CCVars.MythosAtmosEnabled))
+                return;
+
             // process all fire events
             foreach (var (flammable, deltaTemp) in _fireEvents)
             {

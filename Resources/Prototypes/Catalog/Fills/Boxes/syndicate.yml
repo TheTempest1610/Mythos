@@ -10,6 +10,7 @@
         children:
         - id: EmpGrenade
           amount: 3
+        - id: EmpImplanter
 
 - type: entity
   parent: [BoxVial, BaseSyndicateContraband]

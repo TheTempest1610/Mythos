@@ -28,6 +28,16 @@
           volume: 10
     - type: UseDelay
     - type: ExtinguishableSetCollisionWake
+    - type: Flammable
+      fireSpread: false
+      canResistFire: false
+      alwaysCombustible: true
+      canExtinguish: true
+      firestacksOnIgnite: 3.0
+      firestackFade: -0.01
+      damage:
+        types:
+          Heat: 0.1
     - type: FireVisuals
       sprite: Objects/Misc/candles.rsi
       normalState: fire-big
@@ -155,6 +165,8 @@
           color: "#e2ca90"
     - type: FireVisuals
       normalState: fire-small
+    - type: Flammable
+      firestacksOnIgnite: 2.0
     - type: Destructible
       thresholds:
       - trigger:

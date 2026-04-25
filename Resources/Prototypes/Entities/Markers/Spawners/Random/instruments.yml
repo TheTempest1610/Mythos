@@ -113,6 +113,7 @@
       - id: MicrophoneInstrument
       - id: HelicopterInstrument
       - id: BirdToyInstrument
+      - id: MusicalLungInstrument
       - id: ReverseCymbalsInstrument
     - !type:GroupSelector
       weight: 0.1

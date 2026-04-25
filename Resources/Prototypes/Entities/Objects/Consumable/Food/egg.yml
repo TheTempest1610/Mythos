@@ -60,6 +60,7 @@
         acts: [ "Destruction" ]
   # all below are for egg cooking/exploding
   - type: AtmosExposed
+  - type: Temperature
   - type: TemperatureDamage
   - type: InternalTemperature
     # ~1mm shell and ~1cm of albumen
@@ -131,4 +132,7 @@
         reagents:
         - ReagentId: EggCooked
           Quantity: 6
+  - type: Temperature
+    # preserve temperature from the boiling step
+    currentTemperature: 344
   - type: TemperatureDamage
