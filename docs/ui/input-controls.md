@@ -17,6 +17,8 @@ This page maps keyboard and mouse control flow from YAML keybinds to input conte
 - `Content.Shared/Hands/EntitySystems/SharedHandsSystem.Interactions.cs`
 - `Content.Client/UserInterface/Systems/Actions/ActionUIController.cs`
 - `Content.Client/Options/UI/Tabs/KeyRebindTab.xaml.cs`
+- `Content.Client/_Mythos/Combat/Targeting/CombatTargetClickSystem.cs`
+- `Content.Client/_Mythos/Combat/Queue/CombatQueueExecutor.cs`
 
 ## Runtime Flow
 
@@ -45,6 +47,8 @@ Systems then bind functions to behavior through `CommandBinds` or direct input m
 
 Gameplay clicks pass through `GameplayStateBase`, which finds clickable entities under the viewport and forwards input into the simulation.
 
+Mythos target selection uses input polling rather than replacing the stock melee click path. `CombatTargetClickSystem` watches `EngineKeyFunctions.Use`, edge-detects Up to Down, converts mouse screen position to map coordinates, asks `GameplayStateBase.GetClickedEntity`, validates the target, and raises `SelectCombatTargetEvent` predictively. Stock melee still runs if the same click also qualifies as an attack.
+
 ## Customization Levers
 
 - Change default controls in `Resources/keybinds.yml`.
@@ -52,12 +56,17 @@ Gameplay clicks pass through `GameplayStateBase`, which finds clickable entities
 - Add ability-style controls through the existing actions/hotbar system before inventing a separate hotkey framework.
 - For new creature control modes, add a new input context or reuse `human` with different components.
 - Expose new binds in the options menu by updating `KeyRebindTab.xaml.cs`.
+- For target-on-click behavior, extend `CombatTargetClickSystem` before editing stock melee.
+- For queued abilities, prefer action hotbar events and `SpellActionsSystem` over adding raw keybinds.
+- For per-frame local firing, gate on `IGameTiming.IsFirstTimePredicted` to avoid repeated prediction sends.
 
 ## Fantasy Conversion Notes
 
 Fantasy gameplay should reuse the action system for spells, prayers, songs, class skills, stances, and item powers. That automatically integrates with the hotbar, targeting flow, cooldown presentation, and keybinds.
 
 Only change core movement if the game mode requires it. Many systems assume the engine movement functions and `InputMover`/`MobMover` chain. Mounts, possession, flying, stealth, or shapeshift forms are better introduced as movement modifiers and components before replacing input infrastructure.
+
+Combat approach/pathing is not implemented. The documented plan is to drive movement through `InputMoverComponent` from a server system when out of range, while cancelling on manual input. Search `CombatApproachSystem` before starting that work.
 
 ## Agent Search Terms
 
@@ -67,5 +76,6 @@ rg -n "BoundKeyFunction|ContentKeyFunctions|EngineKeyFunctions" Content.Shared R
 rg -n "SetupContexts|AddFunction|contexts.New" Content.Client\\Input
 rg -n "CommandBinds.Builder|SetInputCommand|InputCmdHandler|PointerInputCmdHandler" Content.Client Content.Shared Content.Server
 rg -n "ActivateItemInWorld|UseItemInHand|OpenActionsMenu|Hotbar|MoveUp|Walk" Content.Client Content.Shared Content.Server
+rg -n "EngineKeyFunctions.Use|GetClickedEntity|RaisePredictiveEvent|CombatTargetClickSystem|CombatQueueExecutor|IsFirstTimePredicted" Content.Client\\_Mythos Content.Client Content.Shared\\_Mythos
 ```
 

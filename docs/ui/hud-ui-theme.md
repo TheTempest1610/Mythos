@@ -4,6 +4,8 @@
 
 This page maps player-facing UI: the main HUD, game screens, UI controllers, XAML widgets, bound entity UIs, EUI windows, stylesheets, and theme resources. Use it for reskinning, HUD layout changes, fantasy UI chrome, or replacing machine interfaces.
 
+Official SS14 UI reference: https://docs.spacestation14.com/en/ss14-by-example/ui-and-you.html
+
 ## Source Anchors
 
 - `Content.Client/Gameplay/GameplayState.cs`
@@ -22,6 +24,12 @@ This page maps player-facing UI: the main HUD, game screens, UI controllers, XAM
 - `Resources/Prototypes/hud.yml`
 - `Resources/Textures/Interface/`
 - `RobustToolbox/Robust.Client/UserInterface/`
+- `Content.Client/_Mythos/UserInterface/ManaHud/`
+- `Content.Client/_Mythos/UserInterface/QueueHud/`
+- `Content.Client/_Mythos/Combat/Targeting/TargetReticleOverlay.cs`
+- `Content.Client/_Mythos/TileSpawn/`
+- `Content.Client/MainMenu/UI/MythosThemeSheetlet.cs`
+- `Content.Client/Options/UI/OptionsMenu.xaml.cs`
 
 ## Runtime Flow
 
@@ -41,6 +49,14 @@ EUI is a separate extended UI path used for more global or session-specific wind
 
 Styles are code-driven in `Content.Client/Stylesheets/`. Theme prototypes in `Resources/Prototypes/themes.yml` define theme IDs, texture roots, and color variables. Interface art is in `Resources/Textures/Interface/`.
 
+Mythos currently uses three UI approaches:
+
+- Screen-space overlays for gameplay HUD additions: mana and combat queue.
+- World-space overlay for target reticle.
+- XAML/admin UI replacement for variant-aware tile spawning.
+
+The overlay approach preserves the "no upstream XAML edit" rule. It is fast and low-risk, but less ergonomic than a real HUD widget for click handling, layout participation, and style reuse.
+
 ## Customization Levers
 
 - Main HUD layout: edit `DefaultGameScreen.xaml`, `SeparatedChatGameScreen.xaml`, and their code-behind anchor/margin logic.
@@ -50,6 +66,11 @@ Styles are code-driven in `Content.Client/Stylesheets/`. Theme prototypes in `Re
 - Shared control styling: edit `Content.Client/Stylesheets/Sheetlets/`, `Palette/`, and `Stylesheets/`.
 - Machine and item UIs: find the server system that calls `SetUiState`, the shared state/message classes, the client `BoundUserInterface`, and the XAML window.
 - Top-level screen choice: `CCVars.UILayout` and `Content.Client/Gameplay/GameplayState.cs`.
+- Mythos mana HUD: `ManaHudOverlay` and `ManaHudOverlaySystem`.
+- Mythos queue HUD: `CombatQueueHudOverlay` and `CombatQueueHudOverlaySystem`.
+- Mythos targeting visual: `TargetReticleOverlay` and `TargetReticleOverlaySystem`.
+- Mythos mapper tile variants: `MythosTileSpawnWindow.xaml`, `MythosTileSpawningUIController`, `MythosTileItemList`.
+- Main menu/options style polish: `MythosThemeSheetlet` and style identifiers in options UI.
 
 ## Fantasy Conversion Notes
 
@@ -59,6 +80,32 @@ Rewrite UI only when the workflow changes. For example, a cargo console becoming
 
 Watch for text in localization, not XAML. Many UI labels are `Loc.GetString` calls or FTL keys referenced by code/prototypes.
 
+SS14 UI docs recommend using style classes and Sheetlets over hardcoded per-control colors. Mythos overlays currently draw directly with colors because they are lightweight transitional HUD elements. For long-lived windows, add shared style identifiers and rules in a Sheetlet instead.
+
+## Overlay Example
+
+```csharp
+public sealed class ManaHudOverlaySystem : EntitySystem
+{
+    [Dependency] private readonly IOverlayManager _overlay = default!;
+
+    public override void Initialize()
+    {
+        _overlay.AddOverlay(new ManaHudOverlay(EntityManager, _player, _ui, _resources));
+    }
+}
+```
+
+Draw overlays from component state, not local-only shadow state:
+
+```csharp
+if (!_entMan.TryGetComponent<ManaComponent>(local, out var mana))
+    return;
+
+var timing = _entMan.System<SharedManaSystem>();
+var effective = timing.GetEffectiveMana(local, mana);
+```
+
 ## Agent Search Terms
 
 ```powershell
@@ -67,5 +114,6 @@ rg --files Content.Client\\UserInterface -g "*.xaml" -g "*.xaml.cs" -g "*UIContr
 rg -n "BoundUserInterface|BoundUserInterfaceState|BoundUserInterfaceMessage|SetUiState|UserInterfaceComponent" Content.Client Content.Server Content.Shared
 rg -n "uiTheme|SS14DefaultTheme|SetDefaultTheme|InterfaceTheme" Content.Client Resources\\Prototypes
 rg -n "StyleClasses|Stylesheet|Sheetlet|Palette|StyleBox" Content.Client\\Stylesheets Content.Client\\UserInterface
+rg -n "ManaHud|QueueHud|TargetReticle|Overlay|MythosTileSpawn|MythosThemeSheetlet|StyleIdentifier = \"mythos" Content.Client Content.Client\\_Mythos
 ```
 
