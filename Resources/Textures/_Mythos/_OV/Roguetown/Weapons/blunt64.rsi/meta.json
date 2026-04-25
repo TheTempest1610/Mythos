@@ -1,5 +1,7 @@
 {
   "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
   "size": {
     "x": 64,
     "y": 64
@@ -9,7 +11,7 @@
       "name": "GOEDENDAG"
     },
     {
-      "name": "goedendag"
+      "name": "goedendag_1"
     },
     {
       "name": "goedendag1"
@@ -42,7 +44,7 @@
       "name": "KANABO"
     },
     {
-      "name": "kanabo"
+      "name": "kanabo_1"
     },
     {
       "name": "kanabo1"

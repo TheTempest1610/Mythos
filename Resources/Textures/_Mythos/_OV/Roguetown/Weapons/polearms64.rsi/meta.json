@@ -1,5 +1,7 @@
 {
   "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
   "size": {
     "x": 64,
     "y": 64
@@ -15,7 +17,7 @@
       "name": "woodstaff1"
     },
     {
-      "name": "quarterstaff"
+      "name": "quarterstaff_1"
     },
     {
       "name": "quarterstaff1"
@@ -78,7 +80,7 @@
       "name": "ancient_spear1"
     },
     {
-      "name": "spear"
+      "name": "spear_1"
     },
     {
       "name": "spear1"
@@ -198,7 +200,7 @@
       "name": "HALBERD"
     },
     {
-      "name": "halberd"
+      "name": "halberd_1"
     },
     {
       "name": "halberd1"
@@ -213,7 +215,7 @@
       "name": "BARDICHE"
     },
     {
-      "name": "bardiche"
+      "name": "bardiche_1"
     },
     {
       "name": "bardiche1"
@@ -228,7 +230,7 @@
       "name": "PARTIZAN"
     },
     {
-      "name": "partizan"
+      "name": "partizan_1"
     },
     {
       "name": "partizan1"
@@ -237,7 +239,7 @@
       "name": "GLAIVE"
     },
     {
-      "name": "glaive"
+      "name": "glaive_1"
     },
     {
       "name": "glaive1"
@@ -279,7 +281,7 @@
       "name": "NAGINATA"
     },
     {
-      "name": "naginata"
+      "name": "naginata_1"
     },
     {
       "name": "naginata1"
@@ -288,7 +290,7 @@
       "name": "POLEHAMMER"
     },
     {
-      "name": "polehammer"
+      "name": "polehammer_1"
     },
     {
       "name": "polehammer1"
@@ -303,7 +305,7 @@
       "name": "LANCE"
     },
     {
-      "name": "lance"
+      "name": "lance_1"
     },
     {
       "name": "lance1"

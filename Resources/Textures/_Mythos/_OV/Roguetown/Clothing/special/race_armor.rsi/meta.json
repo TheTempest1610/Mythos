@@ -1,5 +1,7 @@
 {
   "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
   "size": {
     "x": 32,
     "y": 64
@@ -76,7 +78,7 @@
       "name": "H_SHOES_DWARF"
     },
     {
-      "name": "h_shoes_dwarf",
+      "name": "h_shoes_dwarf_1",
       "directions": 4
     },
     {
@@ -91,14 +93,14 @@
       "name": "H_GAUNTLETS_DWARF"
     },
     {
-      "name": "h_gauntlets_dwarf",
+      "name": "h_gauntlets_dwarf_1",
       "directions": 4
     },
     {
       "name": "H_HELMET_DWARF"
     },
     {
-      "name": "h_helmet_dwarf",
+      "name": "h_helmet_dwarf_1",
       "directions": 4
     },
     {
