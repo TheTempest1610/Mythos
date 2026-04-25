@@ -1,5 +1,7 @@
 {
   "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
   "size": {
     "x": 64,
     "y": 64
@@ -93,7 +95,7 @@
       "name": "LONGSWORD"
     },
     {
-      "name": "longsword"
+      "name": "longsword_1"
     },
     {
       "name": "longsword1"
@@ -258,7 +260,7 @@
       "name": "RAPIER"
     },
     {
-      "name": "rapier"
+      "name": "rapier_1"
     },
     {
       "name": "decrapier"
@@ -435,7 +437,7 @@
       "name": "SSANGSUDO"
     },
     {
-      "name": "ssangsudo"
+      "name": "ssangsudo_1"
     },
     {
       "name": "ssangsudo1"
@@ -505,7 +507,7 @@
       "name": "FEDER"
     },
     {
-      "name": "feder"
+      "name": "feder_1"
     },
     {
       "name": "feder1"

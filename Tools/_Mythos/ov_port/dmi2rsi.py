@@ -24,9 +24,11 @@ from pathlib import Path
 from PIL import Image
 
 
-# License/copyright are NOT auto-populated; the source repo is not an accurate
-# source for licensing info. Caller must pass --license/--copyright explicitly
-# if they want those fields emitted; otherwise they are omitted from meta.json.
+# License/copyright default to Ochre-Valley's asset terms (CC-BY-SA-3.0 per its
+# README). Override with --license/--copyright when porting a DMI from a different
+# source, or pass an empty string to suppress emission.
+DEFAULT_LICENSE = "CC-BY-SA-3.0"
+DEFAULT_COPYRIGHT = "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley"
 
 
 def parse_dmi_metadata(desc: str):
@@ -93,15 +95,19 @@ def extract_description(img: Image.Image) -> str | None:
 
 def safe_state_filename(name: str, used: set) -> str:
     # Preserve original name where filesystem-safe; replace problem chars.
+    # `used` is compared case-insensitively because RSIs are consumed on
+    # case-sensitive filesystems (Linux CI) but generated on case-insensitive
+    # ones (Windows/macOS), where two states differing only in case would
+    # silently overwrite each other on disk.
     base = re.sub(r'[<>:"/\\|?*\x00-\x1f]', "_", name)
     if base == "":
         base = "_"
     candidate = base
     n = 1
-    while candidate in used:
+    while candidate.lower() in used:
         candidate = f"{base}_{n}"
         n += 1
-    used.add(candidate)
+    used.add(candidate.lower())
     return candidate
 
 
@@ -233,10 +239,10 @@ def main():
     p.add_argument("input")
     p.add_argument("output")
     p.add_argument("--batch", action="store_true")
-    p.add_argument("--copyright", default=None,
-                   help="Optional. If omitted, no copyright field is emitted to meta.json.")
-    p.add_argument("--license", default=None,
-                   help="Optional. If omitted, no license field is emitted to meta.json.")
+    p.add_argument("--copyright", default=DEFAULT_COPYRIGHT,
+                   help="Defaults to OV attribution. Pass an empty string to suppress.")
+    p.add_argument("--license", default=DEFAULT_LICENSE,
+                   help=f"Defaults to {DEFAULT_LICENSE} (OV asset terms). Pass an empty string to suppress.")
     args = p.parse_args()
 
     inp = Path(args.input)
