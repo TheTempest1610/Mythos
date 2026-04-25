@@ -1,0 +1,3353 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "ARMOR"
+    },
+    {
+      "name": "ibreastplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "ibreastplate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "chainkini",
+      "directions": 4
+    },
+    {
+      "name": "chainkini_f",
+      "directions": 4
+    },
+    {
+      "name": "chainkini_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "chainkini_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "chainkini_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "chainkini_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "splinted",
+      "directions": 4
+    },
+    {
+      "name": "armordress_f",
+      "directions": 4
+    },
+    {
+      "name": "armordress_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "armordressalt_f",
+      "directions": 4
+    },
+    {
+      "name": "armordressalt_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "bliaut_f",
+      "directions": 4
+    },
+    {
+      "name": "bliaut_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "bliaut_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bliaut_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "vest",
+      "directions": 4
+    },
+    {
+      "name": "vest_f",
+      "directions": 4
+    },
+    {
+      "name": "vest_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "vest_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "vest_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "vest_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "nun",
+      "directions": 4
+    },
+    {
+      "name": "nun_f",
+      "directions": 4
+    },
+    {
+      "name": "nun_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "nun_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "nun_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "nun_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "egypt",
+      "directions": 4
+    },
+    {
+      "name": "barrelarmor",
+      "directions": 4
+    },
+    {
+      "name": "dgamb",
+      "directions": 4
+    },
+    {
+      "name": "hauberk",
+      "directions": 4
+    },
+    {
+      "name": "hauberk_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hauberk_f",
+      "directions": 4
+    },
+    {
+      "name": "hauberk_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "hauberk_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hauberk_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "haubergeon",
+      "directions": 4
+    },
+    {
+      "name": "haubergeon_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "haubergeon_f",
+      "directions": 4
+    },
+    {
+      "name": "haubergeon_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "haubergeon_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "haubergeon_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "leather",
+      "directions": 4
+    },
+    {
+      "name": "leather_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leather_f",
+      "directions": 4
+    },
+    {
+      "name": "leather_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "leather_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leather_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "leatherkini",
+      "directions": 4
+    },
+    {
+      "name": "leatherkini_f",
+      "directions": 4
+    },
+    {
+      "name": "leatherkini_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "leatherkini_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leatherkini_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leatherkini_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "sailorvest",
+      "directions": 4
+    },
+    {
+      "name": "sailorvest_f",
+      "directions": 4
+    },
+    {
+      "name": "sailorvest_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "sailorvest_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "sailorvest_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "sailorvest_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "nightman",
+      "directions": 4
+    },
+    {
+      "name": "r_nightman",
+      "directions": 4
+    },
+    {
+      "name": "l_nightman",
+      "directions": 4
+    },
+    {
+      "name": "merrobe",
+      "directions": 4
+    },
+    {
+      "name": "r_merrobe",
+      "directions": 4
+    },
+    {
+      "name": "l_merrobe",
+      "directions": 4
+    },
+    {
+      "name": "merrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "merrobe_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_merrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "l_merrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "merrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_merrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_merrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "merrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "merrobe_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_merrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_merrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "black_robe",
+      "directions": 4
+    },
+    {
+      "name": "black_robe_f",
+      "directions": 4
+    },
+    {
+      "name": "black_robe_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "black_robe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "black_robe_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "black_robe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "white_robe",
+      "directions": 4
+    },
+    {
+      "name": "white_robe_f",
+      "directions": 4
+    },
+    {
+      "name": "white_robe_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "white_robe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "white_robe_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "white_robe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hidearmor",
+      "directions": 4
+    },
+    {
+      "name": "hidearmor_f",
+      "directions": 4
+    },
+    {
+      "name": "hidearmor_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "hidearmor_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hidearmor_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hidearmor_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "hidearmorkini",
+      "directions": 4
+    },
+    {
+      "name": "hidearmorkini_f",
+      "directions": 4
+    },
+    {
+      "name": "hidearmorkini_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "hidearmorkini_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hidearmorkini_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hidearmorkini_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "workervest",
+      "directions": 4
+    },
+    {
+      "name": "workervest_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "workervest_f",
+      "directions": 4
+    },
+    {
+      "name": "workervest_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "workervest_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "workervest_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "warlock",
+      "directions": 4
+    },
+    {
+      "name": "handcoat",
+      "directions": 4
+    },
+    {
+      "name": "handcoat_f",
+      "directions": 4
+    },
+    {
+      "name": "handcoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "lamellar",
+      "directions": 4
+    },
+    {
+      "name": "lamellar_f",
+      "directions": 4
+    },
+    {
+      "name": "lamellar_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "lamellar_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "coat_of_plates",
+      "directions": 4
+    },
+    {
+      "name": "coat_of_plates_f",
+      "directions": 4
+    },
+    {
+      "name": "coat_of_plates_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "coat_of_plates_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "platekini",
+      "directions": 4
+    },
+    {
+      "name": "platekini_f",
+      "directions": 4
+    },
+    {
+      "name": "platekini_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "platekini_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "halfplatekini",
+      "directions": 4
+    },
+    {
+      "name": "halfplatekini_f",
+      "directions": 4
+    },
+    {
+      "name": "halfplatekini_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "halfplatekini_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "undividedrobe",
+      "directions": 4
+    },
+    {
+      "name": "undividedrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "undividedrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "undividedrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "astratarobe",
+      "directions": 4
+    },
+    {
+      "name": "astratarobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "astratarobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "astratarobe_f",
+      "directions": 4
+    },
+    {
+      "name": "nocrobe",
+      "directions": 4
+    },
+    {
+      "name": "nocrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "nocrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "nocrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "necrarobe",
+      "directions": 4
+    },
+    {
+      "name": "necrarobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "necrarobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "necrarobe_f",
+      "directions": 4
+    },
+    {
+      "name": "dendorrobe",
+      "directions": 4
+    },
+    {
+      "name": "dendorrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dendorrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dendorrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "ravoxrobe",
+      "directions": 4
+    },
+    {
+      "name": "ravoxrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ravoxrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ravoxrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "priestrobe",
+      "directions": 4
+    },
+    {
+      "name": "priestrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "priestrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "priestrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "heartfelt",
+      "directions": 4
+    },
+    {
+      "name": "heartfelt_f",
+      "directions": 4
+    },
+    {
+      "name": "heartfelt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "heartfelt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "heartfelt_hand",
+      "directions": 4
+    },
+    {
+      "name": "heartfelt_hand_f",
+      "directions": 4
+    },
+    {
+      "name": "heartfelt_hand_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "heartfelt_hand_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "necromrobe",
+      "directions": 4
+    },
+    {
+      "name": "necromrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "necromrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "necromrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "vplate",
+      "directions": 4
+    },
+    {
+      "name": "vplate_f",
+      "directions": 4
+    },
+    {
+      "name": "vplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "vplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "plate_armor_item",
+      "directions": 4
+    },
+    {
+      "name": "leather_armor_item",
+      "directions": 4
+    },
+    {
+      "name": "cloth_armor",
+      "directions": 4
+    },
+    {
+      "name": "physcoat",
+      "directions": 4
+    },
+    {
+      "name": "physcoat_f",
+      "directions": 4
+    },
+    {
+      "name": "physcoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "physcoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bkarmor",
+      "directions": 4
+    },
+    {
+      "name": "bkarmor_f",
+      "directions": 4
+    },
+    {
+      "name": "bkhalfarmor",
+      "directions": 4
+    },
+    {
+      "name": "bkhalfarmor_f",
+      "directions": 4
+    },
+    {
+      "name": "bkhalfarmor_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bkhalfarmor_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bcuirass",
+      "directions": 4
+    },
+    {
+      "name": "bcuirass_f",
+      "directions": 4
+    },
+    {
+      "name": "bcuirass_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "bcuirass_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bcuirass_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bcuirass_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "bhalfplate",
+      "directions": 4
+    },
+    {
+      "name": "bhalfplate_f",
+      "directions": 4
+    },
+    {
+      "name": "bhalfplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "bhalfplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bhalfplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bhalfplate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "bplate",
+      "directions": 4
+    },
+    {
+      "name": "bplate_f",
+      "directions": 4
+    },
+    {
+      "name": "bplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "bplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bplate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "eorastraps",
+      "directions": 4
+    },
+    {
+      "name": "eorastraps_f",
+      "directions": 4
+    },
+    {
+      "name": "eorarobes",
+      "directions": 4
+    },
+    {
+      "name": "eorarobes_f",
+      "directions": 4
+    },
+    {
+      "name": "eorarobes_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "longcoat",
+      "directions": 4
+    },
+    {
+      "name": "longcoat_f",
+      "directions": 4
+    },
+    {
+      "name": "longcoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "longcoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "shadowrobe",
+      "directions": 4
+    },
+    {
+      "name": "shadowrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "desertrobe",
+      "directions": 4
+    },
+    {
+      "name": "desertrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "desertrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "desertrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "desertrobe_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "desertrobe_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "desertgown",
+      "directions": 4
+    },
+    {
+      "name": "desertgown_f",
+      "directions": 4
+    },
+    {
+      "name": "desertgown_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "desertgown_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "desertgown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "desertgown_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "monkleather",
+      "directions": 4
+    },
+    {
+      "name": "monkleather_f",
+      "directions": 4
+    },
+    {
+      "name": "monkleather_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "monkleather_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "monkleather_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "monkleather_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "monkcloth",
+      "directions": 4
+    },
+    {
+      "name": "monkcloth_f",
+      "directions": 4
+    },
+    {
+      "name": "monkcloth_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "monkcloth_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "monkcloth_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "monkcloth_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "leathercoat",
+      "directions": 4
+    },
+    {
+      "name": "leathercoat_f",
+      "directions": 4
+    },
+    {
+      "name": "leathercoat_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "leathercoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leathercoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leathercoat_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "leathercoat_det",
+      "directions": 4
+    },
+    {
+      "name": "leathercoat_f_det",
+      "directions": 4
+    },
+    {
+      "name": "leathercoat_dwarf_det",
+      "directions": 4
+    },
+    {
+      "name": "leathercoat_f_dwarf_det",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_belt",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_coat",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_f",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_f_mid",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_belt_f",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_coat_f",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_elf",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_belt_elf",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_coat_elf",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_coat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_belt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "roguearmor_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "gambesonp",
+      "directions": 4
+    },
+    {
+      "name": "gambesonp_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gambesonp_f",
+      "directions": 4
+    },
+    {
+      "name": "gambesonp_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gambesonp_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "gambesonp_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "dgamb_f",
+      "directions": 4
+    },
+    {
+      "name": "dgamb_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dgamb_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "light_brigandine_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "light_brigandine_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "light_brigandine_f_dwarf_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "light_brigandine_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "light_brigandine_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "light_brigandine_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "light_brigandine_f",
+      "directions": 4
+    },
+    {
+      "name": "light_brigandine_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "light_brigandine_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "light_brigandine_detail",
+      "directions": 4
+    },
+    {
+      "name": "light_brigandine",
+      "directions": 4
+    },
+    {
+      "name": "light_brigandine_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "corsethalfplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "fancyhalfplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "corsethalfplate_f",
+      "directions": 4
+    },
+    {
+      "name": "corsethalfplate",
+      "directions": 4
+    },
+    {
+      "name": "fancygamb_f",
+      "directions": 4
+    },
+    {
+      "name": "fancygamb",
+      "directions": 4
+    },
+    {
+      "name": "fancyhalfplate_f",
+      "directions": 4
+    },
+    {
+      "name": "fancyhalfplate",
+      "directions": 4
+    },
+    {
+      "name": "abyssorrobe",
+      "directions": 4
+    },
+    {
+      "name": "abyssorrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "abyssorrobe_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "abyssorrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "abyssorrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "abyssorrobe_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "inqcoat",
+      "directions": 4
+    },
+    {
+      "name": "inqcoat_f",
+      "directions": 4
+    },
+    {
+      "name": "inqcoat_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "inqcoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "inqcoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "inqcoat_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "gravecoat",
+      "directions": 4
+    },
+    {
+      "name": "gravecoat_f",
+      "directions": 4
+    },
+    {
+      "name": "gravecoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gravecoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "shadowplate_f",
+      "directions": 4
+    },
+    {
+      "name": "shadowplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "shadowvest",
+      "directions": 4
+    },
+    {
+      "name": "shadowvest_f",
+      "directions": 4
+    },
+    {
+      "name": "feldrobe",
+      "directions": 4
+    },
+    {
+      "name": "feldrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "feldrobe_child",
+      "directions": 4
+    },
+    {
+      "name": "feldrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "feldrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "feldrobe_f_dwarf_breasts",
+      "directions": 4
+    },
+    {
+      "name": "feldrobe_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "surgrobe",
+      "directions": 4
+    },
+    {
+      "name": "surgrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "surgrobe_child",
+      "directions": 4
+    },
+    {
+      "name": "surgrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "surgrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "surgrobe_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "surgrobe_f_dwarf_breasts",
+      "directions": 4
+    },
+    {
+      "name": "whiterobe",
+      "directions": 4
+    },
+    {
+      "name": "whiterobe_f",
+      "directions": 4
+    },
+    {
+      "name": "whiterobe_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "whiterobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "whiterobe_f_dwarf_breasts",
+      "directions": 4
+    },
+    {
+      "name": "whiterobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "corset",
+      "directions": 4
+    },
+    {
+      "name": "corset_f",
+      "directions": 4
+    },
+    {
+      "name": "corset_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "corset_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "corset_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "corset_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "winterjacket",
+      "directions": 4
+    },
+    {
+      "name": "winterjacket_f",
+      "directions": 4
+    },
+    {
+      "name": "winterjacket_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "winterjacket_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "winterjacket_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterjacket_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterjacket_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterjacket_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "artijacket",
+      "directions": 4
+    },
+    {
+      "name": "artijacket_f",
+      "directions": 4
+    },
+    {
+      "name": "artijacket_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "artijacket_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_shaman_coat",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_shaman_coat_f",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_shaman_coat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_shaman_coat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_raider_mail",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_raider_mail_f",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_raider_mail_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_raider_mail_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "zizoplate",
+      "directions": 4
+    },
+    {
+      "name": "zizoplate_f",
+      "directions": 4
+    },
+    {
+      "name": "zizoplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "zizoplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leatherjacketo",
+      "directions": 4
+    },
+    {
+      "name": "leatherjacketo_f",
+      "directions": 4
+    },
+    {
+      "name": "leatherjacketo_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leatherjacketo_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "matthiosarmor",
+      "directions": 4
+    },
+    {
+      "name": "matthiosarmor_f",
+      "directions": 4
+    },
+    {
+      "name": "matthiosarmor_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "matthiosarmor_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "matthiosarmor_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "matthiosarmor_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "hatanga",
+      "directions": 4
+    },
+    {
+      "name": "hatanga_f",
+      "directions": 4
+    },
+    {
+      "name": "hatanga_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "hatanga_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hatanga_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "chargah",
+      "directions": 4
+    },
+    {
+      "name": "chargah_f",
+      "directions": 4
+    },
+    {
+      "name": "chargah_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "chargah_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "chargah_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hatangafur",
+      "directions": 4
+    },
+    {
+      "name": "hatangafur_f",
+      "directions": 4
+    },
+    {
+      "name": "hatangafur_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "hatangafur_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hatangafur_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "huus",
+      "directions": 4
+    },
+    {
+      "name": "huus_f",
+      "directions": 4
+    },
+    {
+      "name": "huus_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "huus_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "huus_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hudesutu",
+      "directions": 4
+    },
+    {
+      "name": "hudesutu_f",
+      "directions": 4
+    },
+    {
+      "name": "hudesutu_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "hudesutu_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hudesutu_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kurche",
+      "directions": 4
+    },
+    {
+      "name": "kurche_f",
+      "directions": 4
+    },
+    {
+      "name": "kurche_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "kurche_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kurche_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "flutedcuirass",
+      "directions": 4
+    },
+    {
+      "name": "flutedcuirass_f",
+      "directions": 4
+    },
+    {
+      "name": "flutedcuirass_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "flutedcuirass_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "flutedcuirass_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "flutedcuirass_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "flutedhalfplate",
+      "directions": 4
+    },
+    {
+      "name": "flutedhalfplate_f",
+      "directions": 4
+    },
+    {
+      "name": "flutedhalfplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "flutedhalfplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "flutedhalfplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "flutedhalfplate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "flutedplate",
+      "directions": 4
+    },
+    {
+      "name": "flutedplate_f",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "flutedplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "flutedplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "flutedplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "flutedplate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "brigandine",
+      "directions": 4
+    },
+    {
+      "name": "brigandine_det",
+      "directions": 4
+    },
+    {
+      "name": "brigandine_f",
+      "directions": 4
+    },
+    {
+      "name": "brigandine_f_det",
+      "directions": 4
+    },
+    {
+      "name": "brigandine_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "brigandine_dwarf_det",
+      "directions": 4
+    },
+    {
+      "name": "brigandine_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "brigandine_f_dwarf_det",
+      "directions": 4
+    },
+    {
+      "name": "copperchest",
+      "directions": 4
+    },
+    {
+      "name": "copperchest_f",
+      "directions": 4
+    },
+    {
+      "name": "copperchest_child",
+      "directions": 4
+    },
+    {
+      "name": "copperchest_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "copperchest_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "spellcasterrobe",
+      "directions": 4
+    },
+    {
+      "name": "spellcasterrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "grenzelshirt",
+      "directions": 4
+    },
+    {
+      "name": "grenzelshirt_f",
+      "directions": 4
+    },
+    {
+      "name": "grenzelshirt_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "grenzelshirt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "grenzelshirt_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelshirt_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelshirt_detail",
+      "directions": 4
+    },
+    {
+      "name": "grenzelshirt_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelshirt_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelshirt_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "grenzelshirt_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelshirt_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelshirt_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "grenzelshirt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "grenzelshirt_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "grenzelshirt_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelshirt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_grenzelshirt_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelshirt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_grenzelshirt_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "ancientcuirass",
+      "directions": 4
+    },
+    {
+      "name": "ancientcuirass_f",
+      "directions": 4
+    },
+    {
+      "name": "ancientcuirass_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancientcuirass_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancientplate",
+      "directions": 4
+    },
+    {
+      "name": "ancientplate_f",
+      "directions": 4
+    },
+    {
+      "name": "ancientplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancientchain",
+      "directions": 4
+    },
+    {
+      "name": "ancientchain_f",
+      "directions": 4
+    },
+    {
+      "name": "ancientchain_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancientchain_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancienthauberk",
+      "directions": 4
+    },
+    {
+      "name": "ancienthauberk_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancienthauberk_f",
+      "directions": 4
+    },
+    {
+      "name": "ancienthauberk_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "graggarplate",
+      "directions": 4
+    },
+    {
+      "name": "graggarplate_f",
+      "directions": 4
+    },
+    {
+      "name": "graggarplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "graggarplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "graggarplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "graggarplate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "monkvestments",
+      "directions": 4
+    },
+    {
+      "name": "monkvestments_f",
+      "directions": 4
+    },
+    {
+      "name": "monkvestments_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "eastsuit1",
+      "directions": 4
+    },
+    {
+      "name": "eastsuit1_f",
+      "directions": 4
+    },
+    {
+      "name": "eastsuit2",
+      "directions": 4
+    },
+    {
+      "name": "eastsuit2_f",
+      "directions": 4
+    },
+    {
+      "name": "eastsuit2_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "eastsuit3",
+      "directions": 4
+    },
+    {
+      "name": "eastsuit3_f",
+      "directions": 4
+    },
+    {
+      "name": "eastsuit3_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "eastsuit4",
+      "directions": 4
+    },
+    {
+      "name": "eastsuit4_f",
+      "directions": 4
+    },
+    {
+      "name": "fencercuirass",
+      "directions": 4
+    },
+    {
+      "name": "fencercuirass_f",
+      "directions": 4
+    },
+    {
+      "name": "fencercuirass_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "fencercuirass_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "fencercuirass_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "fencercuirass_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "sherwani",
+      "directions": 4
+    },
+    {
+      "name": "sherwani_f",
+      "directions": 4
+    },
+    {
+      "name": "sherwani_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "sherwani_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "pangolin",
+      "directions": 4
+    },
+    {
+      "name": "pangolin_f",
+      "directions": 4
+    },
+    {
+      "name": "pangolin_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "pangolin_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ihaubergeon",
+      "directions": 4
+    },
+    {
+      "name": "ihaubergeon_f",
+      "directions": 4
+    },
+    {
+      "name": "ihaubergeon_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "ihaubergeon_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ihaubergeon_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ihaubergeon_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "ihauberk",
+      "directions": 4
+    },
+    {
+      "name": "ihauberk_f",
+      "directions": 4
+    },
+    {
+      "name": "ihauberk_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "ihauberk_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_ihauberk_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ihauberk_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ihauberk_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "ihauberk_child",
+      "directions": 4
+    },
+    {
+      "name": "iplate_legacy",
+      "directions": 4
+    },
+    {
+      "name": "iplate_f_legacy",
+      "directions": 4
+    },
+    {
+      "name": "iplate_child_legacy",
+      "directions": 4
+    },
+    {
+      "name": "iplate_dwarf_legacy",
+      "directions": 4
+    },
+    {
+      "name": "iplate_f_dwarf_legacy",
+      "directions": 4
+    },
+    {
+      "name": "ihalfplate_legacy",
+      "directions": 4
+    },
+    {
+      "name": "ihalfplate_f_legacy",
+      "directions": 4
+    },
+    {
+      "name": "ihalfplate_child",
+      "directions": 4
+    },
+    {
+      "name": "ihalfplate_dwarf_legacy",
+      "directions": 4
+    },
+    {
+      "name": "ihalfplate_f_dwarf_legacy",
+      "directions": 4
+    },
+    {
+      "name": "ihalfplate",
+      "directions": 4
+    },
+    {
+      "name": "ihalfplate_f",
+      "directions": 4
+    },
+    {
+      "name": "ihalfplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ihalfplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "corsethalfplate_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "corsethalfplate_detail",
+      "directions": 4
+    },
+    {
+      "name": "fancygamb_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "fancygamb_detail",
+      "directions": 4
+    },
+    {
+      "name": "corsethalfplate_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "fancygamb_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "fancygamb_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "confessorcoat",
+      "directions": 4
+    },
+    {
+      "name": "confessorcoat_f",
+      "directions": 4
+    },
+    {
+      "name": "confessorcoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "confessorcoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leathertunic",
+      "directions": 4
+    },
+    {
+      "name": "leathertunic_f",
+      "directions": 4
+    },
+    {
+      "name": "leathertunic_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leathertunic_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ordinatorplate",
+      "directions": 4
+    },
+    {
+      "name": "ordinatorplate_f",
+      "directions": 4
+    },
+    {
+      "name": "ordinatorplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ordinatorplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "absolutionistrobe",
+      "directions": 4
+    },
+    {
+      "name": "absolutionistrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "absolutionistrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "absolutionistrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "inqcoata",
+      "directions": 4
+    },
+    {
+      "name": "inqcoata_f",
+      "directions": 4
+    },
+    {
+      "name": "inqcoata_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "inqcoata_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "inqcoata_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "inqcoata_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "gambesonpold",
+      "directions": 4
+    },
+    {
+      "name": "gambesonpold_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gambesonpold_f",
+      "directions": 4
+    },
+    {
+      "name": "gambesonpold_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gambesonpold_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "gambesonpold_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "ironplate",
+      "directions": 4
+    },
+    {
+      "name": "ironplate_f",
+      "directions": 4
+    },
+    {
+      "name": "ironplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ironplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gambeson",
+      "directions": 4
+    },
+    {
+      "name": "gambeson_f",
+      "directions": 4
+    },
+    {
+      "name": "gambeson_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gambeson_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gambeson_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "gambeson_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "fencingshirt",
+      "directions": 4
+    },
+    {
+      "name": "fencingshirt_f",
+      "directions": 4
+    },
+    {
+      "name": "fencingshirt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "fencingshirt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "freijacket",
+      "directions": 4
+    },
+    {
+      "name": "freijacket_detail",
+      "directions": 4
+    },
+    {
+      "name": "freijacket_f",
+      "directions": 4
+    },
+    {
+      "name": "freijacket_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "freijacket_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "freijacket_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "freijacket_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "freijacket_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "studleather",
+      "directions": 4
+    },
+    {
+      "name": "studleather_f",
+      "directions": 4
+    },
+    {
+      "name": "studleather_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "studleather_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "studleather_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "studleather_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "studleatherkini",
+      "directions": 4
+    },
+    {
+      "name": "studleatherkini_f",
+      "directions": 4
+    },
+    {
+      "name": "studleatherkini_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "studleatherkini_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "studleatherkini_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "studleatherkini_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "gambesonold",
+      "directions": 4
+    },
+    {
+      "name": "gambeson_dwarfold",
+      "directions": 4
+    },
+    {
+      "name": "gambeson_fold",
+      "directions": 4
+    },
+    {
+      "name": "gambeson_f_boobold",
+      "directions": 4
+    },
+    {
+      "name": "gambeson_f_dwarfold",
+      "directions": 4
+    },
+    {
+      "name": "gambeson_f_dwarf_boobold",
+      "directions": 4
+    },
+    {
+      "name": "ibreastplate",
+      "directions": 4
+    },
+    {
+      "name": "ibreastplate_f",
+      "directions": 4
+    },
+    {
+      "name": "ibreastplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ibreastplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dreamplate",
+      "directions": 4
+    },
+    {
+      "name": "dreamplate_f",
+      "directions": 4
+    },
+    {
+      "name": "dreamplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dreamplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "cuirass",
+      "directions": 4
+    },
+    {
+      "name": "cuirass_f",
+      "directions": 4
+    },
+    {
+      "name": "cuirass_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "cuirass_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "halfplate",
+      "directions": 4
+    },
+    {
+      "name": "halfplate_f",
+      "directions": 4
+    },
+    {
+      "name": "halfplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "halfplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "plate",
+      "directions": 4
+    },
+    {
+      "name": "plate_f",
+      "directions": 4
+    },
+    {
+      "name": "plate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "plate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ornatechestplate",
+      "directions": 4
+    },
+    {
+      "name": "ornatechestplate_f",
+      "directions": 4
+    },
+    {
+      "name": "ornatechestplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ornatechestplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ornatechestplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "ornatecuirass",
+      "directions": 4
+    },
+    {
+      "name": "ornatecuirass_f",
+      "directions": 4
+    },
+    {
+      "name": "ornatecuirass_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ornatecuirass_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ornatecuirass_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "ornatecuirass_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "ornatehalfplate",
+      "directions": 4
+    },
+    {
+      "name": "ornatehalfplate_f",
+      "directions": 4
+    },
+    {
+      "name": "ornatehalfplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ornatehalfplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ornateplate",
+      "directions": 4
+    },
+    {
+      "name": "ornateplate_f",
+      "directions": 4
+    },
+    {
+      "name": "ornateplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ornateplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ornatehauberk",
+      "directions": 4
+    },
+    {
+      "name": "ornatehauberk_f",
+      "directions": 4
+    },
+    {
+      "name": "ornatehauberk_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "ornatehauberk_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ornatehauberk_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ornatehauberk_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "kazengunheavy",
+      "directions": 4
+    },
+    {
+      "name": "kazengunheavy_f",
+      "directions": 4
+    },
+    {
+      "name": "kazengunheavy_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "kazengunheavy_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kazengunheavy_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kazengunheavy_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "kazengunheavy_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazengunheavy_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazengunheavy_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazengunheavy_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmedium",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmedium_f",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmedium_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmedium_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmedium_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmedium_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmedium_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmedium_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmedium_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmedium_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "cuirbouilli",
+      "directions": 4
+    },
+    {
+      "name": "cuirbouilli_f",
+      "directions": 4
+    },
+    {
+      "name": "cuirbouilli_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "cuirbouilli_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "artificerplate",
+      "directions": 4
+    },
+    {
+      "name": "artificerplate_f",
+      "directions": 4
+    },
+    {
+      "name": "artificerplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "artificerplate_powered",
+      "directions": 4
+    },
+    {
+      "name": "artificerplate_powered_f",
+      "directions": 4
+    },
+    {
+      "name": "artificerplate_powered_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "cuirass_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "halfplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "ornatearmor_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "plate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "cuirass_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "halfplate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "plate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "ornatehalfplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "ornateplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "ornatchestplate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "ornatehalfplate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "ornateplate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "eorastraps_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "eorarobes_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "eorarobes_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "eorarobes_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "silverhalfplate",
+      "directions": 4
+    },
+    {
+      "name": "silverhalfplate_f",
+      "directions": 4
+    },
+    {
+      "name": "silverhalfplate_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "silverhalfplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silverhalfplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silverhalfplate_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_silverhalfplate",
+      "directions": 4
+    },
+    {
+      "name": "l_silverhalfplate",
+      "directions": 4
+    },
+    {
+      "name": "r_silverhalfplate_f",
+      "directions": 4
+    },
+    {
+      "name": "l_silverhalfplate_f",
+      "directions": 4
+    },
+    {
+      "name": "r_silverhalfplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silverhalfplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_silverhalfplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_silverhalfplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "legacycuirass",
+      "directions": 4
+    },
+    {
+      "name": "legacycuirass_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "legacycuirass_f",
+      "directions": 4
+    },
+    {
+      "name": "legacycuirass_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "legacyhalfplate",
+      "directions": 4
+    },
+    {
+      "name": "legacyhalfplate_f",
+      "directions": 4
+    },
+    {
+      "name": "legacyhalfplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "legacyhalfplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "legacyplate",
+      "directions": 4
+    },
+    {
+      "name": "legacyplate_f",
+      "directions": 4
+    },
+    {
+      "name": "legacyplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "legacyplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "legacyornateplate",
+      "directions": 4
+    },
+    {
+      "name": "legacyornateplate_f",
+      "directions": 4
+    },
+    {
+      "name": "legacyornateplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "legacyornateplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "goldcuirass",
+      "directions": 4
+    },
+    {
+      "name": "goldcuirass_f",
+      "directions": 4
+    },
+    {
+      "name": "goldcuirass_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "goldcuirass_dwarf_f",
+      "directions": 4
+    },
+    {
+      "name": "heroiccuirass",
+      "directions": 4
+    },
+    {
+      "name": "heroiccuirass_f",
+      "directions": 4
+    },
+    {
+      "name": "heroiccuirass_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "heroiccuirass_dwarf_f",
+      "directions": 4
+    },
+    {
+      "name": "ancientcuirasshauberk",
+      "directions": 4
+    },
+    {
+      "name": "ancientcuirasshauberk_f",
+      "directions": 4
+    },
+    {
+      "name": "ancientcuirasshauberk_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancientcuirasshauberk_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "icuirasshauberk",
+      "directions": 4
+    },
+    {
+      "name": "icuirasshauberk_f",
+      "directions": 4
+    },
+    {
+      "name": "icuirasshauberk_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "icuirasshauberk_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "cuirasshauberk",
+      "directions": 4
+    },
+    {
+      "name": "cuirasshauberk_f",
+      "directions": 4
+    },
+    {
+      "name": "cuirasshauberk_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "cuirasshauberk_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ewarlock",
+      "directions": 4,
+      "delays": [
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ewarlock_f",
+      "directions": 4,
+      "delays": [
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ewarlock_dwarf",
+      "directions": 4,
+      "delays": [
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ewarlock_f_dwarf",
+      "directions": 4,
+      "delays": [
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ],
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "bronzecuirass",
+      "directions": 4
+    },
+    {
+      "name": "bronzecuirass_f",
+      "directions": 4
+    },
+    {
+      "name": "bronzecuirass_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bronzecuirass_dwarf_f",
+      "directions": 4
+    },
+    {
+      "name": "leather_armor",
+      "directions": 4
+    },
+    {
+      "name": "leather_armor_f",
+      "directions": 4
+    },
+    {
+      "name": "leather_armor_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "leather_armor_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leather_armor_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leather_armor_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "shepherdvest",
+      "directions": 4
+    },
+    {
+      "name": "shepherdvest_f",
+      "directions": 4
+    },
+    {
+      "name": "bronzeprotector",
+      "directions": 4
+    },
+    {
+      "name": "bronzeprotector_f",
+      "directions": 4
+    },
+    {
+      "name": "bronzeprotector_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bronzeprotector_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bronzeplate",
+      "directions": 4
+    },
+    {
+      "name": "bronzeplate_f",
+      "directions": 4
+    },
+    {
+      "name": "bronzeplate_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bronzeplate_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bronzeplatealt",
+      "directions": 4
+    },
+    {
+      "name": "bronzeplatealt_f",
+      "directions": 4
+    },
+    {
+      "name": "bronzeplatealt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bronzeplatealt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_f",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "openrobe",
+      "directions": 4
+    },
+    {
+      "name": "r_openrobe",
+      "directions": 4
+    },
+    {
+      "name": "l_openrobe",
+      "directions": 4
+    },
+    {
+      "name": "openrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "r_openrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "l_openrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "openrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_openrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_openrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "openrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_openrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_openrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hag",
+      "directions": 4
+    },
+    {
+      "name": "hag_f",
+      "directions": 4
+    },
+    {
+      "name": "hag_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "hag_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

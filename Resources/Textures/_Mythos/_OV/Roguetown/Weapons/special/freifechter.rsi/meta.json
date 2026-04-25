@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "ciupaga"
+    },
+    {
+      "name": "ciupaga1"
+    },
+    {
+      "name": "szabla"
+    },
+    {
+      "name": "reformistsword"
+    },
+    {
+      "name": "reformistsword1"
+    },
+    {
+      "name": "elongsword"
+    },
+    {
+      "name": "elongsword1"
+    },
+    {
+      "name": "cityspear"
+    },
+    {
+      "name": "cityspear1"
+    },
+    {
+      "name": "citybanner"
+    },
+    {
+      "name": "citybanner1"
+    },
+    {
+      "name": "reformistbanner"
+    },
+    {
+      "name": "reformistbanner1"
+    }
+  ]
+}

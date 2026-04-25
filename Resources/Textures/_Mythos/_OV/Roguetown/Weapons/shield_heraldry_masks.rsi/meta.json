@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "woodsh_mask"
+    },
+    {
+      "name": "kitesh_mask"
+    },
+    {
+      "name": "heatersh_mask"
+    },
+    {
+      "name": "ironsh_mask"
+    }
+  ]
+}

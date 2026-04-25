@@ -1,0 +1,379 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "MASKS"
+    },
+    {
+      "name": "glasses",
+      "directions": 4
+    },
+    {
+      "name": "glassesb",
+      "directions": 4
+    },
+    {
+      "name": "eyepatch",
+      "directions": 4
+    },
+    {
+      "name": "eyepatch_l",
+      "directions": 4
+    },
+    {
+      "name": "lmask",
+      "directions": 4
+    },
+    {
+      "name": "lmask_l",
+      "directions": 4
+    },
+    {
+      "name": "imask",
+      "directions": 4
+    },
+    {
+      "name": "imask_snout",
+      "directions": 4
+    },
+    {
+      "name": "imask_legacy",
+      "directions": 4
+    },
+    {
+      "name": "smask",
+      "directions": 4
+    },
+    {
+      "name": "smask_snout",
+      "directions": 4
+    },
+    {
+      "name": "goldmask",
+      "directions": 4
+    },
+    {
+      "name": "goldmask_snout",
+      "directions": 4
+    },
+    {
+      "name": "goldmaskc",
+      "directions": 4
+    },
+    {
+      "name": "goldmaskcanthro",
+      "directions": 4
+    },
+    {
+      "name": "bronzemask",
+      "directions": 4
+    },
+    {
+      "name": "bronzemask_snout",
+      "directions": 4
+    },
+    {
+      "name": "bronzemask_legacy",
+      "directions": 4
+    },
+    {
+      "name": "bronzemask_legacy_snout",
+      "directions": 4
+    },
+    {
+      "name": "ancientmask",
+      "directions": 4
+    },
+    {
+      "name": "ancientmask_snout",
+      "directions": 4
+    },
+    {
+      "name": "shepherd",
+      "directions": 4
+    },
+    {
+      "name": "shepherd_t",
+      "directions": 4
+    },
+    {
+      "name": "highway",
+      "directions": 4
+    },
+    {
+      "name": "goggles",
+      "directions": 4
+    },
+    {
+      "name": "skullmask",
+      "directions": 4
+    },
+    {
+      "name": "wildguard",
+      "directions": 4
+    },
+    {
+      "name": "clothblindfold",
+      "directions": 4
+    },
+    {
+      "name": "clothblindfold_f",
+      "directions": 4
+    },
+    {
+      "name": "clothblindfold_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "clothblindfold_dwarf_f",
+      "directions": 4
+    },
+    {
+      "name": "pestramask",
+      "directions": 4
+    },
+    {
+      "name": "feldmask",
+      "directions": 4
+    },
+    {
+      "name": "shadowmask",
+      "directions": 4
+    },
+    {
+      "name": "shadowmask_t",
+      "directions": 4
+    },
+    {
+      "name": "naledimask",
+      "directions": 4
+    },
+    {
+      "name": "naledimask_snout",
+      "directions": 4
+    },
+    {
+      "name": "ragmask",
+      "directions": 4
+    },
+    {
+      "name": "ragmask_t",
+      "directions": 4
+    },
+    {
+      "name": "psydonmask",
+      "directions": 4
+    },
+    {
+      "name": "psydonmask_snout",
+      "directions": 4
+    },
+    {
+      "name": "jademask",
+      "directions": 4
+    },
+    {
+      "name": "silkmask",
+      "directions": 4
+    },
+    {
+      "name": "silkmask_f",
+      "directions": 4
+    },
+    {
+      "name": "silkmask_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silkmask_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "duelmask",
+      "directions": 4
+    },
+    {
+      "name": "duelmask_detail",
+      "directions": 4
+    },
+    {
+      "name": "cmask",
+      "directions": 4
+    },
+    {
+      "name": "silkmask_t",
+      "directions": 4
+    },
+    {
+      "name": "silkmask_t_f",
+      "directions": 4
+    },
+    {
+      "name": "silkmask_t_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silkmask_t_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "physmask",
+      "directions": 4
+    },
+    {
+      "name": "confessormask",
+      "directions": 4
+    },
+    {
+      "name": "sackmask",
+      "directions": 4
+    },
+    {
+      "name": "bglasses",
+      "directions": 4
+    },
+    {
+      "name": "sackmask_psy",
+      "directions": 4
+    },
+    {
+      "name": "confessormask_lens",
+      "directions": 4
+    },
+    {
+      "name": "oni",
+      "directions": 4
+    },
+    {
+      "name": "oni_f",
+      "directions": 4
+    },
+    {
+      "name": "oni_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "oni_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kitsune",
+      "directions": 4
+    },
+    {
+      "name": "kitsune_f",
+      "directions": 4
+    },
+    {
+      "name": "kitsune_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kitsune_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "steppemask",
+      "directions": 4
+    },
+    {
+      "name": "steppemask_snout",
+      "directions": 4
+    },
+    {
+      "name": "shadowfacemask",
+      "directions": 4
+    },
+    {
+      "name": "kazengunfaceguard",
+      "directions": 4
+    },
+    {
+      "name": "kazengunmouthguard",
+      "directions": 4
+    },
+    {
+      "name": "goblin",
+      "directions": 4
+    },
+    {
+      "name": "goblin_inactive",
+      "directions": 4
+    },
+    {
+      "name": "goblin_thrown",
+      "directions": 4
+    },
+    {
+      "name": "goggles_t",
+      "directions": 4
+    },
+    {
+      "name": "mask_jade",
+      "directions": 4
+    },
+    {
+      "name": "mask_turq",
+      "directions": 4
+    },
+    {
+      "name": "mask_onyxa",
+      "directions": 4
+    },
+    {
+      "name": "mask_rose",
+      "directions": 4
+    },
+    {
+      "name": "mask_shell",
+      "directions": 4
+    },
+    {
+      "name": "mask_coral",
+      "directions": 4
+    },
+    {
+      "name": "mask_amber",
+      "directions": 4
+    },
+    {
+      "name": "mask_opal",
+      "directions": 4
+    },
+    {
+      "name": "xylixmask",
+      "directions": 4
+    },
+    {
+      "name": "xylixmask_snout",
+      "directions": 4
+    },
+    {
+      "name": "xylix_weathered",
+      "directions": 4
+    }
+  ]
+}

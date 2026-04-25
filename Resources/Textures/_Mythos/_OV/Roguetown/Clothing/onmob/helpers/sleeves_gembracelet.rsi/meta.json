@@ -1,0 +1,511 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "WRISTS"
+    },
+    {
+      "name": "br_jade",
+      "directions": 4
+    },
+    {
+      "name": "r_br_jade",
+      "directions": 4
+    },
+    {
+      "name": "l_br_jade",
+      "directions": 4
+    },
+    {
+      "name": "br_jade_f",
+      "directions": 4
+    },
+    {
+      "name": "r_br_jade_f",
+      "directions": 4
+    },
+    {
+      "name": "l_br_jade_f",
+      "directions": 4
+    },
+    {
+      "name": "br_jade_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_jade_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_jade_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_jade_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_jade_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_jade_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_jade_child",
+      "directions": 4
+    },
+    {
+      "name": "r_br_jade_child",
+      "directions": 4
+    },
+    {
+      "name": "l_br_jade_child",
+      "directions": 4
+    },
+    {
+      "name": "br_turq",
+      "directions": 4
+    },
+    {
+      "name": "r_br_turq",
+      "directions": 4
+    },
+    {
+      "name": "l_br_turq",
+      "directions": 4
+    },
+    {
+      "name": "br_turq_f",
+      "directions": 4
+    },
+    {
+      "name": "r_br_turq_f",
+      "directions": 4
+    },
+    {
+      "name": "l_br_turq_f",
+      "directions": 4
+    },
+    {
+      "name": "br_turq_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_turq_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_turq_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_turq_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_turq_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_turq_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_turq_child",
+      "directions": 4
+    },
+    {
+      "name": "r_br_turq_child",
+      "directions": 4
+    },
+    {
+      "name": "l_br_turq_child",
+      "directions": 4
+    },
+    {
+      "name": "br_onyxa",
+      "directions": 4
+    },
+    {
+      "name": "r_br_onyxa",
+      "directions": 4
+    },
+    {
+      "name": "l_br_onyxa",
+      "directions": 4
+    },
+    {
+      "name": "br_onyxa_f",
+      "directions": 4
+    },
+    {
+      "name": "r_br_onyxa_f",
+      "directions": 4
+    },
+    {
+      "name": "l_br_onyxa_f",
+      "directions": 4
+    },
+    {
+      "name": "br_onyxa_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_onyxa_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_onyxa_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_onyxa_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_onyxa_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_onyxa_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_onyxa_child",
+      "directions": 4
+    },
+    {
+      "name": "r_br_onyxa_child",
+      "directions": 4
+    },
+    {
+      "name": "l_br_onyxa_child",
+      "directions": 4
+    },
+    {
+      "name": "br_rose",
+      "directions": 4
+    },
+    {
+      "name": "r_br_rose",
+      "directions": 4
+    },
+    {
+      "name": "l_br_rose",
+      "directions": 4
+    },
+    {
+      "name": "br_rose_f",
+      "directions": 4
+    },
+    {
+      "name": "r_br_rose_f",
+      "directions": 4
+    },
+    {
+      "name": "l_br_rose_f",
+      "directions": 4
+    },
+    {
+      "name": "br_rose_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_rose_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_rose_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_rose_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_rose_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_rose_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_rose_child",
+      "directions": 4
+    },
+    {
+      "name": "r_br_rose_child",
+      "directions": 4
+    },
+    {
+      "name": "l_br_rose_child",
+      "directions": 4
+    },
+    {
+      "name": "br_shell",
+      "directions": 4
+    },
+    {
+      "name": "r_br_shell",
+      "directions": 4
+    },
+    {
+      "name": "l_br_shell",
+      "directions": 4
+    },
+    {
+      "name": "br_shell_f",
+      "directions": 4
+    },
+    {
+      "name": "r_br_shell_f",
+      "directions": 4
+    },
+    {
+      "name": "l_br_shell_f",
+      "directions": 4
+    },
+    {
+      "name": "br_shell_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_shell_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_shell_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_shell_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_shell_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_shell_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_shell_child",
+      "directions": 4
+    },
+    {
+      "name": "r_br_shell_child",
+      "directions": 4
+    },
+    {
+      "name": "l_br_shell_child",
+      "directions": 4
+    },
+    {
+      "name": "br_coral",
+      "directions": 4
+    },
+    {
+      "name": "r_br_coral",
+      "directions": 4
+    },
+    {
+      "name": "l_br_coral",
+      "directions": 4
+    },
+    {
+      "name": "br_coral_f",
+      "directions": 4
+    },
+    {
+      "name": "r_br_coral_f",
+      "directions": 4
+    },
+    {
+      "name": "l_br_coral_f",
+      "directions": 4
+    },
+    {
+      "name": "br_coral_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_coral_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_coral_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_coral_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_coral_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_coral_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_coral_child",
+      "directions": 4
+    },
+    {
+      "name": "r_br_coral_child",
+      "directions": 4
+    },
+    {
+      "name": "l_br_coral_child",
+      "directions": 4
+    },
+    {
+      "name": "br_amber",
+      "directions": 4
+    },
+    {
+      "name": "r_br_amber",
+      "directions": 4
+    },
+    {
+      "name": "l_br_amber",
+      "directions": 4
+    },
+    {
+      "name": "br_amber_f",
+      "directions": 4
+    },
+    {
+      "name": "r_br_amber_f",
+      "directions": 4
+    },
+    {
+      "name": "l_br_amber_f",
+      "directions": 4
+    },
+    {
+      "name": "br_amber_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_amber_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_amber_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_amber_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_amber_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_amber_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_amber_child",
+      "directions": 4
+    },
+    {
+      "name": "r_br_amber_child",
+      "directions": 4
+    },
+    {
+      "name": "l_br_amber_child",
+      "directions": 4
+    },
+    {
+      "name": "br_opal",
+      "directions": 4
+    },
+    {
+      "name": "r_br_opal",
+      "directions": 4
+    },
+    {
+      "name": "l_br_opal",
+      "directions": 4
+    },
+    {
+      "name": "br_opal_f",
+      "directions": 4
+    },
+    {
+      "name": "r_br_opal_f",
+      "directions": 4
+    },
+    {
+      "name": "l_br_opal_f",
+      "directions": 4
+    },
+    {
+      "name": "br_opal_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_opal_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_opal_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_opal_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_br_opal_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_br_opal_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "br_opal_child",
+      "directions": 4
+    },
+    {
+      "name": "r_br_opal_child",
+      "directions": 4
+    },
+    {
+      "name": "l_br_opal_child",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "glasses"
+    },
+    {
+      "name": "glassesb"
+    },
+    {
+      "name": "eyepatch"
+    },
+    {
+      "name": "eyepatch_l"
+    },
+    {
+      "name": "lmask"
+    },
+    {
+      "name": "lmask_l"
+    },
+    {
+      "name": "imask"
+    },
+    {
+      "name": "imask_legacy"
+    },
+    {
+      "name": "smask"
+    },
+    {
+      "name": "goldmask"
+    },
+    {
+      "name": "shepherd"
+    },
+    {
+      "name": "shepherd_t"
+    },
+    {
+      "name": "highway"
+    },
+    {
+      "name": "goggles"
+    },
+    {
+      "name": "physmask"
+    },
+    {
+      "name": "skullmask"
+    },
+    {
+      "name": "wildguard"
+    },
+    {
+      "name": "clothblindfold"
+    },
+    {
+      "name": "pestramask"
+    },
+    {
+      "name": "feldmask"
+    },
+    {
+      "name": "shadowmask"
+    },
+    {
+      "name": "shadowmask_t"
+    },
+    {
+      "name": "naledimask"
+    },
+    {
+      "name": "ragmask"
+    },
+    {
+      "name": "ragmask_t"
+    },
+    {
+      "name": "psydonmask"
+    },
+    {
+      "name": "psydonmask_snout"
+    },
+    {
+      "name": "jademask"
+    },
+    {
+      "name": "silkmask"
+    },
+    {
+      "name": "duelmask"
+    },
+    {
+      "name": "cmask"
+    },
+    {
+      "name": "silkmask_t"
+    },
+    {
+      "name": "ancientmask"
+    },
+    {
+      "name": "ancientmask_snout"
+    },
+    {
+      "name": "sackmask"
+    },
+    {
+      "name": "sackmask_psy"
+    },
+    {
+      "name": "bglasses"
+    },
+    {
+      "name": "confessormask"
+    },
+    {
+      "name": "confessormask_lens"
+    },
+    {
+      "name": "oni"
+    },
+    {
+      "name": "kitsune"
+    },
+    {
+      "name": "steppemask"
+    },
+    {
+      "name": "shadowfacemask"
+    },
+    {
+      "name": "imask_snout"
+    },
+    {
+      "name": "smask_snout"
+    },
+    {
+      "name": "goldmask_snout"
+    },
+    {
+      "name": "naledimask_snout"
+    },
+    {
+      "name": "steppemask_snout"
+    },
+    {
+      "name": "kazengunfaceguard"
+    },
+    {
+      "name": "kazengunmouthguard"
+    },
+    {
+      "name": "goblin"
+    },
+    {
+      "name": "goblin_inactive"
+    },
+    {
+      "name": "goblin_thrown"
+    },
+    {
+      "name": "goggles_t"
+    },
+    {
+      "name": "mask_jade"
+    },
+    {
+      "name": "mask_onyxa"
+    },
+    {
+      "name": "mask_shell"
+    },
+    {
+      "name": "mask_amber"
+    },
+    {
+      "name": "mask_turq"
+    },
+    {
+      "name": "mask_rose"
+    },
+    {
+      "name": "mask_opal"
+    },
+    {
+      "name": "mask_coral"
+    },
+    {
+      "name": "goldmaskc"
+    },
+    {
+      "name": "bronzemask"
+    },
+    {
+      "name": "bronzemask_legacy"
+    },
+    {
+      "name": "bronzemask_snout"
+    },
+    {
+      "name": "bronzemask_legacy_snout"
+    },
+    {
+      "name": "xylixmask"
+    },
+    {
+      "name": "xylixmask_snout"
+    },
+    {
+      "name": "xylix_weathered"
+    }
+  ]
+}

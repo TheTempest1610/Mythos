@@ -1,0 +1,21 @@
+<cc:DefaultWindow xmlns="https://spacestation14.io"
+                  xmlns:cc="clr-namespace:Robust.Client.UserInterface.CustomControls;assembly=Robust.Client"
+                  xmlns:mythos="clr-namespace:Content.Client._Mythos.TileSpawn"
+                  Title="{Loc tile-spawn-window-title}"
+                  SetSize="320 360"
+                  MinSize="300 240">
+    <BoxContainer Orientation="Vertical">
+        <BoxContainer Orientation="Horizontal">
+            <LineEdit Name="SearchBar" Access="Public" HorizontalExpand="True" PlaceHolder="{Loc window-search-bar-placeholder}"/>
+            <Button Name="ClearButton" Access="Public" Text="{Loc window-clear-button}"/>
+        </BoxContainer>
+        <!-- Mythos: variant-aware list. Click on a specific variant within a row's icon
+             strip to lock that variant. Highlight is drawn around the chosen cell. -->
+        <mythos:MythosTileItemList Name="TileList" Access="Public" VerticalExpand="True"/>
+        <BoxContainer Orientation="Horizontal">
+            <Button Name="MirroredButton" Access="Public" ToggleMode="True" Text="{Loc tile-spawn-window-mirror-button-text}"/>
+            <Button Name="EraseButton" Access="Public" ToggleMode="True" Text="{Loc window-erase-button-text}"/>
+        </BoxContainer>
+        <Label Name="RotationLabel" Access="Public"/>
+    </BoxContainer>
+</cc:DefaultWindow>

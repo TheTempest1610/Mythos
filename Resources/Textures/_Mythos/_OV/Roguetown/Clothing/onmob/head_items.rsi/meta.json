@@ -1,0 +1,343 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "HEADITEMS"
+    },
+    {
+      "name": "cbag",
+      "directions": 4
+    },
+    {
+      "name": "peaceflower",
+      "directions": 4
+    },
+    {
+      "name": "rosa",
+      "directions": 4
+    },
+    {
+      "name": "rosa_mouth",
+      "directions": 4
+    },
+    {
+      "name": "salvia",
+      "directions": 4
+    },
+    {
+      "name": "matricaria",
+      "directions": 4
+    },
+    {
+      "name": "calendula",
+      "directions": 4
+    },
+    {
+      "name": "manabloom",
+      "directions": 4
+    },
+    {
+      "name": "rosa_crown",
+      "directions": 4
+    },
+    {
+      "name": "salvia_crown",
+      "directions": 4
+    },
+    {
+      "name": "matricaria_crown",
+      "directions": 4
+    },
+    {
+      "name": "calendula_crown",
+      "directions": 4
+    },
+    {
+      "name": "manabloom_crown",
+      "directions": 4
+    },
+    {
+      "name": "briar_crown",
+      "directions": 4
+    },
+    {
+      "name": "goldpin",
+      "directions": 4
+    },
+    {
+      "name": "goldpin_beltr",
+      "directions": 4
+    },
+    {
+      "name": "goldpin_beltl",
+      "directions": 4
+    },
+    {
+      "name": "silverpin_beltr",
+      "directions": 4
+    },
+    {
+      "name": "silverpin_beltl",
+      "directions": 4
+    },
+    {
+      "name": "silverpin",
+      "directions": 4
+    },
+    {
+      "name": "sunflower",
+      "directions": 4
+    },
+    {
+      "name": "pumpkinlamp",
+      "directions": 4
+    },
+    {
+      "name": "pumpkinlamp-on",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "pumpkinlamppsy",
+      "directions": 4
+    },
+    {
+      "name": "pumpkinlamppsy-on",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "pumpkinlampten",
+      "directions": 4
+    },
+    {
+      "name": "pumpkinlampten-on",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "pumpkinlampz",
+      "directions": 4
+    },
+    {
+      "name": "pumpkinlampz-on",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "pumpkinlamp0",
+      "directions": 4
+    },
+    {
+      "name": "pumpkinlamp0-on",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "pumpkinlamp1",
+      "directions": 4
+    },
+    {
+      "name": "pumpkinlamp1-on",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "pumpkinlamp2",
+      "directions": 4
+    },
+    {
+      "name": "pumpkinlamp2-on",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "pumpkinlamp3",
+      "directions": 4
+    },
+    {
+      "name": "pumpkinlamp3-on",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "veil",
+      "directions": 4
+    },
+    {
+      "name": "veil_detail",
+      "directions": 4
+    },
+    {
+      "name": "veil_t",
+      "directions": 4
+    },
+    {
+      "name": "veil_t_detail",
+      "directions": 4
+    },
+    {
+      "name": "circlet",
+      "directions": 4
+    }
+  ]
+}

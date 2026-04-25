@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "LEGACY"
+    },
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "GOWNS"
+    },
+    {
+      "name": "highlights the 'anchors' with a pink background for easier navigation"
+    },
+    {
+      "name": "could probably fold this into sleeves_shirts, later on"
+    },
+    {
+      "name": "springgown"
+    },
+    {
+      "name": "r_springgown",
+      "directions": 4
+    },
+    {
+      "name": "l_springgown",
+      "directions": 4
+    },
+    {
+      "name": "r_springgown_f",
+      "directions": 4
+    },
+    {
+      "name": "l_springgown_f",
+      "directions": 4
+    },
+    {
+      "name": "r_springgown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_springgown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_springgown_child",
+      "directions": 4
+    },
+    {
+      "name": "l_springgown_child",
+      "directions": 4
+    },
+    {
+      "name": "springgown_detail"
+    },
+    {
+      "name": "r_springgown_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_springgown_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_springgown_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_springgown_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_springgown_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_springgown_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_springgown_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_springgown_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "wintergown"
+    },
+    {
+      "name": "r_wintergown",
+      "directions": 4
+    },
+    {
+      "name": "l_wintergown",
+      "directions": 4
+    },
+    {
+      "name": "r_wintergown_f",
+      "directions": 4
+    },
+    {
+      "name": "l_wintergown_f",
+      "directions": 4
+    },
+    {
+      "name": "r_wintergown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_wintergown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_wintergown_child",
+      "directions": 4
+    },
+    {
+      "name": "l_wintergown_child",
+      "directions": 4
+    },
+    {
+      "name": "fallgown"
+    },
+    {
+      "name": "r_fallgown",
+      "directions": 4
+    },
+    {
+      "name": "l_fallgown",
+      "directions": 4
+    },
+    {
+      "name": "r_fallgown_f",
+      "directions": 4
+    },
+    {
+      "name": "l_fallgown_f",
+      "directions": 4
+    },
+    {
+      "name": "r_fallgown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_fallgown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_fallgown_child",
+      "directions": 4
+    },
+    {
+      "name": "l_fallgown_child",
+      "directions": 4
+    },
+    {
+      "name": "fallgown_detail"
+    },
+    {
+      "name": "r_fallgown_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_fallgown_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_fallgown_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_fallgown_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_fallgown_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_fallgown_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_fallgown_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_fallgown_child_detail",
+      "directions": 4
+    }
+  ]
+}

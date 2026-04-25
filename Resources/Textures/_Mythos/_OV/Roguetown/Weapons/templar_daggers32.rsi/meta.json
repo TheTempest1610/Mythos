@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "devilsknife"
+    },
+    {
+      "name": "malum_dagger"
+    },
+    {
+      "name": "astrata_dagger"
+    },
+    {
+      "name": "eora_dagger"
+    },
+    {
+      "name": "abyssor_dagger"
+    },
+    {
+      "name": "dendor_dagger"
+    },
+    {
+      "name": "necra_dagger"
+    },
+    {
+      "name": "ravox_dagger"
+    },
+    {
+      "name": "noc_dagger"
+    },
+    {
+      "name": "undivided_dagger"
+    }
+  ]
+}

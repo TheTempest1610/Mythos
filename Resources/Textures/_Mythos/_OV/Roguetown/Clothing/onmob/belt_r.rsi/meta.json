@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "BELT"
+    },
+    {
+      "name": "waterskin",
+      "directions": 4
+    },
+    {
+      "name": "pouch",
+      "directions": 4
+    },
+    {
+      "name": "pouch_merchant",
+      "directions": 4
+    },
+    {
+      "name": "surgery_bag",
+      "directions": 4
+    },
+    {
+      "name": "dendor",
+      "directions": 4
+    },
+    {
+      "name": "noc",
+      "directions": 4
+    },
+    {
+      "name": "necra",
+      "directions": 4
+    },
+    {
+      "name": "astrata",
+      "directions": 4
+    }
+  ]
+}

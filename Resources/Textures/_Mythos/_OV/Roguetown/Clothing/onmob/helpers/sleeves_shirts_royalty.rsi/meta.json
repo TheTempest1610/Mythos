@@ -1,0 +1,367 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "ROYALGOWNS"
+    },
+    {
+      "name": "princess",
+      "directions": 4
+    },
+    {
+      "name": "r_princess",
+      "directions": 4
+    },
+    {
+      "name": "l_princess",
+      "directions": 4
+    },
+    {
+      "name": "princess_f",
+      "directions": 4
+    },
+    {
+      "name": "r_princess_f",
+      "directions": 4
+    },
+    {
+      "name": "l_princess_f",
+      "directions": 4
+    },
+    {
+      "name": "princess_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_princess_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_princess_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "princess_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_princess_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_princess_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "princess_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_princess_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_princess_detail",
+      "directions": 4
+    },
+    {
+      "name": "princess_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_princess_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_princess_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "princess_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_princess_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_princess_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "princess_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_princess_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_princess_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterdress",
+      "directions": 4
+    },
+    {
+      "name": "r_winterdress",
+      "directions": 4
+    },
+    {
+      "name": "l_winterdress",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_f",
+      "directions": 4
+    },
+    {
+      "name": "r_winterdress_f",
+      "directions": 4
+    },
+    {
+      "name": "l_winterdress_f",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_winterdress_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_winterdress_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_winterdress_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_winterdress_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_winterdress_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_winterdress_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_winterdress_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_winterdress_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_winterdress_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_winterdress_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "winterdress_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_winterdress_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_winterdress_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "prince",
+      "directions": 4
+    },
+    {
+      "name": "r_prince",
+      "directions": 4
+    },
+    {
+      "name": "l_prince",
+      "directions": 4
+    },
+    {
+      "name": "prince_f",
+      "directions": 4
+    },
+    {
+      "name": "r_prince_f",
+      "directions": 4
+    },
+    {
+      "name": "l_prince_f",
+      "directions": 4
+    },
+    {
+      "name": "prince_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_prince_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_prince_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "prince_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_prince_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_prince_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "prince_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_prince_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_prince_detail",
+      "directions": 4
+    },
+    {
+      "name": "prince_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_prince_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_prince_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "prince_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_prince_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_prince_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "prince_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_prince_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_prince_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "princess_child",
+      "directions": 4
+    },
+    {
+      "name": "r_princess_child",
+      "directions": 4
+    },
+    {
+      "name": "l_princess_child",
+      "directions": 4
+    },
+    {
+      "name": "princess_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_princess_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_princess_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "prince_child",
+      "directions": 4
+    },
+    {
+      "name": "r_prince_child",
+      "directions": 4
+    },
+    {
+      "name": "l_prince_child",
+      "directions": 4
+    },
+    {
+      "name": "prince_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_prince_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_prince_child_detail",
+      "directions": 4
+    }
+  ]
+}

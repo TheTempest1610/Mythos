@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "leather"
+    },
+    {
+      "name": "shalal"
+    },
+    {
+      "name": "blackbelt"
+    },
+    {
+      "name": "belt_double"
+    },
+    {
+      "name": "cloth"
+    },
+    {
+      "name": "clothsash"
+    },
+    {
+      "name": "battleskirt"
+    },
+    {
+      "name": "battleskirt_belt"
+    },
+    {
+      "name": "faulds"
+    },
+    {
+      "name": "faulds_belt"
+    },
+    {
+      "name": "breechcloth"
+    },
+    {
+      "name": "breechcloth_belt"
+    },
+    {
+      "name": "breechclothalt"
+    },
+    {
+      "name": "breechclothalt_belt"
+    },
+    {
+      "name": "beltshawl",
+      "directions": 4
+    },
+    {
+      "name": "goldplaque"
+    },
+    {
+      "name": "silverplaque"
+    },
+    {
+      "name": "steelplaque"
+    },
+    {
+      "name": "stewardbelt"
+    },
+    {
+      "name": "knife"
+    },
+    {
+      "name": "blackknife"
+    },
+    {
+      "name": "silkbelt"
+    },
+    {
+      "name": "steeltasset"
+    },
+    {
+      "name": "rope"
+    },
+    {
+      "name": "bronzeheadhook"
+    },
+    {
+      "name": "ironheadhook"
+    },
+    {
+      "name": "slayer"
+    },
+    {
+      "name": "suspenders"
+    }
+  ]
+}

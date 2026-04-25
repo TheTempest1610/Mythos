@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "woodstaff"
+    },
+    {
+      "name": "stonespear"
+    },
+    {
+      "name": "iscissors"
+    },
+    {
+      "name": "milsteelpick"
+    },
+    {
+      "name": "milpick"
+    },
+    {
+      "name": "sscissors"
+    },
+    {
+      "name": "cspear"
+    },
+    {
+      "name": "slurbow0"
+    },
+    {
+      "name": "slurbow1"
+    },
+    {
+      "name": "slurbow2"
+    },
+    {
+      "name": "crossbow0"
+    },
+    {
+      "name": "crossbow1"
+    },
+    {
+      "name": "crossbowshort0"
+    },
+    {
+      "name": "crossbowshort1"
+    },
+    {
+      "name": "heavybow0"
+    },
+    {
+      "name": "heavybow1"
+    },
+    {
+      "name": "ancientcrossbow0"
+    },
+    {
+      "name": "ancientcrossbow1"
+    },
+    {
+      "name": "ancientheavybow0"
+    },
+    {
+      "name": "ancientheavybow1"
+    },
+    {
+      "name": "bow"
+    },
+    {
+      "name": "classicbow0"
+    },
+    {
+      "name": "classicbow1"
+    },
+    {
+      "name": "sling"
+    },
+    {
+      "name": "sling_ready"
+    },
+    {
+      "name": "pistol"
+    },
+    {
+      "name": "pistol2"
+    },
+    {
+      "name": "pistol3"
+    },
+    {
+      "name": "aries"
+    },
+    {
+      "name": "scepter",
+      "delays": [
+        [
+          1.0,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "stunmace0"
+    },
+    {
+      "name": "stunmace1",
+      "delays": [
+        [
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15,
+          0.15
+        ]
+      ]
+    },
+    {
+      "name": "psycenser"
+    },
+    {
+      "name": "psycenser_active",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "silvershovel"
+    },
+    {
+      "name": "dirtsilvershovel"
+    },
+    {
+      "name": "UNUSED"
+    },
+    {
+      "name": "repeater_pulled"
+    },
+    {
+      "name": "repeater_pulled_loaded"
+    },
+    {
+      "name": "repeater_pulled_ready"
+    },
+    {
+      "name": "repeater_pulled_closed"
+    },
+    {
+      "name": "repeater"
+    },
+    {
+      "name": "repeater_loaded"
+    },
+    {
+      "name": "repeater_ready"
+    },
+    {
+      "name": "repeater_closed"
+    },
+    {
+      "name": "staker_pulled"
+    },
+    {
+      "name": "staker_pulled_loaded"
+    },
+    {
+      "name": "staker_pulled_ready"
+    },
+    {
+      "name": "staker_pulled_closed"
+    },
+    {
+      "name": "staker"
+    },
+    {
+      "name": "staker_loaded"
+    },
+    {
+      "name": "staker_ready"
+    }
+  ]
+}

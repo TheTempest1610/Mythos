@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "steelknuckle"
+    },
+    {
+      "name": "katar"
+    },
+    {
+      "name": "bronzeknuckle"
+    },
+    {
+      "name": "eoraknuckle"
+    },
+    {
+      "name": "claw_l"
+    },
+    {
+      "name": "claw_r"
+    },
+    {
+      "name": "abyssorclaw"
+    },
+    {
+      "name": "psyknuckle"
+    },
+    {
+      "name": "psykatar"
+    },
+    {
+      "name": "plug"
+    },
+    {
+      "name": "ironclaws"
+    },
+    {
+      "name": "steelclaws"
+    },
+    {
+      "name": "gronnclaws"
+    },
+    {
+      "name": "aknuckle"
+    },
+    {
+      "name": "bronzekatar"
+    },
+    {
+      "name": "bronzescissor"
+    },
+    {
+      "name": "silverknuckle"
+    },
+    {
+      "name": "silverkatar"
+    },
+    {
+      "name": "silverclaws"
+    },
+    {
+      "name": "corruptclaws"
+    }
+  ]
+}

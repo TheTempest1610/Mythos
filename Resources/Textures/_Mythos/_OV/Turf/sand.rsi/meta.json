@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "sand_dug"
+    },
+    {
+      "name": "sand",
+      "directions": 4
+    },
+    {
+      "name": "sand1"
+    },
+    {
+      "name": "sand2"
+    },
+    {
+      "name": "sand3"
+    },
+    {
+      "name": "sand4",
+      "directions": 4
+    }
+  ]
+}

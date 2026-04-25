@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "longbow"
+    },
+    {
+      "name": "longbow_warden"
+    },
+    {
+      "name": "longgun_0"
+    },
+    {
+      "name": "longgun_b"
+    },
+    {
+      "name": "matchlock"
+    },
+    {
+      "name": "longsword_triumph"
+    },
+    {
+      "name": "longsword_triumph1"
+    },
+    {
+      "name": "longsword_triumph2"
+    },
+    {
+      "name": "longsword_rockhill"
+    },
+    {
+      "name": "longsword_rockhill1"
+    },
+    {
+      "name": "longsword_rockhill2"
+    },
+    {
+      "name": "longsword_sabreguard"
+    },
+    {
+      "name": "longsword_sabreguard1"
+    },
+    {
+      "name": "longsword_sabreguard2"
+    },
+    {
+      "name": "longsword_wideguard"
+    },
+    {
+      "name": "longsword_wideguard1"
+    },
+    {
+      "name": "longsword_wideguard2"
+    },
+    {
+      "name": "longsword_psycrucifix"
+    },
+    {
+      "name": "longsword_psycrucifix1"
+    },
+    {
+      "name": "longsword_psycrucifix2"
+    },
+    {
+      "name": "longsword_rockhillalt"
+    },
+    {
+      "name": "longsword_rockhillalt1"
+    },
+    {
+      "name": "longsword_rockhillg"
+    },
+    {
+      "name": "longsword_rockhillg1"
+    },
+    {
+      "name": "gdadao"
+    },
+    {
+      "name": "gdadao1"
+    },
+    {
+      "name": "TOBEIMPLEMENTED"
+    },
+    {
+      "name": "recurve_bow"
+    },
+    {
+      "name": "recurve_warden"
+    },
+    {
+      "name": "recurve_riding"
+    },
+    {
+      "name": "longsword_lordly"
+    },
+    {
+      "name": "longsword_lordling"
+    },
+    {
+      "name": "longsword_tarnished"
+    },
+    {
+      "name": "greatsling"
+    },
+    {
+      "name": "greatsling_ready"
+    },
+    {
+      "name": "greatsling1"
+    },
+    {
+      "name": "greatsling1_ready"
+    },
+    {
+      "name": "handgonne"
+    },
+    {
+      "name": "handgonne1"
+    },
+    {
+      "name": "handgonne_lit",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "handgonne_lit1",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "blackoakrecurve_bow"
+    },
+    {
+      "name": "autumnrecurve_bow"
+    }
+  ]
+}

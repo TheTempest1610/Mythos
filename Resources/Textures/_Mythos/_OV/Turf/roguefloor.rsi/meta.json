@@ -1,0 +1,1361 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "herringbone"
+    },
+    {
+      "name": "herringedge",
+      "directions": 8
+    },
+    {
+      "name": "bottom",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "top",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "together",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "water1ripple"
+    },
+    {
+      "name": "water2ripple",
+      "directions": 4,
+      "delays": [
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ]
+      ]
+    },
+    {
+      "name": "water3ripple",
+      "directions": 4,
+      "delays": [
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ]
+      ]
+    },
+    {
+      "name": "water4ripple",
+      "directions": 4,
+      "delays": [
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ]
+      ]
+    },
+    {
+      "name": "water5ripple",
+      "directions": 4,
+      "delays": [
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ]
+      ]
+    },
+    {
+      "name": "edge-s",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "edge-n",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "edge-e",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "edge-w",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "rocky",
+      "directions": 4
+    },
+    {
+      "name": "genedge-n"
+    },
+    {
+      "name": "genedge-s"
+    },
+    {
+      "name": "genedge-e"
+    },
+    {
+      "name": "genedge-w"
+    },
+    {
+      "name": "bottom1",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "top1",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "bottom2",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "top2",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "bottom3",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "top3",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "df",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "dt",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3
+        ]
+      ]
+    },
+    {
+      "name": "rivermove",
+      "directions": 4,
+      "delays": [
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ]
+      ]
+    },
+    {
+      "name": "riverbot",
+      "directions": 4,
+      "delays": [
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ]
+      ]
+    },
+    {
+      "name": "rivertop",
+      "directions": 4,
+      "delays": [
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ]
+      ]
+    },
+    {
+      "name": "masonic",
+      "directions": 4
+    },
+    {
+      "name": "masonicsingle"
+    },
+    {
+      "name": "masonicsingleinvert"
+    },
+    {
+      "name": "masonicspiral"
+    },
+    {
+      "name": "stoneredlarge"
+    },
+    {
+      "name": "stoneredtiny"
+    },
+    {
+      "name": "bathtile"
+    },
+    {
+      "name": "bathtileW"
+    },
+    {
+      "name": "barograte"
+    },
+    {
+      "name": "barograteopen"
+    },
+    {
+      "name": "digstone",
+      "directions": 4
+    },
+    {
+      "name": "carvedstone",
+      "directions": 4
+    },
+    {
+      "name": "carpet"
+    },
+    {
+      "name": "tile",
+      "directions": 4
+    },
+    {
+      "name": "chess",
+      "directions": 4
+    },
+    {
+      "name": "linoleum",
+      "directions": 4
+    },
+    {
+      "name": "weird1"
+    },
+    {
+      "name": "weird2"
+    },
+    {
+      "name": "plating1",
+      "directions": 4
+    },
+    {
+      "name": "plating2",
+      "directions": 4
+    },
+    {
+      "name": "concretefloor1",
+      "directions": 4
+    },
+    {
+      "name": "concretefloor2",
+      "directions": 4
+    },
+    {
+      "name": "wooden_floor"
+    },
+    {
+      "name": "wooden_floort"
+    },
+    {
+      "name": "wooden_floor2"
+    },
+    {
+      "name": "wooden_floor2t"
+    },
+    {
+      "name": "jagged",
+      "directions": 4
+    },
+    {
+      "name": "cobblestone1"
+    },
+    {
+      "name": "cobblestone2"
+    },
+    {
+      "name": "cobblestone3"
+    },
+    {
+      "name": "cobbleedge-n"
+    },
+    {
+      "name": "cobbleedge-sread"
+    },
+    {
+      "name": "cobbleedge-s"
+    },
+    {
+      "name": "cobbleedge-w"
+    },
+    {
+      "name": "cobbleedge-e"
+    },
+    {
+      "name": "cobblestone_edges",
+      "directions": 8
+    },
+    {
+      "name": "blocks",
+      "directions": 4
+    },
+    {
+      "name": "cobblerock"
+    },
+    {
+      "name": "cobblerock-se"
+    },
+    {
+      "name": "cobblerock-sw"
+    },
+    {
+      "name": "cobblerock-nw"
+    },
+    {
+      "name": "cobblerock-ne"
+    },
+    {
+      "name": "cobblerock-s"
+    },
+    {
+      "name": "cobblerock-e"
+    },
+    {
+      "name": "cobblerock-w"
+    },
+    {
+      "name": "cobblerock-n"
+    },
+    {
+      "name": "cobblerockedge-n"
+    },
+    {
+      "name": "cobblerockedge-s"
+    },
+    {
+      "name": "cobblerockedge-e"
+    },
+    {
+      "name": "cobblerockedge-w"
+    },
+    {
+      "name": "oldcobblerock"
+    },
+    {
+      "name": "oldcobblerock-se"
+    },
+    {
+      "name": "oldcobblerock-sw"
+    },
+    {
+      "name": "oldcobblerock-nw"
+    },
+    {
+      "name": "oldcobblerock-ne"
+    },
+    {
+      "name": "oldcobblerock-s"
+    },
+    {
+      "name": "oldcobblerock-e"
+    },
+    {
+      "name": "oldcobblerock-w"
+    },
+    {
+      "name": "oldcobblerock-n"
+    },
+    {
+      "name": "borderfall",
+      "directions": 4
+    },
+    {
+      "name": "shadowfull"
+    },
+    {
+      "name": "shadowpartial",
+      "directions": 4
+    },
+    {
+      "name": "roofg-arw",
+      "directions": 4
+    },
+    {
+      "name": "roofgc1-arw",
+      "directions": 8
+    },
+    {
+      "name": "roofg",
+      "directions": 4
+    },
+    {
+      "name": "roofgc1",
+      "directions": 8
+    },
+    {
+      "name": "roof-arw",
+      "directions": 4
+    },
+    {
+      "name": "roof",
+      "directions": 4
+    },
+    {
+      "name": "greenblocks",
+      "directions": 4
+    },
+    {
+      "name": "gravemarker1"
+    },
+    {
+      "name": "gravemarker2"
+    },
+    {
+      "name": "gravemarker3"
+    },
+    {
+      "name": "psy_gravemarker1"
+    },
+    {
+      "name": "psy_gravemarker2"
+    },
+    {
+      "name": "psy_gravemarker3"
+    },
+    {
+      "name": "gravestone"
+    },
+    {
+      "name": "gravestone1"
+    },
+    {
+      "name": "gravestone1_uni"
+    },
+    {
+      "name": "gravestone1_psy"
+    },
+    {
+      "name": "gravecovered",
+      "directions": 4
+    },
+    {
+      "name": "grave",
+      "directions": 4
+    },
+    {
+      "name": "grave_above"
+    },
+    {
+      "name": "spike_pit"
+    },
+    {
+      "name": "hole1",
+      "directions": 4
+    },
+    {
+      "name": "hole2",
+      "directions": 4
+    },
+    {
+      "name": "staticedge-n"
+    },
+    {
+      "name": "staticedge-s"
+    },
+    {
+      "name": "staticedge-e"
+    },
+    {
+      "name": "staticedge-w"
+    },
+    {
+      "name": "water",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "yuckwater"
+    },
+    {
+      "name": "greenstone",
+      "directions": 4
+    },
+    {
+      "name": "glyph1"
+    },
+    {
+      "name": "glyph2"
+    },
+    {
+      "name": "glyph3"
+    },
+    {
+      "name": "glyph4"
+    },
+    {
+      "name": "glyph5"
+    },
+    {
+      "name": "glyph6"
+    },
+    {
+      "name": "glyph7"
+    },
+    {
+      "name": "glyph8"
+    },
+    {
+      "name": "glyph9"
+    },
+    {
+      "name": "lavafloor",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "lava",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "lavedge-s"
+    },
+    {
+      "name": "lavedge-n"
+    },
+    {
+      "name": "lavedge-w"
+    },
+    {
+      "name": "lavedge-e"
+    },
+    {
+      "name": "horzw"
+    },
+    {
+      "name": "vertw"
+    },
+    {
+      "name": "rock",
+      "directions": 4
+    },
+    {
+      "name": "rockwd",
+      "directions": 4
+    },
+    {
+      "name": "rockw2"
+    },
+    {
+      "name": "dirtW"
+    },
+    {
+      "name": "dirtW2"
+    },
+    {
+      "name": "dirt",
+      "directions": 4
+    },
+    {
+      "name": "dirtedge-n"
+    },
+    {
+      "name": "dirtedge-s"
+    },
+    {
+      "name": "dirtedge-w"
+    },
+    {
+      "name": "dirtedge-e"
+    },
+    {
+      "name": "road",
+      "directions": 4
+    },
+    {
+      "name": "roadedge-n"
+    },
+    {
+      "name": "roadedge-s"
+    },
+    {
+      "name": "roadedge-e"
+    },
+    {
+      "name": "roadedge-w"
+    },
+    {
+      "name": "grass",
+      "directions": 4
+    },
+    {
+      "name": "grassedge-s"
+    },
+    {
+      "name": "grassedge-w"
+    },
+    {
+      "name": "grassedge-e"
+    },
+    {
+      "name": "grassedge-n"
+    },
+    {
+      "name": "bluestone"
+    },
+    {
+      "name": "bluestone2"
+    },
+    {
+      "name": "newstone2"
+    },
+    {
+      "name": "bfloorz",
+      "directions": 4
+    },
+    {
+      "name": "tilerg"
+    },
+    {
+      "name": "paving",
+      "directions": 4
+    },
+    {
+      "name": "pavingW"
+    },
+    {
+      "name": "paving-t",
+      "directions": 4
+    },
+    {
+      "name": "treetop1",
+      "directions": 4
+    },
+    {
+      "name": "treetop2",
+      "directions": 4
+    },
+    {
+      "name": "mud1",
+      "directions": 4
+    },
+    {
+      "name": "mud2",
+      "directions": 4
+    },
+    {
+      "name": "mud3",
+      "directions": 4
+    },
+    {
+      "name": "hexstone",
+      "directions": 4
+    },
+    {
+      "name": "travel",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "fartravel",
+      "delays": [
+        [
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "acid",
+      "directions": 4,
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "carpet_l",
+      "directions": 4
+    },
+    {
+      "name": "carpet_c",
+      "directions": 4
+    },
+    {
+      "name": "carpet_r",
+      "directions": 4
+    },
+    {
+      "name": "carpet_l_primary",
+      "directions": 4
+    },
+    {
+      "name": "carpet_c_primary",
+      "directions": 4
+    },
+    {
+      "name": "carpet_r_primary",
+      "directions": 4
+    },
+    {
+      "name": "twig",
+      "directions": 4
+    },
+    {
+      "name": "mossystone1"
+    },
+    {
+      "name": "mossystone2"
+    },
+    {
+      "name": "mossystone3"
+    },
+    {
+      "name": "mossyedge",
+      "directions": 8
+    },
+    {
+      "name": "mossystone_edges",
+      "directions": 8
+    },
+    {
+      "name": "church_marble"
+    },
+    {
+      "name": "church_brick"
+    },
+    {
+      "name": "church",
+      "directions": 4
+    },
+    {
+      "name": "church_rough"
+    },
+    {
+      "name": "ash",
+      "directions": 8
+    },
+    {
+      "name": "hellgrass"
+    },
+    {
+      "name": "hellgrassedge-s"
+    },
+    {
+      "name": "hellgrassedge-w"
+    },
+    {
+      "name": "hellgrass-e"
+    },
+    {
+      "name": "hellgrass-n"
+    },
+    {
+      "name": "herringbonewood"
+    },
+    {
+      "name": "herringbonewoodedge",
+      "directions": 8
+    },
+    {
+      "name": "woodenborder",
+      "directions": 8
+    },
+    {
+      "name": "woodenborderinv",
+      "directions": 4
+    },
+    {
+      "name": "herringbonewood2"
+    },
+    {
+      "name": "herringbonewood2edge",
+      "directions": 8
+    },
+    {
+      "name": "woodenborder2",
+      "directions": 8
+    },
+    {
+      "name": "woodenborder2inv",
+      "directions": 4
+    },
+    {
+      "name": "wooden_flooredge",
+      "directions": 8
+    },
+    {
+      "name": "wooden_floortedge",
+      "directions": 8
+    },
+    {
+      "name": "bricktile"
+    },
+    {
+      "name": "hay"
+    },
+    {
+      "name": "pond",
+      "delays": [
+        [
+          0.1,
+          0.2,
+          0.3,
+          0.2,
+          0.1,
+          0.2,
+          0.3,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "grass_yel",
+      "directions": 4
+    },
+    {
+      "name": "grass_yeledge-s"
+    },
+    {
+      "name": "grass_yeledge-w"
+    },
+    {
+      "name": "grass_yeledge-e"
+    },
+    {
+      "name": "grass_yeledge-n"
+    },
+    {
+      "name": "grass_red",
+      "directions": 4
+    },
+    {
+      "name": "grass_rededge-s"
+    },
+    {
+      "name": "grass_rededge-w"
+    },
+    {
+      "name": "grass_rededge-e"
+    },
+    {
+      "name": "grass_rededge-n"
+    },
+    {
+      "name": "grass_cold",
+      "directions": 4
+    },
+    {
+      "name": "grass_coldedge-s"
+    },
+    {
+      "name": "grass_coldedge-w"
+    },
+    {
+      "name": "grass_coldedge-e"
+    },
+    {
+      "name": "grass_coldedge-n"
+    },
+    {
+      "name": "snow"
+    },
+    {
+      "name": "snowedge-s"
+    },
+    {
+      "name": "snowedge-w"
+    },
+    {
+      "name": "snowedge-e"
+    },
+    {
+      "name": "snowedge-n"
+    },
+    {
+      "name": "snowrough",
+      "directions": 4
+    },
+    {
+      "name": "snowroughedge-s"
+    },
+    {
+      "name": "snowroughedge-w"
+    },
+    {
+      "name": "snowroughedge-e"
+    },
+    {
+      "name": "snowroughedge-n"
+    },
+    {
+      "name": "snowpatchy_grass",
+      "directions": 4
+    },
+    {
+      "name": "snowpatchy_grassedge-s"
+    },
+    {
+      "name": "snowpatchy_grassedge-w"
+    },
+    {
+      "name": "snowpatchy_grassedge-e"
+    },
+    {
+      "name": "snowpatchy_grassedge-n"
+    },
+    {
+      "name": "bathtile_pool",
+      "directions": 8
+    },
+    {
+      "name": "undervoid"
+    },
+    {
+      "name": "undervoid2"
+    },
+    {
+      "name": "undervoid3"
+    },
+    {
+      "name": "harem"
+    },
+    {
+      "name": "harem1"
+    },
+    {
+      "name": "harem2"
+    },
+    {
+      "name": "brown"
+    },
+    {
+      "name": "grimshart"
+    },
+    {
+      "name": "grimshartedge-n"
+    },
+    {
+      "name": "grimshartedge-s"
+    },
+    {
+      "name": "grimshartedge-w"
+    },
+    {
+      "name": "grimshartedge-e"
+    },
+    {
+      "name": "blackice"
+    },
+    {
+      "name": "blackice-w"
+    },
+    {
+      "name": "blackice-n"
+    },
+    {
+      "name": "blackice-e"
+    },
+    {
+      "name": "blackice-s"
+    },
+    {
+      "name": "border",
+      "directions": 8
+    },
+    {
+      "name": "border_corner",
+      "directions": 4
+    },
+    {
+      "name": "crawlspace_1"
+    },
+    {
+      "name": "crawlspace_2"
+    },
+    {
+      "name": "crawlspace_3"
+    },
+    {
+      "name": "crawlspace_4"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "forestleather"
+    },
+    {
+      "name": "forestbrig"
+    },
+    {
+      "name": "skullmet_volf"
+    },
+    {
+      "name": "skullmet_goat"
+    },
+    {
+      "name": "skullmet_bear"
+    },
+    {
+      "name": "wardenhelm"
+    },
+    {
+      "name": "wardenhelm_t"
+    },
+    {
+      "name": "wardenhood"
+    },
+    {
+      "name": "wardenhood_t"
+    },
+    {
+      "name": "wardenhoodalt"
+    },
+    {
+      "name": "wardenhoodalt_t"
+    },
+    {
+      "name": "skullmet_rat"
+    }
+  ]
+}

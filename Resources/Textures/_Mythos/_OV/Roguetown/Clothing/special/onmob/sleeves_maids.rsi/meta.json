@@ -1,0 +1,645 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "butlercoat",
+      "directions": 4
+    },
+    {
+      "name": "r_butlercoat",
+      "directions": 4
+    },
+    {
+      "name": "l_butlercoat",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_f",
+      "directions": 4
+    },
+    {
+      "name": "r_butlercoat_f",
+      "directions": 4
+    },
+    {
+      "name": "l_butlercoat_f",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_butlercoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_butlercoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_butlercoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_butlercoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlercoat_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlercoat_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlercoat_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlercoat_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlercoat_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlercoat_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlercoat_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlercoat_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlercoat_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "maiddressfancy",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddressfancy",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddressfancy",
+      "directions": 4
+    },
+    {
+      "name": "maiddressfancy_f",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddressfancy_f",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddressfancy_f",
+      "directions": 4
+    },
+    {
+      "name": "maiddressfancy_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddressfancy_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddressfancy_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "maiddressfancy_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddressfancy_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddressfancy_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "maiddressfancy_child",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddressfancy_child",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddressfancy_child",
+      "directions": 4
+    },
+    {
+      "name": "maiddressfancy_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddressfancy_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddressfancy_detail",
+      "directions": 4
+    },
+    {
+      "name": "maiddressfancy_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddressfancy_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddressfancy_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "maiddressfancy_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddressfancy_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddressfancy_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "maiddressfancy_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddressfancy_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddressfancy_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "maiddressfancy_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddressfancy_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddressfancy_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "maidgown",
+      "directions": 4
+    },
+    {
+      "name": "r_maidgown",
+      "directions": 4
+    },
+    {
+      "name": "l_maidgown",
+      "directions": 4
+    },
+    {
+      "name": "maidgown_f",
+      "directions": 4
+    },
+    {
+      "name": "r_maidgown_f",
+      "directions": 4
+    },
+    {
+      "name": "l_maidgown_f",
+      "directions": 4
+    },
+    {
+      "name": "maidgown_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_maidgown_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_maidgown_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "maidgown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_maidgown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_maidgown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "maidgown_child",
+      "directions": 4
+    },
+    {
+      "name": "r_maidgown_child",
+      "directions": 4
+    },
+    {
+      "name": "l_maidgown_child",
+      "directions": 4
+    },
+    {
+      "name": "maidgown_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_maidgown_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_maidgown_detail",
+      "directions": 4
+    },
+    {
+      "name": "maidgown_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_maidgown_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_maidgown_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "maidgown_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_maidgown_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_maidgown_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "maidgown_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_maidgown_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_maidgown_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "maidgown_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_maidgown_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_maidgown_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlershirt",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershirt",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershirt",
+      "directions": 4
+    },
+    {
+      "name": "butlershirt_f",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershirt_f",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershirt_f",
+      "directions": 4
+    },
+    {
+      "name": "butlershirt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershirt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershirt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "butlershirt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershirt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershirt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "butlershirt_child",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershirt_child",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershirt_child",
+      "directions": 4
+    },
+    {
+      "name": "butlerpants",
+      "directions": 4
+    },
+    {
+      "name": "r_butlerpants",
+      "directions": 4
+    },
+    {
+      "name": "l_butlerpants",
+      "directions": 4
+    },
+    {
+      "name": "butlerpants_f",
+      "directions": 4
+    },
+    {
+      "name": "r_butlerpants_f",
+      "directions": 4
+    },
+    {
+      "name": "l_butlerpants_f",
+      "directions": 4
+    },
+    {
+      "name": "butlerpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_butlerpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_butlerpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "butlerpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_butlerpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_butlerpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "butlerpants_child",
+      "directions": 4
+    },
+    {
+      "name": "r_butlerpants_child",
+      "directions": 4
+    },
+    {
+      "name": "l_butlerpants_child",
+      "directions": 4
+    },
+    {
+      "name": "butlerpants_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlerpants_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlerpants_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlerpants_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlerpants_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlerpants_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlerpants_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlerpants_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlerpants_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlerpants_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlerpants_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlerpants_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlerpants_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlerpants_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlerpants_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlershorts",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershorts",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershorts",
+      "directions": 4
+    },
+    {
+      "name": "butlershorts_f",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershorts_f",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershorts_f",
+      "directions": 4
+    },
+    {
+      "name": "butlershorts_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershorts_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershorts_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "butlershorts_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershorts_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershorts_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "butlershorts_child",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershorts_child",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershorts_child",
+      "directions": 4
+    },
+    {
+      "name": "butlershorts_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershorts_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershorts_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlershorts_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershorts_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershorts_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlershorts_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershorts_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershorts_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlershorts_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershorts_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershorts_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "butlershorts_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_butlershorts_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_butlershorts_child_detail",
+      "directions": 4
+    }
+  ]
+}

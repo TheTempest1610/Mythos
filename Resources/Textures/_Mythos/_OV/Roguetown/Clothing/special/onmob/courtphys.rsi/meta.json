@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "courtrobe",
+      "directions": 4
+    },
+    {
+      "name": "courtrobe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "courtrobe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "courtrobe_f",
+      "directions": 4
+    },
+    {
+      "name": "courtcollar",
+      "directions": 4
+    },
+    {
+      "name": "courtmask",
+      "directions": 4
+    },
+    {
+      "name": "courthat",
+      "directions": 4
+    },
+    {
+      "name": "physicianhat",
+      "directions": 4
+    },
+    {
+      "name": "docskirt",
+      "directions": 4
+    },
+    {
+      "name": "docskirt_f",
+      "directions": 4
+    },
+    {
+      "name": "docskirt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docskirt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docheels",
+      "directions": 4
+    },
+    {
+      "name": "docheels_f",
+      "directions": 4
+    },
+    {
+      "name": "docheels_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docheels_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docblouse",
+      "directions": 4
+    },
+    {
+      "name": "docblouse_f",
+      "directions": 4
+    },
+    {
+      "name": "docblouse_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "docblouse_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docblouse_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docblouse_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "docjacket",
+      "directions": 4
+    },
+    {
+      "name": "docjacket_f",
+      "directions": 4
+    },
+    {
+      "name": "docjacket_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docjacket_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docsleeves",
+      "directions": 4
+    },
+    {
+      "name": "docsleeves_f",
+      "directions": 4
+    },
+    {
+      "name": "docsleeves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docsleeves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docpants",
+      "directions": 4
+    },
+    {
+      "name": "docpants_f",
+      "directions": 4
+    },
+    {
+      "name": "docpants_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docpants_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docshoes",
+      "directions": 4
+    },
+    {
+      "name": "docshoes_f",
+      "directions": 4
+    },
+    {
+      "name": "docshoes_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docshoes_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docvest",
+      "directions": 4
+    },
+    {
+      "name": "docvest_f",
+      "directions": 4
+    },
+    {
+      "name": "docvest_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "docvest_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docvest_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docvest_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "doccoat",
+      "directions": 4
+    },
+    {
+      "name": "doccoat_f",
+      "directions": 4
+    },
+    {
+      "name": "doccoat_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "doccoat_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docgloves",
+      "directions": 4
+    },
+    {
+      "name": "docgloves_f",
+      "directions": 4
+    },
+    {
+      "name": "docgloves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docgloves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "docmask",
+      "directions": 4
+    },
+    {
+      "name": "dochat1",
+      "directions": 4
+    },
+    {
+      "name": "dochat2",
+      "directions": 4
+    },
+    {
+      "name": "docskirt_detail",
+      "directions": 4
+    },
+    {
+      "name": "docskirt_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "docskirt_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "docskirt_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "docheels_detail",
+      "directions": 4
+    },
+    {
+      "name": "docheels_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "docheels_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "docheels_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "docblouse_detail",
+      "directions": 4
+    },
+    {
+      "name": "docblouse_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "docblouse_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "docblouse_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "docblouse_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "docblouse_f_dwarf_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "docjacket_detail",
+      "directions": 4
+    },
+    {
+      "name": "docjacket_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "docjacket_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "docjacket_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "docsleeves_detail",
+      "directions": 4
+    },
+    {
+      "name": "docsleeves_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "docsleeves_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "docsleeves_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "docvest_detail",
+      "directions": 4
+    },
+    {
+      "name": "docvest_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "docvest_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "docvest_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "docvest_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "docvest_f_dwarf_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "doccoat_detail",
+      "directions": 4
+    },
+    {
+      "name": "doccoat_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "doccoat_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "doccoat_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "dochat1_detail",
+      "directions": 4
+    },
+    {
+      "name": "dochat2_detail",
+      "directions": 4
+    }
+  ]
+}

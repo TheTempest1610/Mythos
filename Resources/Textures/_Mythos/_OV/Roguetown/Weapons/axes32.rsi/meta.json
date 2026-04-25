@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "PALETTES"
+    },
+    {
+      "name": "(not a strict guideline, but more so a benchmark you can refer to)"
+    },
+    {
+      "name": "BASE"
+    },
+    {
+      "name": "ANTIQUATED"
+    },
+    {
+      "name": "stoneaxe"
+    },
+    {
+      "name": "boneaxe"
+    },
+    {
+      "name": "chatchet"
+    },
+    {
+      "name": "ahandaxe"
+    },
+    {
+      "name": "bronzeaxe"
+    },
+    {
+      "name": "bronzeaxedouble"
+    },
+    {
+      "name": "bronzebattleaxe"
+    },
+    {
+      "name": "IRON"
+    },
+    {
+      "name": "axe"
+    },
+    {
+      "name": "axedouble"
+    },
+    {
+      "name": "hatchet"
+    },
+    {
+      "name": "hatchetlegacy"
+    },
+    {
+      "name": "axelegacy"
+    },
+    {
+      "name": "axeclassic"
+    },
+    {
+      "name": "wardenpax"
+    },
+    {
+      "name": "insapo"
+    },
+    {
+      "name": "STEEL"
+    },
+    {
+      "name": "saxe"
+    },
+    {
+      "name": "saxedouble"
+    },
+    {
+      "name": "paxe"
+    },
+    {
+      "name": "battleaxe"
+    },
+    {
+      "name": "battleaxedouble"
+    },
+    {
+      "name": "nsapo"
+    },
+    {
+      "name": "SILVER"
+    },
+    {
+      "name": "silveraxe"
+    },
+    {
+      "name": "silveraxedouble"
+    },
+    {
+      "name": "psyaxe"
+    },
+    {
+      "name": "psyaxe_unwrap"
+    },
+    {
+      "name": "psyaxedouble"
+    },
+    {
+      "name": "psyaxedouble_unwrap"
+    },
+    {
+      "name": "MISC"
+    },
+    {
+      "name": "valaska"
+    },
+    {
+      "name": "atgervi_axe"
+    },
+    {
+      "name": "trollaxe"
+    },
+    {
+      "name": "hurlbat"
+    },
+    {
+      "name": "abyssoraxe"
+    },
+    {
+      "name": "slayer_axe"
+    },
+    {
+      "name": "corruptaxe"
+    }
+  ]
+}

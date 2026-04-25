@@ -1,0 +1,372 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "leather_apron"
+    },
+    {
+      "name": "apron"
+    },
+    {
+      "name": "waistpron"
+    },
+    {
+      "name": "cape"
+    },
+    {
+      "name": "furbrown"
+    },
+    {
+      "name": "furgrey"
+    },
+    {
+      "name": "furblack"
+    },
+    {
+      "name": "stole_gold"
+    },
+    {
+      "name": "stole_red"
+    },
+    {
+      "name": "black_cloak"
+    },
+    {
+      "name": "chasuble"
+    },
+    {
+      "name": "stole_purple"
+    },
+    {
+      "name": "rain_cloak"
+    },
+    {
+      "name": "guardcloak"
+    },
+    {
+      "name": "guardcloak_rev"
+    },
+    {
+      "name": "halfcloak"
+    },
+    {
+      "name": "halfcloak_rev"
+    },
+    {
+      "name": "puritan_cape"
+    },
+    {
+      "name": "tabard"
+    },
+    {
+      "name": "tabard_chalice"
+    },
+    {
+      "name": "tabard_psy"
+    },
+    {
+      "name": "tabard_peace"
+    },
+    {
+      "name": "tabard_z"
+    },
+    {
+      "name": "tabard_imp"
+    },
+    {
+      "name": "tabard_skull"
+    },
+    {
+      "name": "tabard_widow"
+    },
+    {
+      "name": "tabard_arrow"
+    },
+    {
+      "name": "tabard_spl"
+    },
+    {
+      "name": "tabard_dim"
+    },
+    {
+      "name": "tabard_quad"
+    },
+    {
+      "name": "tabard_box"
+    },
+    {
+      "name": "stabard"
+    },
+    {
+      "name": "stabard_spl"
+    },
+    {
+      "name": "stabard_dim"
+    },
+    {
+      "name": "stabard_box"
+    },
+    {
+      "name": "stabard_quad"
+    },
+    {
+      "name": "surcoat"
+    },
+    {
+      "name": "surcoat_spl"
+    },
+    {
+      "name": "surcoat_dim"
+    },
+    {
+      "name": "surcoat_quad"
+    },
+    {
+      "name": "surcoat_box"
+    },
+    {
+      "name": "lord_cloak_det"
+    },
+    {
+      "name": "lord_cloak"
+    },
+    {
+      "name": "dark_cloak"
+    },
+    {
+      "name": "bear_cloak"
+    },
+    {
+      "name": "bbear_cloak"
+    },
+    {
+      "name": "aproncook"
+    },
+    {
+      "name": "heartfelt_cloak"
+    },
+    {
+      "name": "guard_hood"
+    },
+    {
+      "name": "guard_hood_spl"
+    },
+    {
+      "name": "tabard_weeping"
+    },
+    {
+      "name": "tabard_astrata"
+    },
+    {
+      "name": "tabard_astrata_alt"
+    },
+    {
+      "name": "tabard_noc"
+    },
+    {
+      "name": "tabard_dendor"
+    },
+    {
+      "name": "tabard_necra"
+    },
+    {
+      "name": "tabard_necra_alt"
+    },
+    {
+      "name": "tabard_abyssor"
+    },
+    {
+      "name": "tabard_malum"
+    },
+    {
+      "name": "tabard_eora"
+    },
+    {
+      "name": "tabard_pestra"
+    },
+    {
+      "name": "tabard_noc_alt"
+    },
+    {
+      "name": "tabard_ravox"
+    },
+    {
+      "name": "tabard_xylix"
+    },
+    {
+      "name": "astratatabard"
+    },
+    {
+      "name": "necratabard"
+    },
+    {
+      "name": "malumtabard"
+    },
+    {
+      "name": "pestratabard"
+    },
+    {
+      "name": "bkcape"
+    },
+    {
+      "name": "bksash"
+    },
+    {
+      "name": "shadowcloak"
+    },
+    {
+      "name": "naledisash"
+    },
+    {
+      "name": "psydontabard"
+    },
+    {
+      "name": "psydontabardalt"
+    },
+    {
+      "name": "abyssortabard"
+    },
+    {
+      "name": "shortcloak"
+    },
+    {
+      "name": "shortcloak_detail"
+    },
+    {
+      "name": "matroncloak"
+    },
+    {
+      "name": "wicker_cloak"
+    },
+    {
+      "name": "inquisitor_cloak"
+    },
+    {
+      "name": "tribal"
+    },
+    {
+      "name": "battlenun"
+    },
+    {
+      "name": "volfpelt"
+    },
+    {
+      "name": "eoratabard"
+    },
+    {
+      "name": "martyrcloak"
+    },
+    {
+      "name": "forestcloak"
+    },
+    {
+      "name": "aforestcloak"
+    },
+    {
+      "name": "wardencloak"
+    },
+    {
+      "name": "snowcloak"
+    },
+    {
+      "name": "graggarcloak"
+    },
+    {
+      "name": "xylixcloak"
+    },
+    {
+      "name": "justicetabard"
+    },
+    {
+      "name": "thiefcloak"
+    },
+    {
+      "name": "eastcloak1"
+    },
+    {
+      "name": "eastcloak2"
+    },
+    {
+      "name": "ordinatorcape"
+    },
+    {
+      "name": "absolutionistrobe"
+    },
+    {
+      "name": "cotehardie"
+    },
+    {
+      "name": "cotehardie_detail"
+    },
+    {
+      "name": "seetabard"
+    },
+    {
+      "name": "seetabardalt"
+    },
+    {
+      "name": "seecloak"
+    },
+    {
+      "name": "poncho"
+    },
+    {
+      "name": "poncho_detail"
+    },
+    {
+      "name": "kazenguncoat"
+    },
+    {
+      "name": "kazenguncoat_detail"
+    },
+    {
+      "name": "psaltertabard"
+    },
+    {
+      "name": "fancycoat"
+    },
+    {
+      "name": "surcoat_short"
+    },
+    {
+      "name": "surcoat_short_spl"
+    },
+    {
+      "name": "surcoat_short_dim"
+    },
+    {
+      "name": "surcoat_short_quad"
+    },
+    {
+      "name": "surcoat_short_box"
+    },
+    {
+      "name": "mino"
+    },
+    {
+      "name": "lirvastabard"
+    },
+    {
+      "name": "bandolier"
+    },
+    {
+      "name": "maidapronfancy"
+    },
+    {
+      "name": "scalecloak"
+    },
+    {
+      "name": "scalecloak_detail"
+    },
+    {
+      "name": "halfsurcoat"
+    }
+  ]
+}

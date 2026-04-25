@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "arrow_thunder"
+    },
+    {
+      "name": "arrow_pyroclastic"
+    },
+    {
+      "name": "arrow_kinetic"
+    },
+    {
+      "name": "arrow"
+    },
+    {
+      "name": "arrow_blunt"
+    },
+    {
+      "name": "arrow_poison"
+    },
+    {
+      "name": "ironarrow"
+    },
+    {
+      "name": "ironarrow_poison"
+    },
+    {
+      "name": "steelarrow"
+    },
+    {
+      "name": "silvarrow"
+    },
+    {
+      "name": "ancientarrow"
+    },
+    {
+      "name": "arrow_vial"
+    },
+    {
+      "name": "arrow_water"
+    },
+    {
+      "name": "arrow_vial_filling"
+    },
+    {
+      "name": "bronzearrow"
+    },
+    {
+      "name": "bronzearrow_poison"
+    },
+    {
+      "name": "arrow_splinter"
+    }
+  ]
+}

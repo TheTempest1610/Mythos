@@ -1,0 +1,627 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "FEET"
+    },
+    {
+      "name": "armorboots",
+      "directions": 4
+    },
+    {
+      "name": "armorboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "armorboots_f",
+      "directions": 4
+    },
+    {
+      "name": "armorboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "blackboots",
+      "directions": 4
+    },
+    {
+      "name": "blackboots_f",
+      "directions": 4
+    },
+    {
+      "name": "blackboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "blackboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "shortboots",
+      "directions": 4
+    },
+    {
+      "name": "shortboots_f",
+      "directions": 4
+    },
+    {
+      "name": "shortboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "shortboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ridingboots",
+      "directions": 4
+    },
+    {
+      "name": "ridingboots_f",
+      "directions": 4
+    },
+    {
+      "name": "ridingboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ridingboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "simpleshoe",
+      "directions": 4
+    },
+    {
+      "name": "simpleshoe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "simpleshoe_f",
+      "directions": 4
+    },
+    {
+      "name": "simpleshoe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gladiator",
+      "directions": 4
+    },
+    {
+      "name": "gladiator_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gladiator_f",
+      "directions": 4
+    },
+    {
+      "name": "gladiator_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "sandals",
+      "directions": 4
+    },
+    {
+      "name": "sandals_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "sandals_f",
+      "directions": 4
+    },
+    {
+      "name": "sandals_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leatherboots",
+      "directions": 4
+    },
+    {
+      "name": "leatherboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "leatherboots_f",
+      "directions": 4
+    },
+    {
+      "name": "leatherboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "jestershoes",
+      "directions": 4
+    },
+    {
+      "name": "jestershoes_f",
+      "directions": 4
+    },
+    {
+      "name": "jestershoes_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "jestershoes_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "jestershoes_detail",
+      "directions": 4
+    },
+    {
+      "name": "jestershoes_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "jestershoes_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "jestershoes_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "buckleshoes",
+      "directions": 4
+    },
+    {
+      "name": "buckleshoes_f",
+      "directions": 4
+    },
+    {
+      "name": "buckleshoes_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "buckleshoes_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "nobleboots",
+      "directions": 4
+    },
+    {
+      "name": "nobleboots_f",
+      "directions": 4
+    },
+    {
+      "name": "nobleboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "nobleboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "shalal",
+      "directions": 4
+    },
+    {
+      "name": "shalal_f",
+      "directions": 4
+    },
+    {
+      "name": "vboots",
+      "directions": 4
+    },
+    {
+      "name": "vboots_f",
+      "directions": 4
+    },
+    {
+      "name": "vboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "vboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "grenzelboots",
+      "directions": 4
+    },
+    {
+      "name": "grenzelboots_f",
+      "directions": 4
+    },
+    {
+      "name": "grenzelboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "grenzelboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "carapaceboots",
+      "directions": 4
+    },
+    {
+      "name": "carapaceboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "carapaceboots_f",
+      "directions": 4
+    },
+    {
+      "name": "carapaceboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "soldierboots",
+      "directions": 4
+    },
+    {
+      "name": "soldierboots_f",
+      "directions": 4
+    },
+    {
+      "name": "soldierboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "furlinedboots",
+      "directions": 4
+    },
+    {
+      "name": "furlinedboots_f",
+      "directions": 4
+    },
+    {
+      "name": "furlinedboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "furlinedboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "furlinedanklets",
+      "directions": 4
+    },
+    {
+      "name": "furlinedanklets_f",
+      "directions": 4
+    },
+    {
+      "name": "furlinedanklets_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "furlinedanklets_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "psydonboots_f",
+      "directions": 4
+    },
+    {
+      "name": "psydonboots",
+      "directions": 4
+    },
+    {
+      "name": "psydonboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "psydonboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "fencerboots_f",
+      "directions": 4
+    },
+    {
+      "name": "fencerboots",
+      "directions": 4
+    },
+    {
+      "name": "inqboots",
+      "directions": 4
+    },
+    {
+      "name": "inqboots_f",
+      "directions": 4
+    },
+    {
+      "name": "inqboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "inqboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_boots",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_boots_f",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_boots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_boots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "zizoboots",
+      "directions": 4
+    },
+    {
+      "name": "zizoboots_f",
+      "directions": 4
+    },
+    {
+      "name": "zizoboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "zizoboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "anklets",
+      "directions": 4
+    },
+    {
+      "name": "anklets_f",
+      "directions": 4
+    },
+    {
+      "name": "anklets_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "anklets_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "matthiosboots",
+      "directions": 4
+    },
+    {
+      "name": "matthiosboots_f",
+      "directions": 4
+    },
+    {
+      "name": "matthiosboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "matthiosboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancientboots",
+      "directions": 4
+    },
+    {
+      "name": "ancientboots_f",
+      "directions": 4
+    },
+    {
+      "name": "ancientboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancientboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "ancientsandals",
+      "directions": 4
+    },
+    {
+      "name": "ancientsandals_f",
+      "directions": 4
+    },
+    {
+      "name": "graggarplateboots",
+      "directions": 4
+    },
+    {
+      "name": "graggarplateboots_f",
+      "directions": 4
+    },
+    {
+      "name": "graggarplateboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "graggarplateboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "alboots",
+      "directions": 4
+    },
+    {
+      "name": "alboots_f",
+      "directions": 4
+    },
+    {
+      "name": "alboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "alboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "eastsandals",
+      "directions": 4
+    },
+    {
+      "name": "eastsandals_f",
+      "directions": 4
+    },
+    {
+      "name": "albootsb",
+      "directions": 4
+    },
+    {
+      "name": "albootsb_f",
+      "directions": 4
+    },
+    {
+      "name": "albootsb_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "albootsb_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dreamboots",
+      "directions": 4
+    },
+    {
+      "name": "dreamboots_f",
+      "directions": 4
+    },
+    {
+      "name": "dreamboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dreamboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kazengunboots",
+      "directions": 4
+    },
+    {
+      "name": "kazengunboots_f",
+      "directions": 4
+    },
+    {
+      "name": "kazengunboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kazengunboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "kazengunboots_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazengunboots_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazengunboots_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "kazengunboots_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "goldgreaves",
+      "directions": 4
+    },
+    {
+      "name": "goldgreaves_f",
+      "directions": 4
+    },
+    {
+      "name": "goldgreaves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "goldgreaves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bronzegreaves",
+      "directions": 4
+    },
+    {
+      "name": "bronzegreaves_f",
+      "directions": 4
+    },
+    {
+      "name": "bronzegreaves_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bronzegreaves_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bkboots",
+      "directions": 4
+    },
+    {
+      "name": "bkboots_f",
+      "directions": 4
+    },
+    {
+      "name": "bplateboots",
+      "directions": 4
+    },
+    {
+      "name": "bplateboots_f",
+      "directions": 4
+    },
+    {
+      "name": "bplateboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "bplateboots_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "freiboots",
+      "directions": 4
+    },
+    {
+      "name": "freiboots_f",
+      "directions": 4
+    },
+    {
+      "name": "freiboots_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "freiboots_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

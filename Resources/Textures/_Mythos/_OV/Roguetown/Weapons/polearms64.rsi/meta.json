@@ -1,0 +1,494 @@
+{
+  "version": 1,
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "QUARTERSTAFF"
+    },
+    {
+      "name": "woodstaff"
+    },
+    {
+      "name": "woodstaff1"
+    },
+    {
+      "name": "quarterstaff"
+    },
+    {
+      "name": "quarterstaff1"
+    },
+    {
+      "name": "quarterstaff_iron"
+    },
+    {
+      "name": "quarterstaff_iron1"
+    },
+    {
+      "name": "quarterstaff_steel"
+    },
+    {
+      "name": "quarterstaff_steel1"
+    },
+    {
+      "name": "quarterstaff_silver"
+    },
+    {
+      "name": "quarterstaff_silver1"
+    },
+    {
+      "name": "quarterstaff_gold"
+    },
+    {
+      "name": "quarterstaff_gold1"
+    },
+    {
+      "name": "SPEAR"
+    },
+    {
+      "name": "stonespear"
+    },
+    {
+      "name": "stonespear1"
+    },
+    {
+      "name": "bonespear"
+    },
+    {
+      "name": "bonespear1"
+    },
+    {
+      "name": "bronzespear"
+    },
+    {
+      "name": "bronzespear1"
+    },
+    {
+      "name": "bronzewingedspear"
+    },
+    {
+      "name": "bronzewingedspear1"
+    },
+    {
+      "name": "ancient_spear"
+    },
+    {
+      "name": "ancient_spear1"
+    },
+    {
+      "name": "spear"
+    },
+    {
+      "name": "spear1"
+    },
+    {
+      "name": "short_spear"
+    },
+    {
+      "name": "short_spear1"
+    },
+    {
+      "name": "steelspear"
+    },
+    {
+      "name": "steelspear1"
+    },
+    {
+      "name": "billhook"
+    },
+    {
+      "name": "billhook1"
+    },
+    {
+      "name": "boarspear"
+    },
+    {
+      "name": "boarspear1"
+    },
+    {
+      "name": "praguespear"
+    },
+    {
+      "name": "praguespear1"
+    },
+    {
+      "name": "silverspear"
+    },
+    {
+      "name": "silverspear1"
+    },
+    {
+      "name": "assegai_iron"
+    },
+    {
+      "name": "assegai_steel"
+    },
+    {
+      "name": "gsspear"
+    },
+    {
+      "name": "gsspear1"
+    },
+    {
+      "name": "bronzetri"
+    },
+    {
+      "name": "bronzetri1"
+    },
+    {
+      "name": "SPEAR - DREAM"
+    },
+    {
+      "name": "dreamspear"
+    },
+    {
+      "name": "dreamspearactive"
+    },
+    {
+      "name": "dreamspear1"
+    },
+    {
+      "name": "dreamspearactive1"
+    },
+    {
+      "name": "dreamtri"
+    },
+    {
+      "name": "dreamtriactive"
+    },
+    {
+      "name": "dreamtri1"
+    },
+    {
+      "name": "dreamtriactive1"
+    },
+    {
+      "name": "SPEAR - UNIQUE"
+    },
+    {
+      "name": "standard"
+    },
+    {
+      "name": "standard1"
+    },
+    {
+      "name": "astandard"
+    },
+    {
+      "name": "astandard1"
+    },
+    {
+      "name": "standard_det"
+    },
+    {
+      "name": "fishspear"
+    },
+    {
+      "name": "fishspear1"
+    },
+    {
+      "name": "depthseek"
+    },
+    {
+      "name": "depthseek1"
+    },
+    {
+      "name": "HALBERD"
+    },
+    {
+      "name": "halberd"
+    },
+    {
+      "name": "halberd1"
+    },
+    {
+      "name": "silverhalberd"
+    },
+    {
+      "name": "silverhalberd1"
+    },
+    {
+      "name": "BARDICHE"
+    },
+    {
+      "name": "bardiche"
+    },
+    {
+      "name": "bardiche1"
+    },
+    {
+      "name": "ancient_bardiche"
+    },
+    {
+      "name": "ancient_bardiche1"
+    },
+    {
+      "name": "PARTIZAN"
+    },
+    {
+      "name": "partizan"
+    },
+    {
+      "name": "partizan1"
+    },
+    {
+      "name": "GLAIVE"
+    },
+    {
+      "name": "glaive"
+    },
+    {
+      "name": "glaive1"
+    },
+    {
+      "name": "POLEARM - MISC"
+    },
+    {
+      "name": "iji"
+    },
+    {
+      "name": "iji1"
+    },
+    {
+      "name": "ji"
+    },
+    {
+      "name": "ji1"
+    },
+    {
+      "name": "DENDOR"
+    },
+    {
+      "name": "dendorscythe"
+    },
+    {
+      "name": "dendorscythe1"
+    },
+    {
+      "name": "NALEDI"
+    },
+    {
+      "name": "naledistaff"
+    },
+    {
+      "name": "naledistaff1"
+    },
+    {
+      "name": "NAGINATA"
+    },
+    {
+      "name": "naginata"
+    },
+    {
+      "name": "naginata1"
+    },
+    {
+      "name": "POLEHAMMER"
+    },
+    {
+      "name": "polehammer"
+    },
+    {
+      "name": "polehammer1"
+    },
+    {
+      "name": "eaglebeak"
+    },
+    {
+      "name": "eaglebeak1"
+    },
+    {
+      "name": "LANCE"
+    },
+    {
+      "name": "lance"
+    },
+    {
+      "name": "lance1"
+    },
+    {
+      "name": "PEASANT"
+    },
+    {
+      "name": "cfork"
+    },
+    {
+      "name": "cfork1"
+    },
+    {
+      "name": "cforkstuff"
+    },
+    {
+      "name": "peasantwarspear"
+    },
+    {
+      "name": "peasantwarspear1"
+    },
+    {
+      "name": "peasantwarspear_hay"
+    },
+    {
+      "name": "peasantwarspear_hay1"
+    },
+    {
+      "name": "peasantwarspear_hayfire",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "peasantwarspear_hayfire1",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "peasantscythe"
+    },
+    {
+      "name": "peasantscythe1"
+    },
+    {
+      "name": "PSYDON"
+    },
+    {
+      "name": "psyspear"
+    },
+    {
+      "name": "psyspear1"
+    },
+    {
+      "name": "psyhalberd"
+    },
+    {
+      "name": "psyhalberd1"
+    },
+    {
+      "name": "CORRUPTED"
+    },
+    {
+      "name": "corruptspear"
+    },
+    {
+      "name": "corruptspear1"
+    },
+    {
+      "name": "CHURCH"
+    },
+    {
+      "name": "martyrtrident_ulton1",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyrtrident_ulton",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyrtrident"
+    },
+    {
+      "name": "martyrtrident_on",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyrtrident1"
+    },
+    {
+      "name": "martyrtrident_on1",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "spear_trainer"
+    },
+    {
+      "name": "spear_trainer1"
+    },
+    {
+      "name": "pestranhalberd"
+    },
+    {
+      "name": "pestranhalberd1"
+    },
+    {
+      "name": "bonehalberd"
+    },
+    {
+      "name": "bonehalberd1"
+    },
+    {
+      "name": "ELF"
+    },
+    {
+      "name": "elfglaive"
+    },
+    {
+      "name": "elfglaive1"
+    },
+    {
+      "name": "aebardiche"
+    },
+    {
+      "name": "aebardiche1"
+    },
+    {
+      "name": "HAG"
+    },
+    {
+      "name": "hagspear"
+    },
+    {
+      "name": "hagspear1"
+    },
+    {
+      "name": "UNIQUE"
+    },
+    {
+      "name": "spearofdestiny"
+    },
+    {
+      "name": "spearofdestiny1"
+    }
+  ]
+}

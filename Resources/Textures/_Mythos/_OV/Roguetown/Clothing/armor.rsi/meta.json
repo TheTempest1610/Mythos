@@ -1,0 +1,509 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "coat_of_plates"
+    },
+    {
+      "name": "lamellar"
+    },
+    {
+      "name": "ibreastplate"
+    },
+    {
+      "name": "armordress"
+    },
+    {
+      "name": "armordressalt"
+    },
+    {
+      "name": "bliaut"
+    },
+    {
+      "name": "vest"
+    },
+    {
+      "name": "nun"
+    },
+    {
+      "name": "egypt"
+    },
+    {
+      "name": "dgamb"
+    },
+    {
+      "name": "haubergeon"
+    },
+    {
+      "name": "hauberk"
+    },
+    {
+      "name": "leather"
+    },
+    {
+      "name": "chainkini"
+    },
+    {
+      "name": "sailorvest"
+    },
+    {
+      "name": "merrobe"
+    },
+    {
+      "name": "black_robe"
+    },
+    {
+      "name": "white_robe"
+    },
+    {
+      "name": "hidearmor"
+    },
+    {
+      "name": "workervest"
+    },
+    {
+      "name": "warlock"
+    },
+    {
+      "name": "handcoat"
+    },
+    {
+      "name": "nightman"
+    },
+    {
+      "name": "undividedrobe"
+    },
+    {
+      "name": "astratarobe"
+    },
+    {
+      "name": "nocrobe"
+    },
+    {
+      "name": "ravoxrobe"
+    },
+    {
+      "name": "dendorrobe"
+    },
+    {
+      "name": "necrarobe"
+    },
+    {
+      "name": "priestrobe"
+    },
+    {
+      "name": "vplate"
+    },
+    {
+      "name": "heartfelt"
+    },
+    {
+      "name": "heartfelt_hand"
+    },
+    {
+      "name": "necromrobe"
+    },
+    {
+      "name": "physcoat"
+    },
+    {
+      "name": "bkarmor"
+    },
+    {
+      "name": "bkhalfarmor"
+    },
+    {
+      "name": "bcuirass"
+    },
+    {
+      "name": "bplate"
+    },
+    {
+      "name": "bhalfplate"
+    },
+    {
+      "name": "leatherkini"
+    },
+    {
+      "name": "hidearmorkini"
+    },
+    {
+      "name": "studleatherkini"
+    },
+    {
+      "name": "halfplatekini"
+    },
+    {
+      "name": "platekini"
+    },
+    {
+      "name": "eorarobes"
+    },
+    {
+      "name": "eorastraps"
+    },
+    {
+      "name": "longcoat"
+    },
+    {
+      "name": "shadowrobe"
+    },
+    {
+      "name": "desertrobe"
+    },
+    {
+      "name": "desertgown"
+    },
+    {
+      "name": "monkleather"
+    },
+    {
+      "name": "monkcloth"
+    },
+    {
+      "name": "leathercoat"
+    },
+    {
+      "name": "leathercoat_det"
+    },
+    {
+      "name": "roguearmor"
+    },
+    {
+      "name": "roguearmor_belt"
+    },
+    {
+      "name": "roguearmor_coat"
+    },
+    {
+      "name": "gambesonpold"
+    },
+    {
+      "name": "gambesonp"
+    },
+    {
+      "name": "light_brigandine_detail"
+    },
+    {
+      "name": "light_brigandine"
+    },
+    {
+      "name": "corsethalfplate"
+    },
+    {
+      "name": "fancyhalfplate"
+    },
+    {
+      "name": "fancygamb"
+    },
+    {
+      "name": "abyssorrobe"
+    },
+    {
+      "name": "inqcoat"
+    },
+    {
+      "name": "gravecoat"
+    },
+    {
+      "name": "artijacket"
+    },
+    {
+      "name": "winterjacket"
+    },
+    {
+      "name": "apothover"
+    },
+    {
+      "name": "shadowplate"
+    },
+    {
+      "name": "shadowvest"
+    },
+    {
+      "name": "corset"
+    },
+    {
+      "name": "feldrobe"
+    },
+    {
+      "name": "surgrobe"
+    },
+    {
+      "name": "whiterobe"
+    },
+    {
+      "name": "atgervi_shaman_coat"
+    },
+    {
+      "name": "atgervi_raider_mail"
+    },
+    {
+      "name": "zizoplate"
+    },
+    {
+      "name": "leatherjacketo"
+    },
+    {
+      "name": "matthiosarmor"
+    },
+    {
+      "name": "chargah"
+    },
+    {
+      "name": "hatanga"
+    },
+    {
+      "name": "hatangafur"
+    },
+    {
+      "name": "huus"
+    },
+    {
+      "name": "hudesutu"
+    },
+    {
+      "name": "kurche"
+    },
+    {
+      "name": "flutedcuirass"
+    },
+    {
+      "name": "flutedhalfplate"
+    },
+    {
+      "name": "flutedplate"
+    },
+    {
+      "name": "brigandine"
+    },
+    {
+      "name": "brigandine_det"
+    },
+    {
+      "name": "copperchest"
+    },
+    {
+      "name": "spellcasterrobe"
+    },
+    {
+      "name": "grenzelshirt"
+    },
+    {
+      "name": "grenzelshirt_detail"
+    },
+    {
+      "name": "ancientcuirass"
+    },
+    {
+      "name": "ancientplate"
+    },
+    {
+      "name": "ancientchain"
+    },
+    {
+      "name": "ancienthauberk"
+    },
+    {
+      "name": "ancientcuirasshauberk"
+    },
+    {
+      "name": "graggarplate"
+    },
+    {
+      "name": "monkvestments"
+    },
+    {
+      "name": "eastsuit1"
+    },
+    {
+      "name": "eastsuit2"
+    },
+    {
+      "name": "eastsuit3"
+    },
+    {
+      "name": "eastsuit4"
+    },
+    {
+      "name": "fencercuirass"
+    },
+    {
+      "name": "sherwani"
+    },
+    {
+      "name": "pangolin"
+    },
+    {
+      "name": "ihaubergeon"
+    },
+    {
+      "name": "ihalfplate"
+    },
+    {
+      "name": "ihauberk"
+    },
+    {
+      "name": "icuirasshauberk"
+    },
+    {
+      "name": "iplate_legacy"
+    },
+    {
+      "name": "fancygamb_detail"
+    },
+    {
+      "name": "corsethalfplate_detail"
+    },
+    {
+      "name": "confessorcoat"
+    },
+    {
+      "name": "leathertunic"
+    },
+    {
+      "name": "ordinatorplate"
+    },
+    {
+      "name": "inqcoata"
+    },
+    {
+      "name": "freijacket_detail"
+    },
+    {
+      "name": "freijacket"
+    },
+    {
+      "name": "fencingshirt"
+    },
+    {
+      "name": "ironplate"
+    },
+    {
+      "name": "gambesonold"
+    },
+    {
+      "name": "gambeson"
+    },
+    {
+      "name": "studleather"
+    },
+    {
+      "name": "dreamplate"
+    },
+    {
+      "name": "ornatechestplate"
+    },
+    {
+      "name": "ornatecuirass"
+    },
+    {
+      "name": "ornatehalfplate"
+    },
+    {
+      "name": "ornateplate"
+    },
+    {
+      "name": "ornatehauberk"
+    },
+    {
+      "name": "cuirass"
+    },
+    {
+      "name": "halfplate"
+    },
+    {
+      "name": "plate"
+    },
+    {
+      "name": "cuirasshauberk"
+    },
+    {
+      "name": "legacycuirass"
+    },
+    {
+      "name": "legacyhalfplate"
+    },
+    {
+      "name": "legacyplate"
+    },
+    {
+      "name": "legacyornateplate"
+    },
+    {
+      "name": "kazengunheavy"
+    },
+    {
+      "name": "kazengunheavy_detail"
+    },
+    {
+      "name": "kazengunmedium"
+    },
+    {
+      "name": "kazengunmedium_detail"
+    },
+    {
+      "name": "cuirbouilli"
+    },
+    {
+      "name": "artificerplate_powered"
+    },
+    {
+      "name": "artificerplate"
+    },
+    {
+      "name": "silverhalfplate"
+    },
+    {
+      "name": "goldcuirass"
+    },
+    {
+      "name": "heroiccuirass"
+    },
+    {
+      "name": "ewarlock",
+      "delays": [
+        [
+          1.0,
+          0.2,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "bronzecuirass"
+    },
+    {
+      "name": "leather_armor"
+    },
+    {
+      "name": "shepherdvest"
+    },
+    {
+      "name": "bronzeprotector"
+    },
+    {
+      "name": "bronzeplate"
+    },
+    {
+      "name": "bronzeplatealt"
+    },
+    {
+      "name": "butlercoat"
+    },
+    {
+      "name": "openrobe"
+    },
+    {
+      "name": "hag"
+    }
+  ]
+}

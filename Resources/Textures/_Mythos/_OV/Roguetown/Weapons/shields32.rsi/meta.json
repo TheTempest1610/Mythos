@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "shield_tower"
+    },
+    {
+      "name": "shield_tower_behind"
+    },
+    {
+      "name": "woodsh"
+    },
+    {
+      "name": "bucklersh"
+    },
+    {
+      "name": "bucklersh_behind"
+    },
+    {
+      "name": "gsshield"
+    },
+    {
+      "name": "kitesh"
+    },
+    {
+      "name": "heatersh"
+    },
+    {
+      "name": "ancientsh"
+    },
+    {
+      "name": "ancientsh_behind"
+    },
+    {
+      "name": "atgervi_shield"
+    },
+    {
+      "name": "gsshielddark"
+    },
+    {
+      "name": "ironsh"
+    },
+    {
+      "name": "ironsh_steppeman"
+    },
+    {
+      "name": "ancient_buckler"
+    },
+    {
+      "name": "desert_rider"
+    },
+    {
+      "name": "desert_rider_behind"
+    },
+    {
+      "name": "psyshield"
+    },
+    {
+      "name": "spidershield"
+    },
+    {
+      "name": "spidershield_behind"
+    },
+    {
+      "name": "artificershield"
+    },
+    {
+      "name": "deprived"
+    },
+    {
+      "name": "boneshield"
+    },
+    {
+      "name": "boneshield_behind"
+    },
+    {
+      "name": "goldshield"
+    },
+    {
+      "name": "goldshieldking"
+    },
+    {
+      "name": "bronzeshield"
+    },
+    {
+      "name": "bronzegreatshield"
+    }
+  ]
+}

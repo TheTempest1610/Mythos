@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "springgown"
+    },
+    {
+      "name": "springgown_detail"
+    },
+    {
+      "name": "wintergown"
+    },
+    {
+      "name": "wintergown_detail"
+    },
+    {
+      "name": "summergown"
+    },
+    {
+      "name": "fallgown"
+    },
+    {
+      "name": "fallgown_detail"
+    }
+  ]
+}

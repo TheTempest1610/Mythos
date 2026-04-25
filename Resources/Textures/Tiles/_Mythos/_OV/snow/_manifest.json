@@ -1,0 +1,195 @@
+{
+  "source_dmi": "icons/turf/snow.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "tiles": [
+    {
+      "tile_id": "snow_corner",
+      "png": "snow_corner.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow_corner"
+        }
+      ]
+    },
+    {
+      "tile_id": "snow_surround",
+      "png": "snow_surround.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow_surround"
+        }
+      ]
+    },
+    {
+      "tile_id": "snow_dug",
+      "png": "snow_dug.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow_dug"
+        }
+      ]
+    },
+    {
+      "tile_id": "gravsnow_corner",
+      "png": "gravsnow_corner.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "gravsnow_corner"
+        }
+      ]
+    },
+    {
+      "tile_id": "gravsnow_surround",
+      "png": "gravsnow_surround.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "gravsnow_surround"
+        }
+      ]
+    },
+    {
+      "tile_id": "plating",
+      "png": "plating.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "plating"
+        }
+      ]
+    },
+    {
+      "tile_id": "platingdrift",
+      "png": "platingdrift.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "platingdrift"
+        }
+      ]
+    },
+    {
+      "tile_id": "ice",
+      "png": "ice.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "ice"
+        }
+      ]
+    },
+    {
+      "tile_id": "snow",
+      "png": "snow.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow0"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow1"
+        },
+        {
+          "index": 3,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow2"
+        },
+        {
+          "index": 4,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow3"
+        },
+        {
+          "index": 5,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow4"
+        },
+        {
+          "index": 6,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow5"
+        },
+        {
+          "index": 7,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow6"
+        },
+        {
+          "index": 8,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow7"
+        },
+        {
+          "index": 9,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow8"
+        },
+        {
+          "index": 10,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow9"
+        },
+        {
+          "index": 11,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow10"
+        },
+        {
+          "index": 12,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow11"
+        },
+        {
+          "index": 13,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow12"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowplating",
+      "png": "snowplating.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snowplating"
+        }
+      ]
+    },
+    {
+      "tile_id": "snow-ice",
+      "png": "snow-ice.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/snow.dmi",
+          "source_state": "snow-ice"
+        }
+      ]
+    }
+  ]
+}

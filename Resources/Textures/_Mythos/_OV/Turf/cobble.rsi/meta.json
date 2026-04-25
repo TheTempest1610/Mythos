@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "size": {
+    "x": 96,
+    "y": 96
+  },
+  "states": [
+    {
+      "name": "cobbleEXAMPLE"
+    },
+    {
+      "name": "cobbleEXAMPLE_1"
+    },
+    {
+      "name": "1-i"
+    },
+    {
+      "name": "2-i"
+    },
+    {
+      "name": "3-i"
+    },
+    {
+      "name": "4-i"
+    },
+    {
+      "name": "_"
+    },
+    {
+      "name": "__1"
+    },
+    {
+      "name": "cobble"
+    }
+  ]
+}

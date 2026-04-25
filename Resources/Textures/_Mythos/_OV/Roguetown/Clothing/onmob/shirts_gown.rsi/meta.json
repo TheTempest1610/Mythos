@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "TEMPLATES"
+    },
+    {
+      "name": "mt (male)",
+      "directions": 4
+    },
+    {
+      "name": "fm (female)",
+      "directions": 4
+    },
+    {
+      "name": "md (dwarf)",
+      "directions": 4
+    },
+    {
+      "name": "fd (fedwarf)",
+      "directions": 4
+    },
+    {
+      "name": "GOWNS"
+    },
+    {
+      "name": "springgown",
+      "directions": 4
+    },
+    {
+      "name": "springgown_f",
+      "directions": 4
+    },
+    {
+      "name": "springgown_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "springgown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "springgown_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "springgown_child",
+      "directions": 4
+    },
+    {
+      "name": "springgown_detail",
+      "directions": 4
+    },
+    {
+      "name": "springgown_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "springgown_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "springgown_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "springgown_f_dwarf_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "springgown_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "wintergown",
+      "directions": 4
+    },
+    {
+      "name": "wintergown_f",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "wintergown_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "wintergown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "wintergown_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "wintergown_child",
+      "directions": 4
+    },
+    {
+      "name": "wintergown_detail",
+      "directions": 4
+    },
+    {
+      "name": "wintergown_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "wintergown_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "wintergown_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "wintergown_f_dwarf_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "wintergown_child_detail",
+      "directions": 4
+    },
+    {
+      "name": "summergown",
+      "directions": 4
+    },
+    {
+      "name": "summergown_f",
+      "directions": 4
+    },
+    {
+      "name": "summergown_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "summergown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "summergown_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "summergown_child",
+      "directions": 4
+    },
+    {
+      "name": "fallgown",
+      "directions": 4
+    },
+    {
+      "name": "fallgown_f",
+      "directions": 4
+    },
+    {
+      "name": "fallgown_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "fallgown_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "fallgown_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "fallgown_child",
+      "directions": 4
+    },
+    {
+      "name": "fallgown_detail",
+      "directions": 4
+    },
+    {
+      "name": "fallgown_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "fallgown_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "fallgown_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "fallgown_f_dwarf_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "fallgown_child_detail",
+      "directions": 4
+    }
+  ]
+}

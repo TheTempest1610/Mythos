@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "capbarbute"
+    },
+    {
+      "name": "capbarbute_t"
+    },
+    {
+      "name": "capplate"
+    },
+    {
+      "name": "capplate_detail"
+    },
+    {
+      "name": "capcloak"
+    },
+    {
+      "name": "capcloak_detail"
+    },
+    {
+      "name": "capplateleg"
+    }
+  ]
+}

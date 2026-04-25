@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "PALETTE"
+    },
+    {
+      "name": "(not a strict guideline, but more so a benchmark you can refer to)"
+    },
+    {
+      "name": "BASE"
+    },
+    {
+      "name": "LEATHER"
+    },
+    {
+      "name": "whip"
+    },
+    {
+      "name": "nagaika"
+    },
+    {
+      "name": "spiderwhip"
+    },
+    {
+      "name": "whip_bronze"
+    },
+    {
+      "name": "whip_iron"
+    },
+    {
+      "name": "whip_steel"
+    },
+    {
+      "name": "ALLOYED"
+    },
+    {
+      "name": "bronzewhip"
+    },
+    {
+      "name": "corruptwhip"
+    },
+    {
+      "name": "psywhip_lesser"
+    },
+    {
+      "name": "psywhip"
+    },
+    {
+      "name": "silverwhip"
+    },
+    {
+      "name": "iurumi"
+    },
+    {
+      "name": "urumi"
+    },
+    {
+      "name": "silverurumi"
+    },
+    {
+      "name": "MISC"
+    },
+    {
+      "name": "gwhip"
+    },
+    {
+      "name": "xylixwhip"
+    }
+  ]
+}

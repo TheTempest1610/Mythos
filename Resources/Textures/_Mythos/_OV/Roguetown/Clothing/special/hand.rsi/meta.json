@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "handgambeson"
+    },
+    {
+      "name": "handgambeson_detail"
+    },
+    {
+      "name": "handpin"
+    },
+    {
+      "name": "handpin_on"
+    },
+    {
+      "name": "bracersheath"
+    },
+    {
+      "name": "bracersheath_adagger"
+    },
+    {
+      "name": "bracersheath_huntingknife"
+    },
+    {
+      "name": "bracersheath_idagger"
+    },
+    {
+      "name": "bracersheath_sdagger"
+    },
+    {
+      "name": "bracersheath_sdaggeralt"
+    },
+    {
+      "name": "bracersheath_spdagger"
+    },
+    {
+      "name": "bracersheath_combatknife"
+    },
+    {
+      "name": "bracersheath_stiletto"
+    },
+    {
+      "name": "bracersheath_sildagger"
+    },
+    {
+      "name": "bracersheath_psydagger"
+    },
+    {
+      "name": "bracersheath_gsdagger"
+    },
+    {
+      "name": "bracersheath_spiderdagger"
+    },
+    {
+      "name": "bracersheath_warden_machete"
+    },
+    {
+      "name": "bracersheath_tanto"
+    },
+    {
+      "name": "bracersheath_sdaggerhand"
+    },
+    {
+      "name": "bracersheath_spdaggerhand"
+    }
+  ]
+}

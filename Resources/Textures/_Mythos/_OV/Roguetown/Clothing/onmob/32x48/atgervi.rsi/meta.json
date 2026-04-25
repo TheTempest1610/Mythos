@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "atgervi_shaman",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_shaman_f",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_shaman_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_shaman_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_raider",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_raider_f",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_raider_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "atgervi_raider_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

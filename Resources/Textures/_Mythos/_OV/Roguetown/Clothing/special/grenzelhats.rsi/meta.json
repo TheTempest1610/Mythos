@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "grenzelblack"
+    },
+    {
+      "name": "grenzelblack_detail"
+    },
+    {
+      "name": "grenzelblack_detailalt"
+    },
+    {
+      "name": "grenzelblack_t"
+    },
+    {
+      "name": "grenzelblack_t_detail"
+    },
+    {
+      "name": "grenzelblack_t_detailalt"
+    },
+    {
+      "name": "grenzelmid"
+    },
+    {
+      "name": "grenzelmid_detail"
+    },
+    {
+      "name": "grenzelmid_detailalt"
+    },
+    {
+      "name": "grenzelheavy"
+    },
+    {
+      "name": "grenzelheavy_detail"
+    },
+    {
+      "name": "grenzelheavy_detailalt"
+    },
+    {
+      "name": "grenzelheavy_t"
+    },
+    {
+      "name": "grenzelheavy_t_detail"
+    },
+    {
+      "name": "grenzelheavy_t_detailalt"
+    }
+  ]
+}

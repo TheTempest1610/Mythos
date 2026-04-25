@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "handgambeson",
+      "directions": 4
+    },
+    {
+      "name": "handgambeson_f",
+      "directions": 4
+    },
+    {
+      "name": "handgambeson_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "handgambeson_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "handgambeson_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "handgambeson_f_dwarf_boob",
+      "directions": 4
+    },
+    {
+      "name": "r_handgambeson",
+      "directions": 4
+    },
+    {
+      "name": "l_handgambeson",
+      "directions": 4
+    },
+    {
+      "name": "r_handgambeson_f",
+      "directions": 4
+    },
+    {
+      "name": "l_handgambeson_f",
+      "directions": 4
+    },
+    {
+      "name": "r_handgambeson_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_handgambeson_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_handgambeson_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_handgambeson_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "handgambeson_detail",
+      "directions": 4
+    },
+    {
+      "name": "handgambeson_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "handgambeson_f_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "handgambeson_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "handgambeson_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "handgambeson_f_dwarf_boob_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_handgambeson_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_handgambeson_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_handgambeson_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_handgambeson_f_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_handgambeson_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_handgambeson_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "r_handgambeson_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "l_handgambeson_f_dwarf_detail",
+      "directions": 4
+    },
+    {
+      "name": "handpin",
+      "directions": 4
+    },
+    {
+      "name": "handpin_f",
+      "directions": 4
+    },
+    {
+      "name": "handpin_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "handpin_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

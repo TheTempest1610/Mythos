@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "REGULAR"
+    },
+    {
+      "name": "tongs"
+    },
+    {
+      "name": "tongsi1"
+    },
+    {
+      "name": "tongsi0"
+    },
+    {
+      "name": "flail"
+    },
+    {
+      "name": "flail1"
+    },
+    {
+      "name": "shovel"
+    },
+    {
+      "name": "dirtshovel"
+    },
+    {
+      "name": "dirte"
+    },
+    {
+      "name": "rod"
+    },
+    {
+      "name": "hammer_s"
+    },
+    {
+      "name": "hammer_i"
+    },
+    {
+      "name": "hammer_r"
+    },
+    {
+      "name": "hammer_w"
+    },
+    {
+      "name": "sickle"
+    },
+    {
+      "name": "pitchfork"
+    },
+    {
+      "name": "pitchforkstuff"
+    },
+    {
+      "name": "hoe"
+    },
+    {
+      "name": "spade"
+    },
+    {
+      "name": "dirtspade"
+    },
+    {
+      "name": "pick"
+    },
+    {
+      "name": "steelpick"
+    },
+    {
+      "name": "stonetongs"
+    },
+    {
+      "name": "stonetongsi1"
+    },
+    {
+      "name": "stonetongsi0"
+    },
+    {
+      "name": "stonepick"
+    },
+    {
+      "name": "stonehoe"
+    },
+    {
+      "name": "COPPER"
+    },
+    {
+      "name": "csickle"
+    },
+    {
+      "name": "hammer_c"
+    },
+    {
+      "name": "choe"
+    },
+    {
+      "name": "cpitchforkstuff"
+    },
+    {
+      "name": "cpitchfork"
+    },
+    {
+      "name": "cpick"
+    },
+    {
+      "name": "broom"
+    },
+    {
+      "name": "blowJobRod"
+    },
+    {
+      "name": "ANCIENT"
+    },
+    {
+      "name": "atongs"
+    },
+    {
+      "name": "atongsi1"
+    },
+    {
+      "name": "atongsi0"
+    },
+    {
+      "name": "apick"
+    },
+    {
+      "name": "athresh"
+    },
+    {
+      "name": "athresh1"
+    },
+    {
+      "name": "ashovel"
+    },
+    {
+      "name": "dirtashovel"
+    },
+    {
+      "name": "arod"
+    },
+    {
+      "name": "ahammer"
+    },
+    {
+      "name": "asickle"
+    },
+    {
+      "name": "apitchfork"
+    },
+    {
+      "name": "apitchforkstuff"
+    },
+    {
+      "name": "ahoe"
+    },
+    {
+      "name": "BRONZE"
+    },
+    {
+      "name": "hammer_bronze"
+    },
+    {
+      "name": "bronzeshovel"
+    },
+    {
+      "name": "dirtbronzeshovel"
+    },
+    {
+      "name": "bronzetongs"
+    },
+    {
+      "name": "bronzetongsi1"
+    },
+    {
+      "name": "bronzetongsi0"
+    },
+    {
+      "name": "bronzepick"
+    },
+    {
+      "name": "bronzethresh"
+    },
+    {
+      "name": "bronzethresh1"
+    },
+    {
+      "name": "bronzerod"
+    },
+    {
+      "name": "bronzesickle"
+    },
+    {
+      "name": "bronzepitchfork"
+    },
+    {
+      "name": "bronzepitchforkstuff"
+    },
+    {
+      "name": "bronzehoe"
+    },
+    {
+      "name": "BLACKSTEEL"
+    },
+    {
+      "name": "bs_tongs"
+    },
+    {
+      "name": "bs_tongsi1"
+    },
+    {
+      "name": "bs_tongsi0"
+    },
+    {
+      "name": "bs_masterhammer"
+    },
+    {
+      "name": "blacksteelpick1"
+    },
+    {
+      "name": "blacksteelpick2"
+    }
+  ]
+}

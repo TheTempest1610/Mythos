@@ -1,0 +1,2672 @@
+{
+  "source_dmi": "icons/turf/roguefloor.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "tiles": [
+    {
+      "tile_id": "herringbone",
+      "png": "herringbone.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "herringbone"
+        }
+      ]
+    },
+    {
+      "tile_id": "herringedge",
+      "png": "herringedge.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "herringedge"
+        }
+      ]
+    },
+    {
+      "tile_id": "bottom",
+      "png": "bottom.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "bottom"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "bottom1"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "bottom2"
+        },
+        {
+          "index": 3,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "bottom3"
+        }
+      ]
+    },
+    {
+      "tile_id": "top",
+      "png": "top.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "top"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "top1"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "top2"
+        },
+        {
+          "index": 3,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "top3"
+        }
+      ]
+    },
+    {
+      "tile_id": "together",
+      "png": "together.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "together"
+        }
+      ]
+    },
+    {
+      "tile_id": "water1ripple",
+      "png": "water1ripple.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "water1ripple"
+        }
+      ]
+    },
+    {
+      "tile_id": "water2ripple",
+      "png": "water2ripple.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "water2ripple"
+        }
+      ]
+    },
+    {
+      "tile_id": "water3ripple",
+      "png": "water3ripple.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "water3ripple"
+        }
+      ]
+    },
+    {
+      "tile_id": "water4ripple",
+      "png": "water4ripple.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "water4ripple"
+        }
+      ]
+    },
+    {
+      "tile_id": "water5ripple",
+      "png": "water5ripple.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "water5ripple"
+        }
+      ]
+    },
+    {
+      "tile_id": "edge-s",
+      "png": "edge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "edge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "edge-n",
+      "png": "edge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "edge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "edge-e",
+      "png": "edge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "edge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "edge-w",
+      "png": "edge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "edge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "rocky",
+      "png": "rocky.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "rocky"
+        }
+      ]
+    },
+    {
+      "tile_id": "genedge-n",
+      "png": "genedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "genedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "genedge-s",
+      "png": "genedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "genedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "genedge-e",
+      "png": "genedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "genedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "genedge-w",
+      "png": "genedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "genedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "df",
+      "png": "df.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "df"
+        }
+      ]
+    },
+    {
+      "tile_id": "dt",
+      "png": "dt.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "dt"
+        }
+      ]
+    },
+    {
+      "tile_id": "rivermove",
+      "png": "rivermove.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "rivermove"
+        }
+      ]
+    },
+    {
+      "tile_id": "riverbot",
+      "png": "riverbot.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "riverbot"
+        }
+      ]
+    },
+    {
+      "tile_id": "rivertop",
+      "png": "rivertop.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "rivertop"
+        }
+      ]
+    },
+    {
+      "tile_id": "masonic",
+      "png": "masonic.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "masonic"
+        }
+      ]
+    },
+    {
+      "tile_id": "masonicsingle",
+      "png": "masonicsingle.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "masonicsingle"
+        }
+      ]
+    },
+    {
+      "tile_id": "masonicsingleinvert",
+      "png": "masonicsingleinvert.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "masonicsingleinvert"
+        }
+      ]
+    },
+    {
+      "tile_id": "masonicspiral",
+      "png": "masonicspiral.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "masonicspiral"
+        }
+      ]
+    },
+    {
+      "tile_id": "stoneredlarge",
+      "png": "stoneredlarge.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "stoneredlarge"
+        }
+      ]
+    },
+    {
+      "tile_id": "stoneredtiny",
+      "png": "stoneredtiny.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "stoneredtiny"
+        }
+      ]
+    },
+    {
+      "tile_id": "bathtile",
+      "png": "bathtile.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "bathtile"
+        }
+      ]
+    },
+    {
+      "tile_id": "bathtileW",
+      "png": "bathtileW.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "bathtileW"
+        }
+      ]
+    },
+    {
+      "tile_id": "barograte",
+      "png": "barograte.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "barograte"
+        }
+      ]
+    },
+    {
+      "tile_id": "barograteopen",
+      "png": "barograteopen.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "barograteopen"
+        }
+      ]
+    },
+    {
+      "tile_id": "digstone",
+      "png": "digstone.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "digstone"
+        }
+      ]
+    },
+    {
+      "tile_id": "carvedstone",
+      "png": "carvedstone.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "carvedstone"
+        }
+      ]
+    },
+    {
+      "tile_id": "carpet",
+      "png": "carpet.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "carpet"
+        }
+      ]
+    },
+    {
+      "tile_id": "tile",
+      "png": "tile.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "tile"
+        }
+      ]
+    },
+    {
+      "tile_id": "chess",
+      "png": "chess.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "chess"
+        }
+      ]
+    },
+    {
+      "tile_id": "linoleum",
+      "png": "linoleum.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "linoleum"
+        }
+      ]
+    },
+    {
+      "tile_id": "weird",
+      "png": "weird.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "weird1"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "weird2"
+        }
+      ]
+    },
+    {
+      "tile_id": "plating",
+      "png": "plating.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "plating1"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "plating2"
+        }
+      ]
+    },
+    {
+      "tile_id": "concretefloor",
+      "png": "concretefloor.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "concretefloor1"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "concretefloor2"
+        }
+      ]
+    },
+    {
+      "tile_id": "wooden_floor",
+      "png": "wooden_floor.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "wooden_floor"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "wooden_floor2"
+        }
+      ]
+    },
+    {
+      "tile_id": "wooden_floort",
+      "png": "wooden_floort.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "wooden_floort"
+        }
+      ]
+    },
+    {
+      "tile_id": "wooden_floor2t",
+      "png": "wooden_floor2t.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "wooden_floor2t"
+        }
+      ]
+    },
+    {
+      "tile_id": "jagged",
+      "png": "jagged.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "jagged"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblestone",
+      "png": "cobblestone.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblestone1"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblestone2"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblestone3"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobbleedge-n",
+      "png": "cobbleedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobbleedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobbleedge-sread",
+      "png": "cobbleedge-sread.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobbleedge-sread"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobbleedge-s",
+      "png": "cobbleedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobbleedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobbleedge-w",
+      "png": "cobbleedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobbleedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobbleedge-e",
+      "png": "cobbleedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobbleedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblestone_edges",
+      "png": "cobblestone_edges.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblestone_edges"
+        }
+      ]
+    },
+    {
+      "tile_id": "blocks",
+      "png": "blocks.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "blocks"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerock",
+      "png": "cobblerock.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerock"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerock-se",
+      "png": "cobblerock-se.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerock-se"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerock-sw",
+      "png": "cobblerock-sw.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerock-sw"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerock-nw",
+      "png": "cobblerock-nw.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerock-nw"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerock-ne",
+      "png": "cobblerock-ne.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerock-ne"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerock-s",
+      "png": "cobblerock-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerock-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerock-e",
+      "png": "cobblerock-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerock-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerock-w",
+      "png": "cobblerock-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerock-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerock-n",
+      "png": "cobblerock-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerock-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerockedge-n",
+      "png": "cobblerockedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerockedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerockedge-s",
+      "png": "cobblerockedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerockedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerockedge-e",
+      "png": "cobblerockedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerockedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "cobblerockedge-w",
+      "png": "cobblerockedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "cobblerockedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "oldcobblerock",
+      "png": "oldcobblerock.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "oldcobblerock"
+        }
+      ]
+    },
+    {
+      "tile_id": "oldcobblerock-se",
+      "png": "oldcobblerock-se.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "oldcobblerock-se"
+        }
+      ]
+    },
+    {
+      "tile_id": "oldcobblerock-sw",
+      "png": "oldcobblerock-sw.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "oldcobblerock-sw"
+        }
+      ]
+    },
+    {
+      "tile_id": "oldcobblerock-nw",
+      "png": "oldcobblerock-nw.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "oldcobblerock-nw"
+        }
+      ]
+    },
+    {
+      "tile_id": "oldcobblerock-ne",
+      "png": "oldcobblerock-ne.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "oldcobblerock-ne"
+        }
+      ]
+    },
+    {
+      "tile_id": "oldcobblerock-s",
+      "png": "oldcobblerock-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "oldcobblerock-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "oldcobblerock-e",
+      "png": "oldcobblerock-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "oldcobblerock-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "oldcobblerock-w",
+      "png": "oldcobblerock-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "oldcobblerock-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "oldcobblerock-n",
+      "png": "oldcobblerock-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "oldcobblerock-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "borderfall",
+      "png": "borderfall.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "borderfall"
+        }
+      ]
+    },
+    {
+      "tile_id": "shadowfull",
+      "png": "shadowfull.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "shadowfull"
+        }
+      ]
+    },
+    {
+      "tile_id": "shadowpartial",
+      "png": "shadowpartial.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "shadowpartial"
+        }
+      ]
+    },
+    {
+      "tile_id": "roofg-arw",
+      "png": "roofg-arw.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "roofg-arw"
+        }
+      ]
+    },
+    {
+      "tile_id": "roofgc1-arw",
+      "png": "roofgc1-arw.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "roofgc1-arw"
+        }
+      ]
+    },
+    {
+      "tile_id": "roofg",
+      "png": "roofg.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "roofg"
+        }
+      ]
+    },
+    {
+      "tile_id": "roofgc",
+      "png": "roofgc.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "roofgc1"
+        }
+      ]
+    },
+    {
+      "tile_id": "roof-arw",
+      "png": "roof-arw.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "roof-arw"
+        }
+      ]
+    },
+    {
+      "tile_id": "roof",
+      "png": "roof.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "roof"
+        }
+      ]
+    },
+    {
+      "tile_id": "greenblocks",
+      "png": "greenblocks.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "greenblocks"
+        }
+      ]
+    },
+    {
+      "tile_id": "gravemarker",
+      "png": "gravemarker.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "gravemarker1"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "gravemarker2"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "gravemarker3"
+        }
+      ]
+    },
+    {
+      "tile_id": "psy_gravemarker",
+      "png": "psy_gravemarker.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "psy_gravemarker1"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "psy_gravemarker2"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "psy_gravemarker3"
+        }
+      ]
+    },
+    {
+      "tile_id": "gravestone",
+      "png": "gravestone.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "gravestone"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "gravestone1"
+        }
+      ]
+    },
+    {
+      "tile_id": "gravestone1_uni",
+      "png": "gravestone1_uni.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "gravestone1_uni"
+        }
+      ]
+    },
+    {
+      "tile_id": "gravestone1_psy",
+      "png": "gravestone1_psy.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "gravestone1_psy"
+        }
+      ]
+    },
+    {
+      "tile_id": "gravecovered",
+      "png": "gravecovered.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "gravecovered"
+        }
+      ]
+    },
+    {
+      "tile_id": "grave",
+      "png": "grave.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grave"
+        }
+      ]
+    },
+    {
+      "tile_id": "grave_above",
+      "png": "grave_above.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grave_above"
+        }
+      ]
+    },
+    {
+      "tile_id": "spike_pit",
+      "png": "spike_pit.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "spike_pit"
+        }
+      ]
+    },
+    {
+      "tile_id": "hole",
+      "png": "hole.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "hole1"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "hole2"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-n",
+      "png": "staticedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "staticedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-s",
+      "png": "staticedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "staticedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-e",
+      "png": "staticedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "staticedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "staticedge-w",
+      "png": "staticedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "staticedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "water",
+      "png": "water.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "water"
+        }
+      ]
+    },
+    {
+      "tile_id": "yuckwater",
+      "png": "yuckwater.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "yuckwater"
+        }
+      ]
+    },
+    {
+      "tile_id": "greenstone",
+      "png": "greenstone.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "greenstone"
+        }
+      ]
+    },
+    {
+      "tile_id": "glyph",
+      "png": "glyph.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "glyph1"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "glyph2"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "glyph3"
+        },
+        {
+          "index": 3,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "glyph4"
+        },
+        {
+          "index": 4,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "glyph5"
+        },
+        {
+          "index": 5,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "glyph6"
+        },
+        {
+          "index": 6,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "glyph7"
+        },
+        {
+          "index": 7,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "glyph8"
+        },
+        {
+          "index": 8,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "glyph9"
+        }
+      ]
+    },
+    {
+      "tile_id": "lavafloor",
+      "png": "lavafloor.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "lavafloor"
+        }
+      ]
+    },
+    {
+      "tile_id": "lava",
+      "png": "lava.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "lava"
+        }
+      ]
+    },
+    {
+      "tile_id": "lavedge-s",
+      "png": "lavedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "lavedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "lavedge-n",
+      "png": "lavedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "lavedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "lavedge-w",
+      "png": "lavedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "lavedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "lavedge-e",
+      "png": "lavedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "lavedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "horzw",
+      "png": "horzw.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "horzw"
+        }
+      ]
+    },
+    {
+      "tile_id": "vertw",
+      "png": "vertw.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "vertw"
+        }
+      ]
+    },
+    {
+      "tile_id": "rock",
+      "png": "rock.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "rock"
+        }
+      ]
+    },
+    {
+      "tile_id": "rockwd",
+      "png": "rockwd.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "rockwd"
+        }
+      ]
+    },
+    {
+      "tile_id": "rockw",
+      "png": "rockw.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "rockw2"
+        }
+      ]
+    },
+    {
+      "tile_id": "dirtW",
+      "png": "dirtW.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "dirtW"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "dirtW2"
+        }
+      ]
+    },
+    {
+      "tile_id": "dirt",
+      "png": "dirt.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "dirt"
+        }
+      ]
+    },
+    {
+      "tile_id": "dirtedge-n",
+      "png": "dirtedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "dirtedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "dirtedge-s",
+      "png": "dirtedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "dirtedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "dirtedge-w",
+      "png": "dirtedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "dirtedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "dirtedge-e",
+      "png": "dirtedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "dirtedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "road",
+      "png": "road.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "road"
+        }
+      ]
+    },
+    {
+      "tile_id": "roadedge-n",
+      "png": "roadedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "roadedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "roadedge-s",
+      "png": "roadedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "roadedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "roadedge-e",
+      "png": "roadedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "roadedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "roadedge-w",
+      "png": "roadedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "roadedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass",
+      "png": "grass.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass"
+        }
+      ]
+    },
+    {
+      "tile_id": "grassedge-s",
+      "png": "grassedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grassedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "grassedge-w",
+      "png": "grassedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grassedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "grassedge-e",
+      "png": "grassedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grassedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "grassedge-n",
+      "png": "grassedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grassedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "bluestone",
+      "png": "bluestone.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "bluestone"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "bluestone2"
+        }
+      ]
+    },
+    {
+      "tile_id": "newstone",
+      "png": "newstone.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "newstone2"
+        }
+      ]
+    },
+    {
+      "tile_id": "bfloorz",
+      "png": "bfloorz.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "bfloorz"
+        }
+      ]
+    },
+    {
+      "tile_id": "tilerg",
+      "png": "tilerg.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "tilerg"
+        }
+      ]
+    },
+    {
+      "tile_id": "paving",
+      "png": "paving.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "paving"
+        }
+      ]
+    },
+    {
+      "tile_id": "pavingW",
+      "png": "pavingW.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "pavingW"
+        }
+      ]
+    },
+    {
+      "tile_id": "paving-t",
+      "png": "paving-t.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "paving-t"
+        }
+      ]
+    },
+    {
+      "tile_id": "treetop",
+      "png": "treetop.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "treetop1"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "treetop2"
+        }
+      ]
+    },
+    {
+      "tile_id": "mud",
+      "png": "mud.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "mud1"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "mud2"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "mud3"
+        }
+      ]
+    },
+    {
+      "tile_id": "hexstone",
+      "png": "hexstone.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "hexstone"
+        }
+      ]
+    },
+    {
+      "tile_id": "travel",
+      "png": "travel.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "travel"
+        }
+      ]
+    },
+    {
+      "tile_id": "fartravel",
+      "png": "fartravel.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "fartravel"
+        }
+      ]
+    },
+    {
+      "tile_id": "acid",
+      "png": "acid.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "acid"
+        }
+      ]
+    },
+    {
+      "tile_id": "carpet_l",
+      "png": "carpet_l.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "carpet_l"
+        }
+      ]
+    },
+    {
+      "tile_id": "carpet_c",
+      "png": "carpet_c.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "carpet_c"
+        }
+      ]
+    },
+    {
+      "tile_id": "carpet_r",
+      "png": "carpet_r.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "carpet_r"
+        }
+      ]
+    },
+    {
+      "tile_id": "carpet_l_primary",
+      "png": "carpet_l_primary.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "carpet_l_primary"
+        }
+      ]
+    },
+    {
+      "tile_id": "carpet_c_primary",
+      "png": "carpet_c_primary.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "carpet_c_primary"
+        }
+      ]
+    },
+    {
+      "tile_id": "carpet_r_primary",
+      "png": "carpet_r_primary.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "carpet_r_primary"
+        }
+      ]
+    },
+    {
+      "tile_id": "twig",
+      "png": "twig.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "twig"
+        }
+      ]
+    },
+    {
+      "tile_id": "mossystone",
+      "png": "mossystone.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "mossystone1"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "mossystone2"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "mossystone3"
+        }
+      ]
+    },
+    {
+      "tile_id": "mossyedge",
+      "png": "mossyedge.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "mossyedge"
+        }
+      ]
+    },
+    {
+      "tile_id": "mossystone_edges",
+      "png": "mossystone_edges.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "mossystone_edges"
+        }
+      ]
+    },
+    {
+      "tile_id": "church_marble",
+      "png": "church_marble.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "church_marble"
+        }
+      ]
+    },
+    {
+      "tile_id": "church_brick",
+      "png": "church_brick.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "church_brick"
+        }
+      ]
+    },
+    {
+      "tile_id": "church",
+      "png": "church.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "church"
+        }
+      ]
+    },
+    {
+      "tile_id": "church_rough",
+      "png": "church_rough.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "church_rough"
+        }
+      ]
+    },
+    {
+      "tile_id": "ash",
+      "png": "ash.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "ash"
+        }
+      ]
+    },
+    {
+      "tile_id": "hellgrass",
+      "png": "hellgrass.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "hellgrass"
+        }
+      ]
+    },
+    {
+      "tile_id": "hellgrassedge-s",
+      "png": "hellgrassedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "hellgrassedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "hellgrassedge-w",
+      "png": "hellgrassedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "hellgrassedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "hellgrass-e",
+      "png": "hellgrass-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "hellgrass-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "hellgrass-n",
+      "png": "hellgrass-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "hellgrass-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "herringbonewood",
+      "png": "herringbonewood.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "herringbonewood"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "herringbonewood2"
+        }
+      ]
+    },
+    {
+      "tile_id": "herringbonewoodedge",
+      "png": "herringbonewoodedge.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "herringbonewoodedge"
+        }
+      ]
+    },
+    {
+      "tile_id": "woodenborder",
+      "png": "woodenborder.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "woodenborder"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "woodenborder2"
+        }
+      ]
+    },
+    {
+      "tile_id": "woodenborderinv",
+      "png": "woodenborderinv.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "woodenborderinv"
+        }
+      ]
+    },
+    {
+      "tile_id": "herringbonewood2edge",
+      "png": "herringbonewood2edge.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "herringbonewood2edge"
+        }
+      ]
+    },
+    {
+      "tile_id": "woodenborder2inv",
+      "png": "woodenborder2inv.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "woodenborder2inv"
+        }
+      ]
+    },
+    {
+      "tile_id": "wooden_flooredge",
+      "png": "wooden_flooredge.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "wooden_flooredge"
+        }
+      ]
+    },
+    {
+      "tile_id": "wooden_floortedge",
+      "png": "wooden_floortedge.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "wooden_floortedge"
+        }
+      ]
+    },
+    {
+      "tile_id": "bricktile",
+      "png": "bricktile.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "bricktile"
+        }
+      ]
+    },
+    {
+      "tile_id": "hay",
+      "png": "hay.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "hay"
+        }
+      ]
+    },
+    {
+      "tile_id": "pond",
+      "png": "pond.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "pond"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_yel",
+      "png": "grass_yel.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_yel"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_yeledge-s",
+      "png": "grass_yeledge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_yeledge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_yeledge-w",
+      "png": "grass_yeledge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_yeledge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_yeledge-e",
+      "png": "grass_yeledge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_yeledge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_yeledge-n",
+      "png": "grass_yeledge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_yeledge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_red",
+      "png": "grass_red.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_red"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_rededge-s",
+      "png": "grass_rededge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_rededge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_rededge-w",
+      "png": "grass_rededge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_rededge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_rededge-e",
+      "png": "grass_rededge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_rededge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_rededge-n",
+      "png": "grass_rededge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_rededge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_cold",
+      "png": "grass_cold.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_cold"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_coldedge-s",
+      "png": "grass_coldedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_coldedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_coldedge-w",
+      "png": "grass_coldedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_coldedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_coldedge-e",
+      "png": "grass_coldedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_coldedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "grass_coldedge-n",
+      "png": "grass_coldedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grass_coldedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "snow",
+      "png": "snow.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snow"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowedge-s",
+      "png": "snowedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowedge-w",
+      "png": "snowedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowedge-e",
+      "png": "snowedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowedge-n",
+      "png": "snowedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowrough",
+      "png": "snowrough.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowrough"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowroughedge-s",
+      "png": "snowroughedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowroughedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowroughedge-w",
+      "png": "snowroughedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowroughedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowroughedge-e",
+      "png": "snowroughedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowroughedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowroughedge-n",
+      "png": "snowroughedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowroughedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowpatchy_grass",
+      "png": "snowpatchy_grass.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowpatchy_grass"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowpatchy_grassedge-s",
+      "png": "snowpatchy_grassedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowpatchy_grassedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowpatchy_grassedge-w",
+      "png": "snowpatchy_grassedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowpatchy_grassedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowpatchy_grassedge-e",
+      "png": "snowpatchy_grassedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowpatchy_grassedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "snowpatchy_grassedge-n",
+      "png": "snowpatchy_grassedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "snowpatchy_grassedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "bathtile_pool",
+      "png": "bathtile_pool.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "bathtile_pool"
+        }
+      ]
+    },
+    {
+      "tile_id": "undervoid",
+      "png": "undervoid.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "undervoid"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "undervoid2"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "undervoid3"
+        }
+      ]
+    },
+    {
+      "tile_id": "harem",
+      "png": "harem.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "harem"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "harem1"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "harem2"
+        }
+      ]
+    },
+    {
+      "tile_id": "brown",
+      "png": "brown.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "brown"
+        }
+      ]
+    },
+    {
+      "tile_id": "grimshart",
+      "png": "grimshart.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grimshart"
+        }
+      ]
+    },
+    {
+      "tile_id": "grimshartedge-n",
+      "png": "grimshartedge-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grimshartedge-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "grimshartedge-s",
+      "png": "grimshartedge-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grimshartedge-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "grimshartedge-w",
+      "png": "grimshartedge-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grimshartedge-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "grimshartedge-e",
+      "png": "grimshartedge-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "grimshartedge-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "blackice",
+      "png": "blackice.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "blackice"
+        }
+      ]
+    },
+    {
+      "tile_id": "blackice-w",
+      "png": "blackice-w.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "blackice-w"
+        }
+      ]
+    },
+    {
+      "tile_id": "blackice-n",
+      "png": "blackice-n.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "blackice-n"
+        }
+      ]
+    },
+    {
+      "tile_id": "blackice-e",
+      "png": "blackice-e.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "blackice-e"
+        }
+      ]
+    },
+    {
+      "tile_id": "blackice-s",
+      "png": "blackice-s.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "blackice-s"
+        }
+      ]
+    },
+    {
+      "tile_id": "border",
+      "png": "border.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "border"
+        }
+      ]
+    },
+    {
+      "tile_id": "border_corner",
+      "png": "border_corner.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "border_corner"
+        }
+      ]
+    },
+    {
+      "tile_id": "crawlspace",
+      "png": "crawlspace.png",
+      "variants": [
+        {
+          "index": 0,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "crawlspace_1"
+        },
+        {
+          "index": 1,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "crawlspace_2"
+        },
+        {
+          "index": 2,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "crawlspace_3"
+        },
+        {
+          "index": 3,
+          "source_dmi": "icons/turf/roguefloor.dmi",
+          "source_state": "crawlspace_4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "r_maiddress",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddress",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddress_f",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddress_f",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddress_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddress_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_maiddress_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_maiddress_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "maidhead",
+      "directions": 4
+    },
+    {
+      "name": "maidapron",
+      "directions": 4
+    },
+    {
+      "name": "maidapron_f",
+      "directions": 4
+    },
+    {
+      "name": "maidapron_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "maidapron_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "maiddress",
+      "directions": 4
+    },
+    {
+      "name": "maiddress_f",
+      "directions": 4
+    },
+    {
+      "name": "maiddress_f_boob",
+      "directions": 4
+    },
+    {
+      "name": "maiddress_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "maiddress_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "maidsash",
+      "directions": 4
+    },
+    {
+      "name": "maidsash_f",
+      "directions": 4
+    },
+    {
+      "name": "maidsash_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "maidsash_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

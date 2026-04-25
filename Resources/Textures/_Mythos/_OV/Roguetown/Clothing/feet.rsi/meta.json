@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "ridingboots"
+    },
+    {
+      "name": "blackboots"
+    },
+    {
+      "name": "shortboots"
+    },
+    {
+      "name": "simpleshoe"
+    },
+    {
+      "name": "gladiator"
+    },
+    {
+      "name": "sandals"
+    },
+    {
+      "name": "leatherboots"
+    },
+    {
+      "name": "alboots"
+    },
+    {
+      "name": "armorboots"
+    },
+    {
+      "name": "jestershoes"
+    },
+    {
+      "name": "jestershoes_detail"
+    },
+    {
+      "name": "buckleshoes"
+    },
+    {
+      "name": "nobleboots"
+    },
+    {
+      "name": "shalal"
+    },
+    {
+      "name": "vboots"
+    },
+    {
+      "name": "grenzelboots"
+    },
+    {
+      "name": "bkboots"
+    },
+    {
+      "name": "bplateboots"
+    },
+    {
+      "name": "soldierboots"
+    },
+    {
+      "name": "shalfplateboots"
+    },
+    {
+      "name": "iplateboots"
+    },
+    {
+      "name": "furlinedboots"
+    },
+    {
+      "name": "furlinedanklets"
+    },
+    {
+      "name": "clothlinedanklets"
+    },
+    {
+      "name": "carapaceboots"
+    },
+    {
+      "name": "psydonboots"
+    },
+    {
+      "name": "fencerboots"
+    },
+    {
+      "name": "inqboots"
+    },
+    {
+      "name": "atgervi_boots"
+    },
+    {
+      "name": "zizoboots"
+    },
+    {
+      "name": "anklets"
+    },
+    {
+      "name": "matthiosboots"
+    },
+    {
+      "name": "ancientboots"
+    },
+    {
+      "name": "ancientsandals"
+    },
+    {
+      "name": "graggarplateboots"
+    },
+    {
+      "name": "eastsandals"
+    },
+    {
+      "name": "albootsb"
+    },
+    {
+      "name": "dreamboots"
+    },
+    {
+      "name": "kazengunboots"
+    },
+    {
+      "name": "kazengunboots_detail"
+    },
+    {
+      "name": "iron_horseshoes"
+    },
+    {
+      "name": "steel_horseshoes"
+    },
+    {
+      "name": "silver_horseshoes"
+    },
+    {
+      "name": "gold_horseshoes"
+    },
+    {
+      "name": "goldgreaves"
+    },
+    {
+      "name": "bronzegreaves"
+    },
+    {
+      "name": "freiboots"
+    }
+  ]
+}

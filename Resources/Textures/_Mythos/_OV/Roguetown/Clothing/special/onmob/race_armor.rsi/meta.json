@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "elfhead",
+      "directions": 4
+    },
+    {
+      "name": "elfchest",
+      "directions": 4
+    },
+    {
+      "name": "elfhead_f",
+      "directions": 4
+    },
+    {
+      "name": "elfchest_f",
+      "directions": 4
+    },
+    {
+      "name": "elfshoes",
+      "directions": 4
+    },
+    {
+      "name": "r_elfshoes",
+      "directions": 4
+    },
+    {
+      "name": "l_elfshoes",
+      "directions": 4
+    },
+    {
+      "name": "elfshoes_f",
+      "directions": 4
+    },
+    {
+      "name": "r_elfshoes_f",
+      "directions": 4
+    },
+    {
+      "name": "l_elfshoes_f",
+      "directions": 4
+    },
+    {
+      "name": "elfhand_f",
+      "directions": 4
+    },
+    {
+      "name": "r_elfhand_f",
+      "directions": 4
+    },
+    {
+      "name": "l_elfhand_f",
+      "directions": 4
+    },
+    {
+      "name": "elfhand",
+      "directions": 4
+    },
+    {
+      "name": "r_elfhand",
+      "directions": 4
+    },
+    {
+      "name": "l_elfhand",
+      "directions": 4
+    },
+    {
+      "name": "dwarfhead",
+      "directions": 4
+    },
+    {
+      "name": "dwarfhead_d",
+      "directions": 4
+    },
+    {
+      "name": "dwarfhead_d_m",
+      "directions": 4
+    },
+    {
+      "name": "dwarfchest_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dwarfshoe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_dwarfshoe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_dwarfshoe_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dwarfhand_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_dwarfhand_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_dwarfhand_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "human_swordhead",
+      "directions": 4
+    },
+    {
+      "name": "human_swordchest",
+      "directions": 4
+    },
+    {
+      "name": "human_swordshoes",
+      "directions": 4
+    },
+    {
+      "name": "r_human_swordshoes",
+      "directions": 4
+    },
+    {
+      "name": "l_human_swordshoes",
+      "directions": 4
+    },
+    {
+      "name": "human_swordhand",
+      "directions": 4
+    },
+    {
+      "name": "l_human_swordhand",
+      "directions": 4
+    },
+    {
+      "name": "r_human_swordhand",
+      "directions": 4
+    },
+    {
+      "name": "human_spearhead",
+      "directions": 4
+    },
+    {
+      "name": "human_spearchest",
+      "directions": 4
+    },
+    {
+      "name": "human_spearshoe",
+      "directions": 4
+    },
+    {
+      "name": "r_human_spearshoe",
+      "directions": 4
+    },
+    {
+      "name": "l_human_spearshoe",
+      "directions": 4
+    },
+    {
+      "name": "human_spearhand",
+      "directions": 4
+    },
+    {
+      "name": "l_human_spearhand",
+      "directions": 4
+    },
+    {
+      "name": "r_human_spearhand",
+      "directions": 4
+    },
+    {
+      "name": "dwarfchest_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dwarfshoe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_dwarfshoe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_dwarfshoe_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dwarfhand_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_dwarfhand_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_dwarfhand_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "welfhead",
+      "directions": 4
+    },
+    {
+      "name": "welfchest",
+      "directions": 4
+    },
+    {
+      "name": "welfhand",
+      "directions": 4
+    },
+    {
+      "name": "r_welfhand",
+      "directions": 4
+    },
+    {
+      "name": "l_welfhand",
+      "directions": 4
+    },
+    {
+      "name": "welfshoes",
+      "directions": 4
+    },
+    {
+      "name": "r_welfshoes",
+      "directions": 4
+    },
+    {
+      "name": "l_welfshoes",
+      "directions": 4
+    },
+    {
+      "name": "welfchest_f",
+      "directions": 4
+    },
+    {
+      "name": "welfhand_f",
+      "directions": 4
+    },
+    {
+      "name": "r_welfhand_f",
+      "directions": 4
+    },
+    {
+      "name": "l_welfhand_f",
+      "directions": 4
+    },
+    {
+      "name": "welfshoes_f",
+      "directions": 4
+    },
+    {
+      "name": "r_welfshoes_f",
+      "directions": 4
+    },
+    {
+      "name": "l_welfshoes_f",
+      "directions": 4
+    },
+    {
+      "name": "dsmithchest_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dsmithchest_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "dsmithhead",
+      "directions": 4
+    },
+    {
+      "name": "dsmithhead_d",
+      "directions": 4
+    },
+    {
+      "name": "dsmithhead_d_m",
+      "directions": 4
+    },
+    {
+      "name": "welfheadalt",
+      "directions": 4
+    },
+    {
+      "name": "awelfhead",
+      "directions": 4
+    },
+    {
+      "name": "awelfheadalt",
+      "directions": 4
+    },
+    {
+      "name": "awelfchest",
+      "directions": 4
+    },
+    {
+      "name": "awelfchestalt",
+      "directions": 4
+    },
+    {
+      "name": "awelfhand",
+      "directions": 4
+    },
+    {
+      "name": "r_awelfhand",
+      "directions": 4
+    },
+    {
+      "name": "l_awelfhand",
+      "directions": 4
+    },
+    {
+      "name": "awelfshoes",
+      "directions": 4
+    },
+    {
+      "name": "r_awelfshoes",
+      "directions": 4
+    },
+    {
+      "name": "l_awelfshoes",
+      "directions": 4
+    },
+    {
+      "name": "awelfchest_f",
+      "directions": 4
+    },
+    {
+      "name": "awelfchestalt_f",
+      "directions": 4
+    },
+    {
+      "name": "awelfhand_f",
+      "directions": 4
+    },
+    {
+      "name": "r_awelfhand_f",
+      "directions": 4
+    },
+    {
+      "name": "l_awelfhand_f",
+      "directions": 4
+    },
+    {
+      "name": "awelfshoes_f",
+      "directions": 4
+    },
+    {
+      "name": "r_awelfshoes_f",
+      "directions": 4
+    },
+    {
+      "name": "l_awelfshoes_f",
+      "directions": 4
+    },
+    {
+      "name": "awelfchest_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "awelfchestalt_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "awelfhand_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_awelfhand_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_awelfhand_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "awelfshoes_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_awelfshoes_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_awelfshoes_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "awelfchest_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "awelfchestalt_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "awelfhand_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_awelfhand_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_awelfhand_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "awelfshoes_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "r_awelfshoes_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "l_awelfshoes_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "_"
+    }
+  ]
+}

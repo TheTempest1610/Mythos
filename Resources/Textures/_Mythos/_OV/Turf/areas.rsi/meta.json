@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "unknown"
+    },
+    {
+      "name": "rogue"
+    },
+    {
+      "name": "indoors"
+    },
+    {
+      "name": "cave"
+    },
+    {
+      "name": "outdoors"
+    },
+    {
+      "name": "shelter"
+    },
+    {
+      "name": "mountains"
+    },
+    {
+      "name": "deception"
+    },
+    {
+      "name": "decap"
+    },
+    {
+      "name": "rtfield"
+    },
+    {
+      "name": "woods"
+    },
+    {
+      "name": "river"
+    },
+    {
+      "name": "bog"
+    },
+    {
+      "name": "beach"
+    },
+    {
+      "name": "under"
+    },
+    {
+      "name": "exposed"
+    },
+    {
+      "name": "caves"
+    },
+    {
+      "name": "cavewet"
+    },
+    {
+      "name": "spider"
+    },
+    {
+      "name": "spidercave"
+    },
+    {
+      "name": "spiderbase"
+    },
+    {
+      "name": "cavelava"
+    },
+    {
+      "name": "lake"
+    },
+    {
+      "name": "town"
+    },
+    {
+      "name": "manor"
+    },
+    {
+      "name": "manorgarri"
+    },
+    {
+      "name": "magician"
+    },
+    {
+      "name": "magiciantower"
+    },
+    {
+      "name": "shop"
+    },
+    {
+      "name": "bath"
+    },
+    {
+      "name": "garrison"
+    },
+    {
+      "name": "cell"
+    },
+    {
+      "name": "tavern"
+    },
+    {
+      "name": "church"
+    },
+    {
+      "name": "chapel"
+    },
+    {
+      "name": "fire_chamber"
+    },
+    {
+      "name": "warehouse"
+    },
+    {
+      "name": "vault"
+    },
+    {
+      "name": "entrance"
+    },
+    {
+      "name": "dwarfin"
+    },
+    {
+      "name": "dwarf"
+    },
+    {
+      "name": "sargoth"
+    },
+    {
+      "name": "roofs"
+    },
+    {
+      "name": "sewer"
+    },
+    {
+      "name": "caverogue"
+    },
+    {
+      "name": "basement"
+    },
+    {
+      "name": "underworld"
+    },
+    {
+      "name": "steward"
+    },
+    {
+      "name": "pestrasanctum"
+    },
+    {
+      "name": "physician"
+    },
+    {
+      "name": "duke"
+    },
+    {
+      "name": "island"
+    },
+    {
+      "name": "bathvault"
+    },
+    {
+      "name": "dream"
+    },
+    {
+      "name": "eora"
+    },
+    {
+      "name": "test_room"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "trou"
+    },
+    {
+      "name": "trou_t"
+    },
+    {
+      "name": "loincloth"
+    },
+    {
+      "name": "chain_legs"
+    },
+    {
+      "name": "chain_skirt"
+    },
+    {
+      "name": "chain_bootyshorts"
+    },
+    {
+      "name": "plate_legs"
+    },
+    {
+      "name": "plate_skirt"
+    },
+    {
+      "name": "ichain_legs"
+    },
+    {
+      "name": "leathertrou"
+    },
+    {
+      "name": "vpants"
+    },
+    {
+      "name": "webs"
+    },
+    {
+      "name": "tights"
+    },
+    {
+      "name": "tights_t"
+    },
+    {
+      "name": "sailorpants"
+    },
+    {
+      "name": "grenzelpants"
+    },
+    {
+      "name": "grenzelpants_detail"
+    },
+    {
+      "name": "bklegs"
+    },
+    {
+      "name": "bplatelegs"
+    },
+    {
+      "name": "shadowpants"
+    },
+    {
+      "name": "monkpants"
+    },
+    {
+      "name": "rogueshorts"
+    },
+    {
+      "name": "roguepants"
+    },
+    {
+      "name": "ironsplintlegs"
+    },
+    {
+      "name": "splintlegs"
+    },
+    {
+      "name": "fencerpants"
+    },
+    {
+      "name": "apothpants"
+    },
+    {
+      "name": "artipants"
+    },
+    {
+      "name": "leathertights"
+    },
+    {
+      "name": "beltpants"
+    },
+    {
+      "name": "skirt"
+    },
+    {
+      "name": "atgervi_pants"
+    },
+    {
+      "name": "zizocloth"
+    },
+    {
+      "name": "ichainkilt"
+    },
+    {
+      "name": "chainkilt"
+    },
+    {
+      "name": "matthioslegs"
+    },
+    {
+      "name": "achainkilt"
+    },
+    {
+      "name": "ancientpants"
+    },
+    {
+      "name": "graggarplatelegs"
+    },
+    {
+      "name": "eastpants1"
+    },
+    {
+      "name": "eastpants2"
+    },
+    {
+      "name": "fencingbreeches"
+    },
+    {
+      "name": "fencingbreeches_detail"
+    },
+    {
+      "name": "iplate_legs"
+    },
+    {
+      "name": "dreamlegs"
+    },
+    {
+      "name": "baggypants"
+    },
+    {
+      "name": "desertskirt"
+    },
+    {
+      "name": "explorerpants"
+    },
+    {
+      "name": "shepherdpants"
+    },
+    {
+      "name": "butlerpants"
+    },
+    {
+      "name": "butlershorts"
+    },
+    {
+      "name": "butlerpants_detail"
+    },
+    {
+      "name": "butlershorts_detail"
+    },
+    {
+      "name": "dhoti"
+    },
+    {
+      "name": "dhoti_detail"
+    },
+    {
+      "name": "lakkarikilt"
+    },
+    {
+      "name": "patkilt"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "gronnplatehelm",
+      "directions": 4
+    },
+    {
+      "name": "gronnplatehelm_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnplatehelm_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnplatehelm_dwarf",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 48
+  },
+  "states": [
+    {
+      "name": "gronnleatherhelm_horns",
+      "directions": 4
+    },
+    {
+      "name": "gronnfurhood",
+      "directions": 4
+    },
+    {
+      "name": "gronnfurhood_lit2",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gronnfurhood_lit3",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gronnfurhood_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnfurhood_lit2_dwarf",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gronnfurhood_lit3_dwarf",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gronnfurhood_down",
+      "directions": 4
+    },
+    {
+      "name": "gronnfurhood_down_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnfurhood_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnfurhood_lit2_f",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gronnfurhood_lit3_f",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gronnfurhood_down_f",
+      "directions": 4
+    },
+    {
+      "name": "gronnfurhood_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "gronnfurhood_lit2_f_dwarf",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gronnfurhood_lit3_f_dwarf",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "gronnfurhood_down_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

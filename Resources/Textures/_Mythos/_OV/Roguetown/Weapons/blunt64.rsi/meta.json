@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "GOEDENDAG"
+    },
+    {
+      "name": "goedendag"
+    },
+    {
+      "name": "goedendag1"
+    },
+    {
+      "name": "peasantwarclub"
+    },
+    {
+      "name": "peasantwarclub1"
+    },
+    {
+      "name": "GRANDMACE - STEEL"
+    },
+    {
+      "name": "polemace"
+    },
+    {
+      "name": "polemace1"
+    },
+    {
+      "name": "GRANDMACE - ANCIENT"
+    },
+    {
+      "name": "ancient_supermace"
+    },
+    {
+      "name": "ancient_supermace1"
+    },
+    {
+      "name": "KANABO"
+    },
+    {
+      "name": "kanabo"
+    },
+    {
+      "name": "kanabo1"
+    },
+    {
+      "name": "CHURCH"
+    },
+    {
+      "name": "ravoxhammer"
+    },
+    {
+      "name": "ravoxhammer1"
+    },
+    {
+      "name": "malumhammer"
+    },
+    {
+      "name": "malumhammer1"
+    },
+    {
+      "name": "SILVER"
+    },
+    {
+      "name": "psymace"
+    },
+    {
+      "name": "psymace1"
+    },
+    {
+      "name": "FLAIL - PEASANT"
+    },
+    {
+      "name": "peasantwarflail"
+    },
+    {
+      "name": "peasantwarflail1"
+    },
+    {
+      "name": "FLAIL - MILITARY"
+    },
+    {
+      "name": "greatflail"
+    },
+    {
+      "name": "greatflail1"
+    },
+    {
+      "name": "FLAIL - MATTHIOS"
+    },
+    {
+      "name": "matthiosflail"
+    },
+    {
+      "name": "matthiosflail1"
+    },
+    {
+      "name": "MAULS"
+    },
+    {
+      "name": "sledge"
+    },
+    {
+      "name": "sledge1"
+    },
+    {
+      "name": "cross"
+    },
+    {
+      "name": "cross1"
+    },
+    {
+      "name": "spiky"
+    },
+    {
+      "name": "spiky1"
+    },
+    {
+      "name": "dwarfhammer"
+    },
+    {
+      "name": "dwarfhammer1"
+    },
+    {
+      "name": "MARTYR"
+    },
+    {
+      "name": "martyrmace_ulton1",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyrmace_ulton",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyrmace"
+    },
+    {
+      "name": "martyrmace_on",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "martyrmace1"
+    },
+    {
+      "name": "martyrmace_on1",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    }
+  ]
+}
