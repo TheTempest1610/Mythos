@@ -38,7 +38,10 @@ namespace Content.Shared.Humanoid.Markings
 
         public Marking AsMarking()
         {
-            return new Marking(ID, Sprites.Count);
+            // Mythos: color count is the picker color-slot count (one per
+            // unique slot), not raw sprite count. Paired BEHIND/FRONT
+            // sprites of the same OV color slot share a single picker color.
+            return new Marking(ID, ColorSlotCount());
         }
     }
 }

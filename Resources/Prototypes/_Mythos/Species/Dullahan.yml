@@ -1,0 +1,9 @@
+# Mythos: Dullahan species (Track D).
+# Full RGB skin coloration (Hues), no presets, no restrictions per PO V1 decision.
+- type: species
+  id: Dullahan
+  name: species-name-dullahan
+  roundStart: true
+  prototype: MobDullahanMythos
+  dollPrototype: AppearanceHumenMythos
+  skinColoration: Hues

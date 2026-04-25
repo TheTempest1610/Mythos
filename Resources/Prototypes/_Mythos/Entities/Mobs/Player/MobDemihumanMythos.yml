@@ -1,0 +1,10 @@
+# Mythos: concrete Demihuman mob entity (Track D).
+# Inherits MobHumenMythosBase.
+
+- type: entity
+  parent: MobHumenMythosBase
+  id: MobDemihumanMythos
+  name: Urist McDemihuman
+  components:
+  - type: HumanoidProfile
+    species: Demihuman

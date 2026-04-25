@@ -147,9 +147,13 @@ public sealed class MarkingManager
                     continue;
                 }
 
-                if (marking.Sprites.Count != markings[i].MarkingColors.Count)
+                // Mythos: marking color count comes from the prototype's color
+                // slot count (ColorSlotCount), not raw sprite count, so paired
+                // BEHIND/FRONT sprites of the same color slot share one entry.
+                var colorCount = marking.ColorSlotCount();
+                if (colorCount != markings[i].MarkingColors.Count)
                 {
-                    markings[i] = new Marking(marking.ID, marking.Sprites.Count);
+                    markings[i] = new Marking(marking.ID, colorCount);
                 }
             }
         }

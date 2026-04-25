@@ -1,0 +1,11 @@
+# Mythos: concrete Aasimar mob entity (Track D).
+# Inherits MobHumenMythosBase. Visually identical to Humen for V1; V2+ may
+# layer species-specific markings (glowing eyes, etc.) per PO note in the plan.
+
+- type: entity
+  parent: MobHumenMythosBase
+  id: MobAasimarMythos
+  name: Urist McAasimar
+  components:
+  - type: HumanoidProfile
+    species: Aasimar

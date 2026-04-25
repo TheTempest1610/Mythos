@@ -1,0 +1,755 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "9sune_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "9sune_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "9sune_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "9sune_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "australianshepherd_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "australianshepherd_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "australianshepherd_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "australianshepherd_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "axolotl_behind",
+      "directions": 4
+    },
+    {
+      "name": "axolotl_front",
+      "directions": 4
+    },
+    {
+      "name": "batl_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "batl_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "batl_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "batl_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "bats_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "bats_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "bats_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "bats_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "bee_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "bee_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "bee_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "bee_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "cat_front",
+      "directions": 4
+    },
+    {
+      "name": "catbig_behind",
+      "directions": 4
+    },
+    {
+      "name": "catbig_front",
+      "directions": 4
+    },
+    {
+      "name": "cow_behind",
+      "directions": 4
+    },
+    {
+      "name": "cow_front",
+      "directions": 4
+    },
+    {
+      "name": "crow_behind",
+      "directions": 4
+    },
+    {
+      "name": "crow_front",
+      "directions": 4
+    },
+    {
+      "name": "datashark_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "datashark_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "datashark_behind_tips",
+      "directions": 4
+    },
+    {
+      "name": "datashark_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "datashark_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "deer_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "deer_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "deer_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "deer_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "eevee_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "eevee_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "eevee_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "eevee_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fennec_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "fennec_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "fennec_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fennec_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fish_behind",
+      "directions": 4
+    },
+    {
+      "name": "fish_front",
+      "directions": 4
+    },
+    {
+      "name": "forked_long_behind",
+      "directions": 4
+    },
+    {
+      "name": "forked_long_front",
+      "directions": 4
+    },
+    {
+      "name": "fox2_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "fox2_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "fox2_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fox2_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fox_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "fox_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "fox_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fox_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "guilmon_behind",
+      "directions": 4
+    },
+    {
+      "name": "guilmon_front",
+      "directions": 4
+    },
+    {
+      "name": "haven_behind",
+      "directions": 4
+    },
+    {
+      "name": "haven_front",
+      "directions": 4
+    },
+    {
+      "name": "hawk_behind",
+      "directions": 4
+    },
+    {
+      "name": "hawk_front",
+      "directions": 4
+    },
+    {
+      "name": "horse_behind",
+      "directions": 4
+    },
+    {
+      "name": "horse_front",
+      "directions": 4
+    },
+    {
+      "name": "husk_behind",
+      "directions": 4
+    },
+    {
+      "name": "husk_front",
+      "directions": 4
+    },
+    {
+      "name": "husky_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "husky_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "husky_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "husky_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "insect_behind",
+      "directions": 4
+    },
+    {
+      "name": "insect_front",
+      "directions": 4
+    },
+    {
+      "name": "jackal_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "jackal_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "jackal_behind_tips",
+      "directions": 4
+    },
+    {
+      "name": "jackal_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "jackal_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "jackal_front_tips",
+      "directions": 4
+    },
+    {
+      "name": "kangaroo_behind",
+      "directions": 4
+    },
+    {
+      "name": "kangaroo_front",
+      "directions": 4
+    },
+    {
+      "name": "kitsune_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "kitsune_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "kitsune_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "kitsune_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "lab_behind",
+      "directions": 4
+    },
+    {
+      "name": "lab_front",
+      "directions": 4
+    },
+    {
+      "name": "leopard_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "leopard_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "leopard_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "leopard_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "lunasune_behind",
+      "directions": 4
+    },
+    {
+      "name": "lunasune_front",
+      "directions": 4
+    },
+    {
+      "name": "lynx_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "lynx_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "lynx_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "lynx_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "monkey_behind",
+      "directions": 4
+    },
+    {
+      "name": "monkey_front",
+      "directions": 4
+    },
+    {
+      "name": "murid_behind",
+      "directions": 4
+    },
+    {
+      "name": "murid_front",
+      "directions": 4
+    },
+    {
+      "name": "orca_behind",
+      "directions": 4
+    },
+    {
+      "name": "orca_front",
+      "directions": 4
+    },
+    {
+      "name": "otie_behind",
+      "directions": 4
+    },
+    {
+      "name": "otie_front",
+      "directions": 4
+    },
+    {
+      "name": "owl_behind",
+      "directions": 4
+    },
+    {
+      "name": "owl_front",
+      "directions": 4
+    },
+    {
+      "name": "pede_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "pede_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "pede_behind_tips",
+      "directions": 4
+    },
+    {
+      "name": "pede_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "pede_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "pede_front_tips",
+      "directions": 4
+    },
+    {
+      "name": "rabbit_behind",
+      "directions": 4
+    },
+    {
+      "name": "rabbit_front",
+      "directions": 4
+    },
+    {
+      "name": "raccoon_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "raccoon_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "raccoon_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "raccoon_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "raptor_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "raptor_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "raptor_behind_tips",
+      "directions": 4
+    },
+    {
+      "name": "raptor_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "raptor_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "raptor_front_tips",
+      "directions": 4
+    },
+    {
+      "name": "rattlesnake_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "rattlesnake_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "rattlesnake_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "rattlesnake_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "sabresune_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "sabresune_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "sabresune_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "sabresune_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "sergal_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "sergal_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "sergal_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "sergal_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "shark_behind",
+      "directions": 4
+    },
+    {
+      "name": "shark_front",
+      "directions": 4
+    },
+    {
+      "name": "sharknofin_behind",
+      "directions": 4
+    },
+    {
+      "name": "sharknofin_front",
+      "directions": 4
+    },
+    {
+      "name": "shepherd_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "shepherd_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "shepherd_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "shepherd_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "skunk_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "skunk_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "skunk_behind_tips",
+      "directions": 4
+    },
+    {
+      "name": "skunk_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "skunk_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "skunk_front_tips",
+      "directions": 4
+    },
+    {
+      "name": "spade_behind",
+      "directions": 4
+    },
+    {
+      "name": "spade_front",
+      "directions": 4
+    },
+    {
+      "name": "squirrel_behind",
+      "directions": 4
+    },
+    {
+      "name": "squirrel_front",
+      "directions": 4
+    },
+    {
+      "name": "straighttail_behind",
+      "directions": 4
+    },
+    {
+      "name": "straighttail_front",
+      "directions": 4
+    },
+    {
+      "name": "stripe_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "stripe_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "stripe_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "stripe_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "swallow_behind",
+      "directions": 4
+    },
+    {
+      "name": "swallow_front",
+      "directions": 4
+    },
+    {
+      "name": "tentacle_behind",
+      "directions": 4
+    },
+    {
+      "name": "tentacle_front",
+      "directions": 4
+    },
+    {
+      "name": "tiger_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "tiger_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "tiger_behind_tips",
+      "directions": 4
+    },
+    {
+      "name": "tiger_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "tiger_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "tiger_front_tips",
+      "directions": 4
+    },
+    {
+      "name": "twocat_behind",
+      "directions": 4
+    },
+    {
+      "name": "twocat_front",
+      "directions": 4
+    },
+    {
+      "name": "wah_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "wah_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "wah_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "wah_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "wolf_behind",
+      "directions": 4
+    },
+    {
+      "name": "wolf_front",
+      "directions": 4
+    },
+    {
+      "name": "zorgoia_behind_inner",
+      "directions": 4
+    },
+    {
+      "name": "zorgoia_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "zorgoia_behind_tips",
+      "directions": 4
+    },
+    {
+      "name": "zorgoia_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "zorgoia_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "zorgoia_front_tips",
+      "directions": 4
+    }
+  ]
+}

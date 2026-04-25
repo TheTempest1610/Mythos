@@ -1,0 +1,129 @@
+# OV equip / unequip sound collections.
+#
+# Mythos: Track I (audio) of the V1 OV character port. These collections
+# wrap the OV foley/equip and foley/dropsound assets and are referenced
+# from OV-imported clothing prototypes (Track A's importer emits the
+# `equipSound` / `unequipSound` fields pointing here).
+#
+# Mapping rationale (cross-referenced against
+# Updated/Ochre-Valley/code/modules/clothing/*):
+#   plate / fullplate -> OVEquipPlate (equip_armor_plate variants)
+#   chain / mail      -> OVEquipChain (chain_equip + equip_armor_chain)
+#   leather / cloth   -> OVEquipArmor (equip_armor.ogg, generic)
+#   cloak             -> OVEquipCloak (cloak 1..3)
+#   sword / blade     -> OVEquipSwordSmall / OVEquipSwordLarge
+#   scabbard          -> OVEquipScabbard
+#   rummaging (bags)  -> OVRummage
+#
+# Drop sounds use the OV dropsound/ folder, separated by material.
+
+# --- Equip collections -----------------------------------------------------
+
+- type: soundCollection
+  id: OVEquipArmor
+  files:
+  - /Audio/_Mythos/_OV/foley/equip/equip_armor.ogg
+
+- type: soundCollection
+  id: OVEquipChain
+  files:
+  - /Audio/_Mythos/_OV/foley/equip/chain_equip.ogg
+  - /Audio/_Mythos/_OV/foley/equip/equip_armor_chain.ogg
+
+- type: soundCollection
+  id: OVEquipPlate
+  files:
+  - /Audio/_Mythos/_OV/foley/equip/equip_armor_plate.ogg
+
+- type: soundCollection
+  id: OVEquipCloak
+  files:
+  - /Audio/_Mythos/_OV/foley/equip/cloak_1.ogg
+  - /Audio/_Mythos/_OV/foley/equip/cloak_2.ogg
+  - /Audio/_Mythos/_OV/foley/equip/cloak_3.ogg
+
+- type: soundCollection
+  id: OVEquipScabbard
+  files:
+  - /Audio/_Mythos/_OV/foley/equip/scabbard_holster.ogg
+
+- type: soundCollection
+  id: OVEquipSwordSmall
+  files:
+  - /Audio/_Mythos/_OV/foley/equip/swordsmall1.ogg
+  - /Audio/_Mythos/_OV/foley/equip/swordsmall2.ogg
+
+- type: soundCollection
+  id: OVEquipSwordLarge
+  files:
+  - /Audio/_Mythos/_OV/foley/equip/swordlarge1.ogg
+  - /Audio/_Mythos/_OV/foley/equip/swordlarge2.ogg
+
+- type: soundCollection
+  id: OVRummage
+  files:
+  - /Audio/_Mythos/_OV/foley/equip/rummaging-01.ogg
+  - /Audio/_Mythos/_OV/foley/equip/rummaging-02.ogg
+  - /Audio/_Mythos/_OV/foley/equip/rummaging-03.ogg
+
+# --- Drop / unequip collections -------------------------------------------
+
+- type: soundCollection
+  id: OVDropArmor
+  files:
+  - /Audio/_Mythos/_OV/foley/dropsound/armor_drop.ogg
+
+- type: soundCollection
+  id: OVDropChain
+  files:
+  - /Audio/_Mythos/_OV/foley/dropsound/chain_drop.ogg
+
+- type: soundCollection
+  id: OVDropCloth
+  files:
+  - /Audio/_Mythos/_OV/foley/dropsound/cloth_drop.ogg
+
+- type: soundCollection
+  id: OVDropMetalShield
+  files:
+  - /Audio/_Mythos/_OV/foley/dropsound/metalshield_drop.ogg
+
+- type: soundCollection
+  id: OVDropWood
+  files:
+  - /Audio/_Mythos/_OV/foley/dropsound/wooden_drop.ogg
+
+- type: soundCollection
+  id: OVDropGlass
+  files:
+  - /Audio/_Mythos/_OV/foley/dropsound/glass_drop.ogg
+
+- type: soundCollection
+  id: OVDropBook
+  files:
+  - /Audio/_Mythos/_OV/foley/dropsound/book_drop.ogg
+
+- type: soundCollection
+  id: OVDropPaper
+  files:
+  - /Audio/_Mythos/_OV/foley/dropsound/paper_drop.ogg
+
+- type: soundCollection
+  id: OVDropFood
+  files:
+  - /Audio/_Mythos/_OV/foley/dropsound/food_drop.ogg
+
+- type: soundCollection
+  id: OVDropDevice
+  files:
+  - /Audio/_Mythos/_OV/foley/dropsound/device_drop.ogg
+
+- type: soundCollection
+  id: OVDropShovel
+  files:
+  - /Audio/_Mythos/_OV/foley/dropsound/shovel_drop.ogg
+
+- type: soundCollection
+  id: OVDropGen
+  files:
+  - /Audio/_Mythos/_OV/foley/dropsound/gen_drop.ogg

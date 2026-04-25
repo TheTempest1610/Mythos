@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "chair_manbun",
+      "directions": 4
+    },
+    {
+      "name": "chair_ponytail6",
+      "directions": 4
+    },
+    {
+      "name": "chair_ronin",
+      "directions": 4
+    },
+    {
+      "name": "chair_topknot",
+      "directions": 4
+    },
+    {
+      "name": "elfhair_fatherless",
+      "directions": 4
+    },
+    {
+      "name": "elfhair_long",
+      "directions": 4
+    },
+    {
+      "name": "elfhair_scout",
+      "directions": 4
+    },
+    {
+      "name": "elfhair_son",
+      "directions": 4
+    },
+    {
+      "name": "elfhair_tied",
+      "directions": 4
+    },
+    {
+      "name": "felfhair_fatherless",
+      "directions": 4
+    },
+    {
+      "name": "felfhair_hime",
+      "directions": 4
+    },
+    {
+      "name": "felfhair_longtails",
+      "directions": 4
+    },
+    {
+      "name": "felfhair_updo",
+      "directions": 4
+    },
+    {
+      "name": "felfhair_wisp",
+      "directions": 4
+    },
+    {
+      "name": "fhair_amazon",
+      "directions": 4
+    },
+    {
+      "name": "fhair_barmaid",
+      "directions": 4
+    },
+    {
+      "name": "fhair_beehive",
+      "directions": 4
+    },
+    {
+      "name": "fhair_bob",
+      "directions": 4
+    },
+    {
+      "name": "fhair_bob2",
+      "directions": 4
+    },
+    {
+      "name": "fhair_doublebun",
+      "directions": 4
+    },
+    {
+      "name": "fhair_himecut2",
+      "directions": 4
+    },
+    {
+      "name": "fhair_homely",
+      "directions": 4
+    },
+    {
+      "name": "fhair_kepthair",
+      "directions": 4
+    },
+    {
+      "name": "fhair_longstraightponytail",
+      "directions": 4
+    },
+    {
+      "name": "fhair_messy",
+      "directions": 4
+    },
+    {
+      "name": "fhair_pixie",
+      "directions": 4
+    },
+    {
+      "name": "fhair_ponytail6",
+      "directions": 4
+    },
+    {
+      "name": "fhair_shorthairg",
+      "directions": 4
+    },
+    {
+      "name": "fhair_singlebraid",
+      "directions": 4
+    },
+    {
+      "name": "fhair_tressshoulder",
+      "directions": 4
+    },
+    {
+      "name": "fhair_twintail",
+      "directions": 4
+    },
+    {
+      "name": "fhair_vlongfringe",
+      "directions": 4
+    },
+    {
+      "name": "hair_baldfade",
+      "directions": 4
+    },
+    {
+      "name": "hair_bedhead",
+      "directions": 4
+    },
+    {
+      "name": "hair_bog",
+      "directions": 4
+    },
+    {
+      "name": "hair_bowlcut2",
+      "directions": 4
+    },
+    {
+      "name": "hair_business",
+      "directions": 4
+    },
+    {
+      "name": "hair_business2",
+      "directions": 4
+    },
+    {
+      "name": "hair_father",
+      "directions": 4
+    },
+    {
+      "name": "hair_forelock",
+      "directions": 4
+    },
+    {
+      "name": "hair_gelled",
+      "directions": 4
+    },
+    {
+      "name": "hair_pirate",
+      "directions": 4
+    },
+    {
+      "name": "hair_ponytail",
+      "directions": 4
+    },
+    {
+      "name": "hair_rogue",
+      "directions": 4
+    },
+    {
+      "name": "hair_romantic",
+      "directions": 4
+    },
+    {
+      "name": "hair_runt",
+      "directions": 4
+    },
+    {
+      "name": "hair_shavedmohawk",
+      "directions": 4
+    },
+    {
+      "name": "hair_skinhead",
+      "directions": 4
+    },
+    {
+      "name": "hair_son",
+      "directions": 4
+    },
+    {
+      "name": "hair_thinning",
+      "directions": 4
+    },
+    {
+      "name": "hair_thinningrear",
+      "directions": 4
+    },
+    {
+      "name": "hair_tied",
+      "directions": 4
+    },
+    {
+      "name": "hair_undercut",
+      "directions": 4
+    },
+    {
+      "name": "me",
+      "directions": 4
+    },
+    {
+      "name": "mm",
+      "directions": 4
+    }
+  ]
+}

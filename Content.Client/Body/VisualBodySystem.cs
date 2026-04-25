@@ -12,7 +12,8 @@ using Robust.Shared.Utility;
 
 namespace Content.Client.Body;
 
-public sealed class VisualBodySystem : SharedVisualBodySystem
+// Mythos: split into a partial so behind-body sprite logic can live in a sibling file.
+public sealed partial class VisualBodySystem : SharedVisualBodySystem
 {
     [Dependency] private readonly IConfigurationManager _cfg = default!;
     [Dependency] private readonly IPrototypeManager _prototype = default!;
@@ -75,6 +76,10 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
             return;
 
         _sprite.LayerSetData(target, index, ent.Comp.Data);
+
+        // Mythos: apply secondary sprite layers for OV-derived organs (e.g.,
+        // side-view background-leg layer mapped to LLegBehind).
+        ApplyMythosSecondaryLayers(ent, target);
     }
 
     private void RemoveVisual(Entity<VisualOrganComponent> ent, EntityUid target)
@@ -83,6 +88,9 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
             return;
 
         _sprite.LayerSetRsiState(target, index, RSI.StateId.Invalid);
+
+        // Mythos: clear secondary sprite layers as well.
+        RemoveMythosSecondaryLayers(ent, target);
     }
 
     private void OnMarkingsGotInserted(Entity<VisualOrganMarkingsComponent> ent, ref OrganGotInsertedEvent args)
@@ -180,11 +188,6 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
             if (!_marking.TryGetMarking(marking, out var proto))
                 continue;
 
-            if (!_sprite.LayerMapTryGet(target, proto.BodyPart, out var index, true))
-                continue;
-
-            ent.Comp.MarkingsDisplacement.TryGetValue(proto.BodyPart, out var displacement);
-
             for (var i = 0; i < proto.Sprites.Count; i++)
             {
                 var sprite = proto.Sprites[i];
@@ -193,22 +196,34 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
                 if (sprite is not SpriteSpecifier.Rsi rsi)
                     continue;
 
+                // Mythos: per-sprite bodyPart override (defaults to proto.BodyPart).
+                // Lets one marking land its sprites on different humanoid layers,
+                // e.g., a tail's _behind state on TailBehind and _front on Tail.
+                var layer = proto.GetSpriteBodyPart(i);
+                if (!_sprite.LayerMapTryGet(target, layer, out var index, true))
+                    continue;
+
+                ent.Comp.MarkingsDisplacement.TryGetValue(layer, out var displacement);
+
                 var layerId = $"{proto.ID}-{rsi.RsiState}";
 
                 if (!_sprite.LayerMapTryGet(target, layerId, out _, false))
                 {
-                    var spriteLayer = _sprite.AddLayer(target, sprite, index + i + 1);
+                    var spriteLayer = _sprite.AddLayer(target, sprite, index + 1);
                     _sprite.LayerMapSet(target, layerId, spriteLayer);
                     _sprite.LayerSetSprite(target, layerId, rsi);
                 }
 
-                if (marking.MarkingColors is not null && i < marking.MarkingColors.Count)
-                    _sprite.LayerSetColor(target, layerId, marking.MarkingColors[i]);
+                // Mythos: route to the prototype's color-slot index so paired
+                // BEHIND/FRONT sprites of the same OV color slot share a color.
+                var colorIndex = proto.GetSpriteColorIndex(i);
+                if (marking.MarkingColors is not null && colorIndex < marking.MarkingColors.Count)
+                    _sprite.LayerSetColor(target, layerId, marking.MarkingColors[colorIndex]);
                 else
                     _sprite.LayerSetColor(target, layerId, Color.White);
 
                 if (displacement != null && proto.CanBeDisplaced)
-                    _displacement.TryAddDisplacement(displacement, (target, target.Comp), index + i + 1, layerId, out _);
+                    _displacement.TryAddDisplacement(displacement, (target, target.Comp), index + 1, layerId, out _);
             }
 
             applied.Add(marking);

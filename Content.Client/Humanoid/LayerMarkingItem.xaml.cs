@@ -106,7 +106,10 @@ public sealed partial class LayerMarkingItem : BoxContainer, ISearchableControl
         if (_markingsModel.GetMarking(_organ, _layer, _markingPrototype.ID) is { } marking &&
             _colorSliders is { } sliders)
         {
-            for (var i = 0; i < _markingPrototype.Sprites.Count; i++)
+            // Mythos: slider count tracks color slots, not sprites
+            // (paired BEHIND/FRONT sprites share a slot).
+            var slotCount = _markingPrototype.ColorSlotCount();
+            for (var i = 0; i < slotCount && i < marking.MarkingColors.Count; i++)
             {
                 sliders[i].Color = marking.MarkingColors[i];
             }
@@ -149,7 +152,13 @@ public sealed partial class LayerMarkingItem : BoxContainer, ISearchableControl
 
         _colorSliders = new();
 
-        for (var i = 0; i < _markingPrototype.Sprites.Count; i++)
+        // Mythos: build one slider per *color slot*, not per sprite. With
+        // SpriteColorIndices set (e.g., paired BEHIND/FRONT sprites of the
+        // same OV color slot), multiple sprites share a single slider.
+        // Without it, ColorSlotCount() == Sprites.Count, so behaviour is
+        // identical to upstream's per-sprite slider list.
+        var slotCount = _markingPrototype.ColorSlotCount();
+        for (var i = 0; i < slotCount; i++)
         {
             var container = new BoxContainer()
             {
@@ -162,17 +171,30 @@ public sealed partial class LayerMarkingItem : BoxContainer, ISearchableControl
             var selector = new ColorSelectorSliders();
             selector.SelectorType = ColorSelectorSliders.ColorSelectorType.Hsv;
 
-            var label = _markingPrototype.Sprites[i] switch
+            // Pick the first sprite whose color index is this slot for the
+            // label source. With no SpriteColorIndices this is just sprite[i].
+            var spriteIndex = i;
+            if (_markingPrototype.SpriteColorIndices is { } indices)
             {
-                SpriteSpecifier.Rsi rsi => Loc.GetString($"marking-{_markingPrototype.ID}-{rsi.RsiState}"),
-                SpriteSpecifier.Texture texture => Loc.GetString($"marking-{_markingPrototype.ID}-{texture.TexturePath.Filename}"),
-                _ => throw new InvalidOperationException("SpriteSpecifier not of known type"),
-            };
+                for (var s = 0; s < indices.Count; s++)
+                {
+                    if (indices[s] == i) { spriteIndex = s; break; }
+                }
+            }
+            var label = spriteIndex < _markingPrototype.Sprites.Count
+                ? _markingPrototype.Sprites[spriteIndex] switch
+                {
+                    SpriteSpecifier.Rsi rsi => Loc.GetString($"marking-{_markingPrototype.ID}-{rsi.RsiState}"),
+                    SpriteSpecifier.Texture texture => Loc.GetString($"marking-{_markingPrototype.ID}-{texture.TexturePath.Filename}"),
+                    _ => throw new InvalidOperationException("SpriteSpecifier not of known type"),
+                }
+                : Loc.GetString($"marking-{_markingPrototype.ID}-color-{i}");
 
             container.AddChild(new Label { Text = label });
             container.AddChild(selector);
 
-            selector.Color = marking.MarkingColors[i];
+            if (i < marking.MarkingColors.Count)
+                selector.Color = marking.MarkingColors[i];
 
             _colorSliders.Add(selector);
 

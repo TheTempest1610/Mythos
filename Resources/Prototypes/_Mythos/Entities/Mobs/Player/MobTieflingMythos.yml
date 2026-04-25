@@ -1,0 +1,10 @@
+# Mythos: concrete Tiefling mob entity (Track D).
+# Inherits MobHumenMythosBase.
+
+- type: entity
+  parent: MobHumenMythosBase
+  id: MobTieflingMythos
+  name: Urist McTiefling
+  components:
+  - type: HumanoidProfile
+    species: Tiefling

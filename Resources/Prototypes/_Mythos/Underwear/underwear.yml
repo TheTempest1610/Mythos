@@ -1,0 +1,161 @@
+# Mythos: Ochre-Valley underwear options ported into SS14's marking system.
+#
+# The Mythos fork reuses SS14's existing UndergarmentTop / UndergarmentBottom
+# HumanoidVisualLayers and the markings group filtering machinery: each entry
+# below is a MarkingPrototype that auto-registers and shows up in chargen's
+# markings picker for any species whose markings group is in groupWhitelist.
+#
+# OV's runtime state-name swapping (elf/dwarf/female variants of briefs and
+# leotards) is split here into separate marking entries with sexRestriction.
+# groupWhitelist covers vanilla Human plus the V1 Mythos species (markings
+# groups defined alongside the species in _markings_groups.yml).
+# Species-specific sprite swaps (eoran_dwarf, eoran_elf) remain Phase 3 work.
+#
+# Sources:
+#   icons/mob/sprite_accessory/underwear.dmi
+#   code/modules/mob/dead/new_player/sprite_accessory/underwear.dm
+
+# --- Bottoms ----------------------------------------------------------------
+
+- type: marking
+  id: OVUndergarmentBottomBriefs
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
+  sexRestriction: Male
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Mythos/Underwear/underwear.rsi
+    state: male_reg
+
+- type: marking
+  id: OVUndergarmentBottomBriefsFemale
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
+  sexRestriction: Female
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Mythos/Underwear/underwear.rsi
+    state: maleelf_reg
+
+- type: marking
+  id: OVUndergarmentBottomBriefsEoran
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
+  sexRestriction: Male
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Mythos/Underwear/underwear.rsi
+    state: eoran_reg
+
+- type: marking
+  id: OVUndergarmentBottomPanties
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
+  sexRestriction: Female
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Mythos/Underwear/underwear.rsi
+    state: panties
+
+- type: marking
+  id: OVUndergarmentBottomBraies
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
+  sexRestriction: Male
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Mythos/Underwear/underwear.rsi
+    state: braies
+
+- type: marking
+  id: OVUndergarmentBottomBraiesFemale
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
+  sexRestriction: Female
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Mythos/Underwear/underwear.rsi
+    state: braies_f
+
+- type: marking
+  id: OVUndergarmentBottomBikini
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
+  sexRestriction: Female
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Mythos/Underwear/underwear.rsi
+    state: bikini_f_0
+
+- type: marking
+  id: OVUndergarmentBottomLeotard
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
+  sexRestriction: Female
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Mythos/Underwear/underwear.rsi
+    state: female_leotard_0
+
+- type: marking
+  id: OVUndergarmentBottomLeotardMale
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
+  sexRestriction: Male
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Mythos/Underwear/underwear.rsi
+    state: male_leotard
+
+- type: marking
+  id: OVUndergarmentBottomAthleticLeotard
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
+  sexRestriction: Female
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Mythos/Underwear/underwear.rsi
+    state: female_athletic_leotard
+
+- type: marking
+  id: OVUndergarmentBottomAthleticLeotardMale
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
+  sexRestriction: Male
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Mythos/Underwear/underwear.rsi
+    state: male_athletic_leotard

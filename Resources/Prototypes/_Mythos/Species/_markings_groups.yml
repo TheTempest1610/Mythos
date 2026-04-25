@@ -1,0 +1,40 @@
+# Mythos: markingsGroup prototypes for V1 species (Track D + V1.1 migration).
+#
+# Each group inherits from upstream Human, picking up its per-layer limits.
+# V1.1 migration overrides Tail (Human bans it with limit 0) and adds HeadSide
+# (Human omits it entirely, which the picker treats as unlimited) so Mythos
+# features that target those layers actually surface in chargen.
+#
+# All V1 species share the same overrides for now. Per-species differentiation
+# (e.g., Demihuman-only multi-tail allowance) is V1.2 work.
+
+- type: markingsGroup
+  parent: Human
+  id: Humen
+  limits:
+    enum.HumanoidVisualLayers.Tail:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.HeadSide:
+      limit: 3
+      required: false
+
+- type: markingsGroup
+  parent: Humen
+  id: Aasimar
+
+- type: markingsGroup
+  parent: Humen
+  id: HalfElf
+
+- type: markingsGroup
+  parent: Humen
+  id: Tiefling
+
+- type: markingsGroup
+  parent: Humen
+  id: Dullahan
+
+- type: markingsGroup
+  parent: Humen
+  id: Demihuman
