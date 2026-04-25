@@ -1,0 +1,10 @@
+# Mythos: concrete HalfElf mob entity (Track D).
+# Inherits MobHumenMythosBase.
+
+- type: entity
+  parent: MobHumenMythosBase
+  id: MobHalfElfMythos
+  name: Urist McHalfElf
+  components:
+  - type: HumanoidProfile
+    species: HalfElf

@@ -1,0 +1,727 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "antenna_fuzzball1_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "antenna_fuzzball1_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "antenna_fuzzball1_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "antenna_fuzzball1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "antenna_fuzzball2_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "antenna_fuzzball2_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "antenna_fuzzball2_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "antenna_fuzzball2_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "antenna_simple1_adj",
+      "directions": 4
+    },
+    {
+      "name": "antenna_simple1_front",
+      "directions": 4
+    },
+    {
+      "name": "antenna_simple2_adj",
+      "directions": 4
+    },
+    {
+      "name": "antenna_simple2_front",
+      "directions": 4
+    },
+    {
+      "name": "antenna_simple3_adj",
+      "directions": 4
+    },
+    {
+      "name": "antenna_simple3_front",
+      "directions": 4
+    },
+    {
+      "name": "antenna_simple4_adj",
+      "directions": 4
+    },
+    {
+      "name": "antenna_simple4_front",
+      "directions": 4
+    },
+    {
+      "name": "axolotl_adj",
+      "directions": 4
+    },
+    {
+      "name": "axolotl_front",
+      "directions": 4
+    },
+    {
+      "name": "bat_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "bat_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "bear_adj",
+      "directions": 4
+    },
+    {
+      "name": "bear_front",
+      "directions": 4
+    },
+    {
+      "name": "bigwolf_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "bigwolf_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "bigwolf_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "bigwolf_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "bigwolf_inner_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "bigwolf_inner_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "bigwolf_inner_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "bigwolf_inner_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "bunny_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "bunny_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "bunny_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "bunny_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "bunny_perky_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "bunny_perky_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "bunny_perky_adj_tips",
+      "directions": 4
+    },
+    {
+      "name": "bunny_perky_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "bunny_perky_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "bunny_perky_front_tips",
+      "directions": 4
+    },
+    {
+      "name": "bunnylong_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "bunnylong_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "bunnylong_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "bunnylong_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "cat_behind",
+      "directions": 4
+    },
+    {
+      "name": "cat_front",
+      "directions": 4
+    },
+    {
+      "name": "catbig_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "catbig_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "catbig_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "catbig_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "catnormal_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "catnormal_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "catnormal_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "catnormal_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "cobraears_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "cobraears_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "cobrahood_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "cobrahood_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "cow_adj",
+      "directions": 4
+    },
+    {
+      "name": "cow_front",
+      "directions": 4
+    },
+    {
+      "name": "deer2_adj",
+      "directions": 4
+    },
+    {
+      "name": "deer2_front",
+      "directions": 4
+    },
+    {
+      "name": "deer_adj",
+      "directions": 4
+    },
+    {
+      "name": "deer_front",
+      "directions": 4
+    },
+    {
+      "name": "eevee_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "eevee_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "eevee_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "eevee_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "elephant_adj",
+      "directions": 4
+    },
+    {
+      "name": "elephant_front",
+      "directions": 4
+    },
+    {
+      "name": "elf_adj",
+      "directions": 4
+    },
+    {
+      "name": "elf_front",
+      "directions": 4
+    },
+    {
+      "name": "fennec_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "fennec_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "fennec_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fennec_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fish_adj",
+      "directions": 4
+    },
+    {
+      "name": "fish_front",
+      "directions": 4
+    },
+    {
+      "name": "fox_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "fox_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "fox_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fox_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "goblin_adj",
+      "directions": 4
+    },
+    {
+      "name": "hawk_adj",
+      "directions": 4
+    },
+    {
+      "name": "hawk_front",
+      "directions": 4
+    },
+    {
+      "name": "horn_adj",
+      "directions": 4
+    },
+    {
+      "name": "horn_front",
+      "directions": 4
+    },
+    {
+      "name": "jellyfish_adj",
+      "directions": 4
+    },
+    {
+      "name": "jellyfish_front",
+      "directions": 4
+    },
+    {
+      "name": "kangaroo_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "kangaroo_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "kangaroo_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "kangaroo_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "lab_adj",
+      "directions": 4
+    },
+    {
+      "name": "lab_front",
+      "directions": 4
+    },
+    {
+      "name": "lunasune_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "lunasune_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "lunasune_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "lunasune_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "lynx_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "lynx_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "lynx_adj_tips",
+      "directions": 4
+    },
+    {
+      "name": "lynx_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "lynx_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "lynx_front_tips",
+      "directions": 4
+    },
+    {
+      "name": "miqote_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "miqote_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "miqote_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "miqote_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "mouse_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "mouse_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "mouse_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "mouse_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "murid_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "murid_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "murid_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "murid_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "naja_hood_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "naja_hood_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "nosferatu_adj",
+      "directions": 4
+    },
+    {
+      "name": "nosferatu_front",
+      "directions": 4
+    },
+    {
+      "name": "otie_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "otie_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "otie_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "otie_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "pede_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "pede_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "pede_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "pede_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "perky_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "perky_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "perky_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "perky_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "possum_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "possum_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "possum_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "possum_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "rabbitlop_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "rabbitlop_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "rabbitlop_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "rabbitlop_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "raccoon_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "raccoon_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "raccoon_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "raccoon_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "sabresune_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "sabresune_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "sabresune_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "sabresune_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "sergal_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "sergal_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "sergal_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "sergal_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "shark_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "shark_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "shark_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "shark_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "skunk_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "skunk_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "skunk_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "skunk_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "squirrel_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "squirrel_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "squirrel_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "squirrel_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "vulp_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "vulp_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "vulp_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "vulp_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "wolf_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "wolf_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "wolf_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "wolf_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "zorgoia_ADG_inner",
+      "directions": 4
+    },
+    {
+      "name": "zorgoia_ADG_outer",
+      "directions": 4
+    },
+    {
+      "name": "zorgoia_ADG_tips",
+      "directions": 4
+    },
+    {
+      "name": "zorgoia_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "zorgoia_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "zorgoia_front_tips",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+# Mythos: Track I (audio) provides species-default footstep audio for OV
+# character port mob entities. These abstract entity prototypes attach
+# `FootstepModifierComponent` so that any mob inheriting from them emits
+# OV foley footstep audio when walking.
+#
+# Track D's mob prototypes (`Resources/Prototypes/_Mythos/Entities/Mobs/`)
+# should `parent:` one of these alongside the upstream MobHumanBase. The
+# existing SS14 footstep system reads `FootstepModifierComponent.foot
+# stepSoundCollection` directly off the mob (or its shoes) before falling
+# back to the tile sound.
+#
+# Reference (OV behaviour): the four mob classes match
+# `Updated/Ochre-Valley/code/__DEFINES/footsteps.dm`:
+#   FOOTSTEP_MOB_HUMAN     -> hard barefoot (default human)
+#   FOOTSTEP_MOB_BAREFOOT  -> soft barefoot (kobold, gnoll)
+#   FOOTSTEP_MOB_HEAVY     -> bigwalk (golem, dullahan in armor)
+#   FOOTSTEP_MOB_CLAW      -> currently silent in OV (left out for V1)
+#
+# Note: when shoes are equipped, SS14's mover system consults the shoes'
+# `FootstepModifierComponent` instead of the mob's. Mythos shoe entities
+# (Track G) should declare their own `FootstepModifier` referencing one
+# of the surface collections in `_Mythos/SoundCollections/ov_footsteps.yml`.
+
+- type: entity
+  abstract: true
+  id: MobOVFootstepsHuman
+  components:
+  # Hard-barefoot default; intended to be overridden by shoes when worn.
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: OVFootstepHardBarefoot
+      params:
+        variation: 0.125
+
+- type: entity
+  abstract: true
+  id: MobOVFootstepsSoftBarefoot
+  components:
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: OVFootstepSoftBarefoot
+      params:
+        variation: 0.125
+
+- type: entity
+  abstract: true
+  id: MobOVFootstepsHeavy
+  components:
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: OVFootstepHeavy
+      params:
+        variation: 0.1
+
+- type: entity
+  abstract: true
+  id: MobOVFootstepsHoof
+  components:
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: OVFootstepHoofWalk
+      params:
+        variation: 0.1

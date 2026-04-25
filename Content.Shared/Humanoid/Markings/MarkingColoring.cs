@@ -39,10 +39,13 @@ public static class MarkingColoring
         // Coloring from default properties
         var defaultColor = prototype.Coloring.Default.GetColor(skinColor, eyeColor, otherMarkings);
 
+        // Mythos: iterate color slots, not sprites — paired BEHIND/FRONT
+        // sprites of the same OV color slot share a single coloring entry.
+        var slotCount = prototype.ColorSlotCount();
+
         if (prototype.Coloring.Layers == null)
         {
-            // If layers is not specified, then every layer must be default
-            for (var i = 0; i < prototype.Sprites.Count; i++)
+            for (var i = 0; i < slotCount; i++)
             {
                 colors.Add(defaultColor);
             }
@@ -50,27 +53,32 @@ public static class MarkingColoring
         }
         else
         {
-            // If some layers are specified.
-            for (var i = 0; i < prototype.Sprites.Count; i++)
+            for (var slot = 0; slot < slotCount; slot++)
             {
-                // Getting layer name
-                string? name = prototype.Sprites[i] switch
+                // Find the first sprite assigned to this color slot for the
+                // layer-coloring lookup. Without SpriteColorIndices this is
+                // just sprite[slot] (per-sprite parity with upstream).
+                var spriteIndex = slot;
+                if (prototype.SpriteColorIndices is { } indices)
                 {
-                    SpriteSpecifier.Rsi rsi => rsi.RsiState,
-                    SpriteSpecifier.Texture texture => texture.TexturePath.Filename,
-                    _ => null
-                };
-                if (name == null)
-                {
-                    colors.Add(defaultColor);
-                    continue;
+                    for (var s = 0; s < indices.Count; s++)
+                    {
+                        if (indices[s] == slot) { spriteIndex = s; break; }
+                    }
                 }
 
-                // All specified layers must be colored separately, all unspecified must depend on default coloring
-                if (prototype.Coloring.Layers.TryGetValue(name, out var layerColoring))
+                string? name = spriteIndex < prototype.Sprites.Count
+                    ? prototype.Sprites[spriteIndex] switch
+                    {
+                        SpriteSpecifier.Rsi rsi => rsi.RsiState,
+                        SpriteSpecifier.Texture texture => texture.TexturePath.Filename,
+                        _ => null
+                    }
+                    : null;
+
+                if (name != null && prototype.Coloring.Layers.TryGetValue(name, out var layerColoring))
                 {
-                    var marking_color = layerColoring.GetColor(skinColor, eyeColor, otherMarkings);
-                    colors.Add(marking_color);
+                    colors.Add(layerColoring.GetColor(skinColor, eyeColor, otherMarkings));
                 }
                 else
                 {

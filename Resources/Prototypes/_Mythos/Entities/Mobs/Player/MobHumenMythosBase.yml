@@ -1,0 +1,345 @@
+# Mythos: OV-bodied humanoid base entity for V1 species (Track D).
+#
+# Architecture:
+#   * AppearanceHumenMythos: parent appearance entity, mirrors upstream
+#     AppearanceHuman but routes the InitialBody through Mythos-side organ
+#     entities so the body sprite resolves to _Mythos/Mobs/Species/Humen/parts.rsi
+#     (produced by Track E). HumanoidProfile.species is left unset on the base
+#     so concrete per-species mobs override it.
+#   * OrganHumen* abstract entities: sibling hierarchy of upstream OrganHuman*,
+#     differing only in the Sprite + VisualOrgan RSI path (Track E target).
+#   * MobHumenMythosBase: abstract mob entity that inherits AppearanceHumenMythos
+#     and BaseSpeciesMobOrganic (matching the pattern used by MobHuman). It also
+#     carries MythosClothingComponent as a marker so V1 mobs are tagged as
+#     opted-in to Mythos sex+species clothing resolution (Track B).
+#
+# This file does NOT modify upstream YAML; it inherits from upstream parents and
+# defines new sibling prototype IDs prefixed with Humen / HumenMythos.
+
+# --- Mythos organ hierarchy (sibling of OrganHuman*) ----------------------------
+
+- type: entity
+  parent: OrganBase
+  id: OrganHumen
+  abstract: true
+  suffix: Humen
+
+- type: entity
+  id: OrganHumenMetabolizer
+  abstract: true
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [ Human ]
+
+- type: entity
+  parent: OrganHumen
+  id: OrganHumenInternal
+  abstract: true
+  components:
+  # Internal organ icons reuse the upstream organs.rsi (Track E only ports
+  # external body parts; internals are not visually distinct for V1).
+  - type: Sprite
+    sprite: Mobs/Species/Human/organs.rsi
+
+- type: entity
+  parent: OrganHumen
+  id: OrganHumenExternal
+  abstract: true
+  components:
+  # Track E target path. The PNGs may not exist yet at the time this YAML
+  # loads; the SS14 sprite system tolerates a missing RSI at prototype load
+  # (it errors only when an entity actually tries to render).
+  - type: Sprite
+    sprite: _Mythos/Mobs/Species/Humen/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _Mythos/Mobs/Species/Humen/parts.rsi
+  - type: VisualOrganMarkings
+    # V1.1 migration: route Mythos features through the Humen markings group
+    # (sibling to upstream Human, declared in _Mythos/Species/_markings_groups.yml).
+    # Mythos-imported markings whitelist [Humen]; vanilla SS14 markings whitelist
+    # [Human]. Humen wearers see only Mythos features in the picker.
+    markingData:
+      group: Humen
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganHumenExternal ]
+  id: OrganHumenTorso
+  # V1.1 migration: marking layers narrowed to torso-region Mythos features.
+  # OrganComponent.Category stays Torso (anatomy stability); the picker tab
+  # is named via locale key markings-organ-Torso unless we override it. The
+  # MarkingManager already filters by markings group (Humen, declared on
+  # OrganHumenExternal above), so Humen wearers see only Mythos features
+  # in this tab; vanilla Human wearers see only vanilla markings.
+  components:
+  - type: VisualOrganMarkings
+    markingData:
+      group: Humen
+      layers:
+      - Chest
+      - Tail
+      - Overlay
+      - TailOverlay
+      - UndergarmentTop
+      - UndergarmentBottom
+      - Special
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganHumenExternal ]
+  id: OrganHumenHead
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.Snout
+    markingData:
+      group: Humen
+      layers:
+      - Hair
+      - FacialHair
+      - HeadTop
+      - HeadSide
+      - Snout
+      - SnoutCover
+
+# Sex-matched limb states. Track A's importer extracted both mt.dmi and ft.dmi
+# limbs into l_arm_m/l_arm_f etc. The state files differ in silhouette
+# (female limbs are slimmer), so SexStateOverrides routes the renderer to the
+# right one per character sex. Without this, a female character would render
+# the male-source limbs and end up visibly bulkier than OV's reference.
+
+- type: entity
+  parent: [ OrganBaseArmLeft, OrganHumenExternal ]
+  id: OrganHumenArmLeft
+  components:
+  - type: Sprite
+    state: l_arm_m
+  - type: VisualOrgan
+    data:
+      state: l_arm_m
+    sexStateOverrides:
+      Male: l_arm_m
+      Female: l_arm_f
+
+- type: entity
+  parent: [ OrganBaseArmRight, OrganHumenExternal ]
+  id: OrganHumenArmRight
+  components:
+  - type: Sprite
+    state: r_arm_m
+  - type: VisualOrgan
+    data:
+      state: r_arm_m
+    sexStateOverrides:
+      Male: r_arm_m
+      Female: r_arm_f
+
+- type: entity
+  parent: [ OrganBaseHandLeft, OrganHumenExternal ]
+  id: OrganHumenHandLeft
+  components:
+  - type: Sprite
+    state: l_hand_m
+  - type: VisualOrgan
+    data:
+      state: l_hand_m
+    sexStateOverrides:
+      Male: l_hand_m
+      Female: l_hand_f
+
+- type: entity
+  parent: [ OrganBaseHandRight, OrganHumenExternal ]
+  id: OrganHumenHandRight
+  components:
+  - type: Sprite
+    state: r_hand_m
+  - type: VisualOrgan
+    data:
+      state: r_hand_m
+    sexStateOverrides:
+      Male: r_hand_m
+      Female: r_hand_f
+
+- type: entity
+  parent: [ OrganBaseLegLeft, OrganHumenExternal ]
+  id: OrganHumenLegLeft
+  components:
+  - type: Sprite
+    state: l_leg_m
+  - type: VisualOrgan
+    data:
+      state: l_leg_m
+    sexStateOverrides:
+      Male: l_leg_m
+      Female: l_leg_f
+    # V1.1 layering: the OV side-view "background leg" sprite (l_leg_back_*)
+    # renders at LLegBehind, a slot positioned at OV BODY_BEHIND_LAYER z in
+    # MythosBaseSpeciesLayers. Per-leg slot (LLegBehind / RLegBehind) keeps
+    # left and right back-leg sprites independent so they don't overwrite
+    # each other in the LayerMap. North/south cells are blank.
+    secondaryLayers:
+    - layer: enum.HumanoidVisualLayers.LLegBehind
+      data:
+        sprite: _Mythos/Mobs/Species/Humen/parts.rsi
+        state: l_leg_back_m
+      sexStateOverrides:
+        Male: l_leg_back_m
+        Female: l_leg_back_f
+
+- type: entity
+  parent: [ OrganBaseLegRight, OrganHumenExternal ]
+  id: OrganHumenLegRight
+  components:
+  - type: Sprite
+    state: r_leg_m
+  - type: VisualOrgan
+    data:
+      state: r_leg_m
+    sexStateOverrides:
+      Male: r_leg_m
+      Female: r_leg_f
+    secondaryLayers:
+    - layer: enum.HumanoidVisualLayers.RLegBehind
+      data:
+        sprite: _Mythos/Mobs/Species/Humen/parts.rsi
+        state: r_leg_back_m
+      sexStateOverrides:
+        Male: r_leg_back_m
+        Female: r_leg_back_f
+
+- type: entity
+  parent: [ OrganBaseFootLeft, OrganHumenExternal ]
+  id: OrganHumenFootLeft
+  components:
+  - type: Sprite
+    state: l_foot_m
+  - type: VisualOrgan
+    data:
+      state: l_foot_m
+    sexStateOverrides:
+      Male: l_foot_m
+      Female: l_foot_f
+
+- type: entity
+  parent: [ OrganBaseFootRight, OrganHumenExternal ]
+  id: OrganHumenFootRight
+  components:
+  - type: Sprite
+    state: r_foot_m
+  - type: VisualOrgan
+    data:
+      state: r_foot_m
+    sexStateOverrides:
+      Male: r_foot_m
+      Female: r_foot_f
+
+- type: entity
+  parent: [ OrganBaseBrain, OrganHumenInternal ]
+  id: OrganHumenBrain
+
+- type: entity
+  parent: [ OrganBaseEyes, OrganHumenInternal, OrganHumenExternal ]
+  id: OrganHumenEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: Mobs/Customization/eyes.rsi
+
+- type: entity
+  parent: [ OrganBaseTongue, OrganHumenInternal ]
+  id: OrganHumenTongue
+
+- type: entity
+  parent: [ OrganBaseAppendix, OrganHumenInternal ]
+  id: OrganHumenAppendix
+
+- type: entity
+  parent: [ OrganBaseEars, OrganHumenInternal ]
+  id: OrganHumenEars
+
+- type: entity
+  parent: [ OrganBaseLungs, OrganHumenInternal, OrganHumenMetabolizer ]
+  id: OrganHumenLungs
+
+- type: entity
+  parent: [ OrganBaseHeart, OrganHumenInternal, OrganHumenMetabolizer ]
+  id: OrganHumenHeart
+
+- type: entity
+  parent: [ OrganBaseStomach, OrganHumenInternal, OrganHumenMetabolizer ]
+  id: OrganHumenStomach
+
+- type: entity
+  parent: [ OrganBaseLiver, OrganHumenInternal, OrganHumenMetabolizer ]
+  id: OrganHumenLiver
+
+- type: entity
+  parent: [ OrganBaseKidneys, OrganHumenInternal, OrganHumenMetabolizer ]
+  id: OrganHumenKidneys
+
+# --- Mythos appearance + mob base -----------------------------------------------
+
+- type: entity
+  parent: MythosBaseSpeciesAppearance
+  id: AppearanceHumenMythos
+  categories: [ HideSpawnMenu ]
+  name: humen appearance
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+  - type: InitialBody
+    organs:
+      Torso: OrganHumenTorso
+      Head: OrganHumenHead
+      ArmLeft: OrganHumenArmLeft
+      ArmRight: OrganHumenArmRight
+      HandRight: OrganHumenHandRight
+      HandLeft: OrganHumenHandLeft
+      LegLeft: OrganHumenLegLeft
+      LegRight: OrganHumenLegRight
+      FootLeft: OrganHumenFootLeft
+      FootRight: OrganHumenFootRight
+      Brain: OrganHumenBrain
+      Eyes: OrganHumenEyes
+      Tongue: OrganHumenTongue
+      Appendix: OrganHumenAppendix
+      Ears: OrganHumenEars
+      Lungs: OrganHumenLungs
+      Heart: OrganHumenHeart
+      Stomach: OrganHumenStomach
+      Liver: OrganHumenLiver
+      Kidneys: OrganHumenKidneys
+  # Default species on the appearance is Humen; concrete per-species mob
+  # prototypes override the HumanoidProfile component below to set their own
+  # species ID. Chargen reads the SpeciesPrototype-level SkinColoration, not
+  # the doll's HumanoidProfile.species, so a shared default here is safe.
+  - type: HumanoidProfile
+    species: Humen
+
+- type: entity
+  parent:
+  - AppearanceHumenMythos
+  - BaseSpeciesMobOrganic
+  - MobOVFootstepsHuman
+  id: MobHumenMythosBase
+  abstract: true
+  name: Urist McMythos
+  components:
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+  # Track B marker: opts the mob into Mythos sex-and-species-aware clothing
+  # state resolution. The resolver runs against the equipped clothing item's
+  # MythosClothingComponent; this marker on the mob signals that the wearer's
+  # species suffix should be considered. See plan acceptance criterion: "Each
+  # picked species spawns a mob with the right body sprite and
+  # MythosClothingComponent attached."
+  - type: MythosClothing
+  # Track I integration: OV-flavored hard-barefoot footstep audio. Overridden
+  # by shoe entities that declare their own FootstepModifier when worn.

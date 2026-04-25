@@ -1,0 +1,188 @@
+# OV footstep sound collections.
+#
+# Mythos: Track I (audio) of the V1 OV character port. These wrap OV's
+# `sound/foley/footsteps/` library so Mythos species and shoes can
+# reference them via `FootstepModifierComponent.footstepSoundCollection`
+# (and species YAML, see Resources/Prototypes/_Mythos/Species/).
+#
+# Mapping derived from `Updated/Ochre-Valley/code/__DEFINES/footsteps.dm`.
+# Surface-tagged collections (FT*_A1..A4) cover wood, dirt, grass, metal,
+# carpet, stone, tile, water, mud, shallow, fungus, and snow. The barefoot,
+# heavy, hoof, and armor variants live alongside.
+
+# --- Surface collections ---------------------------------------------------
+
+- type: soundCollection
+  id: OVFootstepWood
+  files:
+  - /Audio/_Mythos/_OV/footsteps/FTWOO_A1.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTWOO_A2.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTWOO_A3.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTWOO_A4.ogg
+
+- type: soundCollection
+  id: OVFootstepTile
+  files:
+  - /Audio/_Mythos/_OV/footsteps/FTTIL_A1.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTTIL_A2.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTTIL_A3.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTTIL_A4.ogg
+
+- type: soundCollection
+  id: OVFootstepMetal
+  files:
+  - /Audio/_Mythos/_OV/footsteps/FTMET_A1.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTMET_A2.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTMET_A3.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTMET_A4.ogg
+
+- type: soundCollection
+  id: OVFootstepCarpet
+  files:
+  - /Audio/_Mythos/_OV/footsteps/FTCAR_A1.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTCAR_A2.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTCAR_A3.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTCAR_A4.ogg
+
+- type: soundCollection
+  id: OVFootstepDirt
+  files:
+  - /Audio/_Mythos/_OV/footsteps/FTDIR_A1.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTDIR_A2.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTDIR_A3.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTDIR_A4.ogg
+
+- type: soundCollection
+  id: OVFootstepGrass
+  files:
+  - /Audio/_Mythos/_OV/footsteps/FTGRA_A1.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTGRA_A2.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTGRA_A3.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTGRA_A4.ogg
+
+- type: soundCollection
+  id: OVFootstepStone
+  files:
+  - /Audio/_Mythos/_OV/footsteps/FTROC_A1.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTROC_A2.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTROC_A3.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTROC_A4.ogg
+
+- type: soundCollection
+  id: OVFootstepWater
+  files:
+  - /Audio/_Mythos/_OV/footsteps/FTWAT_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTWAT_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTWAT_3.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTWAT_4.ogg
+
+- type: soundCollection
+  id: OVFootstepShallow
+  files:
+  - /Audio/_Mythos/_OV/footsteps/FTSHAL_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTSHAL_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTSHAL_3.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTSHAL_4.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTSHAL_5.ogg
+
+- type: soundCollection
+  id: OVFootstepMud
+  files:
+  - /Audio/_Mythos/_OV/footsteps/FTMUD_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTMUD_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTMUD_3.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTMUD_4.ogg
+  - /Audio/_Mythos/_OV/footsteps/FTMUD_5.ogg
+
+- type: soundCollection
+  id: OVFootstepFungus
+  files:
+  - /Audio/_Mythos/_OV/footsteps/FT_FUNG1.ogg
+  - /Audio/_Mythos/_OV/footsteps/FT_FUNG2.ogg
+  - /Audio/_Mythos/_OV/footsteps/FT_FUNG3.ogg
+  - /Audio/_Mythos/_OV/footsteps/FT_FUNG4.ogg
+
+- type: soundCollection
+  id: OVFootstepSnow
+  files:
+  - /Audio/_Mythos/_OV/footsteps/ftsnow1.ogg
+  - /Audio/_Mythos/_OV/footsteps/ftsnow2.ogg
+  - /Audio/_Mythos/_OV/footsteps/ftsnow3.ogg
+  - /Audio/_Mythos/_OV/footsteps/ftsnow4.ogg
+
+# --- Mob-class collections (used directly by FootstepModifierComponent) ----
+
+- type: soundCollection
+  id: OVFootstepHardBarefoot
+  files:
+  - /Audio/_Mythos/_OV/footsteps/hardbarefoot_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/hardbarefoot_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/hardbarefoot_3.ogg
+
+- type: soundCollection
+  id: OVFootstepSoftBarefoot
+  files:
+  - /Audio/_Mythos/_OV/footsteps/softbarefoot_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/softbarefoot_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/softbarefoot_3.ogg
+
+- type: soundCollection
+  id: OVFootstepHeavy
+  files:
+  - /Audio/_Mythos/_OV/footsteps/bigwalk_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/bigwalk_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/bigwalk_3.ogg
+  - /Audio/_Mythos/_OV/footsteps/bigwalk_4.ogg
+
+- type: soundCollection
+  id: OVFootstepHoofWalk
+  files:
+  - /Audio/_Mythos/_OV/footsteps/hoof/horsewalk_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/hoof/horsewalk_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/hoof/horsewalk_3.ogg
+
+- type: soundCollection
+  id: OVFootstepHoofRun
+  files:
+  - /Audio/_Mythos/_OV/footsteps/hoof/horserun_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/hoof/horserun_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/hoof/horserun_3.ogg
+
+# --- Armor-overlay step collections (used by armor-clothing FootstepModifier).
+# When a Mythos mob is wearing one of these armors, the armor itself emits
+# the step sound (per OV's per-armor footstep stacking).
+
+- type: soundCollection
+  id: OVFootstepArmorChain
+  files:
+  - /Audio/_Mythos/_OV/footsteps/armor/chain_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/armor/chain_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/armor/chain_3.ogg
+
+- type: soundCollection
+  id: OVFootstepArmorPlate
+  files:
+  - /Audio/_Mythos/_OV/footsteps/armor/plate_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/armor/plate_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/armor/plate_3.ogg
+
+- type: soundCollection
+  id: OVFootstepArmorFullPlate
+  files:
+  - /Audio/_Mythos/_OV/footsteps/armor/fullplate_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/armor/fullplate_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/armor/fullplate_3.ogg
+
+- type: soundCollection
+  id: OVFootstepArmorCoatPlates
+  files:
+  - /Audio/_Mythos/_OV/footsteps/armor/coatplates_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/armor/coatplates_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/armor/coatplates_3.ogg
+
+- type: soundCollection
+  id: OVFootstepArmorWood
+  files:
+  - /Audio/_Mythos/_OV/footsteps/armor/woodarmor_1.ogg
+  - /Audio/_Mythos/_OV/footsteps/armor/woodarmor_2.ogg
+  - /Audio/_Mythos/_OV/footsteps/armor/woodarmor_3.ogg

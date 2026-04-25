@@ -1,0 +1,10 @@
+# Mythos: concrete Dullahan mob entity (Track D).
+# Inherits MobHumenMythosBase.
+
+- type: entity
+  parent: MobHumenMythosBase
+  id: MobDullahanMythos
+  name: Urist McDullahan
+  components:
+  - type: HumanoidProfile
+    species: Dullahan

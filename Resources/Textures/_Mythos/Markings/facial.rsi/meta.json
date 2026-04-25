@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "facial_5oclockmoustache",
+      "directions": 4
+    },
+    {
+      "name": "facial_brokenman",
+      "directions": 4
+    },
+    {
+      "name": "facial_burns",
+      "directions": 4
+    },
+    {
+      "name": "facial_chin",
+      "directions": 4
+    },
+    {
+      "name": "facial_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "facial_fullbeard",
+      "directions": 4
+    },
+    {
+      "name": "facial_knightly",
+      "directions": 4
+    },
+    {
+      "name": "facial_longbeard",
+      "directions": 4
+    },
+    {
+      "name": "facial_manly",
+      "directions": 4
+    },
+    {
+      "name": "facial_moonshiner",
+      "directions": 4
+    },
+    {
+      "name": "facial_muttonmus",
+      "directions": 4
+    },
+    {
+      "name": "facial_pipe",
+      "directions": 4
+    },
+    {
+      "name": "facial_shaven"
+    },
+    {
+      "name": "facial_stubble",
+      "directions": 4
+    },
+    {
+      "name": "facial_vandyke",
+      "directions": 4
+    },
+    {
+      "name": "facial_viking",
+      "directions": 4
+    },
+    {
+      "name": "facial_wise",
+      "directions": 4
+    },
+    {
+      "name": "mm",
+      "directions": 4
+    }
+  ]
+}

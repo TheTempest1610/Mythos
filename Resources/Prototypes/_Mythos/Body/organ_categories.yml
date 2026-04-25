@@ -1,0 +1,17 @@
+# Mythos organ categories for OV-imported features.
+#
+# Upstream's MarkingPicker renders one tab per OrganCategoryPrototype that
+# has at least one marking referencing it. By giving Mythos features their
+# own categories, we get dedicated tabs in the existing picker labelled
+# Mythos* without modifying the upstream UI. This keeps OV content visibly
+# separated from vanilla SS14 markings during development and lets us
+# eventually deprecate the SS14 categories without a UI rebuild.
+
+- type: organCategory
+  id: MythosHead
+
+- type: organCategory
+  id: MythosTorso
+
+- type: organCategory
+  id: MythosAccessories

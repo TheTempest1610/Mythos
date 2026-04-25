@@ -314,3 +314,6 @@ Resources/MapImages
 /config/server_config.toml
 
 .claude/
+
+Tools/
+docs/conversion/

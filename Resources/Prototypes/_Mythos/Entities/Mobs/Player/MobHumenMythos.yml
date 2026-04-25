@@ -1,0 +1,10 @@
+# Mythos: concrete Humen mob entity (Track D).
+# Inherits MobHumenMythosBase and tags the HumanoidProfile species ID.
+
+- type: entity
+  parent: MobHumenMythosBase
+  id: MobHumenMythos
+  name: Urist McHumen
+  components:
+  - type: HumanoidProfile
+    species: Humen

@@ -1,0 +1,16 @@
+# Audio assets ported from the Ochre-Valley project
+# (https://github.com/Ochre-Valley/Ochre-Valley) under its asset license
+# (CC-BY-SA-3.0 per the OV repository README).
+#
+# This attribution covers everything under
+# Resources/Audio/_Mythos/_OV/ recursively (foley/equip/, foley/dropsound/,
+# footsteps/ and its subdirectories armor/ and hoof/). File names were
+# normalized on import: ASCII spaces and parenthesised numeric suffixes
+# in the OV originals were rewritten to underscores (e.g. "FTMUD (1).ogg"
+# became "FTMUD_1.ogg") so that SS14 sound paths remain free of escaping
+# concerns. Audio content is otherwise unmodified, no re-encoding was
+# performed.
+- files: ["**"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from the Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley"
+  source: "https://github.com/Ochre-Valley/Ochre-Valley"

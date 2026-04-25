@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bikini_f_0",
+      "directions": 4
+    },
+    {
+      "name": "bikini_f_1",
+      "directions": 4
+    },
+    {
+      "name": "bikini_f_2",
+      "directions": 4
+    },
+    {
+      "name": "bikini_f_3",
+      "directions": 4
+    },
+    {
+      "name": "bikini_f_4",
+      "directions": 4
+    },
+    {
+      "name": "bikini_f_5",
+      "directions": 4
+    },
+    {
+      "name": "braies",
+      "directions": 4
+    },
+    {
+      "name": "braies_f",
+      "directions": 4
+    },
+    {
+      "name": "eoran_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "eoran_elf",
+      "directions": 4
+    },
+    {
+      "name": "eoran_reg",
+      "directions": 4
+    },
+    {
+      "name": "female_athletic_leotard",
+      "directions": 4
+    },
+    {
+      "name": "female_leotard_0",
+      "directions": 4
+    },
+    {
+      "name": "female_leotard_1",
+      "directions": 4
+    },
+    {
+      "name": "female_leotard_2",
+      "directions": 4
+    },
+    {
+      "name": "female_leotard_3",
+      "directions": 4
+    },
+    {
+      "name": "female_leotard_4",
+      "directions": 4
+    },
+    {
+      "name": "female_leotard_5",
+      "directions": 4
+    },
+    {
+      "name": "l_braies",
+      "directions": 4
+    },
+    {
+      "name": "l_braies_f",
+      "directions": 4
+    },
+    {
+      "name": "male_athletic_leotard",
+      "directions": 4
+    },
+    {
+      "name": "male_leotard",
+      "directions": 4
+    },
+    {
+      "name": "male_reg",
+      "directions": 4
+    },
+    {
+      "name": "maledwarf_reg",
+      "directions": 4
+    },
+    {
+      "name": "maleelf_reg",
+      "directions": 4
+    },
+    {
+      "name": "panties",
+      "directions": 4
+    },
+    {
+      "name": "r_braies",
+      "directions": 4
+    },
+    {
+      "name": "r_braies_f",
+      "directions": 4
+    }
+  ]
+}

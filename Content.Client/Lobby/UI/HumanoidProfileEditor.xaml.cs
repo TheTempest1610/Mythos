@@ -313,6 +313,7 @@ namespace Content.Client.Lobby.UI
             SpeciesInfoButton.OnPressed += OnSpeciesInfoButtonPressed;
 
             UpdateSpeciesGuidebookIcon();
+
             IsDirty = false;
         }
 

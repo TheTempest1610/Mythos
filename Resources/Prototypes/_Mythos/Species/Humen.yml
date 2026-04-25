@@ -1,0 +1,11 @@
+# Mythos: Humen species (Track D).
+# OV-bodied human-equivalent. Vanilla SS14 "Human" species is preserved unchanged
+# in Resources/Prototypes/Species/human.yml; this is a sibling species.
+# Full RGB skin coloration (Hues), no presets, no restrictions per PO V1 decision.
+- type: species
+  id: Humen
+  name: species-name-humen
+  roundStart: true
+  prototype: MobHumenMythos
+  dollPrototype: AppearanceHumenMythos
+  skinColoration: Hues

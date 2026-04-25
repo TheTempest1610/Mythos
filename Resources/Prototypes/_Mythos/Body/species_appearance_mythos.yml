@@ -1,0 +1,136 @@
+# Mythos: OV-aligned sprite layer ordering for Mythos species.
+#
+# Mirrors OV's mutantrace z-stack (code/__DEFINES/misc.dm) so multi-feature
+# characters render with the same z-relationships as OV. Each comment block
+# tags the OV layer constant and its negated draw-order value (lower
+# negated value = drawn earlier = visually behind).
+#
+# Mapping reference (OV constant -> Mythos slot):
+#   BODY_BEHIND_LAYER       -> BodyBehind     (-47)
+#   BODY_UNDER_LAYER        -> BodyUnder      (-46) reserved
+#   BODYPARTS_LAYER         -> Chest/Head/RArm/LArm/RLeg/LLeg/RHand/LHand/RFoot/LFoot (-45)
+#   BODY_ADJ_LAYER          -> BodyAdj/Snout/HeadSide                         (-44)
+#   BODY_LAYER              -> UndergarmentBottom/UndergarmentTop/Eyes        (-43)
+#   HAIR_LAYER              -> SnoutCover/FacialHair/Hair                     (-15)
+#   MASK_LAYER..HEAD_LAYER  -> mask/head/back/pocket                          (-14..-9)
+#   BODY_FRONT_LAYER        -> BodyFront/HeadTop/Tail/TailOverlay             (-6)
+#   BODY_FRONTEST_LAYER     -> BodyFrontest                                   (-4)
+#
+# Vanilla SS14 species continue to use upstream BaseSpeciesLayers; this
+# entity is a Mythos sibling and does not edit upstream YAML.
+
+- type: entity
+  abstract: true
+  id: MythosBaseSpeciesLayers
+  components:
+  - type: Sprite
+    layers:
+    # OV BODY_BEHIND_LAYER (-47): mutantrace BEHIND data (tails, ears, horns,
+    # wings, antenna BEHIND states, side-view background-leg sprites).
+    # OV stacks all behind-zone sprites at one z. SS14 LayerMap is keyed by
+    # enum so we mint sibling slots at the same logical z to give each
+    # contributor a slot of its own (markings, left back-leg, right back-leg).
+    - map: [ "enum.HumanoidVisualLayers.BodyBehind" ]
+    - map: [ "enum.HumanoidVisualLayers.LLegBehind" ]
+    - map: [ "enum.HumanoidVisualLayers.RLegBehind" ]
+
+    # OV BODY_UNDER_LAYER (-46): reserved between BEHIND and BODYPARTS.
+    - map: [ "enum.HumanoidVisualLayers.BodyUnder" ]
+
+    # OV BODYPARTS_LAYER (-45): the body-part sprites themselves. OV draws
+    # all bodyparts at the same z; insertion order between them is fine.
+    - map: [ "enum.HumanoidVisualLayers.Chest" ]
+    - map: [ "enum.HumanoidVisualLayers.Head" ]
+    - map: [ "enum.HumanoidVisualLayers.RArm" ]
+    - map: [ "enum.HumanoidVisualLayers.LArm" ]
+    - map: [ "enum.HumanoidVisualLayers.RLeg" ]
+    - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+    - map: [ "enum.HumanoidVisualLayers.RHand" ]
+    - map: [ "enum.HumanoidVisualLayers.LHand" ]
+    - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+    - map: [ "enum.HumanoidVisualLayers.LFoot" ]
+
+    # OV BODY_ADJ_LAYER (-44): mutantrace ADJ data (snouts ADJ, frills,
+    # ear ADJ, head/neck features). Snout sits here for ADJ-only snouts;
+    # frills and other ADJ features without a feature-specific slot
+    # route to BodyAdj.
+    - map: [ "enum.HumanoidVisualLayers.BodyAdj" ]
+    - map: [ "enum.HumanoidVisualLayers.Snout" ]
+
+    # OV BODY_LAYER (-43): underwear, eyes, lips.
+    - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
+    - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
+    - map: [ "enum.HumanoidVisualLayers.Eyes" ]
+
+    # OV FRONT_MUTATIONS_LAYER (-42) ... DAMAGE_LAYER (-41) ... LEG_PART_LAYER
+    # (-40): general post-body overlay.
+    - map: [ "enum.HumanoidVisualLayers.Overlay" ]
+
+    # OV clothing zone (-39..-22): jumpsuit, pants, shoes, gloves, etc.
+    - map: [ "jumpsuit" ]
+    - map: [ "gloves" ]
+    - map: [ "shoes" ]
+    - map: [ "ears" ]
+    - map: [ "eyes" ]
+    - map: [ "belt" ]
+    - map: [ "id" ]
+    - map: [ "outerClothing" ]
+    - map: [ "back" ]
+    - map: [ "neck" ]
+    - map: [ "suitstorage" ]
+
+    # OV HAIR_LAYER (-15): hair, facial hair.
+    - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
+    - map: [ "enum.HumanoidVisualLayers.Hair" ]
+
+    # OV MASK_LAYER (-14) / HEAD_LAYER (-11) / BACK_LAYER (-10) / HANDS_LAYER (-9).
+    - map: [ "mask" ]
+    - map: [ "head" ]
+    - map: [ "pocket1" ]
+    - map: [ "pocket2" ]
+
+    # OV BODY_FRONT_LAYER (-6): mutantrace FRONT data. Tail, HeadTop,
+    # HeadSide (earrings / piercings), and SnoutCover (FRONT-tagged snouts)
+    # all render here in OV. BodyFront is the catch-all for FRONT-zone
+    # features without a specific upstream slot (wings, future generics).
+    - map: [ "enum.HumanoidVisualLayers.BodyFront" ]
+    - map: [ "enum.HumanoidVisualLayers.SnoutCover" ]
+    - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
+    - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
+    - map: [ "enum.HumanoidVisualLayers.Tail" ]
+    - map: [ "enum.HumanoidVisualLayers.TailOverlay" ]
+
+    # OV BODY_FRONTEST_LAYER (-4): genitals FFRONT, reserved for V2 ports.
+    - map: [ "enum.HumanoidVisualLayers.BodyFrontest" ]
+
+    # Top-level overlays (handcuffs etc.).
+    - map: ["enum.HumanoidVisualLayers.Handcuffs"]
+      color: "#ffffff"
+      sprite: Objects/Misc/handcuffs.rsi
+      state: body-overlay-2
+      visible: false
+
+# Mythos appearance base, mirrors BaseSpeciesAppearance with the OV-aligned
+# layer ordering. AppearanceHumenMythos parents off this instead of the
+# upstream BaseSpeciesAppearance so the layer stack is per-species.
+- type: entity
+  id: MythosBaseSpeciesAppearance
+  parent:
+  - InventoryBase
+  - MythosBaseSpeciesLayers
+  abstract: true
+  save: false
+  components:
+  - type: Body
+  - type: VisualBody
+  - type: Hands
+  - type: ComplexInteraction
+  - type: ContainerContainer
+  - type: Appearance
+  - type: HideableHumanoidLayers
+  - type: UserInterface
+    interfaces:
+      enum.HumanoidMarkingModifierKey.Key:
+        type: HumanoidMarkingModifierBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
