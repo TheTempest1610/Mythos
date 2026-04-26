@@ -2,6 +2,7 @@ using Robust.Client.Graphics;
 using Robust.Client.Player;
 using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
+using Content.Client.Mythos.UserInterface.OldHud;
 
 namespace Content.Client.Mythos.UserInterface.ManaHud;
 
@@ -20,7 +21,8 @@ public sealed class ManaHudOverlaySystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        _overlay.AddOverlay(new ManaHudOverlay(EntityManager, _player, _ui, _resourceCache));
+        var oldHud = _ui.GetUIController<OldHudVisibilityUIController>();
+        _overlay.AddOverlay(new ManaHudOverlay(EntityManager, _player, _ui, _resourceCache, oldHud));
     }
 
     public override void Shutdown()

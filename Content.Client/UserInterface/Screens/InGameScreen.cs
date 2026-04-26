@@ -15,4 +15,13 @@ public abstract class InGameScreen : UIScreen
     public abstract ChatBox ChatBox { get; }
 
     public abstract void SetChatSize(Vector2 size);
+
+    public virtual void SetOldHudVisible(bool visible)
+    {
+    }
+
+    public virtual (float Left, float Right) GetMythosViewportOcclusionPixels()
+    {
+        return (0f, 0f);
+    }
 }

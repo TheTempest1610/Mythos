@@ -21,7 +21,11 @@ public sealed partial class SeparatedChatGameScreen : InGameScreen
 
         SetAnchorPreset(ScreenContainer, LayoutPreset.Wide);
         SetAnchorPreset(ViewportContainer, LayoutPreset.Wide);
+        SetAnchorPreset(OldViewportHudRoot, LayoutPreset.Wide);
         SetAnchorPreset(MainViewport, LayoutPreset.Wide);
+        SetAnchorPreset(MythosHudRoot, LayoutPreset.Wide);
+        SetAnchorPreset(EquipmentPanel, LayoutPreset.Wide);
+        SetAnchorPreset(ChatPanel, LayoutPreset.Wide);
         SetAnchorAndMarginPreset(Inventory, LayoutPreset.BottomLeft, margin: 5);
         SetAnchorAndMarginPreset(TopLeftContainer, LayoutPreset.TopLeft, margin: 10);
         SetAnchorAndMarginPreset(Ghost, LayoutPreset.BottomWide, margin: 80);
@@ -45,5 +49,25 @@ public sealed partial class SeparatedChatGameScreen : InGameScreen
     public override void SetChatSize(Vector2 size)
     {
         ScreenContainer.ResizeMode = SplitContainer.SplitResizeMode.RespectChildrenMinSize;
+    }
+
+    public override void SetOldHudVisible(bool visible)
+    {
+        OldViewportHudRoot.Visible = visible;
+        SeparatedChatPanel.Visible = visible;
+    }
+
+    public override (float Left, float Right) GetMythosViewportOcclusionPixels()
+    {
+        var left = EquipmentPanel.Visible
+            ? EquipmentPanel.CoveredWidth * EquipmentPanel.UIScale
+            : 0f;
+
+        var chatLeft = ChatPanel.GlobalPixelPosition.X + ChatPanel.PanelBounds.Left * ChatPanel.UIScale;
+        var right = ChatPanel.Visible
+            ? MathF.Max(0f, PixelWidth - chatLeft)
+            : 0f;
+
+        return (left, right);
     }
 }

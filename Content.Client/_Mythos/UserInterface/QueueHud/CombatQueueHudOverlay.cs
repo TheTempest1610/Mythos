@@ -1,5 +1,6 @@
 using System.Numerics;
 using Content.Client.Stylesheets;
+using Content.Client.Mythos.UserInterface.OldHud;
 using Content.Shared.Mythos.Combat.Queue;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
@@ -42,6 +43,7 @@ public sealed class CombatQueueHudOverlay : Overlay
     private readonly IPlayerManager _player;
     private readonly IUserInterfaceManager _ui;
     private readonly Font _font;
+    private readonly OldHudVisibilityUIController _oldHud;
 
     public override OverlaySpace Space => OverlaySpace.ScreenSpace;
 
@@ -49,18 +51,23 @@ public sealed class CombatQueueHudOverlay : Overlay
         IEntityManager entMan,
         IPlayerManager player,
         IUserInterfaceManager ui,
-        IResourceCache resourceCache)
+        IResourceCache resourceCache,
+        OldHudVisibilityUIController oldHud)
     {
         _entMan = entMan;
         _player = player;
         _ui = ui;
         _font = resourceCache.NotoStack(variation: "Bold", size: 12);
+        _oldHud = oldHud;
         // Match the mana bar's ZIndex so it stays above chat and other HUD.
         ZIndex = 500;
     }
 
     protected override void Draw(in OverlayDrawArgs args)
     {
+        if (_oldHud.IsOldHudHidden)
+            return;
+
         if (_player.LocalEntity is not { } local)
             return;
 

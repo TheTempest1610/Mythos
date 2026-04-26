@@ -34,6 +34,7 @@ namespace Content.Client.Viewport
         private ScalingViewportRenderScaleMode _renderScaleMode = ScalingViewportRenderScaleMode.Fixed;
         private ScalingViewportIgnoreDimension _ignoreDimension = ScalingViewportIgnoreDimension.None;
         private int _fixedRenderScale = 1;
+        private bool _coverControlBounds;
 
         private readonly List<CopyPixelsDelegate<Rgba32>> _queuedScreenshots = new();
 
@@ -73,6 +74,17 @@ namespace Content.Client.Viewport
         // Do not need to InvalidateViewport() since it doesn't affect viewport creation.
 
         [ViewVariables(VVAccess.ReadWrite)] public Vector2i? FixedStretchSize { get; set; }
+
+        [ViewVariables(VVAccess.ReadWrite)]
+        public bool CoverControlBounds
+        {
+            get => _coverControlBounds;
+            set
+            {
+                _coverControlBounds = value;
+                InvalidateViewport();
+            }
+        }
 
         [ViewVariables(VVAccess.ReadWrite)]
         public ScalingViewportStretchMode StretchMode
@@ -190,19 +202,15 @@ namespace Content.Client.Viewport
             if (FixedStretchSize == null)
             {
                 var (ratioX, ratioY) = ourSize / vpSize;
-                var ratio = 1f;
-                switch (_ignoreDimension)
-                {
-                    case ScalingViewportIgnoreDimension.None:
-                        ratio = Math.Min(ratioX, ratioY);
-                        break;
-                    case ScalingViewportIgnoreDimension.Vertical:
-                        ratio = ratioX;
-                        break;
-                    case ScalingViewportIgnoreDimension.Horizontal:
-                        ratio = ratioY;
-                        break;
-                }
+                var ratio = CoverControlBounds
+                    ? Math.Max(ratioX, ratioY)
+                    : _ignoreDimension switch
+                    {
+                        ScalingViewportIgnoreDimension.None => Math.Min(ratioX, ratioY),
+                        ScalingViewportIgnoreDimension.Vertical => ratioX,
+                        ScalingViewportIgnoreDimension.Horizontal => ratioY,
+                        _ => 1f
+                    };
 
                 var size = vpSize * ratio;
                 // Size
@@ -225,7 +233,9 @@ namespace Content.Client.Viewport
             var vpSizeBase = ViewportSize;
             var ourSize = PixelSize;
             var (ratioX, ratioY) = ourSize / (Vector2) vpSizeBase;
-            var ratio = Math.Min(ratioX, ratioY);
+            var ratio = CoverControlBounds
+                ? Math.Max(ratioX, ratioY)
+                : Math.Min(ratioX, ratioY);
             var renderScale = 1;
             switch (_renderScaleMode)
             {

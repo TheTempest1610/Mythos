@@ -1,5 +1,6 @@
 using System.Numerics;
 using Content.Client.Stylesheets;
+using Content.Client.Mythos.UserInterface.OldHud;
 using Content.Shared.Mythos.Magic.Mana;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
@@ -40,6 +41,7 @@ public sealed class ManaHudOverlay : Overlay
     private readonly IPlayerManager _player;
     private readonly IUserInterfaceManager _ui;
     private readonly Font _font;
+    private readonly OldHudVisibilityUIController _oldHud;
 
     public override OverlaySpace Space => OverlaySpace.ScreenSpace;
 
@@ -47,12 +49,14 @@ public sealed class ManaHudOverlay : Overlay
         IEntityManager entMan,
         IPlayerManager player,
         IUserInterfaceManager ui,
-        IResourceCache resourceCache)
+        IResourceCache resourceCache,
+        OldHudVisibilityUIController oldHud)
     {
         _entMan = entMan;
         _player = player;
         _ui = ui;
         _font = resourceCache.NotoStack();
+        _oldHud = oldHud;
         // Draw above the chat and other HUD panels so the mana readout
         // stays legible regardless of what's been opened on top of it.
         ZIndex = 500;
@@ -60,6 +64,9 @@ public sealed class ManaHudOverlay : Overlay
 
     protected override void Draw(in OverlayDrawArgs args)
     {
+        if (_oldHud.IsOldHudHidden)
+            return;
+
         if (_player.LocalEntity is not { } local)
             return;
 
