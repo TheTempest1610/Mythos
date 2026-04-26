@@ -25,6 +25,7 @@ namespace Content.Client.UserInterface.Controls
             Viewport = new ScalingViewport
             {
                 AlwaysRender = true,
+                CoverControlBounds = true,
                 RenderScaleMode = ScalingViewportRenderScaleMode.CeilInt,
                 MouseFilter = MouseFilterMode.Stop
             };
@@ -58,6 +59,30 @@ namespace Content.Client.UserInterface.Controls
 
             if (stretch)
             {
+                if (Viewport.CoverControlBounds)
+                {
+                    Viewport.FixedStretchSize = null;
+                    Viewport.StretchMode = filterMode switch
+                    {
+                        "nearest" => ScalingViewportStretchMode.Nearest,
+                        "bilinear" => ScalingViewportStretchMode.Bilinear,
+                        _ => ScalingViewportStretchMode.Nearest
+                    };
+                    Viewport.IgnoreDimension = ScalingViewportIgnoreDimension.None;
+
+                    if (renderScaleUp)
+                    {
+                        Viewport.RenderScaleMode = ScalingViewportRenderScaleMode.CeilInt;
+                    }
+                    else
+                    {
+                        Viewport.RenderScaleMode = ScalingViewportRenderScaleMode.Fixed;
+                        Viewport.FixedRenderScale = 1;
+                    }
+
+                    return;
+                }
+
                 var snapFactor = CalcSnappingFactor();
                 if (snapFactor == null)
                 {
