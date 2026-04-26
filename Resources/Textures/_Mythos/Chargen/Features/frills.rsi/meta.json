@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "aqua_adj",
+      "directions": 4
+    },
+    {
+      "name": "big_adj",
+      "directions": 4
+    },
+    {
+      "name": "cobraears_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "cobraears_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "cobrahood_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "cobrahood_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "divinity_adj",
+      "directions": 4
+    },
+    {
+      "name": "earlike_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "earlike_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "earlike_angled_adj",
+      "directions": 4
+    },
+    {
+      "name": "earlike_long_adj",
+      "directions": 4
+    },
+    {
+      "name": "earlike_thick_adj",
+      "directions": 4
+    },
+    {
+      "name": "horns_adj",
+      "directions": 4
+    },
+    {
+      "name": "hornsdouble_adj",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_aqua_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_aqua_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_short_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_short_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_simple_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_simple_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "short_adj",
+      "directions": 4
+    },
+    {
+      "name": "simple_adj",
+      "directions": 4
+    },
+    {
+      "name": "split_adj",
+      "directions": 4
+    },
+    {
+      "name": "split_big_adj",
+      "directions": 4
+    },
+    {
+      "name": "split_slim_adj",
+      "directions": 4
+    }
+  ]
+}

@@ -95,6 +95,12 @@ public sealed partial class HumanoidProfileEditor
 
         _markingsModel.SetOrganEyeColor(Profile.Appearance.EyeColor);
         EyeColorPicker.SetData(Profile.Appearance.EyeColor);
+        // Mythos: keep the relocated Features-tab picker in sync, and
+        // make sure the Appearance-tab section's visibility matches the
+        // current species (covers initial load + post-import refreshes
+        // that don't go through SetSpecies).
+        RefreshMythosEyesVisibility();
+        UpdateMythosEyePicker();
     }
 
     private void UpdateSkinColor()
@@ -189,6 +195,9 @@ public sealed partial class HumanoidProfileEditor
         RefreshLoadouts();
         UpdateSexControls(); // update sex for new species
         UpdateSpeciesGuidebookIcon();
+        // Mythos: toggle the Appearance-tab Eyes section based on whether
+        // the new species relocates eye color into the Features tab.
+        RefreshMythosEyesVisibility();
         ReloadPreview();
     }
 

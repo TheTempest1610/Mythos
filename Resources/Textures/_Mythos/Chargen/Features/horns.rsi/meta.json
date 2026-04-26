@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "angler_front",
+      "directions": 4
+    },
+    {
+      "name": "antlers_front",
+      "directions": 4
+    },
+    {
+      "name": "bigcurly_front",
+      "directions": 4
+    },
+    {
+      "name": "billberry_front",
+      "directions": 4
+    },
+    {
+      "name": "broken_front",
+      "directions": 4
+    },
+    {
+      "name": "bunhorns_front",
+      "directions": 4
+    },
+    {
+      "name": "curled_front",
+      "directions": 4
+    },
+    {
+      "name": "doublehorns_front",
+      "directions": 4
+    },
+    {
+      "name": "dragon_front",
+      "directions": 4
+    },
+    {
+      "name": "drake_front",
+      "directions": 4
+    },
+    {
+      "name": "drake_wide_front",
+      "directions": 4
+    },
+    {
+      "name": "faceguard_front",
+      "directions": 4
+    },
+    {
+      "name": "great_front",
+      "directions": 4
+    },
+    {
+      "name": "guilmon_front",
+      "directions": 4
+    },
+    {
+      "name": "halo_front",
+      "directions": 4
+    },
+    {
+      "name": "knight_front",
+      "directions": 4
+    },
+    {
+      "name": "lbroken_front",
+      "directions": 4
+    },
+    {
+      "name": "lifted_front",
+      "directions": 4
+    },
+    {
+      "name": "liftedbroken_front",
+      "directions": 4
+    },
+    {
+      "name": "longhorns_front",
+      "directions": 4
+    },
+    {
+      "name": "marauder_front",
+      "directions": 4
+    },
+    {
+      "name": "oni_behind",
+      "directions": 4
+    },
+    {
+      "name": "oni_front",
+      "directions": 4
+    },
+    {
+      "name": "oni_large_adj",
+      "directions": 4
+    },
+    {
+      "name": "oni_large_behind",
+      "directions": 4
+    },
+    {
+      "name": "oni_large_front",
+      "directions": 4
+    },
+    {
+      "name": "outstretched_front",
+      "directions": 4
+    },
+    {
+      "name": "ram_front",
+      "directions": 4
+    },
+    {
+      "name": "ramalt_front",
+      "directions": 4
+    },
+    {
+      "name": "ramcurled_front",
+      "directions": 4
+    },
+    {
+      "name": "ramcurledalt_front",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ramcurledsmall_front",
+      "directions": 4
+    },
+    {
+      "name": "ramcurledsmallalt2_front",
+      "directions": 4
+    },
+    {
+      "name": "ramcurledsmallalt_front",
+      "directions": 4
+    },
+    {
+      "name": "rbroken_front",
+      "directions": 4
+    },
+    {
+      "name": "sheep_front",
+      "directions": 4
+    },
+    {
+      "name": "short_front",
+      "directions": 4
+    },
+    {
+      "name": "sideswept_front",
+      "directions": 4
+    },
+    {
+      "name": "simple_front",
+      "directions": 4
+    },
+    {
+      "name": "smallantlers_front",
+      "directions": 4
+    },
+    {
+      "name": "stabbers_front",
+      "directions": 4
+    },
+    {
+      "name": "tiebhorns_front",
+      "directions": 4
+    },
+    {
+      "name": "tiebhornsalt_front",
+      "directions": 4
+    },
+    {
+      "name": "uni_adj",
+      "directions": 4
+    },
+    {
+      "name": "uni_behind",
+      "directions": 4
+    },
+    {
+      "name": "uni_front",
+      "directions": 4
+    },
+    {
+      "name": "unihorn_front",
+      "directions": 4
+    }
+  ]
+}

@@ -280,6 +280,11 @@ namespace Content.Client.Lobby.UI
             #region Markings
 
             TabContainer.SetTabTitle(4, Loc.GetString("humanoid-profile-editor-markings-tab"));
+            // Mythos: Features tab (OV sprite_accessory pickers, flattened
+            // by category instead of nested under organ tabs).
+            TabContainer.SetTabTitle(5, Loc.GetString("humanoid-profile-editor-mythos-features-tab"));
+            MythosFeatures.SetModel(_markingsModel);
+            InitializeMythosChargen();
 
             _markingsModel.MarkingsChanged += (_, _) => OnMarkingChange();
             _markingsModel.MarkingsReset += OnMarkingChange;

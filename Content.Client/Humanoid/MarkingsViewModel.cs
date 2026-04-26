@@ -10,7 +10,8 @@ namespace Content.Client.Humanoid;
 /// <summary>
 /// View model for UIs manipulating a set of markings, responsible for applying markings logic and keeping state synchronized.
 /// </summary>
-public sealed class MarkingsViewModel
+// Mythos: split into a partial so per-category color memory lives in a sibling file.
+public sealed partial class MarkingsViewModel
 {
     [Dependency] private readonly MarkingManager _marking = default!;
     [Dependency] private readonly IPrototypeManager _prototype = default!;

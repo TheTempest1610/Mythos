@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bands_behind",
+      "directions": 4
+    },
+    {
+      "name": "bands_front",
+      "directions": 4
+    },
+    {
+      "name": "stripe_behind",
+      "directions": 4
+    },
+    {
+      "name": "stripe_front",
+      "directions": 4
+    },
+    {
+      "name": "tip_behind",
+      "directions": 4
+    },
+    {
+      "name": "tip_front",
+      "directions": 4
+    }
+  ]
+}

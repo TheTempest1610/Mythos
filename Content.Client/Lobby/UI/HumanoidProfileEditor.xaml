@@ -4,6 +4,7 @@
          xmlns:cc="clr-namespace:Content.Client.Administration.UI.CustomControls"
          xmlns:ui="clr-namespace:Content.Client.Lobby.UI"
          xmlns:profile="clr-namespace:Content.Client.Lobby.UI.ProfileEditorControls"
+         xmlns:mythosLobby="clr-namespace:Content.Client._Mythos.Lobby"
          HorizontalExpand="True">
         <!-- Left side -->
         <BoxContainer Orientation="Vertical" Margin="10 10 10 10" HorizontalExpand="True">
@@ -99,8 +100,13 @@
                                 <Slider HorizontalExpand="True" Name="Skin" MinValue="0" MaxValue="100" Value="20" />
                                 <BoxContainer Name="RgbSkinColorContainer" Visible="False" Orientation="Vertical" HorizontalExpand="True"></BoxContainer>
                             </BoxContainer>
-                            <!-- Eyes -->
-                            <BoxContainer Margin="10" Orientation="Vertical">
+                            <!-- Eyes. Mythos: hidden for OV-style species; the
+                                 eye color picker relocates into the Features tab
+                                 to match OV chargen ordering (Eyes is the first
+                                 sub-tab under Features). EyesAppearanceSection
+                                 wraps the whole block so visibility can be
+                                 toggled per-species. -->
+                            <BoxContainer Name="EyesAppearanceSection" Margin="10" Orientation="Vertical">
                                 <Label Text="{Loc 'humanoid-profile-editor-eyes-label'}" />
                                 <humanoid:EyeColorPicker Name="EyeColorPicker" />
                             </BoxContainer>
@@ -129,6 +135,13 @@
                 <BoxContainer Name="MarkingsTab" Orientation="Vertical" Margin="10">
                     <!-- Markings -->
                     <humanoid:MarkingPicker Name="Markings" HorizontalExpand="True" VerticalExpand="True" />
+                </BoxContainer>
+                <!-- Mythos: top-level "Features" tab. Hosts the OV sprite_accessory
+                     pickers (hair, ears, tail, ...) flattened to a single layer
+                     of category sub-tabs in OV's chargen order, instead of
+                     nesting them under organ-based parent tabs. -->
+                <BoxContainer Name="MythosFeaturesTab" Orientation="Vertical" Margin="10">
+                    <mythosLobby:MythosFeaturePicker Name="MythosFeatures" HorizontalExpand="True" VerticalExpand="True" />
                 </BoxContainer>
             </TabContainer>
         </BoxContainer>

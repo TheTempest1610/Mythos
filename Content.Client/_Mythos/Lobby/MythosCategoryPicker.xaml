@@ -1,0 +1,10 @@
+<BoxContainer xmlns="https://spacestation14.io"
+        Orientation="Vertical"
+        HorizontalExpand="True"
+        VerticalExpand="True">
+
+    <LineEdit Name="SearchBar" PlaceHolder="Search" />
+    <ScrollContainer VerticalExpand="True" HorizontalExpand="True">
+        <GridContainer Name="Items" Columns="3" />
+    </ScrollContainer>
+</BoxContainer>

@@ -1,0 +1,662 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "alienlizard_adj",
+      "directions": 4
+    },
+    {
+      "name": "alienlizardteeth_adj",
+      "directions": 4
+    },
+    {
+      "name": "bigbeak_adj",
+      "directions": 4
+    },
+    {
+      "name": "bigbeakshort_adj",
+      "directions": 4
+    },
+    {
+      "name": "bird_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "bird_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "bird_adj_tips",
+      "directions": 4
+    },
+    {
+      "name": "bovine_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "bovine_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "bovine_adj_tips",
+      "directions": 4
+    },
+    {
+      "name": "bug_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "bug_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "bugna_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "bugna_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "cat_adj",
+      "directions": 4
+    },
+    {
+      "name": "cat_front",
+      "directions": 4
+    },
+    {
+      "name": "corvid_adj",
+      "directions": 4
+    },
+    {
+      "name": "elephant_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "elephant_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "fbigbeak_front",
+      "directions": 4
+    },
+    {
+      "name": "fbird_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fbird_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fbird_front_tips",
+      "directions": 4
+    },
+    {
+      "name": "fbovine_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fbovine_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fbovine_front_tips",
+      "directions": 4
+    },
+    {
+      "name": "fbug_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fbug_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fbugna_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fbugna_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "felephant_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "felephant_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fhusky_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fhusky_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "flcanid_front",
+      "directions": 4
+    },
+    {
+      "name": "flcanidalt_front",
+      "directions": 4
+    },
+    {
+      "name": "flcanidstripe_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "flcanidstripe_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "flcanidstripealt_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "flcanidstripealt_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fotie_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fotie_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fotiesmile_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fotiesmile_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fpede_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fpede_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "frhino_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "frhino_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "frhino_front_tips",
+      "directions": 4
+    },
+    {
+      "name": "frodent_front",
+      "directions": 4
+    },
+    {
+      "name": "fround_front",
+      "directions": 4
+    },
+    {
+      "name": "froundlight_front",
+      "directions": 4
+    },
+    {
+      "name": "fscanid_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fscanid_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fscanidalt2_front",
+      "directions": 4
+    },
+    {
+      "name": "fscanidalt3_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fscanidalt3_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fscanidalt_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fscanidalt_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fsergal_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fsergal_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fshark_front",
+      "directions": 4
+    },
+    {
+      "name": "fsharp_front",
+      "directions": 4
+    },
+    {
+      "name": "fsharplight_front",
+      "directions": 4
+    },
+    {
+      "name": "fskulldog_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fskulldog_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "ftoucan_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "ftoucan_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fwah_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fwah_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fwah_front_tips",
+      "directions": 4
+    },
+    {
+      "name": "fwahalt_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fwahalt_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fwolf_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "fwolf_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fwolfalt_front",
+      "directions": 4
+    },
+    {
+      "name": "hanubus_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "hanubus_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "hhorse_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "hhorse_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "hjackal_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "hjackal_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "hookbeak_adj",
+      "directions": 4
+    },
+    {
+      "name": "hookbeakbig_adj",
+      "directions": 4
+    },
+    {
+      "name": "hpanda_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "hpanda_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "hspots_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "hspots_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "husky_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "husky_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "hzebra_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "hzebra_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "lcanid_adj",
+      "directions": 4
+    },
+    {
+      "name": "lcanidalt_adj",
+      "directions": 4
+    },
+    {
+      "name": "lcanidstripe_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "lcanidstripe_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "lcanidstripealt_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "lcanidstripealt_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "m_snout_round_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "m_snout_round_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "m_snout_roundlight_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "m_snout_roundlight_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "m_snout_sharp_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "m_snout_sharp_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "m_snout_sharplight_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "m_snout_sharplight_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "ntajaran_adj",
+      "directions": 4
+    },
+    {
+      "name": "otie_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "otie_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "otiesmile_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "otiesmile_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "pede_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "pede_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "rat_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "rat_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "rhino_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "rhino_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "rhino_adj_tips",
+      "directions": 4
+    },
+    {
+      "name": "rodent_adj",
+      "directions": 4
+    },
+    {
+      "name": "round_adj",
+      "directions": 4
+    },
+    {
+      "name": "roundlight_adj",
+      "directions": 4
+    },
+    {
+      "name": "scanid_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "scanid_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "scanidalt2_adj",
+      "directions": 4
+    },
+    {
+      "name": "scanidalt3_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "scanidalt3_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "scanidalt_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "scanidalt_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "sergal_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "sergal_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "shark_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "shark_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "sharkeyes_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "sharkeyes_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "sharkeyes_adj_tips",
+      "directions": 4
+    },
+    {
+      "name": "sharp_adj",
+      "directions": 4
+    },
+    {
+      "name": "sharplight_adj",
+      "directions": 4
+    },
+    {
+      "name": "shortnosed_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "shortnosed_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "skulldog_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "skulldog_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "slimbeak_adj",
+      "directions": 4
+    },
+    {
+      "name": "slimbeakalt_adj",
+      "directions": 4
+    },
+    {
+      "name": "slimbeakshort_adj",
+      "directions": 4
+    },
+    {
+      "name": "stubby_ADJ_1_outer",
+      "directions": 4
+    },
+    {
+      "name": "stubby_ADJ_2_outer",
+      "directions": 4
+    },
+    {
+      "name": "stubby_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "stubby_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "stubbyalt_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "stubbyalt_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "toucan_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "toucan_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "vulp_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "vulp_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "wah_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "wah_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "wah_adj_tips",
+      "directions": 4
+    },
+    {
+      "name": "wahalt_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "wahalt_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "wolf_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "wolf_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "wolfalt_adj",
+      "directions": 4
+    }
+  ]
+}
