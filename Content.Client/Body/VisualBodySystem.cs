@@ -182,15 +182,60 @@ public sealed partial class VisualBodySystem : SharedVisualBodySystem
         if (!Resolve(target, ref target.Comp))
             return;
 
+        // Mythos: pre-pass for OV-faithful cross-marking effects.
+        //   * covers_breasts mutual exclusion. OV's
+        //     /datum/sprite_accessory/breasts/is_visible (genitals.dm:142)
+        //     returns FALSE when the wearer's underwear has
+        //     covers_breasts; the breast organ overlay is then skipped
+        //     entirely. Mirrored here by suppressing any
+        //     category=Breasts marking when any other applied marking
+        //     has CoversBreasts. Without this, breasts at BodyFrontest
+        //     (z=-4) would render above bras at UndergarmentBottom
+        //     (z=-43) and visually swallow them.
+        //   * Wearer's breast size, used by MatchesBreastSize markings
+        //     (bikini, leotard) to synthesize the right per-size
+        //     sprite. Mirrors OV's bikini get_icon_state at
+        //     underwear.dm:36, which reads owner.breasts.breast_size
+        //     and rebuilds "bikini_f_<size>" each render. The size
+        //     comes from the breast prototype's MythosOrderIndex,
+        //     which the breast consolidator stamps with OV's 0-16
+        //     value.
+        var coversBreasts = false;
+        int? wearerBreastSize = null;
+        foreach (var marking in AllMarkings(ent))
+        {
+            if (!_marking.TryGetMarking(marking, out var coverProto))
+                continue;
+            if (coverProto.CoversBreasts)
+                coversBreasts = true;
+            if (coverProto.Category == "Breasts" && coverProto.MythosOrderIndex is { } size)
+                wearerBreastSize = size;
+        }
+
         var applied = new List<Marking>();
         foreach (var marking in AllMarkings(ent))
         {
             if (!_marking.TryGetMarking(marking, out var proto))
                 continue;
 
+            if (coversBreasts && proto.Category == "Breasts")
+                continue;
+
+            // Mythos: bikini / leotard size-match. When MatchesBreastSize
+            // is set, route the wearer's breast size into the size-state
+            // selector instead of the marking's own MythosSizeIndex
+            // (which is unused for these prototypes — they're picked
+            // without a size slider). Falls back to the marking's own
+            // sizeIndex (typically null) when the wearer has no breast
+            // marking, which makes GetActiveSprites return the default
+            // Sprites list, mirroring OV's `else return "bikini_f_0"`.
+            var sizeIndex = marking.MythosSizeIndex;
+            if (proto.MatchesBreastSize && wearerBreastSize is { } bs)
+                sizeIndex = bs;
+
             // Mythos: pick the active sprite list given the marking's
             // current variant / toggle / size state. Defaults to proto.Sprites.
-            var sprites = proto.GetActiveSprites(marking.MythosToggles, marking.MythosSizeIndex, marking.MythosVariant);
+            var sprites = proto.GetActiveSprites(marking.MythosToggles, sizeIndex, marking.MythosVariant);
 
             for (var i = 0; i < sprites.Count; i++)
             {
@@ -250,9 +295,20 @@ public sealed partial class VisualBodySystem : SharedVisualBodySystem
             // catch markings that were applied with a now-different
             // toggle / size state.
             var activeSprites = proto.GetActiveSprites(marking.MythosToggles, marking.MythosSizeIndex, marking.MythosVariant);
-            var spriteLists = ReferenceEquals(activeSprites, proto.Sprites)
-                ? new[] { proto.Sprites }
-                : new[] { activeSprites, proto.Sprites };
+            var spriteListsCollected = new List<List<SpriteSpecifier>> { activeSprites };
+            if (!ReferenceEquals(activeSprites, proto.Sprites))
+                spriteListsCollected.Add(proto.Sprites);
+            // Mythos: MatchesBreastSize markings (bikini, leotard) pick
+            // their actual rendered state from the wearer's breast size
+            // at Apply time, not from the marking's own MythosSizeIndex
+            // (which stays null). When the breast size changes, the
+            // previously-applied size variant's layer still lives in
+            // the sprite under its size-specific layerId, but
+            // GetActiveSprites can no longer find it. Sweep every size
+            // variant to clean up stale layers.
+            if (proto.MatchesBreastSize && proto.MythosSizeStates is { } sizes)
+                spriteListsCollected.AddRange(sizes);
+            var spriteLists = spriteListsCollected;
             foreach (var spriteList in spriteLists)
             foreach (var sprite in spriteList)
             {

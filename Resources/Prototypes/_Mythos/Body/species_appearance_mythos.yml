@@ -14,6 +14,7 @@
 #   HAIR_LAYER              -> SnoutCover/FacialHair/Hair                     (-15)
 #   MASK_LAYER..HEAD_LAYER  -> mask/head/back/pocket                          (-14..-9)
 #   BODY_FRONT_LAYER        -> BodyFront/HeadTop/Tail/TailOverlay             (-6)
+#   BODY_FRONTER_LAYER      -> BodyFronter                                    (-5)
 #   BODY_FRONTEST_LAYER     -> BodyFrontest                                   (-4)
 #
 # Vanilla SS14 species continue to use upstream BaseSpeciesLayers; this
@@ -100,7 +101,11 @@
     - map: [ "enum.HumanoidVisualLayers.Tail" ]
     - map: [ "enum.HumanoidVisualLayers.TailOverlay" ]
 
-    # OV BODY_FRONTEST_LAYER (-4): genitals FFRONT, reserved for V2 ports.
+    # OV BODY_FRONTER_LAYER (-5): Caustic-only intermediate slot between
+    # FRONT and FRONTEST. Belly's FRONT-zone sprite renders here.
+    - map: [ "enum.HumanoidVisualLayers.BodyFronter" ]
+
+    # OV BODY_FRONTEST_LAYER (-4): genitals FFRONT (breasts).
     - map: [ "enum.HumanoidVisualLayers.BodyFrontest" ]
 
     # Top-level overlays (handcuffs etc.).

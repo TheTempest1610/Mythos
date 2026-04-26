@@ -29,6 +29,9 @@
     enum.HumanoidVisualLayers.BodyFront:
       limit: 1
       required: false
+    enum.HumanoidVisualLayers.BodyFronter:
+      limit: 1
+      required: false
     enum.HumanoidVisualLayers.BodyFrontest:
       limit: 1
       required: false
