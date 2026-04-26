@@ -18,6 +18,23 @@
     enum.HumanoidVisualLayers.HeadSide:
       limit: 3
       required: false
+    # Mythos Phase 3: body-zone layers for Wings / Penis / Breasts /
+    # Vagina / Belly / Butt / Frills. Each is single-select since
+    # they're anatomy-shape choices (no character has two butts).
+    # BodyBehind catches per-feature behind-zone markings (wing
+    # behinds, ear behinds) where multiple can stack -- limit higher.
+    enum.HumanoidVisualLayers.BodyAdj:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.BodyFront:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.BodyFrontest:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.BodyBehind:
+      limit: 4
+      required: false
 
 - type: markingsGroup
   parent: Humen

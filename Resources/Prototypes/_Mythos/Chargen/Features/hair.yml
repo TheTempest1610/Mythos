@@ -11,7 +11,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: chair_manbun
@@ -21,7 +20,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: chair_ponytail6
@@ -31,7 +29,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: chair_ronin
@@ -41,7 +38,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: chair_topknot
@@ -96,7 +92,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: felfhair_fatherless
@@ -106,7 +101,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: felfhair_hime
@@ -116,7 +110,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: felfhair_longtails
@@ -126,7 +119,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: felfhair_updo
@@ -136,7 +128,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: felfhair_wisp
@@ -146,7 +137,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_amazon
@@ -156,7 +146,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_barmaid
@@ -166,7 +155,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_beehive
@@ -176,7 +164,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_bob
@@ -186,7 +173,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_bob2
@@ -196,7 +182,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_doublebun
@@ -206,7 +191,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_himecut2
@@ -216,7 +200,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_homely
@@ -226,7 +209,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_kepthair
@@ -236,7 +218,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_longstraightponytail
@@ -246,7 +227,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_messy
@@ -256,7 +236,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_pixie
@@ -266,7 +245,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_ponytail6
@@ -276,7 +254,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_shorthairg
@@ -286,7 +263,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_singlebraid
@@ -296,7 +272,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_tressshoulder
@@ -306,7 +281,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_twintail
@@ -316,7 +290,6 @@
   bodyPart: Hair
   category: Hair
   groupWhitelist: [Humen]
-  sexRestriction: Female
   sprites:
   - sprite: _Mythos/Chargen/Features/hair.rsi
     state: fhair_vlongfringe

@@ -2,7 +2,15 @@
         Orientation="Vertical"
         HorizontalExpand="True"
         VerticalExpand="True">
-
+    <BoxContainer Name="VariantRow" Orientation="Horizontal" Visible="False" Margin="0 0 0 8">
+        <Label Name="VariantLabel" MinWidth="96" />
+        <OptionButton Name="VariantDropdown" HorizontalExpand="True" />
+    </BoxContainer>
+    <BoxContainer Name="SizeRow" Orientation="Horizontal" Visible="False" Margin="0 0 0 8">
+        <Label Name="SizeLabel" MinWidth="96" />
+        <Slider Name="SizeSlider" HorizontalExpand="True" MinValue="0" MaxValue="4" Rounded="True" />
+        <Label Name="SizeValue" MinWidth="32" />
+    </BoxContainer>
     <LineEdit Name="SearchBar" PlaceHolder="Search" />
     <ScrollContainer VerticalExpand="True" HorizontalExpand="True">
         <GridContainer Name="Items" Columns="3" />

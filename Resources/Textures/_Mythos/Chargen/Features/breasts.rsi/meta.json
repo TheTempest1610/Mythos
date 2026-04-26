@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "pair_0_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_10_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_10_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_11_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_11_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_12_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_12_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_13_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_13_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_14_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_14_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_15_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_15_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_16_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_16_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_1_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_2_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_3_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_4_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_4_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_5_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_5_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_6_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_6_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_7_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_7_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_8_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_8_front",
+      "directions": 4
+    },
+    {
+      "name": "pair_9_behind",
+      "directions": 4
+    },
+    {
+      "name": "pair_9_front",
+      "directions": 4
+    },
+    {
+      "name": "quad_0_front",
+      "directions": 4
+    },
+    {
+      "name": "quad_1_front",
+      "directions": 4
+    },
+    {
+      "name": "quad_2_front",
+      "directions": 4
+    },
+    {
+      "name": "quad_3_front",
+      "directions": 4
+    },
+    {
+      "name": "quad_4_behind",
+      "directions": 4
+    },
+    {
+      "name": "quad_4_front",
+      "directions": 4
+    },
+    {
+      "name": "quad_5_behind",
+      "directions": 4
+    },
+    {
+      "name": "quad_5_front",
+      "directions": 4
+    },
+    {
+      "name": "sextuple_0_front",
+      "directions": 4
+    },
+    {
+      "name": "sextuple_1_front",
+      "directions": 4
+    },
+    {
+      "name": "sextuple_2_front",
+      "directions": 4
+    },
+    {
+      "name": "sextuple_3_front",
+      "directions": 4
+    },
+    {
+      "name": "sextuple_4_behind",
+      "directions": 4
+    },
+    {
+      "name": "sextuple_4_front",
+      "directions": 4
+    },
+    {
+      "name": "sextuple_5_behind",
+      "directions": 4
+    },
+    {
+      "name": "sextuple_5_front",
+      "directions": 4
+    }
+  ]
+}

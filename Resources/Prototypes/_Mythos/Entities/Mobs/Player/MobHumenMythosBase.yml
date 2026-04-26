@@ -83,6 +83,13 @@
       - UndergarmentTop
       - UndergarmentBottom
       - Special
+      # Mythos Phase 3: body-zone layers used by Wings, Penis, Breasts,
+      # Vagina, Belly. The picker discovers markings by walking each
+      # organ's `layers` -> markings; without these, the corresponding
+      # chargen tabs would have no content even though prototypes exist.
+      - BodyBehind
+      - BodyFront
+      - BodyFrontest
 
 - type: entity
   parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganHumenExternal ]

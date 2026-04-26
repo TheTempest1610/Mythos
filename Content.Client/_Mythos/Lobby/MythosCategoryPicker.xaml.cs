@@ -6,6 +6,7 @@ using Robust.Client.GameObjects;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
+using Robust.Shared.Prototypes;
 
 namespace Content.Client._Mythos.Lobby;
 
@@ -42,6 +43,15 @@ public sealed partial class MythosCategoryPicker : BoxContainer
 
         SeedFromSelectedMarking();
         BuildItems();
+        BuildSizeRow();
+        BuildVariantRow();
+
+        // Apply the variant filter on first build so the size list is
+        // already trimmed when the player opens the tab. Without this,
+        // BuildVariantRow's default-pick (variants[0]) wouldn't reach the
+        // filter pipeline because the CategoryVariantChanged subscription
+        // is set up later in EnteredTree.
+        FilterItemsByVariant(_markingsModel.GetCategoryVariant(_bucket.Category));
 
         SearchBar.OnTextChanged += _ =>
         {
@@ -51,16 +61,252 @@ public sealed partial class MythosCategoryPicker : BoxContainer
         };
     }
 
+    private void BuildSizeRow()
+    {
+        // Pick the largest MythosSizeCount across the bucket; every
+        // sized prototype in a category should declare the same range
+        // (e.g. 5 sizes for Penis, 5 for Breasts) but if they differ
+        // we pin to the max so all sizes are reachable.
+        var max = 0;
+        foreach (var proto in _bucket.Markings.Values)
+        {
+            var n = proto.MythosSizeCount();
+            if (n > max) max = n;
+        }
+        if (max <= 1)
+        {
+            SizeRow.Visible = false;
+            return;
+        }
+        SizeRow.Visible = true;
+        SizeSlider.MinValue = 0;
+        SizeSlider.MaxValue = max - 1;
+        var current = _markingsModel.GetCategorySize(_bucket.Category);
+        SizeSlider.Value = System.Math.Clamp(current, 0, max - 1);
+        UpdateSizeLabel((int)SizeSlider.Value, max);
+        SizeLabel.Text = GetSizeRowLabel();
+        SizeSlider.OnValueChanged += _ =>
+        {
+            var v = (int)SizeSlider.Value;
+            _markingsModel.SetCategorySize(_bucket.Category, v);
+            UpdateSizeLabel(v, max);
+        };
+    }
+
+    private void UpdateSizeLabel(int value, int max)
+    {
+        SizeValue.Text = $"{value + 1} / {max}";
+    }
+
+    private string GetSizeRowLabel()
+    {
+        var key = $"mythos-feature-size-row-{_bucket.Category}";
+        if (Loc.TryGetString(key, out var localized))
+            return localized;
+        return Loc.GetString("mythos-feature-size-row-default");
+    }
+
+    private void BuildVariantRow()
+    {
+        // Pick a variant list from the first prototype that declares
+        // one. Every prototype in the bucket should declare the same
+        // list (per OV's customizer model), so the first wins.
+        List<string>? variants = null;
+        foreach (var proto in _bucket.Markings.Values)
+        {
+            if (proto.MythosVariants is { Count: > 0 } v)
+            {
+                variants = v;
+                break;
+            }
+        }
+        if (variants is null)
+        {
+            VariantRow.Visible = false;
+            return;
+        }
+        VariantRow.Visible = true;
+        VariantLabel.Text = GetVariantRowLabel();
+        VariantDropdown.Clear();
+        for (var i = 0; i < variants.Count; i++)
+            VariantDropdown.AddItem(GetVariantLabel(variants[i]), i);
+
+        var current = _markingsModel.GetCategoryVariant(_bucket.Category);
+        if (current is null || !variants.Contains(current))
+        {
+            current = variants[0];
+            _markingsModel.SetCategoryVariant(_bucket.Category, current);
+        }
+        VariantDropdown.SelectId(variants.IndexOf(current));
+        VariantDropdown.OnItemSelected += args =>
+        {
+            VariantDropdown.SelectId(args.Id);
+            _markingsModel.SetCategoryVariant(_bucket.Category, variants[args.Id]);
+        };
+    }
+
+    private string GetVariantRowLabel()
+    {
+        var key = $"mythos-feature-variant-row-{_bucket.Category}";
+        if (Loc.TryGetString(key, out var localized))
+            return localized;
+        return Loc.GetString("mythos-feature-variant-row-default");
+    }
+
+    private string GetVariantLabel(string variant)
+    {
+        var key = $"mythos-feature-variant-{_bucket.Category}-{variant}";
+        if (Loc.TryGetString(key, out var localized))
+            return localized;
+        return variant;
+    }
+
     protected override void EnteredTree()
     {
         base.EnteredTree();
         _markingsModel.CategoryColorsChanged += OnCategoryColorsChanged;
+        _markingsModel.CategoryTogglesChanged += OnCategoryTogglesChanged;
+        _markingsModel.CategorySizeChanged += OnCategorySizeChanged;
+        _markingsModel.CategoryVariantChanged += OnCategoryVariantChanged;
     }
 
     protected override void ExitedTree()
     {
         base.ExitedTree();
         _markingsModel.CategoryColorsChanged -= OnCategoryColorsChanged;
+        _markingsModel.CategoryTogglesChanged -= OnCategoryTogglesChanged;
+        _markingsModel.CategorySizeChanged -= OnCategorySizeChanged;
+        _markingsModel.CategoryVariantChanged -= OnCategoryVariantChanged;
+    }
+
+    private void OnCategoryVariantChanged(string category)
+    {
+        if (category != _bucket.Category)
+            return;
+        var v = _markingsModel.GetCategoryVariant(category);
+
+        // Push the new variant onto every selected marking that supports it.
+        if (v is not null)
+        {
+            foreach (var (id, proto) in _bucket.Markings)
+            {
+                if (_markingsModel.GetMarking(_bucket.Organ, _bucket.Layer, id) is null)
+                    continue;
+                if (proto.MythosVariants is null || !proto.MythosVariants.Contains(v))
+                    continue;
+                _markingsModel.TrySetMarkingMythosVariant(_bucket.Organ, _bucket.Layer, id, v);
+            }
+        }
+
+        // Hide items that don't support the new variant. If the currently
+        // selected size is now hidden, jump to the nearest available one
+        // by MythosOrderIndex so the player isn't left on an invisible
+        // selection (e.g., switching to Tentacle from PenisEnormous, which
+        // OV doesn't ship; we land them on the closest size that does).
+        FilterItemsByVariant(v);
+        EnsureSelectionVisibleAfterFilter(v);
+
+        // Re-source thumbnails so each visible size item previews the
+        // variant the player just chose, not the canonical default.
+        foreach (var item in _items)
+            item.OnCategoryVariantChanged();
+    }
+
+    private void FilterItemsByVariant(string? variant)
+    {
+        foreach (var item in _items)
+            item.Visible = item.SupportsVariant(variant);
+        // Re-apply the search filter on top so a partially-typed query
+        // doesn't get clobbered by the variant filter.
+        var q = SearchBar.Text.Trim();
+        if (!string.IsNullOrEmpty(q))
+            foreach (var item in _items)
+                if (item.Visible)
+                    item.SetVisibleByQuery(q);
+    }
+
+    private void EnsureSelectionVisibleAfterFilter(string? variant)
+    {
+        // Find the currently selected marking in this category. If it
+        // still supports the variant, we're done. Otherwise pick the
+        // visible item with the closest MythosOrderIndex (or the first
+        // visible item if no order indices are set).
+        ProtoId<MarkingPrototype>? selectedId = null;
+        int? selectedOrder = null;
+        foreach (var (id, proto) in _bucket.Markings)
+        {
+            if (_markingsModel.GetMarking(_bucket.Organ, _bucket.Layer, id) is null)
+                continue;
+            selectedId = id;
+            selectedOrder = proto.MythosOrderIndex;
+            if (variant is null
+                || proto.MythosVariants is null
+                || (proto.MythosVariantStates?.ContainsKey(variant) ?? false))
+                return;
+            break;
+        }
+        if (selectedId is null)
+            return;
+
+        var (replacementId, _) = _bucket.Markings
+            .Where(kv =>
+                (variant is null
+                 || kv.Value.MythosVariants is null
+                 || (kv.Value.MythosVariantStates?.ContainsKey(variant) ?? false)))
+            .OrderBy(kv => selectedOrder is { } so && kv.Value.MythosOrderIndex is { } po
+                ? System.Math.Abs(po - so)
+                : int.MaxValue)
+            .ThenBy(kv => kv.Value.MythosOrderIndex ?? int.MaxValue)
+            .Select(kv => ((ProtoId<MarkingPrototype>?) kv.Key, kv.Value))
+            .FirstOrDefault();
+
+        if (replacementId is null || replacementId == selectedId)
+            return;
+
+        _markingsModel.TryDeselectMarking(_bucket.Organ, _bucket.Layer, selectedId.Value);
+        if (_markingsModel.TrySelectMarking(_bucket.Organ, _bucket.Layer, replacementId.Value))
+            _markingsModel.ApplyCategoryStateToMarking(_bucket.Category, _bucket.Organ, _bucket.Layer, replacementId.Value);
+    }
+
+    private void OnCategoryTogglesChanged(string category)
+    {
+        if (category != _bucket.Category)
+            return;
+        // Push every named toggle in the category memory onto every
+        // selected marking that supports it. Markings without the
+        // toggle key in their MythosToggles list silently no-op.
+        var toggles = _markingsModel.GetCategoryToggles(category);
+        if (toggles is null)
+            return;
+        foreach (var (id, proto) in _bucket.Markings)
+        {
+            if (_markingsModel.GetMarking(_bucket.Organ, _bucket.Layer, id) is null)
+                continue;
+            if (proto.MythosToggles is not { } supported)
+                continue;
+            foreach (var name in supported)
+            {
+                if (toggles.TryGetValue(name, out var v))
+                    _markingsModel.TrySetMarkingMythosToggle(_bucket.Organ, _bucket.Layer, id, name, v);
+            }
+        }
+        foreach (var item in _items)
+            item.OnCategoryTogglesChanged();
+    }
+
+    private void OnCategorySizeChanged(string category)
+    {
+        if (category != _bucket.Category)
+            return;
+        var size = _markingsModel.GetCategorySize(category);
+        foreach (var (id, proto) in _bucket.Markings)
+        {
+            if (_markingsModel.GetMarking(_bucket.Organ, _bucket.Layer, id) is null)
+                continue;
+            if (proto.MythosSizeCount() == 0)
+                continue;
+            _markingsModel.TrySetMarkingMythosSize(_bucket.Organ, _bucket.Layer, id, size);
+        }
     }
 
     private void OnCategoryColorsChanged(string category)
@@ -109,7 +355,14 @@ public sealed partial class MythosCategoryPicker : BoxContainer
     {
         Items.RemoveAllChildren();
         _items.Clear();
-        foreach (var (id, proto) in _bucket.Markings.OrderBy(kv => Loc.GetString($"marking-{kv.Key}")))
+        // Order: MythosOrderIndex first (size 1 -> Flat first, size 2 ->
+        // Small, ... so OV's intended sequence wins), then alphabetical
+        // by display name as a tiebreak for prototypes without an
+        // explicit index.
+        var ordered = _bucket.Markings
+            .OrderBy(kv => kv.Value.MythosOrderIndex ?? int.MaxValue)
+            .ThenBy(kv => Loc.GetString($"marking-{kv.Key}"));
+        foreach (var (id, proto) in ordered)
         {
             var item = new MythosFeatureItem(_markingsModel, _bucket, proto, _sprite);
             Items.AddChild(item);

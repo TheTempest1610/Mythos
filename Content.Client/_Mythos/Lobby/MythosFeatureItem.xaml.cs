@@ -35,6 +35,7 @@ public sealed partial class MythosFeatureItem : BoxContainer
     private readonly List<(TextureRect Rect, int ColorSlot)> _layerRects = new();
 
     private List<ColorSelectorSliders>? _colorSliders;
+    private readonly Dictionary<string, Button> _toggleButtons = new();
 
     public MythosFeatureItem(MarkingsViewModel model, MythosCategoryBucket bucket, MarkingPrototype proto, SpriteSystem sprite)
     {
@@ -47,6 +48,7 @@ public sealed partial class MythosFeatureItem : BoxContainer
 
         SelectButton.Text = Loc.GetString($"marking-{_proto.ID}");
         BuildThumbnail();
+        BuildToggles();
         ApplyTint(_model.GetCategoryColors(_bucket.Category));
         RefreshSelectionState();
 
@@ -58,9 +60,11 @@ public sealed partial class MythosFeatureItem : BoxContainer
             }
             else if (_model.TrySelectMarking(_bucket.Organ, _bucket.Layer, _proto.ID))
             {
-                // Apply the category's stored colors to the freshly-
-                // selected marking so the user doesn't have to re-tint.
-                _model.ApplyCategoryColorsToMarking(_bucket.Category, _bucket.Organ, _bucket.Layer, _proto.ID);
+                // Apply every piece of synced category state to the
+                // freshly-selected marking so the user inherits the
+                // palette, size slider, variant dropdown, and toggles
+                // without re-setting them.
+                _model.ApplyCategoryStateToMarking(_bucket.Category, _bucket.Organ, _bucket.Layer, _proto.ID);
             }
         };
 
@@ -109,6 +113,10 @@ public sealed partial class MythosFeatureItem : BoxContainer
             ColorsButton.Pressed = false;
             ColorsContainer.Visible = false;
         }
+        // Mythos: toggle row only shown when this item is currently
+        // selected AND the prototype declares any toggles.
+        TogglesContainer.Visible = selected && _proto.MythosToggles is { Count: > 0 };
+        SyncToggleButtons();
     }
 
     /// <summary>
@@ -124,6 +132,97 @@ public sealed partial class MythosFeatureItem : BoxContainer
             return;
         for (var i = 0; i < _colorSliders.Count && i < colors.Count; i++)
             _colorSliders[i].Color = colors[i];
+    }
+
+    /// <summary>
+    /// Called by <see cref="MythosCategoryPicker"/> when the category's
+    /// toggle memory changes. Updates the toggle buttons' Pressed state
+    /// to match the synced value.
+    /// </summary>
+    public void OnCategoryTogglesChanged() => SyncToggleButtons();
+
+    /// <summary>
+    /// Called by <see cref="MythosCategoryPicker"/> when the category's
+    /// variant memory changes. Re-sources the thumbnail textures for the
+    /// new variant so each size item previews the active silhouette /
+    /// arrangement instead of the canonical default.
+    /// </summary>
+    public void OnCategoryVariantChanged()
+    {
+        BuildThumbnail();
+        ApplyTint(_model.GetCategoryColors(_bucket.Category));
+    }
+
+    /// <summary>
+    /// Mythos: true if this prototype carries an explicit sprite list
+    /// for the named variant. Used by the category picker to hide
+    /// per-variant-incompatible size items so the user only sees
+    /// reachable combinations (e.g., picking Tentacle hides sizes that
+    /// don't have tentacle artwork).
+    /// </summary>
+    public bool SupportsVariant(string? variant)
+    {
+        if (variant is null)
+            return true;
+        if (_proto.MythosVariants is null || _proto.MythosVariants.Count == 0)
+            return true;
+        return _proto.MythosVariantStates is { } states && states.ContainsKey(variant);
+    }
+
+    private void BuildToggles()
+    {
+        TogglesContainer.RemoveAllChildren();
+        _toggleButtons.Clear();
+        if (_proto.MythosToggles is not { } names)
+            return;
+        foreach (var name in names)
+        {
+            var btn = new Button
+            {
+                Text = GetToggleLabel(name),
+                ToggleMode = true,
+            };
+            var localName = name;
+            btn.OnPressed += _ =>
+            {
+                _model.SetCategoryToggle(_bucket.Category, localName, btn.Pressed);
+                // Push directly onto this marking's instance too so the
+                // currently-applied marking flips its sprite list before
+                // the category fan-out catches up.
+                _model.TrySetMarkingMythosToggle(_bucket.Organ, _bucket.Layer, _proto.ID, localName, btn.Pressed);
+            };
+            TogglesContainer.AddChild(btn);
+            _toggleButtons[name] = btn;
+        }
+    }
+
+    private void SyncToggleButtons()
+    {
+        if (_toggleButtons.Count == 0)
+            return;
+        var toggles = _model.GetCategoryToggles(_bucket.Category);
+        foreach (var (name, btn) in _toggleButtons)
+        {
+            var v = toggles is not null && toggles.TryGetValue(name, out var b) && b;
+            btn.Pressed = v;
+        }
+    }
+
+    private string GetToggleLabel(string name)
+    {
+        var key = $"mythos-feature-toggle-{name}";
+        if (Loc.TryGetString(key, out var localized))
+            return localized;
+        // Sandbox-safe fallback: just substitute spaces for the OV
+        // toggle naming convention's underscores. Title-casing got us
+        // a sandbox violation because every char-vs-string op the
+        // C# compiler would pick (range slice, char + string concat,
+        // ToUpper) routes through a ReadOnlySpan<char> ctor that
+        // Mythos's sandbox forbids. The locale entries in
+        // chargen/features/ui.ftl already provide the polished labels
+        // (Open / Functional / Lactating / etc.); this fallback only
+        // shows up if a new toggle name lands without a locale entry.
+        return name.Replace('_', ' ');
     }
 
     private void BuildColorSliders()
@@ -167,17 +266,20 @@ public sealed partial class MythosFeatureItem : BoxContainer
     }
 
     /// <summary>
-    /// Generic per-slot label. Mythos uses Primary / Secondary / Tertiary
-    /// because the same picker hosts categories with very different
-    /// semantics (tail outer/inner vs breast areola/nipple) and the
-    /// state-name-derived labels read like keys, not English. Per-category
-    /// labels are a future polish if needed.
+    /// Per-slot color label. First tries a category-specific override
+    /// (mythos-feature-color-slot-{Category}-{slot}) so OV-style labels
+    /// like "Member" / "Sack" / "Nethers" / "Outer" land in the right
+    /// category. Falls back to the generic Primary / Secondary / Tertiary
+    /// keys, then to a hard-coded "Color N" string.
     /// </summary>
-    private static string GetSlotLabel(int slot)
+    private string GetSlotLabel(int slot)
     {
-        var key = $"mythos-feature-color-slot-{slot}";
-        if (Loc.TryGetString(key, out var localized))
-            return localized;
+        var categoryKey = $"mythos-feature-color-slot-{_bucket.Category}-{slot}";
+        if (Loc.TryGetString(categoryKey, out var categoryLabel))
+            return categoryLabel;
+        var genericKey = $"mythos-feature-color-slot-{slot}";
+        if (Loc.TryGetString(genericKey, out var generic))
+            return generic;
         return $"Color {slot + 1}";
     }
 
@@ -186,15 +288,23 @@ public sealed partial class MythosFeatureItem : BoxContainer
         ThumbnailRoot.RemoveAllChildren();
         _layerRects.Clear();
 
+        // Mythos: preview the variant the player has currently selected
+        // so each size item shows the right silhouette (e.g., flipping
+        // the dropdown from Plain to Knotted retints AND repaints the
+        // thumbnails). Falls back to default Sprites when the proto has
+        // no variant axis or the active variant has no entry.
+        var variant = _model.GetCategoryVariant(_bucket.Category);
+        var sprites = _proto.GetActiveSprites(null, null, variant);
+
         var stack = new LayoutContainer { HorizontalExpand = true, VerticalExpand = true };
         ThumbnailRoot.AddChild(stack);
-        for (var i = 0; i < _proto.Sprites.Count; i++)
+        for (var i = 0; i < sprites.Count; i++)
         {
-            if (_proto.Sprites[i] is not SpriteSpecifier.Rsi)
+            if (sprites[i] is not SpriteSpecifier.Rsi)
                 continue;
             var rect = new TextureRect
             {
-                Texture = _sprite.Frame0(_proto.Sprites[i]),
+                Texture = _sprite.Frame0(sprites[i]),
                 TextureScale = new System.Numerics.Vector2(2, 2),
             };
             stack.AddChild(rect);

@@ -1,0 +1,950 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "amputated_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_1_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_1_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_1_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_2_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_2_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_2_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_3_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_3_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_3_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_4_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_4_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_4_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_4_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_5_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "barbknot_5_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "blank_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_1_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_1_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_1_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_2_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_2_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_2_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_3_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_3_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_3_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_4_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_4_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_4_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_4_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_5_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "flared_5_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_1_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_1_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_1_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_1_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_2_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_2_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_2_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_2_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_3_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_3_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_3_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_3_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_4_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_4_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_4_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_4_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_5_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_5_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_5_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemi_5_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_1_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_1_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_1_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_1_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_2_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_2_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_2_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_2_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_3_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_3_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_3_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_3_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_4_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_4_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_4_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_4_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_5_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_5_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "hemiknot_5_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_1_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_1_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_1_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_2_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_2_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_2_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_3_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_3_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_3_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_4_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_4_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_4_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_4_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_5_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_5_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_5_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "human_5_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_1_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_1_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_1_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_2_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_2_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_2_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_3_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_3_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_3_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_4_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_4_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_4_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_4_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_5_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "knotted_5_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "sheath_1_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "sheath_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "sheath_2_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "sheath_2_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "slit_1_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "slit_2_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "slit_2_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_1_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_1_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_1_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_1_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_2_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_2_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_2_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_2_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_3_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_3_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_3_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_3_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_4_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_4_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_4_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_4_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_5_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_5_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_5_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "tapered_5_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "tentacle_1_0_front_outer",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "tentacle_1_1_front_outer",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "tentacle_2_0_behind_outer",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "tentacle_2_0_front_outer",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "tentacle_2_1_front_outer",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "tentacle_3_0_behind_outer",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "tentacle_3_0_front_outer",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "tentacle_3_1_front_outer",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "tentacle_4_0_behind_outer",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "tentacle_4_0_front_outer",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "tentacle_4_1_behind_outer",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "tentacle_4_1_front_outer",
+      "directions": 4,
+      "delays": [
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "thick_1_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_1_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_1_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_2_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_2_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_2_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_3_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_3_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_3_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_4_0_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_4_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_4_1_behind_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_4_1_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_5_0_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "thick_5_1_front_outer",
+      "directions": 4
+    }
+  ]
+}

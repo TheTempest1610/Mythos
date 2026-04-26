@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bat_behind",
+      "directions": 4
+    },
+    {
+      "name": "bat_front",
+      "directions": 4
+    },
+    {
+      "name": "bee_behind",
+      "directions": 4
+    },
+    {
+      "name": "bee_front",
+      "directions": 4
+    },
+    {
+      "name": "clipped_behind",
+      "directions": 4
+    },
+    {
+      "name": "clipped_front",
+      "directions": 4
+    },
+    {
+      "name": "fairy_behind",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "fairy_front",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "feathery_behind",
+      "directions": 4
+    },
+    {
+      "name": "feathery_front",
+      "directions": 4
+    },
+    {
+      "name": "featheryv2_behind",
+      "directions": 4
+    },
+    {
+      "name": "featheryv2_front",
+      "directions": 4
+    }
+  ]
+}

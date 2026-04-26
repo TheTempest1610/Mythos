@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "cloaca_front",
+      "directions": 4
+    },
+    {
+      "name": "furred_front",
+      "directions": 4
+    },
+    {
+      "name": "gaping_front",
+      "directions": 4
+    },
+    {
+      "name": "hairy_front",
+      "directions": 4
+    },
+    {
+      "name": "human_front",
+      "directions": 4
+    },
+    {
+      "name": "spade_front",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 82,
+    "y": 36
+  },
+  "states": [
+    {
+      "name": "angel_adj",
+      "directions": 4
+    },
+    {
+      "name": "angel_behind",
+      "directions": 4
+    },
+    {
+      "name": "angel_front",
+      "directions": 4
+    },
+    {
+      "name": "angel_open_adj",
+      "directions": 4
+    },
+    {
+      "name": "angel_open_behind",
+      "directions": 4
+    },
+    {
+      "name": "angel_open_front",
+      "directions": 4
+    },
+    {
+      "name": "dragon_adj",
+      "directions": 4
+    },
+    {
+      "name": "dragon_behind",
+      "directions": 4
+    },
+    {
+      "name": "dragon_front",
+      "directions": 4
+    },
+    {
+      "name": "dragon_open_adj",
+      "directions": 4
+    },
+    {
+      "name": "dragon_open_behind",
+      "directions": 4
+    },
+    {
+      "name": "dragon_open_front",
+      "directions": 4
+    },
+    {
+      "name": "megamoth_adj",
+      "directions": 4
+    },
+    {
+      "name": "megamoth_behind",
+      "directions": 4
+    },
+    {
+      "name": "megamoth_front",
+      "directions": 4
+    },
+    {
+      "name": "megamoth_open_adj",
+      "directions": 4
+    },
+    {
+      "name": "megamoth_open_behind",
+      "directions": 4
+    },
+    {
+      "name": "megamoth_open_front",
+      "directions": 4
+    },
+    {
+      "name": "mothra_adj",
+      "directions": 4
+    },
+    {
+      "name": "mothra_behind",
+      "directions": 4
+    },
+    {
+      "name": "mothra_front",
+      "directions": 4
+    },
+    {
+      "name": "mothra_open_adj",
+      "directions": 4
+    },
+    {
+      "name": "mothra_open_behind",
+      "directions": 4
+    },
+    {
+      "name": "mothra_open_front",
+      "directions": 4
+    },
+    {
+      "name": "robotic_adj",
+      "directions": 4
+    },
+    {
+      "name": "robotic_behind",
+      "directions": 4
+    },
+    {
+      "name": "robotic_front",
+      "directions": 4
+    },
+    {
+      "name": "robotic_open_adj",
+      "directions": 4
+    },
+    {
+      "name": "robotic_open_behind",
+      "directions": 4
+    },
+    {
+      "name": "robotic_open_front",
+      "directions": 4
+    },
+    {
+      "name": "skele_adj",
+      "directions": 4
+    },
+    {
+      "name": "skele_behind",
+      "directions": 4
+    },
+    {
+      "name": "skele_front",
+      "directions": 4
+    },
+    {
+      "name": "skele_open_adj",
+      "directions": 4
+    },
+    {
+      "name": "skele_open_behind",
+      "directions": 4
+    },
+    {
+      "name": "skele_open_front",
+      "directions": 4
+    }
+  ]
+}

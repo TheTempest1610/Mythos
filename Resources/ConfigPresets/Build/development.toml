@@ -42,6 +42,7 @@ preload_grids = false
 
 # Mythos: master switch for atmospheric simulation
 [mythos]
+chargen_erp_features = true
 [mythos.atmos]
 enabled = false
 
