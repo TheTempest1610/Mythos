@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "fishnet",
+      "directions": 4
+    },
+    {
+      "name": "fishnet_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "fishnet_f",
+      "directions": 4
+    },
+    {
+      "name": "fishnet_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "knee",
+      "directions": 4
+    },
+    {
+      "name": "knee_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "knee_f",
+      "directions": 4
+    },
+    {
+      "name": "knee_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "knee_silk",
+      "directions": 4
+    },
+    {
+      "name": "knee_silk_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "knee_silk_f",
+      "directions": 4
+    },
+    {
+      "name": "knee_silk_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "silk",
+      "directions": 4
+    },
+    {
+      "name": "silk_dwarf",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "silk_f",
+      "directions": 4
+    },
+    {
+      "name": "silk_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "stockings",
+      "directions": 4
+    },
+    {
+      "name": "stockings_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "stockings_f",
+      "directions": 4
+    },
+    {
+      "name": "stockings_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "thigh",
+      "directions": 4
+    },
+    {
+      "name": "thigh_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "thigh_f",
+      "directions": 4
+    },
+    {
+      "name": "thigh_f_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "thigh_silk",
+      "directions": 4
+    },
+    {
+      "name": "thigh_silk_dwarf",
+      "directions": 4
+    },
+    {
+      "name": "thigh_silk_f",
+      "directions": 4
+    },
+    {
+      "name": "thigh_silk_f_dwarf",
+      "directions": 4
+    }
+  ]
+}

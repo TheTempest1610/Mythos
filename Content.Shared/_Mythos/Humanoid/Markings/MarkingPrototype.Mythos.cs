@@ -1,3 +1,5 @@
+using Robust.Shared.Utility;
+
 namespace Content.Shared.Humanoid.Markings;
 
 // Mythos: extensions to upstream MarkingPrototype.
@@ -110,4 +112,119 @@ public sealed partial class MarkingPrototype
         }
         return Sprites?.Count ?? 0;
     }
+
+    /// <summary>
+    /// Mythos: per-category bool dimensions this prototype responds to
+    /// (e.g. <c>"is_open"</c> for wings, <c>"functional"</c> for penis,
+    /// <c>"lactating"</c> for breasts). Each name corresponds to a key in
+    /// <see cref="MythosToggleStates"/> that gives the alternate sprite
+    /// list when the named toggle is true. The chargen UI shows one
+    /// toggle button per name on the selected feature item, with state
+    /// synced across the category. Empty / null means no toggles.
+    /// </summary>
+    [DataField]
+    public List<string>? MythosToggles;
+
+    /// <summary>
+    /// Mythos: per-toggle-name alternate sprite list. When the named
+    /// toggle is true, the renderer uses this sprite list instead of
+    /// <see cref="Sprites"/> for the affected layers. The list shape
+    /// must match Sprites (same length, same per-index color slot
+    /// alignment).
+    /// </summary>
+    [DataField]
+    public Dictionary<string, List<SpriteSpecifier>>? MythosToggleStates;
+
+    /// <summary>
+    /// Mythos: synced size dimension. When set, the chargen UI shows a
+    /// shared size slider for the category that picks one of these
+    /// sprite lists by index (clamped to <c>[0, Count-1]</c>). The
+    /// renderer uses the indexed list instead of <see cref="Sprites"/>.
+    /// Used for OV's continuous-size organs (penis_size 1-5,
+    /// breast_size 1-5). Empty / null means no size slider.
+    /// </summary>
+    [DataField]
+    public List<List<SpriteSpecifier>>? MythosSizeStates;
+
+    /// <summary>
+    /// Resolves the active sprite list for this prototype given the
+    /// current category state. Bool toggles short-circuit size states:
+    /// if any toggle in <see cref="MythosToggles"/> is true and has a
+    /// matching key in <see cref="MythosToggleStates"/>, that list wins
+    /// over both size and the default. Otherwise size wins if set, and
+    /// otherwise the default <see cref="Sprites"/>.
+    /// </summary>
+    /// <summary>
+    /// Resolve the active sprite list for this prototype given the
+    /// marking's current per-instance state.
+    /// Precedence (first match wins):
+    ///   1. <see cref="MythosVariants"/> + variant name -> variant sprites
+    ///      (for Penis / Breasts where variant is a category-level dropdown).
+    ///   2. <see cref="MythosToggles"/> + on toggle -> toggle alternate
+    ///      (Wings is_open, etc.).
+    ///   3. <see cref="MythosSizeStates"/> + sizeIndex -> size variant.
+    ///   4. Default <see cref="Sprites"/>.
+    /// </summary>
+    public List<SpriteSpecifier> GetActiveSprites(
+        IReadOnlyDictionary<string, bool>? toggles,
+        int? sizeIndex,
+        string? variantName = null)
+    {
+        if (variantName is not null
+            && MythosVariantStates is { } variants
+            && variants.TryGetValue(variantName, out var vSprites))
+        {
+            return vSprites;
+        }
+        if (MythosToggles is { } names && MythosToggleStates is { } states && toggles is not null)
+        {
+            foreach (var name in names)
+            {
+                if (toggles.TryGetValue(name, out var on) && on
+                    && states.TryGetValue(name, out var alt))
+                {
+                    return alt;
+                }
+            }
+        }
+        if (sizeIndex is { } i
+            && MythosSizeStates is { Count: > 0 } sizes)
+        {
+            var clamped = System.Math.Clamp(i, 0, sizes.Count - 1);
+            return sizes[clamped];
+        }
+        return Sprites;
+    }
+
+    /// <summary>
+    /// Maximum size index this prototype supports + 1, or 0 if no size
+    /// dimension. Drives the picker's size slider range.
+    /// </summary>
+    public int MythosSizeCount() => MythosSizeStates?.Count ?? 0;
+
+    /// <summary>
+    /// Mythos: synced category-level variant dimension. When set, the
+    /// chargen UI shows a shared dropdown for the category that picks
+    /// one of these named variants; the renderer uses
+    /// <see cref="MythosVariantStates"/>[name] as the active sprite
+    /// list. Used by Penis (variant = silhouette: Plain / Knotted /
+    /// Equine / ...) and Breasts (variant = arrangement: Pair / Quad /
+    /// Sextuple) where the size dimension is the selectable item axis
+    /// and the variant axis lives at category level.
+    /// </summary>
+    [DataField]
+    public List<string>? MythosVariants;
+
+    [DataField]
+    public Dictionary<string, List<SpriteSpecifier>>? MythosVariantStates;
+
+    /// <summary>
+    /// Mythos: explicit picker ordering for prototypes within a category
+    /// where alphabetical-by-name doesn't match OV's intended sequence
+    /// (e.g., size labels Flat/Small/Medium/Large/Enormous would sort to
+    /// Enormous/Flat/Large/Medium/Small alphabetically). Lower values
+    /// render first; null falls through to alphabetical.
+    /// </summary>
+    [DataField]
+    public int? MythosOrderIndex;
 }

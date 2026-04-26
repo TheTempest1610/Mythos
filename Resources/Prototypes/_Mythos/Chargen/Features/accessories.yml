@@ -25,45 +25,45 @@
     state: chokere
 
 - type: marking
-  id: AccessoryEarrings
+  id: PiercingEarrings
   bodyPart: HeadSide
-  category: Accessory
+  category: Piercing
   groupWhitelist: [Humen]
   sprites:
   - sprite: _Mythos/Chargen/Features/accessories.rsi
     state: earrings_front
 
 - type: marking
-  id: AccessoryEarringsEm
+  id: PiercingEarringsEm
   bodyPart: HeadSide
-  category: Accessory
+  category: Piercing
   groupWhitelist: [Humen]
   sprites:
   - sprite: _Mythos/Chargen/Features/accessories.rsi
     state: earrings_em_front
 
 - type: marking
-  id: AccessoryEarringsSil
+  id: PiercingEarringsSil
   bodyPart: HeadSide
-  category: Accessory
+  category: Piercing
   groupWhitelist: [Humen]
   sprites:
   - sprite: _Mythos/Chargen/Features/accessories.rsi
     state: earrings_sil_front
 
 - type: marking
-  id: AccessoryEyepierce
+  id: PiercingEyepierce
   bodyPart: HeadSide
-  category: Accessory
+  category: Piercing
   groupWhitelist: [Humen]
   sprites:
   - sprite: _Mythos/Chargen/Features/accessories.rsi
     state: eyepierce_front
 
 - type: marking
-  id: AccessoryEyepiercealt
+  id: PiercingEyepiercealt
   bodyPart: HeadSide
-  category: Accessory
+  category: Piercing
   groupWhitelist: [Humen]
   sprites:
   - sprite: _Mythos/Chargen/Features/accessories.rsi

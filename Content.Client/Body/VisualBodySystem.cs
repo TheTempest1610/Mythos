@@ -188,9 +188,13 @@ public sealed partial class VisualBodySystem : SharedVisualBodySystem
             if (!_marking.TryGetMarking(marking, out var proto))
                 continue;
 
-            for (var i = 0; i < proto.Sprites.Count; i++)
+            // Mythos: pick the active sprite list given the marking's
+            // current variant / toggle / size state. Defaults to proto.Sprites.
+            var sprites = proto.GetActiveSprites(marking.MythosToggles, marking.MythosSizeIndex, marking.MythosVariant);
+
+            for (var i = 0; i < sprites.Count; i++)
             {
-                var sprite = proto.Sprites[i];
+                var sprite = sprites[i];
 
                 DebugTools.Assert(sprite is SpriteSpecifier.Rsi);
                 if (sprite is not SpriteSpecifier.Rsi rsi)
@@ -241,7 +245,16 @@ public sealed partial class VisualBodySystem : SharedVisualBodySystem
             if (!_marking.TryGetMarking(marking, out var proto))
                 continue;
 
-            foreach (var sprite in proto.Sprites)
+            // Mythos: clear the active sprite list (the one Apply added).
+            // Default sprite list still gets cleared as a safety net to
+            // catch markings that were applied with a now-different
+            // toggle / size state.
+            var activeSprites = proto.GetActiveSprites(marking.MythosToggles, marking.MythosSizeIndex, marking.MythosVariant);
+            var spriteLists = ReferenceEquals(activeSprites, proto.Sprites)
+                ? new[] { proto.Sprites }
+                : new[] { activeSprites, proto.Sprites };
+            foreach (var spriteList in spriteLists)
+            foreach (var sprite in spriteList)
             {
                 DebugTools.Assert(sprite is SpriteSpecifier.Rsi);
                 if (sprite is not SpriteSpecifier.Rsi rsi)

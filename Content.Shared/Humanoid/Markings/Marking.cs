@@ -30,6 +30,41 @@ public partial record struct Marking
     /// </summary>
     public bool Forced;
 
+    // Mythos: per-instance state for OV-style features that can't be
+    // expressed by sprite + colors alone (size slider, toggle bools,
+    // variant dropdown). Lives here rather than in a sibling partial
+    // because C# (CS0282) forbids splitting struct fields across partial
+    // declarations -- field order would be ambiguous and mess up
+    // serialization. Helpers (WithMythosSize / WithMythosToggle /
+    // WithMythosVariant) live in Marking.Mythos.cs.
+
+    /// <summary>
+    /// Mythos: index into <see cref="MarkingPrototype.MythosSizeStates"/>
+    /// for sized organs (Penis, Breasts) where size is a synced
+    /// category-level slider rather than a separate prototype.
+    /// </summary>
+    [DataField]
+    public int? MythosSizeIndex;
+
+    /// <summary>
+    /// Mythos: per-toggle bool state (is_open, functional, lactating,
+    /// virile, fertility) keyed by the names in
+    /// <see cref="MarkingPrototype.MythosToggles"/>.
+    /// </summary>
+    [DataField]
+    public Dictionary<string, bool>? MythosToggles;
+
+    /// <summary>
+    /// Mythos: currently-selected named variant for prototypes that
+    /// expose <see cref="MarkingPrototype.MythosVariants"/>. Penis uses
+    /// it to flip silhouette (Plain / Knotted / ...) while keeping size
+    /// as the picker item; Breasts uses it for arrangement (Pair /
+    /// Quad / Sextuple). Null = renderer falls through to the
+    /// prototype's default Sprites list.
+    /// </summary>
+    [DataField]
+    public string? MythosVariant;
+
     public Marking()
     {
         _markingColors = new();

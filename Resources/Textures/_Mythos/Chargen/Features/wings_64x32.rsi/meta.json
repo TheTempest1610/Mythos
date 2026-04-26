@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 36,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "gargoyle_adj",
+      "directions": 4
+    },
+    {
+      "name": "gargoyle_behind",
+      "directions": 4
+    },
+    {
+      "name": "harpybat_alt_behind",
+      "directions": 4
+    },
+    {
+      "name": "harpybat_alt_front",
+      "directions": 4
+    },
+    {
+      "name": "harpyfluff_behind",
+      "directions": 4
+    },
+    {
+      "name": "harpyfluff_front",
+      "directions": 4
+    },
+    {
+      "name": "harpyfolded_behind",
+      "directions": 4
+    },
+    {
+      "name": "harpyfolded_front",
+      "directions": 4
+    },
+    {
+      "name": "harpyowl_behind",
+      "directions": 4
+    },
+    {
+      "name": "harpyowl_front",
+      "directions": 4
+    },
+    {
+      "name": "harpys_alt_behind",
+      "directions": 4
+    },
+    {
+      "name": "harpys_alt_front",
+      "directions": 4
+    },
+    {
+      "name": "harpys_behind",
+      "directions": 4
+    },
+    {
+      "name": "harpys_front",
+      "directions": 4
+    }
+  ]
+}

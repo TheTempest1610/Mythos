@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "butt_pair_0_adj",
+      "directions": 4
+    },
+    {
+      "name": "butt_pair_1_adj",
+      "directions": 4
+    },
+    {
+      "name": "butt_pair_2_adj",
+      "directions": 4
+    },
+    {
+      "name": "butt_pair_3_adj",
+      "directions": 4
+    },
+    {
+      "name": "butt_pair_4_adj",
+      "directions": 4
+    },
+    {
+      "name": "butt_pair_5_adj",
+      "directions": 4
+    }
+  ]
+}

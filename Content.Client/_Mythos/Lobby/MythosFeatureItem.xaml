@@ -18,5 +18,10 @@
         </Button>
     </BoxContainer>
 
+    <!-- Mythos: per-feature toggle row (is_open, lactating, virile, ...).
+         Visible only when this feature is selected and the prototype
+         declares MythosToggles. Each toggle's state is synced across
+         the category via MarkingsViewModel.CategoryToggles. -->
+    <BoxContainer Name="TogglesContainer" Visible="False" Orientation="Horizontal" SeparationOverride="4" />
     <BoxContainer Name="ColorsContainer" Visible="False" Orientation="Vertical" />
 </BoxContainer>

@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 36
+  },
+  "states": [
+    {
+      "name": "dragonalt1_behind",
+      "directions": 4
+    },
+    {
+      "name": "dragonalt1_front",
+      "directions": 4
+    },
+    {
+      "name": "dragonalt2_behind",
+      "directions": 4
+    },
+    {
+      "name": "dragonalt2_front",
+      "directions": 4
+    },
+    {
+      "name": "dragonsynth_behind",
+      "directions": 4
+    },
+    {
+      "name": "dragonsynth_front",
+      "directions": 4
+    },
+    {
+      "name": "featheryalt1_behind",
+      "directions": 4
+    },
+    {
+      "name": "featheryalt1_front",
+      "directions": 4
+    },
+    {
+      "name": "featheryalt2_behind",
+      "directions": 4
+    },
+    {
+      "name": "featheryalt2_front",
+      "directions": 4
+    },
+    {
+      "name": "harpy_behind",
+      "directions": 4
+    },
+    {
+      "name": "harpy_front",
+      "directions": 4
+    },
+    {
+      "name": "harpy_top_front",
+      "directions": 4
+    },
+    {
+      "name": "harpyalt_behind",
+      "directions": 4
+    },
+    {
+      "name": "harpyalt_front",
+      "directions": 4
+    },
+    {
+      "name": "harpyalt_top_front",
+      "directions": 4
+    },
+    {
+      "name": "harpybat_behind",
+      "directions": 4
+    },
+    {
+      "name": "harpybat_front",
+      "directions": 4
+    },
+    {
+      "name": "harpybat_top_front",
+      "directions": 4
+    },
+    {
+      "name": "low_behind",
+      "directions": 4
+    },
+    {
+      "name": "low_front",
+      "directions": 4
+    },
+    {
+      "name": "low_top_behind",
+      "directions": 4
+    },
+    {
+      "name": "low_top_front",
+      "directions": 4
+    },
+    {
+      "name": "robowing_behind",
+      "directions": 4
+    },
+    {
+      "name": "robowing_front",
+      "directions": 4
+    },
+    {
+      "name": "spider_legs_behind",
+      "directions": 4
+    },
+    {
+      "name": "spider_legs_front",
+      "directions": 4
+    },
+    {
+      "name": "succubus_behind",
+      "directions": 4
+    },
+    {
+      "name": "succubus_front",
+      "directions": 4
+    }
+  ]
+}

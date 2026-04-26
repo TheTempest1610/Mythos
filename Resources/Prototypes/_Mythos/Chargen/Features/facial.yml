@@ -11,7 +11,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_5oclockmoustache
@@ -21,7 +20,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_brokenman
@@ -31,7 +29,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_burns
@@ -41,7 +38,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_chin
@@ -51,7 +47,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_dwarf
@@ -61,7 +56,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_fullbeard
@@ -71,7 +65,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_knightly
@@ -81,7 +74,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_longbeard
@@ -91,7 +83,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_manly
@@ -101,7 +92,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_moonshiner
@@ -111,7 +101,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_muttonmus
@@ -121,7 +110,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_pipe
@@ -131,7 +119,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_shaven
@@ -141,7 +128,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_stubble
@@ -151,7 +137,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_vandyke
@@ -161,7 +146,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_viking
@@ -171,7 +155,6 @@
   bodyPart: FacialHair
   category: FacialHair
   groupWhitelist: [Humen]
-  sexRestriction: Male
   sprites:
   - sprite: _Mythos/Chargen/Features/facial.rsi
     state: facial_wise
