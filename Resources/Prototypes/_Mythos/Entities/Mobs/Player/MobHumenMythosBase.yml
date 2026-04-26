@@ -101,6 +101,11 @@
       - HeadSide
       - Snout
       - SnoutCover
+      # Frills (and other ADJ-zone head features) anchor to BodyAdj —
+      # OV BODY_ADJ_LAYER catch-all positioned in MythosBaseSpeciesLayers.
+      # Listing it here lets the picker surface those markings under the
+      # head organ rather than dropping them.
+      - BodyAdj
 
 # Sex-matched limb states. Track A's importer extracted both mt.dmi and ft.dmi
 # limbs into l_arm_m/l_arm_f etc. The state files differ in silhouette

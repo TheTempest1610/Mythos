@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "brows",
+      "directions": 4
+    },
+    {
+      "name": "burneye_l",
+      "directions": 4
+    },
+    {
+      "name": "burneye_r",
+      "directions": 4
+    },
+    {
+      "name": "burnface_l",
+      "directions": 4
+    },
+    {
+      "name": "burnface_r",
+      "directions": 4
+    },
+    {
+      "name": "darkbrows",
+      "directions": 4
+    },
+    {
+      "name": "deadeye_l",
+      "directions": 4
+    },
+    {
+      "name": "deadeye_r",
+      "directions": 4
+    },
+    {
+      "name": "mangled",
+      "directions": 4
+    },
+    {
+      "name": "mm",
+      "directions": 4
+    },
+    {
+      "name": "monstermaw_inner",
+      "directions": 4
+    },
+    {
+      "name": "monstermaw_outer",
+      "directions": 4
+    },
+    {
+      "name": "monstermaw_tips",
+      "directions": 4
+    },
+    {
+      "name": "scar",
+      "directions": 4
+    },
+    {
+      "name": "scar2",
+      "directions": 4
+    },
+    {
+      "name": "scarhead",
+      "directions": 4
+    },
+    {
+      "name": "slashedeye_l",
+      "directions": 4
+    },
+    {
+      "name": "slashedeye_r",
+      "directions": 4
+    },
+    {
+      "name": "tattoo_eye_both",
+      "directions": 4
+    },
+    {
+      "name": "tattoo_eye_l",
+      "directions": 4
+    },
+    {
+      "name": "tattoo_eye_r",
+      "directions": 4
+    },
+    {
+      "name": "tattoo_lips",
+      "directions": 4
+    }
+  ]
+}

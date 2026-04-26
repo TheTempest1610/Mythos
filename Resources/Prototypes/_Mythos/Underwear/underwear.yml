@@ -20,6 +20,7 @@
 - type: marking
   id: OVUndergarmentBottomBriefs
   bodyPart: UndergarmentBottom
+  category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Male
   coloring:
@@ -33,6 +34,7 @@
 - type: marking
   id: OVUndergarmentBottomBriefsFemale
   bodyPart: UndergarmentBottom
+  category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Female
   coloring:
@@ -46,6 +48,7 @@
 - type: marking
   id: OVUndergarmentBottomBriefsEoran
   bodyPart: UndergarmentBottom
+  category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Male
   coloring:
@@ -59,6 +62,7 @@
 - type: marking
   id: OVUndergarmentBottomPanties
   bodyPart: UndergarmentBottom
+  category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Female
   coloring:
@@ -72,6 +76,7 @@
 - type: marking
   id: OVUndergarmentBottomBraies
   bodyPart: UndergarmentBottom
+  category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Male
   coloring:
@@ -85,6 +90,7 @@
 - type: marking
   id: OVUndergarmentBottomBraiesFemale
   bodyPart: UndergarmentBottom
+  category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Female
   coloring:
@@ -98,6 +104,7 @@
 - type: marking
   id: OVUndergarmentBottomBikini
   bodyPart: UndergarmentBottom
+  category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Female
   coloring:
@@ -111,6 +118,7 @@
 - type: marking
   id: OVUndergarmentBottomLeotard
   bodyPart: UndergarmentBottom
+  category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Female
   coloring:
@@ -124,6 +132,7 @@
 - type: marking
   id: OVUndergarmentBottomLeotardMale
   bodyPart: UndergarmentBottom
+  category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Male
   coloring:
@@ -137,6 +146,7 @@
 - type: marking
   id: OVUndergarmentBottomAthleticLeotard
   bodyPart: UndergarmentBottom
+  category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Female
   coloring:
@@ -150,6 +160,7 @@
 - type: marking
   id: OVUndergarmentBottomAthleticLeotardMale
   bodyPart: UndergarmentBottom
+  category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Male
   coloring:

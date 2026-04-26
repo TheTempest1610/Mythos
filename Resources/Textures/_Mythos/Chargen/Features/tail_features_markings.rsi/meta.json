@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "alraunecolor_closed_markings",
+      "directions": 4
+    },
+    {
+      "name": "alraunecolor_markings",
+      "directions": 4
+    },
+    {
+      "name": "altnaga_markings",
+      "directions": 4
+    },
+    {
+      "name": "altnagatailmaw_markings",
+      "directions": 4
+    },
+    {
+      "name": "ant_markings",
+      "directions": 4
+    },
+    {
+      "name": "deer_markings",
+      "directions": 4
+    },
+    {
+      "name": "drake_markings",
+      "directions": 4
+    },
+    {
+      "name": "drake_markings_loaf",
+      "directions": 4
+    },
+    {
+      "name": "fat_sect_drone_markings",
+      "directions": 4
+    },
+    {
+      "name": "fatfeline_markings",
+      "directions": 4
+    },
+    {
+      "name": "fatfeline_markings_vwag",
+      "directions": 4
+    },
+    {
+      "name": "fatfeline_markings_vwag2",
+      "directions": 4
+    },
+    {
+      "name": "fatlizard_markings",
+      "directions": 4
+    },
+    {
+      "name": "fatnaga_markings",
+      "directions": 4
+    },
+    {
+      "name": "fatwolf_markings",
+      "directions": 4
+    },
+    {
+      "name": "feline_markings",
+      "directions": 4
+    },
+    {
+      "name": "feline_markings_inner",
+      "directions": 4
+    },
+    {
+      "name": "giantspidertaur-colorable-markings",
+      "directions": 4
+    },
+    {
+      "name": "lizard_markings",
+      "directions": 4
+    },
+    {
+      "name": "naga_markings",
+      "directions": 4
+    },
+    {
+      "name": "noodle_markings_inner",
+      "directions": 4
+    },
+    {
+      "name": "otie_markings",
+      "directions": 4
+    },
+    {
+      "name": "otie_markings_inner",
+      "directions": 4
+    },
+    {
+      "name": "pawcow_markings",
+      "directions": 4
+    },
+    {
+      "name": "rat_markings",
+      "directions": 4
+    },
+    {
+      "name": "sect_drone_markings",
+      "directions": 4
+    },
+    {
+      "name": "shadekin_markings",
+      "directions": 4
+    },
+    {
+      "name": "skunk_markings",
+      "directions": 4
+    },
+    {
+      "name": "skunk_markings_inner",
+      "directions": 4
+    },
+    {
+      "name": "wasp_markings",
+      "directions": 4
+    },
+    {
+      "name": "wolf_markings",
+      "directions": 4
+    },
+    {
+      "name": "wolf_markings_inner",
+      "directions": 4
+    }
+  ]
+}

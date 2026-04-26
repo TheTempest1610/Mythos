@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "big_antlers_adj",
+      "directions": 4
+    },
+    {
+      "name": "big_antlers_behind",
+      "directions": 4
+    },
+    {
+      "name": "big_antlers_front",
+      "directions": 4
+    },
+    {
+      "name": "branching_antlers_adj",
+      "directions": 4
+    },
+    {
+      "name": "branching_antlers_behind",
+      "directions": 4
+    },
+    {
+      "name": "branching_antlers_front",
+      "directions": 4
+    },
+    {
+      "name": "dukely_antlers_adj",
+      "directions": 4
+    },
+    {
+      "name": "dukely_antlers_behind",
+      "directions": 4
+    },
+    {
+      "name": "dukely_antlers_front",
+      "directions": 4
+    },
+    {
+      "name": "large_antlers_adj",
+      "directions": 4
+    },
+    {
+      "name": "large_antlers_behind",
+      "directions": 4
+    },
+    {
+      "name": "large_antlers_front",
+      "directions": 4
+    },
+    {
+      "name": "pronghorn_antlers_behind",
+      "directions": 4
+    },
+    {
+      "name": "pronghorn_antlers_front",
+      "directions": 4
+    },
+    {
+      "name": "regal_antlers_adj",
+      "directions": 4
+    },
+    {
+      "name": "regal_antlers_behind",
+      "directions": 4
+    },
+    {
+      "name": "regal_antlers_front",
+      "directions": 4
+    },
+    {
+      "name": "short_antlers_adj",
+      "directions": 4
+    },
+    {
+      "name": "short_antlers_behind",
+      "directions": 4
+    },
+    {
+      "name": "short_antlers_front",
+      "directions": 4
+    },
+    {
+      "name": "spirehorns_behind",
+      "directions": 4
+    },
+    {
+      "name": "spirehorns_front",
+      "directions": 4
+    },
+    {
+      "name": "toweringhorns_behind",
+      "directions": 4
+    },
+    {
+      "name": "toweringhorns_front",
+      "directions": 4
+    }
+  ]
+}

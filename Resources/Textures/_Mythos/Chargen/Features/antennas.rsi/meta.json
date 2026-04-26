@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "atlas_behind",
+      "directions": 4
+    },
+    {
+      "name": "atlas_front",
+      "directions": 4
+    },
+    {
+      "name": "burnt_off_behind",
+      "directions": 4
+    },
+    {
+      "name": "burnt_off_front",
+      "directions": 4
+    },
+    {
+      "name": "deathhead_behind",
+      "directions": 4
+    },
+    {
+      "name": "deathhead_front",
+      "directions": 4
+    },
+    {
+      "name": "firewatch_behind",
+      "directions": 4
+    },
+    {
+      "name": "firewatch_front",
+      "directions": 4
+    },
+    {
+      "name": "gothic_behind",
+      "directions": 4
+    },
+    {
+      "name": "gothic_front",
+      "directions": 4
+    },
+    {
+      "name": "jungle_behind",
+      "directions": 4
+    },
+    {
+      "name": "jungle_front",
+      "directions": 4
+    },
+    {
+      "name": "lovers_behind",
+      "directions": 4
+    },
+    {
+      "name": "lovers_front",
+      "directions": 4
+    },
+    {
+      "name": "luna_behind",
+      "directions": 4
+    },
+    {
+      "name": "luna_front",
+      "directions": 4
+    },
+    {
+      "name": "monarch_behind",
+      "directions": 4
+    },
+    {
+      "name": "monarch_front",
+      "directions": 4
+    },
+    {
+      "name": "moonfly_behind",
+      "directions": 4
+    },
+    {
+      "name": "moonfly_front",
+      "directions": 4
+    },
+    {
+      "name": "mothra_behind",
+      "directions": 4
+    },
+    {
+      "name": "mothra_front",
+      "directions": 4
+    },
+    {
+      "name": "oakworm_behind",
+      "directions": 4
+    },
+    {
+      "name": "oakworm_front",
+      "directions": 4
+    },
+    {
+      "name": "plain_behind",
+      "directions": 4
+    },
+    {
+      "name": "plain_front",
+      "directions": 4
+    },
+    {
+      "name": "poison_behind",
+      "directions": 4
+    },
+    {
+      "name": "poison_front",
+      "directions": 4
+    },
+    {
+      "name": "ragged_behind",
+      "directions": 4
+    },
+    {
+      "name": "ragged_front",
+      "directions": 4
+    },
+    {
+      "name": "reddish_behind",
+      "directions": 4
+    },
+    {
+      "name": "reddish_front",
+      "directions": 4
+    },
+    {
+      "name": "regal_behind",
+      "directions": 4
+    },
+    {
+      "name": "regal_front",
+      "directions": 4
+    },
+    {
+      "name": "royal_behind",
+      "directions": 4
+    },
+    {
+      "name": "royal_front",
+      "directions": 4
+    },
+    {
+      "name": "snow_behind",
+      "directions": 4
+    },
+    {
+      "name": "snow_front",
+      "directions": 4
+    },
+    {
+      "name": "whitefly_behind",
+      "directions": 4
+    },
+    {
+      "name": "whitefly_front",
+      "directions": 4
+    },
+    {
+      "name": "witchwing_behind",
+      "directions": 4
+    },
+    {
+      "name": "witchwing_front",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "aqua_UNDER",
+      "directions": 4
+    },
+    {
+      "name": "aqua_adj",
+      "directions": 4
+    },
+    {
+      "name": "aqua_behind",
+      "directions": 4
+    },
+    {
+      "name": "long_UNDER",
+      "directions": 4
+    },
+    {
+      "name": "long_adj",
+      "directions": 4
+    },
+    {
+      "name": "long_behind",
+      "directions": 4
+    },
+    {
+      "name": "longmeme_UNDER",
+      "directions": 4
+    },
+    {
+      "name": "longmeme_adj",
+      "directions": 4
+    },
+    {
+      "name": "longmeme_behind",
+      "directions": 4
+    },
+    {
+      "name": "short_UNDER",
+      "directions": 4
+    },
+    {
+      "name": "short_behind",
+      "directions": 4
+    },
+    {
+      "name": "shortmeme_UNDER",
+      "directions": 4
+    },
+    {
+      "name": "shortmeme_adj",
+      "directions": 4
+    },
+    {
+      "name": "shortmeme_behind",
+      "directions": 4
+    }
+  ]
+}

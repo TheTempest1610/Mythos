@@ -63,6 +63,15 @@ public partial record struct Marking
 
     public Marking WithColorAt(int index, Color color)
     {
+        // Mythos: bound-check defensively. The Mythos category-color picker
+        // can propagate a color change to every selected marking in a
+        // category, and a category may mix prototypes with different color
+        // slot counts (e.g., a 1-slot item alongside a 3-slot item). An
+        // out-of-range write here used to crash the client; silently no-op
+        // instead so the slot count of the marking governs which colors
+        // actually apply.
+        if (index < 0 || index >= _markingColors.Count)
+            return this;
         var newColors = _markingColors.ShallowClone();
         newColors[index] = color;
         return this with { _markingColors = newColors };

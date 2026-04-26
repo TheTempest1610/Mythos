@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "ffluff_front",
+      "directions": 4
+    },
+    {
+      "name": "ffluffdual_front_inner",
+      "directions": 4
+    },
+    {
+      "name": "ffluffdual_front_outer",
+      "directions": 4
+    },
+    {
+      "name": "fluff_adj",
+      "directions": 4
+    },
+    {
+      "name": "fluffdual_adj_inner",
+      "directions": 4
+    },
+    {
+      "name": "fluffdual_adj_outer",
+      "directions": 4
+    },
+    {
+      "name": "insectf_adj",
+      "directions": 4
+    },
+    {
+      "name": "insectm_adj",
+      "directions": 4
+    }
+  ]
+}

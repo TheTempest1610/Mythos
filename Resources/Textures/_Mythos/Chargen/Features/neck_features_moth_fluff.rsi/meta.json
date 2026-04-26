@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "atlas_adj",
+      "directions": 4
+    },
+    {
+      "name": "burnt_off_adj",
+      "directions": 4
+    },
+    {
+      "name": "deathhead_adj",
+      "directions": 4
+    },
+    {
+      "name": "firewatch_adj",
+      "directions": 4
+    },
+    {
+      "name": "gothic_adj",
+      "directions": 4
+    },
+    {
+      "name": "jungle_adj",
+      "directions": 4
+    },
+    {
+      "name": "lovers_adj",
+      "directions": 4
+    },
+    {
+      "name": "luna_adj",
+      "directions": 4
+    },
+    {
+      "name": "monarch_adj",
+      "directions": 4
+    },
+    {
+      "name": "moonfly_adj",
+      "directions": 4
+    },
+    {
+      "name": "oakworm_adj",
+      "directions": 4
+    },
+    {
+      "name": "plain_adj",
+      "directions": 4
+    },
+    {
+      "name": "poison_adj",
+      "directions": 4
+    },
+    {
+      "name": "ragged_adj",
+      "directions": 4
+    },
+    {
+      "name": "redish_adj",
+      "directions": 4
+    },
+    {
+      "name": "royal_adj",
+      "directions": 4
+    },
+    {
+      "name": "snow_adj",
+      "directions": 4
+    },
+    {
+      "name": "whitefly_adj",
+      "directions": 4
+    },
+    {
+      "name": "witchwing_adj",
+      "directions": 4
+    }
+  ]
+}
