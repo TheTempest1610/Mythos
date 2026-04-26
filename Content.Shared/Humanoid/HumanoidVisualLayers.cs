@@ -21,7 +21,8 @@ namespace Content.Shared.Humanoid
         BodyUnder,     // = -BODY_UNDER_LAYER (-46): reserved
         BodyAdj,       // = -BODY_ADJ_LAYER (-44): catch-all ADJ zone for ears ADJ, head_features, neck_features
         BodyFront,     // = -BODY_FRONT_LAYER (-6):  catch-all FRONT zone for wings FRONT, future generic features
-        BodyFrontest,  // = -BODY_FRONTEST_LAYER (-4): genitals FFRONT, reserved
+        BodyFronter,   // = -BODY_FRONTER_LAYER (-5): Caustic-only intermediate slot, used by belly FRONT
+        BodyFrontest,  // = -BODY_FRONTEST_LAYER (-4): genitals FFRONT (breasts FRONT)
         Hair,
         FacialHair,
         UndergarmentTop,

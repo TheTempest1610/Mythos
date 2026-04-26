@@ -107,6 +107,24 @@
   category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Female
+  # OV's /obj/item/undies/bikini sets covers_breasts = TRUE; the
+  # matching breast sprite_accessory's is_visible check returns FALSE
+  # when the wearer's underwear has this flag, suppressing the breast
+  # overlay entirely (genitals.dm:142). Mirrored in Mythos via
+  # MarkingPrototype.CoversBreasts; VisualBodySystem skips
+  # category=Breasts markings while a CoversBreasts marking is applied.
+  coversBreasts: true
+  # OV's bikini sprite_accessory rebuilds its icon_state per-render
+  # from owner.breasts.breast_size (underwear.dm:36), picking
+  # bikini_f_0..5 to match the breast bulge. mythosSizeStates +
+  # matchesBreastSize ports that runtime synthesis: VisualBodySystem
+  # reads the wearer's applied breast marking's MythosOrderIndex
+  # (= OV breast_size) and indexes here. Sizes > 5 clamp to _5
+  # via GetActiveSprites's [0, Count-1] clamp, matching OV's
+  # `if(breast_size > 5) tag = tag + "_5"`. When no breast marking
+  # is applied, sizeIndex stays null and the default `sprites` list
+  # below renders, mirroring OV's `else return "bikini_f_0"`.
+  matchesBreastSize: true
   coloring:
     default:
       type: null
@@ -114,6 +132,19 @@
   sprites:
   - sprite: _Mythos/Underwear/underwear.rsi
     state: bikini_f_0
+  mythosSizeStates:
+  - - sprite: _Mythos/Underwear/underwear.rsi
+      state: bikini_f_0
+  - - sprite: _Mythos/Underwear/underwear.rsi
+      state: bikini_f_1
+  - - sprite: _Mythos/Underwear/underwear.rsi
+      state: bikini_f_2
+  - - sprite: _Mythos/Underwear/underwear.rsi
+      state: bikini_f_3
+  - - sprite: _Mythos/Underwear/underwear.rsi
+      state: bikini_f_4
+  - - sprite: _Mythos/Underwear/underwear.rsi
+      state: bikini_f_5
 
 - type: marking
   id: OVUndergarmentBottomLeotard
@@ -121,6 +152,11 @@
   category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Female
+  # OV /obj/item/undies/leotard sets covers_breasts = TRUE.
+  coversBreasts: true
+  # See OVUndergarmentBottomBikini: the female leotard has the same
+  # OV runtime size synthesis at underwear.dm:69, also clamped at _5.
+  matchesBreastSize: true
   coloring:
     default:
       type: null
@@ -128,6 +164,19 @@
   sprites:
   - sprite: _Mythos/Underwear/underwear.rsi
     state: female_leotard_0
+  mythosSizeStates:
+  - - sprite: _Mythos/Underwear/underwear.rsi
+      state: female_leotard_0
+  - - sprite: _Mythos/Underwear/underwear.rsi
+      state: female_leotard_1
+  - - sprite: _Mythos/Underwear/underwear.rsi
+      state: female_leotard_2
+  - - sprite: _Mythos/Underwear/underwear.rsi
+      state: female_leotard_3
+  - - sprite: _Mythos/Underwear/underwear.rsi
+      state: female_leotard_4
+  - - sprite: _Mythos/Underwear/underwear.rsi
+      state: female_leotard_5
 
 - type: marking
   id: OVUndergarmentBottomLeotardMale
@@ -135,6 +184,11 @@
   category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Male
+  # The male leotard shares the chest-covering silhouette of the
+  # female variant; OV's /obj/item/undies/leotard isn't gender-locked,
+  # so apply covers_breasts symmetrically. Visible only when a male
+  # character has selected a non-flat breast size (rare but supported).
+  coversBreasts: true
   coloring:
     default:
       type: null
@@ -149,6 +203,8 @@
   category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Female
+  # OV /obj/item/undies/athletic_leotard sets covers_breasts = TRUE.
+  coversBreasts: true
   coloring:
     default:
       type: null
@@ -163,6 +219,9 @@
   category: Underwear
   groupWhitelist: [Human, Humen, Aasimar, HalfElf, Tiefling, Dullahan, Demihuman]
   sexRestriction: Male
+  # See OVUndergarmentBottomLeotardMale: chest-covering silhouette
+  # warrants covers_breasts symmetry with the female variant.
+  coversBreasts: true
   coloring:
     default:
       type: null

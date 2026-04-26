@@ -89,6 +89,7 @@
       # chargen tabs would have no content even though prototypes exist.
       - BodyBehind
       - BodyFront
+      - BodyFronter
       - BodyFrontest
 
 - type: entity

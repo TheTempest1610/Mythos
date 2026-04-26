@@ -227,4 +227,37 @@ public sealed partial class MarkingPrototype
     /// </summary>
     [DataField]
     public int? MythosOrderIndex;
+
+    /// <summary>
+    /// Mythos: when this marking is applied, suppress rendering of any
+    /// other applied marking whose Category is "Breasts". Mirrors OV's
+    /// covers_breasts flag on /obj/item/undies (bikini, leotard,
+    /// athletic_leotard) and the matching is_visible check at
+    /// code/modules/mob/dead/new_player/sprite_accessory/genitals.dm:142.
+    /// Without this, a chest-covering garment and a breast feature
+    /// would both render at their OV-faithful z-layers (UndergarmentBottom
+    /// at -43, BodyFrontest at -4), and the breast sprite would
+    /// visually overwhelm the garment.
+    /// </summary>
+    [DataField]
+    public bool CoversBreasts;
+
+    /// <summary>
+    /// Mythos: when set, the renderer reads the wearer's currently
+    /// applied breast marking's <see cref="MythosOrderIndex"/> (which
+    /// the breast consolidator stamps with OV's breast_size 0-16) and
+    /// uses it as the index into <see cref="MythosSizeStates"/> for
+    /// this marking, instead of the marking's own
+    /// <see cref="Marking.MythosSizeIndex"/>. Mirrors OV's runtime
+    /// state-name synthesis at
+    /// code/modules/mob/dead/new_player/sprite_accessory/underwear.dm:36
+    /// where the bikini and leotard sprite_accessory rebuild their
+    /// icon_state per-render from the wearer's breast organ. Sizes
+    /// past the highest declared state are clamped (matches OV's
+    /// `breast_size > 5 -> _5`). When the wearer has no breast
+    /// marking, the marking's default <see cref="Sprites"/> renders
+    /// instead, mirroring OV's `else return "bikini_f_0"` fallback.
+    /// </summary>
+    [DataField]
+    public bool MatchesBreastSize;
 }
