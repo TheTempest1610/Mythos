@@ -48,6 +48,7 @@
   mapName: Flat Plain
   mapPath: /Maps/Test/flatplain.yml
   minPlayers: 0
+  randomRotation: false
   stations:
     FlatPlain:
       stationProto: StandardNanotrasenStation
