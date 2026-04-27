@@ -284,6 +284,17 @@ namespace Content.Client.Lobby.UI
             // by category instead of nested under organ tabs).
             TabContainer.SetTabTitle(5, Loc.GetString("humanoid-profile-editor-mythos-features-tab"));
             MythosFeatures.SetModel(_markingsModel);
+            // Mythos: chargen "Clothing" tab. Self-initialises at construction
+            // (iterates prototypes in its own ctor); no SetModel needed yet
+            // until selection persistence is wired in a follow-up pass.
+            TabContainer.SetTabTitle(6, Loc.GetString("humanoid-profile-editor-mythos-clothing-tab"));
+            // Mythos: lightweight refresh of the chargen preview when a
+            // clothing-tab selection toggles. Mirrors the markings flow
+            // below: change the model, refresh the existing dummy, no
+            // full respawn. ApplyMythosClothing re-equips only the
+            // slots the picker manages (head/outer/etc.); other slots
+            // and HumanoidAppearance are untouched.
+            MythosClothing.SelectionChanged += OnMythosClothingChanged;
             InitializeMythosChargen();
 
             _markingsModel.MarkingsChanged += (_, _) => OnMarkingChange();
@@ -348,6 +359,13 @@ namespace Content.Client.Lobby.UI
 
             SpriteView.LoadPreview(Profile, JobOverride, ShowClothes.Pressed);
 
+            // Mythos: re-apply chargen "Clothing" tab selections after the
+            // dummy respawns so the player's choices survive job-pref /
+            // species changes that otherwise rebuild the entity.
+            SpriteView.ApplyMythosClothing(
+                MythosClothing.Selections,
+                Content.Client._Mythos.Lobby.MythosClothingPicker.ManagedSlots);
+
             // Check and set the dirty flag to enable the save/reset buttons as appropriate.
             SetDirty();
         }
@@ -382,6 +400,10 @@ namespace Content.Client.Lobby.UI
             UpdateEyePickers();
             UpdateSaveButton();
             UpdateMarkings();
+            // Mythos: hydrate the chargen "Clothing" picker from the
+            // freshly loaded profile so its per-slot toggles match what
+            // the player saved.
+            UpdateMythosClothing();
 
             RefreshAntags();
             RefreshJobs();

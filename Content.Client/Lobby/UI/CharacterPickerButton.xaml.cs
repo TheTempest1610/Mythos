@@ -39,7 +39,13 @@ public sealed partial class CharacterPickerButton : ContainerButton
         Group = group;
         var description = profile.Name;
 
-        View.LoadPreview(profile);
+        // Mythos: skip vanilla job loadout (jumpsuit / PDA / ID) on the
+        // mini-preview. We then layer on the player's chargen Clothing
+        // tab picks so the selection list matches what they'll spawn
+        // wearing. The character-setup gui re-instantiates this button
+        // whenever the picker selection changes, so this stays current.
+        View.LoadPreview(profile, showClothes: false);
+        View.ApplyMythosClothingFromProfile(profile);
 
         var highPriorityJob = profile.JobPriorities.SingleOrDefault(p => p.Value == JobPriority.High).Key;
         if (highPriorityJob != default)

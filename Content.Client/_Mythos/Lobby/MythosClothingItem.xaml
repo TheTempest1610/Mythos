@@ -1,0 +1,30 @@
+<BoxContainer xmlns="https://spacestation14.io"
+              xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+              Orientation="Vertical"
+              HorizontalExpand="True">
+
+    <!-- Layout deliberately mirrors MythosFeatureItem.xaml so chargen
+         tabs feel uniform: 64x64 panel on the left holds the
+         inventory-icon thumbnail; SelectButton on the right takes the
+         remaining width and renders the item name. The outer Vertical
+         box is kept (rather than a single Horizontal) so future
+         per-item toggles or colour pickers can stack underneath
+         without rewiring the layout. -->
+    <BoxContainer Orientation="Horizontal" SeparationOverride="4">
+        <PanelContainer SetSize="64 64" HorizontalAlignment="Right" MouseFilter="Ignore">
+            <PanelContainer.PanelOverride>
+                <graphics:StyleBoxFlat BackgroundColor="#1B1B1E" />
+            </PanelContainer.PanelOverride>
+            <EntityPrototypeView Name="ProtoView"
+                                 Stretch="Fill"
+                                 Scale="2 2"
+                                 HorizontalAlignment="Center"
+                                 VerticalAlignment="Center" />
+        </PanelContainer>
+
+        <Button Name="SelectButton"
+                ToggleMode="True"
+                ClipText="True"
+                HorizontalExpand="True" />
+    </BoxContainer>
+</BoxContainer>

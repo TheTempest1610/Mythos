@@ -1,7 +1,8 @@
 - type: species
   id: Dwarf
   name: species-name-dwarf
-  roundStart: true
+  # Mythos: hide vanilla species from chargen / random spawn pool.
+  roundStart: false
   prototype: MobDwarf
   dollPrototype: AppearanceDwarf
   skinColoration: HumanToned

@@ -42,7 +42,15 @@ public static class DataNodeJsonExtensions
             JsonValueKind.String => new ValueDataNode(element.GetString()),
             JsonValueKind.True => new ValueDataNode("true"),
             JsonValueKind.False => new ValueDataNode("false"),
-            JsonValueKind.Null => new ValueDataNode("null"),
+            // Mythos: must be the IsNull-sentinel ValueDataNode, not the
+            // literal string "null". Otherwise nullable value-typed
+            // [DataField]s (e.g. Marking.MythosSizeIndex which is int?)
+            // try to parse the string "null" as their underlying type
+            // and crash profile load. The sibling JsonNode overload
+            // below already uses ValueDataNode.Null() correctly; this
+            // line drifted before any null-valued non-string field
+            // existed in the saved schema.
+            JsonValueKind.Null => ValueDataNode.Null(),
             _ => throw new ArgumentOutOfRangeException(nameof(element)),
         };
     }

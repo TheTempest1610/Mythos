@@ -85,7 +85,11 @@
                                 <BoxContainer HorizontalExpand="True">
                                     <Label Text="{Loc 'humanoid-profile-editor-clothing'}" />
                                     <Control HorizontalExpand="True"/>
-                                    <Button Name="ShowClothes" Pressed="True" ToggleMode="True" Text="{Loc 'humanoid-profile-editor-clothing-show'}" HorizontalAlignment="Right" />
+                                    <!-- Mythos: default OFF so chargen starts with a clean dummy.
+                                         The chargen "Clothing" tab applies its selections on top
+                                         independent of this toggle; toggling this back on layers the
+                                         upstream job StartingGear / loadout under those selections. -->
+                                    <Button Name="ShowClothes" Pressed="False" ToggleMode="True" Text="{Loc 'humanoid-profile-editor-clothing-show'}" HorizontalAlignment="Right" />
                                 </BoxContainer>
                                 <!-- Spawn Priority -->
                                 <BoxContainer HorizontalExpand="True">
@@ -142,6 +146,13 @@
                      nesting them under organ-based parent tabs. -->
                 <BoxContainer Name="MythosFeaturesTab" Orientation="Vertical" Margin="10">
                     <mythosLobby:MythosFeaturePicker Name="MythosFeatures" HorizontalExpand="True" VerticalExpand="True" />
+                </BoxContainer>
+                <!-- Mythos: top-level "Clothing" tab. Hosts the OV-imported
+                     RogueTown clothing items grouped by inventory slot. V1
+                     UI-only; selection persistence (cosmetic vs loadout)
+                     is a follow-up decision. -->
+                <BoxContainer Name="MythosClothingTab" Orientation="Vertical" Margin="10">
+                    <mythosLobby:MythosClothingPicker Name="MythosClothing" HorizontalExpand="True" VerticalExpand="True" />
                 </BoxContainer>
             </TabContainer>
         </BoxContainer>

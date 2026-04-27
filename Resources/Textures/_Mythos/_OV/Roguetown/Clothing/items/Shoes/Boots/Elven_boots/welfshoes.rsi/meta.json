@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Ochre Valley Project at https://github.com/Ochre-Valley/Ochre-Valley",
+  "size": {
+    "x": 32,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "equipped-FEET",
+      "directions": 4
+    },
+    {
+      "name": "equipped-FEET-Female",
+      "directions": 4
+    },
+    {
+      "name": "icon"
+    }
+  ]
+}

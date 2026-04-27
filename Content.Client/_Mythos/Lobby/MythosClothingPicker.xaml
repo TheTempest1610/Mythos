@@ -1,0 +1,7 @@
+<Control xmlns="https://spacestation14.io">
+    <!-- Mythos: top-level chargen "Clothing" tab. Children are added
+         dynamically in MythosClothingPicker.xaml.cs - one tab per
+         inventory slot (Head, Outer, Hands, ...) populated with
+         OVRoguetown-imported clothing entity prototypes. -->
+    <TabContainer Name="SlotTabs" VerticalExpand="True" HorizontalExpand="True" />
+</Control>

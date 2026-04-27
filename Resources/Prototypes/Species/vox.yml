@@ -1,7 +1,8 @@
 - type: species
   id: Vox
   name: species-name-vox
-  roundStart: true
+  # Mythos: hide vanilla species from chargen / random spawn pool.
+  roundStart: false
   prototype: MobVox
   dollPrototype: AppearanceVox
   skinColoration: VoxFeathers

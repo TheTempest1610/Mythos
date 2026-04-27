@@ -1,5 +1,6 @@
 using Content.Client.Lobby.UI;
 using Content.Client._Mythos.Lobby;
+using Content.Shared.Clothing._Mythos;
 
 namespace Content.Client.Lobby.UI;
 
@@ -106,5 +107,42 @@ public sealed partial class HumanoidProfileEditor
         if (Profile is null)
             return;
         MythosFeatures.EyesPicker?.SetData(Profile.Appearance.EyeColor);
+    }
+
+    /// <summary>
+    /// Mythos: Clothing tab selection changed. Mirrors the Markings flow:
+    /// pull the picker's current selection snapshot, fold it into a
+    /// fresh profile copy via <see cref="HumanoidCharacterProfile.WithMythosClothing"/>,
+    /// refresh the chargen preview, and mark the editor dirty so the
+    /// Save button enables.
+    /// </summary>
+    private void OnMythosClothingChanged()
+    {
+        if (Profile == null)
+            return;
+
+        Profile = Profile.WithMythosClothing(MythosClothing.SelectionsByName);
+
+        // Lightweight preview refresh: re-equip only Mythos-managed
+        // slots on the existing dummy. No respawn.
+        SpriteView.ApplyMythosClothing(
+            MythosClothing.Selections,
+            MythosClothingPicker.ManagedSlots);
+
+        SetDirty();
+    }
+
+    /// <summary>
+    /// Mythos: hydrate the Clothing picker from the active profile.
+    /// Called whenever the editor swaps to a different character so the
+    /// picker's per-slot selection state matches what the player saved.
+    /// Safe to call before the picker has built its tabs (LoadFromProfile
+    /// just no-ops on prototypes it can't find).
+    /// </summary>
+    private void UpdateMythosClothing()
+    {
+        if (Profile is null)
+            return;
+        MythosClothing.LoadFromProfile(Profile.MythosClothingSelections);
     }
 }
