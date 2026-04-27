@@ -1,3 +1,4 @@
+using Content.Client._Mythos.UserInterface.Screens;
 using Content.Client.Gameplay;
 using Content.Client.UserInterface.Screens;
 using Content.Client.UserInterface.Systems.Gameplay;
@@ -40,6 +41,12 @@ public sealed class OldHudVisibilityUIController : UIController, IOnStateEntered
 
     private void ApplyToActiveScreen()
     {
+        // Mythos: V2 HUD ships its own equivalents for the upstream menu bar / hotbar /
+        // alerts; default-hide the legacy overlay so they don't render on top. The
+        // `hide_old_ui` console command can still flip back from there for debugging.
+        if (UIManager.ActiveScreen is MythosGameScreen)
+            IsOldHudHidden = true;
+
         ApplyOldHudVisible(!IsOldHudHidden);
     }
 

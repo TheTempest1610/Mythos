@@ -1,0 +1,12 @@
+<character:PortraitControl
+    xmlns="https://spacestation14.io"
+    xmlns:character="clr-namespace:Content.Client._Mythos.UserInterface.Systems.Character.Controls">
+    <PanelContainer Name="PortraitFrame" MinSize="128 144">
+        <SpriteView Name="Portrait"
+                    OverrideDirection="South"
+                    Scale="3 3"
+                    SetSize="96 128"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center" />
+    </PanelContainer>
+</character:PortraitControl>

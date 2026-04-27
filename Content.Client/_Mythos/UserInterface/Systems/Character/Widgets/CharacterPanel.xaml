@@ -1,0 +1,21 @@
+<character:CharacterPanel
+    xmlns="https://spacestation14.io"
+    xmlns:character="clr-namespace:Content.Client._Mythos.UserInterface.Systems.Character.Widgets"
+    xmlns:controls="clr-namespace:Content.Client._Mythos.UserInterface.Systems.Character.Controls">
+    <BoxContainer Name="ContentBox"
+                  Orientation="Vertical"
+                  HorizontalExpand="True"
+                  VerticalExpand="True">
+        <BoxContainer Orientation="Horizontal" HorizontalExpand="True">
+            <Control HorizontalExpand="True" />
+            <controls:EquipmentSlotsControl Name="EquipmentSlots" />
+            <Control HorizontalExpand="True" />
+        </BoxContainer>
+        <Control VerticalExpand="True" />
+        <BoxContainer Orientation="Horizontal" HorizontalExpand="True">
+            <Control HorizontalExpand="True" />
+            <controls:PortraitControl Name="Portrait" />
+            <Control HorizontalExpand="True" />
+        </BoxContainer>
+    </BoxContainer>
+</character:CharacterPanel>

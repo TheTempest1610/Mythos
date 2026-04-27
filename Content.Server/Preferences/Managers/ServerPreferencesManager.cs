@@ -167,6 +167,22 @@ namespace Content.Server.Preferences.Managers
                 loadouts[role.RoleName] = loadout;
             }
 
+            // Mythos: hydrate chargen Clothing tab selections. Saved by
+            // ServerDbBase.ConvertProfiles as a flat string-string map.
+            var mythosClothing = new Dictionary<string, EntProtoId>();
+            if (profile.MythosClothingSelections?.RootElement is { } clothingElement
+                && clothingElement.ValueKind == JsonValueKind.Object)
+            {
+                foreach (var entry in clothingElement.EnumerateObject())
+                {
+                    if (entry.Value.ValueKind == JsonValueKind.String
+                        && entry.Value.GetString() is { } protoId)
+                    {
+                        mythosClothing[entry.Name] = new EntProtoId(protoId);
+                    }
+                }
+            }
+
             return new HumanoidCharacterProfile(
                 profile.CharacterName,
                 profile.FlavorText,
@@ -186,7 +202,7 @@ namespace Content.Server.Preferences.Managers
                 antags.ToHashSet(),
                 traits.ToHashSet(),
                 loadouts
-            );
+            ).WithMythosClothing(mythosClothing); // Mythos
         }
 
         private async void HandleSelectCharacterMessage(MsgSelectCharacter message)

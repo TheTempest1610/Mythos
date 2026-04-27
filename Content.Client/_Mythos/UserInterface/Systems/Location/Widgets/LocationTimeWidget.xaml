@@ -1,0 +1,14 @@
+<location:LocationTimeWidget
+    xmlns="https://spacestation14.io"
+    xmlns:location="clr-namespace:Content.Client._Mythos.UserInterface.Systems.Location.Widgets"
+    MinSize="260 32">
+    <PanelContainer StyleClasses="MythosLocationPill">
+        <BoxContainer Orientation="Horizontal" VerticalAlignment="Center">
+            <Label Name="TimeLabel" Text="23:42" />
+            <Control MinSize="8 0" />
+            <Label Name="RegionLabel" Text="Peach Blossom Valley" />
+            <Control MinSize="6 0" />
+            <Label Name="MoonGlyph" Text="☽" ToolTip="Moon phase" />
+        </BoxContainer>
+    </PanelContainer>
+</location:LocationTimeWidget>

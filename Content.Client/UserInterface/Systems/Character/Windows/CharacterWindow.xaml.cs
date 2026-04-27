@@ -5,7 +5,9 @@ using Robust.Client.UserInterface.XAML;
 namespace Content.Client.UserInterface.Systems.Character.Windows;
 
 [GenerateTypedNameReferences]
-public sealed partial class CharacterWindow : DefaultWindow
+// Mythos: unsealed so MythosCharacterWindow can subclass and override layout for the V2 HUD.
+[Virtual]
+public partial class CharacterWindow : DefaultWindow
 {
     public CharacterWindow()
     {

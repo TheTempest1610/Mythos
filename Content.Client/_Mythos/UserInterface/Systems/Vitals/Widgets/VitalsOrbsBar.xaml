@@ -1,0 +1,21 @@
+<vitals:VitalsOrbsBar
+    xmlns="https://spacestation14.io"
+    xmlns:vitals="clr-namespace:Content.Client._Mythos.UserInterface.Systems.Vitals.Widgets"
+    xmlns:vcontrols="clr-namespace:Content.Client._Mythos.UserInterface.Systems.Vitals.Controls"
+    xmlns:hotbar="clr-namespace:Content.Client._Mythos.UserInterface.Systems.Hotbar.Widgets">
+    <BoxContainer Name="OuterRow"
+                  Orientation="Horizontal"
+                  HorizontalExpand="True"
+                  VerticalAlignment="Bottom"
+                  SeparationOverride="0">
+        <Control HorizontalExpand="True" />
+        <BoxContainer Name="StripRow" Orientation="Horizontal" SeparationOverride="0">
+            <vcontrols:OrbControl Name="HpOrb" MinSize="96 96" ToolTip="HP" />
+            <PanelContainer Name="HotbarFrame" StyleClasses="MythosFrame" VerticalAlignment="Bottom">
+                <hotbar:MythosHotbar Name="Hotbar" />
+            </PanelContainer>
+            <vcontrols:OrbControl Name="QiOrb" MinSize="96 96" ToolTip="Qi" />
+        </BoxContainer>
+        <Control HorizontalExpand="True" />
+    </BoxContainer>
+</vitals:VitalsOrbsBar>

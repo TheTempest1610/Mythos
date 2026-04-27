@@ -1,0 +1,9 @@
+<hotbar:MythosHotbar
+    xmlns="https://spacestation14.io"
+    xmlns:hotbar="clr-namespace:Content.Client._Mythos.UserInterface.Systems.Hotbar.Widgets">
+    <BoxContainer Name="SlotRow"
+                  Orientation="Horizontal"
+                  SeparationOverride="4"
+                  HorizontalAlignment="Center"
+                  VerticalAlignment="Center" />
+</hotbar:MythosHotbar>

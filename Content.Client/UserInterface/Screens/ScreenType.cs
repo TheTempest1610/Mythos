@@ -9,5 +9,7 @@ public enum ScreenType
     /// <summary>
     ///     The classic SS13 user interface.
     /// </summary>
-    Separated
+    Separated,
+    // Mythos: V2 HUD reskin entry; routed in GameplayState.LoadMainScreen.
+    Mythos
 }
