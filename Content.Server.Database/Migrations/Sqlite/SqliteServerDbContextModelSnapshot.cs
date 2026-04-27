@@ -1027,6 +1027,10 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("jsonb")
                         .HasColumnName("markings");
 
+                    b.Property<byte[]>("MythosClothingSelections")
+                        .HasColumnType("jsonb")
+                        .HasColumnName("mythos_clothing_selections");
+
                     b.Property<byte[]>("OrganMarkings")
                         .HasColumnType("jsonb")
                         .HasColumnName("organ_markings");

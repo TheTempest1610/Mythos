@@ -1,0 +1,5 @@
+<character:EquipmentSlotsControl
+    xmlns="https://spacestation14.io"
+    xmlns:character="clr-namespace:Content.Client._Mythos.UserInterface.Systems.Character.Controls">
+    <GridContainer Name="SlotGrid" Columns="3" HSeparationOverride="4" VSeparationOverride="4" />
+</character:EquipmentSlotsControl>

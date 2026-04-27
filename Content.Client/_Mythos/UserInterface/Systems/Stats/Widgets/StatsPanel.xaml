@@ -1,0 +1,29 @@
+<stats:StatsPanel
+    xmlns="https://spacestation14.io"
+    xmlns:stats="clr-namespace:Content.Client._Mythos.UserInterface.Systems.Stats.Widgets">
+    <PanelContainer StyleClasses="MythosFrame">
+        <BoxContainer Orientation="Vertical" Margin="6">
+            <stats:NameClassBadge Name="Badge" />
+            <PanelContainer StyleClasses="MythosDivider" Margin="0 8 0 8" />
+            <GridContainer Name="StatsGrid" Columns="2" HSeparationOverride="12" VSeparationOverride="4">
+                <Label Text="HP" StyleClasses="LabelKeyText" />
+                <Label Name="HpValue" Text="-" />
+
+                <Label Text="Qi" StyleClasses="LabelKeyText" />
+                <Label Name="QiValue" Text="-" />
+
+                <Label Text="Atk" StyleClasses="LabelKeyText" />
+                <Label Name="AtkValue" Text="-" />
+
+                <Label Text="Def" StyleClasses="LabelKeyText" />
+                <Label Name="DefValue" Text="-" />
+
+                <Label Text="Spirit" StyleClasses="LabelKeyText" />
+                <Label Name="SpiritValue" Text="-" />
+
+                <Label Text="Dex" StyleClasses="LabelKeyText" />
+                <Label Name="DexValue" Text="-" />
+            </GridContainer>
+        </BoxContainer>
+    </PanelContainer>
+</stats:StatsPanel>

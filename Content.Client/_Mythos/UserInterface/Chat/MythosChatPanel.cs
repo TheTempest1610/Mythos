@@ -28,6 +28,9 @@ public sealed class MythosChatPanel : Control
     private const float TitleSourceHeight = 577f;
     private const float TitleAspect = TitleSourceWidth / TitleSourceHeight;
     private const float VerticalMargin = 12f;
+    // Mythos: cap chrome height for consistent layout across window sizes (matches
+    // MythosEquipmentPanel.MaxPanelHeight so left/right chromes are symmetric).
+    private const float MaxPanelHeight = 800f;
     private const float ContentPadding = 8f;
     private const float ResizeHandleWidth = 14f;
     private const float MaxWidthMultiplier = 2f;
@@ -195,7 +198,7 @@ public sealed class MythosChatPanel : Control
 
     protected override Vector2 ArrangeOverride(Vector2 finalSize)
     {
-        var panelHeight = MathF.Round(MathF.Max(0f, finalSize.Y - VerticalMargin * 2f));
+        var panelHeight = MathF.Round(MathF.Min(MaxPanelHeight, MathF.Max(0f, finalSize.Y - VerticalMargin * 2f)));
         var basePanelWidth = MathF.Round(panelHeight * EquipmentAspect);
         var expandedPanelWidth = MathF.Round(basePanelWidth * _widthMultiplier);
         var panelWidth = _collapsed ? 0f : expandedPanelWidth;

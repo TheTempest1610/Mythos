@@ -290,6 +290,22 @@ namespace Content.Server.Database
                 profile.Loadouts.Add(dz);
             }
 
+            // Mythos: persist chargen Clothing tab selections. Stored as a flat
+            // string-string JSON map so EF doesn't need EntProtoId awareness;
+            // the load path in ServerPreferencesManager.ConvertProfiles rebuilds
+            // the EntProtoId values.
+            if (humanoid.MythosClothingSelections.Count == 0)
+            {
+                profile.MythosClothingSelections = null;
+            }
+            else
+            {
+                var clothingDict = humanoid.MythosClothingSelections
+                    .ToDictionary(kvp => kvp.Key, kvp => kvp.Value.Id);
+                profile.MythosClothingSelections =
+                    JsonSerializer.SerializeToDocument(clothingDict);
+            }
+
             return profile;
         }
         #endregion

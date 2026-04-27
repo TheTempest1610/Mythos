@@ -127,6 +127,10 @@ namespace Content.Client.Gameplay
                 case ScreenType.Separated:
                     _uiManager.LoadScreen<SeparatedChatGameScreen>();
                     break;
+                // Mythos: V2 HUD reskin (cvar ui.layout=Mythos).
+                case ScreenType.Mythos:
+                    _uiManager.LoadScreen<Content.Client._Mythos.UserInterface.Screens.MythosGameScreen>();
+                    break;
             }
 
             _loadController.LoadScreen();

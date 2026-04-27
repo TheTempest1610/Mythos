@@ -109,6 +109,37 @@ namespace Content.IntegrationTests.Tests.Preferences
             await pair.CleanReturnAsync();
         }
 
+        // Mythos: regression for chargen Clothing tab persistence. Without
+        // explicit save/load wiring on the Profile entity, MythosClothingSelections
+        // gets dropped at the SQL boundary even though the [DataField] survives
+        // network round-trip.
+        [Test]
+        public async Task TestMythosClothingSelectionsRoundTrip()
+        {
+            var pair = await PoolManager.GetServerClient();
+            var db = GetDb(pair.Server);
+            var username = new NetUserId(new Guid("640bd619-fc8d-4fe2-bf3c-4a5fb17d6ddd"));
+
+            var selections = new Dictionary<string, EntProtoId>
+            {
+                ["jumpsuit"] = "ClothingUniformJumpsuitColorBlack",
+                ["shoes"] = "ClothingShoesColorBlack",
+            };
+            var profile = CharlieCharlieson().WithMythosClothing(selections);
+
+            Assert.DoesNotThrowAsync(async () => await db.InitPrefsAsync(username, profile));
+
+            var preferences = (ServerPreferencesManager)pair.Server.ResolveDependency<IServerPreferencesManager>();
+            var prefs = await db.GetPlayerPreferencesAsync(username);
+            var fetched = preferences.ConvertProfiles(prefs!.Profiles.Find(p => p.Slot == 0));
+
+            Assert.That(fetched.MythosClothingSelections, Has.Count.EqualTo(2));
+            Assert.That(fetched.MythosClothingSelections["jumpsuit"].Id, Is.EqualTo("ClothingUniformJumpsuitColorBlack"));
+            Assert.That(fetched.MythosClothingSelections["shoes"].Id, Is.EqualTo("ClothingShoesColorBlack"));
+
+            await pair.CleanReturnAsync();
+        }
+
         [Test]
         public async Task TestInitPrefs()
         {

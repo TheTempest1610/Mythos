@@ -59,12 +59,18 @@ public sealed class CharacterUIController : UIController, IOnStateEntered<Gamepl
 
     private CharacterWindow EnsureWindow()
     {
-        return UIManager.EnsureWindow(ref _window, w =>
-        {
-            LayoutContainer.SetAnchorPreset(w, LayoutContainer.LayoutPreset.CenterTop);
-            w.OnClose += DeactivateButton;
-            w.OnOpen += ActivateButton;
-        });
+        if (_window is { Disposed: false })
+            return _window;
+
+        // Mythos: select V2 character window when the Mythos HUD screen is active.
+        _window = UIManager.ActiveScreen is Content.Client._Mythos.UserInterface.Screens.MythosGameScreen
+            ? UIManager.CreateWindow<Content.Client._Mythos.UserInterface.Systems.Character.Widgets.MythosCharacterWindow>()
+            : UIManager.CreateWindow<CharacterWindow>();
+
+        LayoutContainer.SetAnchorPreset(_window, LayoutContainer.LayoutPreset.CenterTop);
+        _window.OnClose += DeactivateButton;
+        _window.OnOpen += ActivateButton;
+        return _window;
     }
 
     public void OnStateExited(GameplayState state)

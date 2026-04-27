@@ -2,9 +2,12 @@
 //
 // MythosClothingSelections is a slot-name -> entity-prototype-ID map
 // of the items the player picked in the chargen Clothing tab. The
-// upstream profile already replicates / serialises any [DataField]
-// it owns, so this field round-trips through the database and the
-// network without further plumbing. The server spawn path
+// [DataField] tag handles the network/in-memory round-trip, but DB
+// persistence is hand-written EF Core: see the new column on the
+// Profile entity (Content.Server.Database/Model.cs) plus the save
+// branch in ServerDbBase.ConvertProfiles and the load branch in
+// ServerPreferencesManager.ConvertProfiles. Add to all three when
+// extending this dictionary's shape. The server spawn path
 // (Content.Server/_Mythos/Clothing/MythosClothingSpawnSystem.cs)
 // reads it after job-loadout equip to apply the player's choices.
 //

@@ -1,0 +1,14 @@
+<stats:NameClassBadge
+    xmlns="https://spacestation14.io"
+    xmlns:stats="clr-namespace:Content.Client._Mythos.UserInterface.Systems.Stats.Widgets">
+    <BoxContainer Orientation="Vertical" HorizontalExpand="True">
+        <Label Name="NameLabel" Text="" StyleClasses="LabelHeading" />
+        <Label Name="ClassLabel" Text="" StyleClasses="LabelSubText" />
+        <ProgressBar Name="XpBar"
+                     MinValue="0"
+                     MaxValue="1"
+                     Value="0"
+                     MinHeight="6"
+                     Margin="0 4 0 0" />
+    </BoxContainer>
+</stats:NameClassBadge>
