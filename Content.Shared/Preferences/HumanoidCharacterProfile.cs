@@ -30,7 +30,13 @@ namespace Content.Shared.Preferences
     [Serializable, NetSerializable]
     public sealed partial class HumanoidCharacterProfile
     {
-        public static readonly ProtoId<SpeciesPrototype> DefaultSpecies = "Human";
+        // Mythos: vanilla "Human" is roundStart=false in this fork (along
+        // with all other upstream species). The chargen/spawn fallback
+        // species needs to remain roundStart=true or EnsureValid will
+        // fall through to a still-disabled default. "Humen" is the
+        // Mythos human-analogue; switching the default keeps newly
+        // created profiles spawnable without further plumbing.
+        public static readonly ProtoId<SpeciesPrototype> DefaultSpecies = "Humen";
         private static readonly Regex RestrictedNameRegex = new(@"[^A-Za-z0-9 '\-]");
         private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
 
@@ -183,7 +189,17 @@ namespace Content.Shared.Preferences
                 new HashSet<ProtoId<TraitPrototype>>(other.TraitPreferences),
                 new Dictionary<string, RoleLoadout>(other.Loadouts))
         {
+            // Mythos: copy any partial-class-owned fields from `other`.
+            // Implemented in HumanoidCharacterProfile.Mythos.cs. The base
+            // ctor that ran first has already initialised those fields
+            // to their default empty values, so this overwrites them
+            // with copies from `other`.
+            CopyMythosFieldsFrom(other);
         }
+
+        // Mythos: populates fields declared on the Mythos partial from
+        // `other`. See HumanoidCharacterProfile.Mythos.cs.
+        partial void CopyMythosFieldsFrom(HumanoidCharacterProfile other);
 
         /// <summary>
         ///     Get the default humanoid character profile, using internal constant values.
@@ -474,8 +490,15 @@ namespace Content.Shared.Preferences
             if (!_traitPreferences.SequenceEqual(other._traitPreferences)) return false;
             if (!Loadouts.SequenceEqual(other.Loadouts)) return false;
             if (FlavorText != other.FlavorText) return false;
+            if (!MythosMemberwiseEquals(other)) return false;
             return Appearance.Equals(other.Appearance);
         }
+
+        // Mythos: per-partial equality hook. Mythos-owned fields (e.g.
+        // MythosClothingSelections) participate in MemberwiseEquals so
+        // editing them flips the "dirty" flag and enables the Save
+        // button. See HumanoidCharacterProfile.Mythos.cs.
+        private partial bool MythosMemberwiseEquals(HumanoidCharacterProfile other);
 
         public void EnsureValid(ICommonSession session, IDependencyCollection collection)
         {

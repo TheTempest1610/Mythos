@@ -26,4 +26,20 @@ public sealed partial class CCVars
     /// </summary>
     public static readonly CVarDef<bool> MythosChargenErpFeatures =
         CVarDef.Create("mythos.chargen_erp_features", false, CVar.SERVER | CVar.REPLICATED);
+
+    /// <summary>
+    ///     Mythos: selects how chargen/spawn handles loadout vs Mythos clothing
+    ///     selections.
+    ///     "mythos" (default): on spawn, replace upstream job-loadout clothing
+    ///     with the player's Mythos chargen "Clothing" picks. Job items in
+    ///     non-clothing slots (backpack, ID, PDA, etc.) still spawn.
+    ///     "ss14": ignore Mythos clothing picks; vanilla job loadout runs.
+    ///     "both": run vanilla loadout first, then layer Mythos picks on top
+    ///     for any slot the player picked something for. Useful while
+    ///     porting servers; expect overlap weirdness.
+    ///     Replicated so the client picker can warn / hide tabs when the
+    ///     server is set to "ss14".
+    /// </summary>
+    public static readonly CVarDef<string> MythosClothingMode =
+        CVarDef.Create("mythos.clothing.mode", "mythos", CVar.SERVER | CVar.REPLICATED);
 }

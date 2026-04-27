@@ -1,0 +1,33 @@
+# Mythos: root abstract for OV-imported RogueTown clothing.
+#
+# This file is HAND-AUTHORED. The spike-and-port tool
+# (Tools/_Mythos/spike_clothing_port.py) regenerates the per-slot bases
+# (_bases.yml) and per-item prototypes alongside it on every run, but
+# leaves _root.yml alone. Edit this file when you need to change the
+# Mythos-wide defaults that apply to every OV-imported clothing item
+# (e.g. add a HumanoidLayerVisibility component, set a default
+# StaticPrice modifier, etc.).
+#
+# Inheritance chain:
+#   BaseItem (upstream)
+#     -> Clothing (upstream, base_clothing.yml)
+#         -> OVRoguetownClothingBase (this file, adds MythosClothing)
+#             -> OVRoguetown<Slot>Base (auto-generated, multi-parent
+#                with upstream slot base for slot scaffolding)
+#                 -> OVRoguetown<Slot><Family>Base (auto-generated)
+#                     -> ... -> concrete OV<icon_state>
+#
+# MythosClothing component (sex/species sprite-state resolver):
+#   Lets the worn sprite cascade equipped-{SLOT} ->
+#   equipped-{SLOT}-Female -> equipped-{SLOT}-Dwarf ->
+#   equipped-{SLOT}-Female-Dwarf based on the wearer, with the
+#   most-specific matching state winning. See
+#   Content.Shared/Clothing/_Mythos/MythosClothingStateResolver.cs and
+#   Content.Shared/Clothing/_Mythos/Components/MythosClothingComponent.cs.
+
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: OVRoguetownClothingBase
+  components:
+  - type: MythosClothing

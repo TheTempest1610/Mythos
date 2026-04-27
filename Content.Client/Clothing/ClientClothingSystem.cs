@@ -44,6 +44,13 @@ public sealed class ClientClothingSystem : ClothingSystem
         {"pocket1", "POCKET1"},
         {"pocket2", "POCKET2"},
         {"suitstorage", "SUITSTORAGE"},
+        // Mythos: maps the OV-port inventory slots ("pants", "cloak")
+        // to the sprite-state suffix the OV porter writes into per-item
+        // RSIs (`equipped-LEGS`, `equipped-CLOAK`). Without these the
+        // clothing visualizer can't find the worn state on equip and
+        // the item appears invisible while still occupying the slot.
+        {"pants", "LEGS"},
+        {"cloak", "CLOAK"},
     };
 
     [Dependency] private readonly IResourceCache _cache = default!;

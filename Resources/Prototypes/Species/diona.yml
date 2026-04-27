@@ -1,7 +1,8 @@
 - type: species
   id: Diona
   name: species-name-diona
-  roundStart: true
+  # Mythos: hide vanilla species from chargen / random spawn pool.
+  roundStart: false
   prototype: MobDiona
   defaultSkinTone: "#cdb369"
   dollPrototype: AppearanceDiona

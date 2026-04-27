@@ -26,6 +26,10 @@ public enum SlotFlags
     LEGS = 1 << 13,
     FEET = 1 << 14,
     SUITSTORAGE = 1 << 15,
+    // Mythos: extension slot for OV-style cloaks. Worn over (and
+    // distinct from) OUTERCLOTHING; OV's RogueTown ITEM_SLOT_CLOAK
+    // maps here. Equipped sprite state suffix is `equipped-CLOAK`.
+    CLOAK = 1 << 16,
     All = ~NONE,
 
     WITHOUT_POCKET = All & ~POCKET

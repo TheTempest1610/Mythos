@@ -3,6 +3,7 @@ using Content.Client.Humanoid;
 using Content.Client.Station;
 using Content.Shared.Body;
 using Content.Shared.Clothing;
+using Content.Shared.Clothing._Mythos;
 using Content.Shared.GameTicking;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Prototypes;
@@ -69,6 +70,93 @@ public sealed partial class ProfilePreviewSpriteView
             {
                 var loadout = humanoid.GetLoadoutOrDefault(LoadoutSystem.GetJobPrototype(job.ID), _playerManager.LocalSession, humanoid.Species, EntMan, _prototypeManager);
                 GiveDummyLoadout(loadout);
+            }
+        }
+    }
+
+    /// <summary>
+    /// Equip / unequip Mythos clothing-tab selections on the existing
+    /// preview dummy. Lightweight (no respawn) -- mirrors how
+    /// <see cref="ReloadHumanoidEntity"/> updates appearance for
+    /// markings-tab changes. Iterates only the slots
+    /// <see cref="MythosClothingPicker.ManagedSlots"/> declares; non-
+    /// managed slots (POCKETs, IDCARD, ...) are left untouched.
+    /// </summary>
+    /// <param name="selections">
+    /// Snapshot from <see cref="MythosClothingPicker.Selections"/>.
+    /// Slots present in the dict get equipped (replacing any current
+    /// item); managed slots NOT in the dict get cleared (so deselecting
+    /// an item visually unequips it).
+    /// </param>
+    /// <param name="managedSlots">
+    /// The full set of slots the Mythos picker controls (typically
+    /// <see cref="MythosClothingPicker.ManagedSlots"/>). Threaded in
+    /// rather than referenced statically so this file stays free of a
+    /// dependency on the Mythos client UI assembly's picker class.
+    /// </param>
+    /// <summary>
+    /// Mythos: profile-driven equip helper. Translates the
+    /// name-keyed <see cref="HumanoidCharacterProfile.MythosClothingSelections"/>
+    /// (the on-disk shape) into the SlotFlags-keyed shape
+    /// <see cref="ApplyMythosClothing(IReadOnlyDictionary{SlotFlags, EntityPrototype}, IReadOnlyCollection{SlotFlags})"/>
+    /// expects, and re-equips. Used by the character-selection menu
+    /// and the lobby idle preview where there's no live picker
+    /// instance to read selections from.
+    /// </summary>
+    /// <remarks>
+    /// Missing prototypes (renamed / removed since the profile was
+    /// saved) are silently skipped; the slot is still cleared so the
+    /// preview stays consistent with what the server-side spawn path
+    /// will do.
+    /// </remarks>
+    public void ApplyMythosClothingFromProfile(HumanoidCharacterProfile profile)
+    {
+        var selections = new Dictionary<SlotFlags, EntityPrototype>(
+            profile.MythosClothingSelections.Count);
+        foreach (var (slotName, protoId) in profile.MythosClothingSelections)
+        {
+            var flag = MythosClothingSlots.NameToFlag(slotName);
+            if (flag == SlotFlags.NONE)
+                continue;
+            if (!_prototypeManager.TryIndex<EntityPrototype>(protoId, out var proto))
+                continue;
+            selections[flag] = proto;
+        }
+
+        ApplyMythosClothing(selections,
+            Content.Client._Mythos.Lobby.MythosClothingPicker.ManagedSlots);
+    }
+
+    public void ApplyMythosClothing(
+        IReadOnlyDictionary<SlotFlags, EntityPrototype> selections,
+        IReadOnlyCollection<SlotFlags> managedSlots)
+    {
+        if (!EntMan.EntityExists(PreviewDummy))
+            return;
+
+        var inventorySys = EntMan.System<InventorySystem>();
+        if (!inventorySys.TryGetSlots(PreviewDummy, out var slots))
+            return;
+
+        foreach (var slot in slots)
+        {
+            if (!managedSlots.Contains(slot.SlotFlags))
+                continue;
+
+            // Always unequip whatever's there; we own this slot.
+            if (inventorySys.TryUnequip(PreviewDummy, slot.Name,
+                    out var existing, silent: true, force: true,
+                    reparent: false))
+            {
+                EntMan.DeleteEntity(existing.Value);
+            }
+
+            // Equip the selection if one exists for this slot's flag.
+            if (selections.TryGetValue(slot.SlotFlags, out var proto))
+            {
+                var item = EntMan.SpawnEntity(proto.ID, MapCoordinates.Nullspace);
+                inventorySys.TryEquip(PreviewDummy, item, slot.Name,
+                    silent: true, force: true);
             }
         }
     }

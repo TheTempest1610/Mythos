@@ -176,7 +176,11 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
             return;
         }
 
-        PreviewPanel.ProfilePreviewSpriteView.LoadPreview(humanoid);
+        // Mythos: skip vanilla job loadout on the lobby-idle preview;
+        // layer on the player's chargen "Clothing" tab picks instead so
+        // the preview matches the spawn shape.
+        PreviewPanel.ProfilePreviewSpriteView.LoadPreview(humanoid, showClothes: false);
+        PreviewPanel.ProfilePreviewSpriteView.ApplyMythosClothingFromProfile(humanoid);
         PreviewPanel.SetSummaryText(humanoid.Summary);
     }
 

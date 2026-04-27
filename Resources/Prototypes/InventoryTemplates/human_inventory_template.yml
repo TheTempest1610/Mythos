@@ -124,3 +124,23 @@
       blacklist:
         tags:
         - PetOnly
+    # Mythos: OV-style pants. Repurposes upstream's unused SlotFlags.LEGS
+    # so we don't have to grow the [Flags] enum for this slot. Equipped
+    # state is `equipped-LEGS`.
+    - name: pants
+      slotTexture: uniform
+      slotFlags: LEGS
+      stripTime: 4
+      uiWindowPos: 0,0
+      strippingWindowPos: 0,3
+      displayName: Pants
+    # Mythos: OV-style cloaks. New SlotFlags.CLOAK bit (see
+    # Content.Shared/Inventory/SlotFlags.cs). Equipped state is
+    # `equipped-CLOAK`.
+    - name: cloak
+      slotTexture: neck
+      slotFlags: CLOAK
+      stripTime: 4
+      uiWindowPos: 3,2
+      strippingWindowPos: 2,3
+      displayName: Cloak
